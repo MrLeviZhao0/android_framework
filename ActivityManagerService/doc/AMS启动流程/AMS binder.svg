@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="711" height="488" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="401" y="301" width="3" height="61" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="251" y="359" width="153" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="247" y="297" width="154" height="62" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="324" y="308">ActivityManagerNative</text>
+	<line stroke="black" stroke-opacity="1" x1="247" y1="313" x2="401" y2="313" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" x="251" y="324">gDefault</text>
+	<line stroke="black" stroke-opacity="1" x1="247" y1="329" x2="401" y2="329" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" x="251" y="340">getDefault()</text>
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" x="251" y="354">onTransact()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="640" y="301" width="3" height="39" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="432" y="337" width="211" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="428" y="297" width="212" height="40" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="534" y="308">ActivityManagerProxy</text>
+	<line stroke="black" stroke-opacity="1" x1="428" y1="313" x2="640" y2="313" />
+	<line stroke="black" stroke-opacity="1" x1="428" y1="321" x2="640" y2="321" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" x="432" y="332">getFrontActivityScreenCompatMode()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="400" y="199" width="3" height="31" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="284" y="227" width="119" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="280" y="195" width="120" height="32" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="340" y="206">IActivityManager</text>
+	<line stroke="black" stroke-opacity="1" x1="280" y1="211" x2="400" y2="211" />
+	<line stroke="black" stroke-opacity="1" x1="280" y1="219" x2="400" y2="219" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="257" y="240" width="3" height="31" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="211" y="268" width="49" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="207" y="236" width="50" height="32" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="232" y="247">Binder</text>
+	<line stroke="black" stroke-opacity="1" x1="207" y1="252" x2="257" y2="252" />
+	<line stroke="black" stroke-opacity="1" x1="207" y1="260" x2="257" y2="260" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="695" y="141" width="3" height="39" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="487" y="177" width="211" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="483" y="137" width="212" height="40" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="589" y="148">ActivityManager</text>
+	<line stroke="black" stroke-opacity="1" x1="483" y1="153" x2="695" y2="153" />
+	<line stroke="black" stroke-opacity="1" x1="483" y1="161" x2="695" y2="161" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" x="487" y="172">getFrontActivityScreenCompatMode()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="446" y="385" width="3" height="39" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="238" y="421" width="211" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="234" y="381" width="212" height="40" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="340" y="392">ActivityManagerService</text>
+	<line stroke="black" stroke-opacity="1" x1="234" y1="397" x2="446" y2="397" />
+	<line stroke="black" stroke-opacity="1" x1="234" y1="405" x2="446" y2="405" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" x="238" y="416">getFrontActivityScreenCompatMode()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="165" y="335" width="3" height="31" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="49" y="363" width="119" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="45" y="331" width="120" height="32" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="105" y="342">Watchdog.Monitor</text>
+	<line stroke="black" stroke-opacity="1" x1="45" y1="347" x2="165" y2="347" />
+	<line stroke="black" stroke-opacity="1" x1="45" y1="355" x2="165" y2="355" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="253" y="444" width="3" height="31" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="25" y="472" width="231" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="21" y="440" width="232" height="32" />
+	<text font-family="SimSun" font-size="9" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="137" y="451">BatteryStateImpl.BatteryCallback</text>
+	<line stroke="black" stroke-opacity="1" x1="21" y1="456" x2="253" y2="456" />
+	<line stroke="black" stroke-opacity="1" x1="21" y1="464" x2="253" y2="464" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="333" y1="296" x2="333" y2="236" />
+	<line stroke="#000000" stroke-opacity="1" x1="334" y1="231" x2="327" y2="236" />
+	<line stroke="#000000" stroke-opacity="1" x1="334" y1="231" x2="339" y2="237" />
+	<line stroke="#000000" stroke-opacity="1" x1="327" y1="236" x2="339" y2="237" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="536" y1="296" x2="536" y2="213" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="326" y1="296" x2="326" y2="254" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="427" y1="330" x2="420" y2="324" />
+	<line stroke="black" stroke-opacity="1" x1="427" y1="330" x2="421" y2="336" />
+	<line stroke="black" stroke-opacity="1" x1="405" y1="333" x2="427" y2="330" />
+	<polygon fill="#000000" stroke="black" stroke-opacity="1" points="405,333 410,326 416,331 411,338" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="325" y1="380" x2="325" y2="369" />
+	<line stroke="#000000" stroke-opacity="1" x1="325" y1="363" x2="319" y2="369" />
+	<line stroke="#000000" stroke-opacity="1" x1="325" y1="363" x2="331" y2="369" />
+	<line stroke="#000000" stroke-opacity="1" x1="319" y1="369" x2="331" y2="369" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="233" y1="403" x2="107" y2="403" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="107" y1="403" x2="107" y2="373" />
+	<line stroke="#000000" stroke-opacity="1" x1="107" y1="367" x2="101" y2="373" />
+	<line stroke="#000000" stroke-opacity="1" x1="107" y1="367" x2="113" y2="373" />
+	<line stroke="#000000" stroke-opacity="1" x1="101" y1="373" x2="113" y2="373" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="233" y1="403" x2="138" y2="403" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="138" y1="403" x2="138" y2="433" />
+	<line stroke="#000000" stroke-opacity="1" x1="138" y1="439" x2="144" y2="433" />
+	<line stroke="#000000" stroke-opacity="1" x1="138" y1="439" x2="132" y2="433" />
+	<line stroke="#000000" stroke-opacity="1" x1="144" y1="433" x2="132" y2="433" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="582" y1="296" x2="588" y2="290" />
+	<line stroke="black" stroke-opacity="1" x1="582" y1="296" x2="576" y2="290" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="582" y1="181" x2="582" y2="296" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="536" y1="213" x2="410" y2="213" />
+	<line stroke="#000000" stroke-opacity="1" x1="404" y1="213" x2="410" y2="219" />
+	<line stroke="#000000" stroke-opacity="1" x1="404" y1="213" x2="410" y2="207" />
+	<line stroke="#000000" stroke-opacity="1" x1="410" y1="219" x2="410" y2="207" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="326" y1="254" x2="267" y2="254" />
+	<line stroke="#000000" stroke-opacity="1" x1="261" y1="254" x2="267" y2="260" />
+	<line stroke="#000000" stroke-opacity="1" x1="261" y1="254" x2="267" y2="248" />
+	<line stroke="#000000" stroke-opacity="1" x1="267" y1="260" x2="267" y2="248" />
+</g>
+</svg>
