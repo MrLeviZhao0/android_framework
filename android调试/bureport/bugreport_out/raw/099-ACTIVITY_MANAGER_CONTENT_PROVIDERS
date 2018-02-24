@@ -1,0 +1,101 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{3018efd u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{4de25f 460:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@3564e58b
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 713:com.android.systemui/u0a9 s1/1 u0/0 +5h57m16s650ms
+      -> 854:com.android.inputmethod.pinyin/u0a26 s1/1 u0/0 +5h57m16s17ms
+      -> 910:com.royole.bwlauncher/u0a13 s1/1 u0/0 +5h57m15s92ms
+      -> 650:android.process.media/u0a3 s1/1 u0/0 +5h57m11s651ms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{15e927f2 u0 com.royole.bwlauncher/.db.LauncherProvider}
+    package=com.royole.bwlauncher process=com.royole.bwlauncher
+    proc=ProcessRecord{359dee43 910:com.royole.bwlauncher/u0a13}
+    uid=10013 provider=android.content.ContentProviderProxy@3da90cc0
+    authority=com.royole.launcher
+  * ContentProviderRecord{1f5d1df9 u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{21190cd1 650:android.process.media/u0a3}
+    uid=10003 provider=android.content.ContentProviderProxy@215dd13e
+    authority=downloads
+  * ContentProviderRecord{1ea72b9f u0 com.android.providers.contacts/.VoicemailContentProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{187234ec 1000:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@f48a0b5
+    authority=com.android.voicemail
+  * ContentProviderRecord{23e1c34a u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{187234ec 1000:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@25dce2bb
+    authority=call_log
+  * ContentProviderRecord{3c3b3d8 u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{187234ec 1000:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@2c2f9331
+    authority=user_dictionary
+  * ContentProviderRecord{1800ca16 u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{18ecef97 1056:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@33ac3584
+    authority=com.android.settings.files
+  * ContentProviderRecord{20b9316d u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{18ecef97 1056:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@33771a2
+    authority=com.android.settings
+  * ContentProviderRecord{886ee33 u0 com.android.settings/.pppoe.PppoeAccountsContentProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{18ecef97 1056:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@2c7925f0
+    authority=pppoe
+  * ContentProviderRecord{20c47769 u0 com.android.providers.contacts/.ContactsProvider2}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{187234ec 1000:android.process.acore/u0a1}
+    launchingApp=ProcessRecord{187234ec 1000:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@143f05ee
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{16b83a8f u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{21190cd1 650:android.process.media/u0a3}
+    uid=10003 provider=android.content.ContentProviderProxy@27e2b11c
+    authority=media
+  * ContentProviderRecord{25242125 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{187234ec 1000:android.process.acore/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@1a1992fa
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{f07f0ab u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{21190cd1 650:android.process.media/u0a3}
+    uid=10003 provider=android.content.ContentProviderProxy@20f7c308
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{271aaaa1 u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{21190cd1 650:android.process.media/u0a3}
+    uid=10003 provider=android.content.ContentProviderProxy@1fdde4c6
+    authority=com.android.providers.media.documents
+
+  Single-user authority to provider mappings:
+  settings: 3018efd/com.android.providers.settings/.SettingsProvider
+
+  User 0 authority to provider mappings:
+  call_log: 23e1c34a/com.android.providers.contacts/.CallLogProvider
+  com.android.contacts.dumpfile: 25242125/com.android.providers.contacts/.debug.DumpFileProvider
+  com.android.providers.media.documents: 271aaaa1/com.android.providers.media/.MediaDocumentsProvider
+  com.android.voicemail: 1ea72b9f/com.android.providers.contacts/.VoicemailContentProvider
+  com.royole.launcher: 15e927f2/com.royole.bwlauncher/.db.LauncherProvider
+  com.android.settings: 20b9316d/com.android.settings/.search.SettingsSearchIndexablesProvider
+  pppoe: 886ee33/com.android.settings/.pppoe.PppoeAccountsContentProvider
+  contacts: 20c47769/com.android.providers.contacts/.ContactsProvider2
+  user_dictionary: 3c3b3d8/com.android.providers.userdictionary/.UserDictionaryProvider
+  downloads: 1f5d1df9/com.android.providers.downloads/.DownloadProvider
+  com.android.providers.downloads.documents: f07f0ab/com.android.providers.downloads/.DownloadStorageProvider
+  com.android.settings.files: 1800ca16/com.android.settings/android.support.v4.content.FileProvider
+  com.android.contacts: 20c47769/com.android.providers.contacts/.ContactsProvider2
+  media: 16b83a8f/com.android.providers.media/.MediaProvider
+

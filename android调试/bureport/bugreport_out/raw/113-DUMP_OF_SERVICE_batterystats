@@ -1,0 +1,1591 @@
+Battery History (2% used, 7452 used of 256KB, 15 strings using 874):
+                    0 (9) RESET:TIME: 2013-01-22-19-27-40
+                    0 (2) 100 c0900003 status=not-charging health=unknown plug=none temp=0 volt=0 +running +wake_lock +sensor +screen brightness=light +wifi_running +wifi wifi_suppl=scanning top=u0a13:"com.royole.bwlauncher"
+                    0 (2) 100 c0900003 user=0:"0"
+                    0 (2) 100 c0900003 userfg=0:"0"
+                 +2ms (7) START
+                 +2ms (9) TIME: 2013-01-22-19-28-07
+             +3s381ms (4) 008 80000000 status=discharging health=dead plug=none temp=365 volt=3622 +running wake_reason=0:"unknown"
+             +5s225ms (3) 008 c0100004 +wake_lock=-1:"screen" +screen brightness=bright
+             +5s228ms (2) 008 c0100003 brightness=light
+             +5s479ms (3) 008 c0100003 volt=3599 +user=0:"0"
+             +6s201ms (2) 008 c0100003 +userfg=0:"0"
+             +6s284ms (2) 008 c0100003 +top=u0a13:"com.royole.bwlauncher"
+             +7s975ms (2) 008 c0900003 +sensor
+            +13s431ms (2) 008 c0900003 volt=3635
+            +18s755ms (2) 008 c0900003 -top=u0a13:"com.royole.bwlauncher"
+            +18s755ms (2) 008 c0900003 +top=u0a11:"com.royole.bwbrowser"
+          +3m24s260ms (3) 008 c0980003 plug=usb temp=359 volt=3621 +plugged
+          +3m24s265ms (7) START
+          +3m24s265ms (9) TIME: 2013-01-22-19-32-09
+          +3m27s516ms (4) 008 80080000 status=discharging health=dead plug=usb temp=358 volt=3627 +running +plugged wake_reason=0:"unknown"
+          +3m29s342ms (3) 008 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+          +3m29s342ms (2) 008 c0180003 brightness=light
+          +3m30s407ms (2) 008 c0180003 +user=0:"0"
+          +3m30s407ms (2) 008 c0180003 +userfg=0:"0"
+          +3m30s518ms (2) 008 c0180003 +top=u0a13:"com.royole.bwlauncher"
+          +3m32s350ms (2) 008 c0980003 +sensor
+          +3m35s241ms (2) 008 c0080000 -sensor -screen brightness=dark
+          +3m37s811ms (3) 008 c0080000 status=charging volt=3656
+          +3m39s195ms (1) 008 80080000 -wake_lock
+          +3m40s704ms (2) 008 c0080000 +wake_lock=1000:"SyncLoopWakeLock"
+          +3m40s705ms (1) 008 80080000 -wake_lock
+          +3m44s577ms (2) 008 c0080000 +wake_lock=1000:"WifiSuspend"
+          +3m44s790ms (1) 008 80080000 -wake_lock
+          +3m54s193ms (2) 008 c0080000 +wake_lock=1000:"*walarm*:NextAlarmTracker.trigger"
+          +3m59s199ms (1) 008 80080000 -wake_lock
+          +4m04s240ms (3) 008 c0180003 +wake_lock=1000:"PhoneWindowManager.mPowerKeyWakeLock" +screen brightness=light
+          +4m16s116ms (3) 008 c0100003 plug=none temp=360 volt=3663 -plugged
+          +4m17s910ms (3) 008 c0100003 status=discharging volt=3642
+          +4m20s677ms (2) 008 c0100003 -top=u0a13:"com.royole.bwlauncher"
+          +4m20s677ms (2) 008 c0100003 +top=u0a11:"com.royole.bwbrowser"
+          +5m54s151ms (2) 007 c0100003
+          +8m54s601ms (2) 007 c0100003 temp=350
+          +9m14s651ms (2) 007 c0100003 volt=3621
+         +12m56s968ms (7) SHUTDOWN
+         +12m56s972ms (7) START
+         +12m56s972ms (9) TIME: 2013-01-23-09-23-07
+         +13m00s245ms (4) 002 80080000 status=discharging health=dead plug=usb temp=254 volt=3621 +running +plugged wake_reason=0:"unknown"
+         +13m01s980ms (3) 002 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+         +13m01s980ms (2) 002 c0180003 brightness=light
+         +13m03s032ms (2) 002 c0180003 +user=0:"0"
+         +13m03s032ms (2) 002 c0180003 +userfg=0:"0"
+         +13m03s131ms (2) 002 c0180003 +top=u0a13:"com.royole.bwlauncher"
+         +13m04s966ms (2) 002 c0980003 +sensor
+         +13m10s358ms (3) 002 c0980003 status=charging volt=3664
+         +14m14s518ms (2) 002 c0980003 temp=264
+         +14m55s925ms (2) 003 c0980003
+         +15m46s748ms (2) 003 c0980003 temp=274
+         +16m57s133ms (3) 003 c0900003 status=discharging plug=none temp=280 volt=3676 -plugged
+         +16m58s928ms (2) 003 c0900003 volt=3650
+         +17m14s844ms (3) 003 c0980003 plug=usb temp=284 volt=3645 +plugged
+         +17m18s978ms (3) 003 c0980003 status=charging volt=3744
+         +17m26s998ms (2) 003 c0980003 temp=298
+         +17m39s028ms (2) 003 c0980003 temp=310
+         +17m51s058ms (2) 003 c0980003 volt=3765
+         +17m55s069ms (2) 003 c0980003 temp=322
+         +18m14s850ms (2) 003 c0980003 temp=333
+         +18m39s178ms (2) 003 c0980003 temp=343
+         +19m14s850ms (2) 004 c0980003 temp=353
+         +19m15s269ms (2) 004 c0980003 volt=3786
+         +20m03s388ms (2) 004 c0980003 temp=363
+         +21m03s538ms (2) 004 c0980003 temp=373
+         +21m31s608ms (2) 005 c0980003
+         +22m14s850ms (2) 005 c0980003 temp=383
+         +23m43s938ms (2) 006 c0980003
+         +23m47s948ms (2) 006 c0980003 temp=393
+         +25m44s238ms (2) 006 c0980003 temp=403
+         +25m56s269ms (2) 007 c0980003
+         +27m56s568ms (2) 007 c0980003 temp=413
+         +28m08s598ms (2) 008 c0980003
+         +30m24s938ms (2) 009 c0980003
+         +30m49s001ms (2) 009 c0980003 temp=423
+         +32m07s866ms (2) 009 c0980000 brightness=dark
+         +32m14s870ms (2) 009 80080000 -wake_lock -sensor -screen
+         +32m15s502ms (2) 009 c0080000 +wake_lock=1000:"ActivityManager-Sleep"
+         +32m15s521ms (1) 009 00080000 -running -wake_lock
+         +33m15s002ms (3) 010 80080000 temp=534 volt=3861 +running wake_reason=0:"113:"
+         +33m16s978ms (1) 010 00080000 -running
+         +34m14s999ms (2) 010 80080000 +running wake_reason=0:"113:"
+         +34m15s004ms (2) 011 80080000 temp=552
+         +34m16s609ms (1) 011 00080000 -running
+         +35m14s999ms (2) 011 80080000 +running wake_reason=0:"113:"
+         +35m15s003ms (2) 012 80080000
+         +35m18s863ms (1) 012 00080000 -running
+         +36m17s023ms (2) 012 c0080000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+         +36m17s037ms (2) 013 80080000 volt=3828 -wake_lock
+         +36m20s828ms (1) 013 00080000 -running
+         +37m14s998ms (2) 013 80080000 +running wake_reason=0:"113:"
+         +37m15s003ms (2) 013 80080000 volt=3879
+         +37m16s828ms (1) 013 00080000 -running
+         +38m14s998ms (2) 013 80080000 +running wake_reason=0:"113:"
+         +38m15s003ms (2) 014 80080000
+         +38m16s608ms (1) 014 00080000 -running
+         +39m14s998ms (2) 014 80080000 +running wake_reason=0:"113:"
+         +39m15s002ms (3) 015 80080000 health=good
+         +39m16s607ms (1) 015 00080000 -running
+         +40m14s998ms (2) 015 80080000 +running wake_reason=0:"113:"
+         +40m15s002ms (2) 016 80080000
+         +40m16s738ms (1) 016 00080000 -running
+         +41m14s998ms (2) 016 80080000 +running wake_reason=0:"113:"
+         +41m15s002ms (2) 017 80080000
+         +41m16s607ms (1) 017 00080000 -running
+         +42m14s997ms (2) 017 80080000 +running wake_reason=0:"113:"
+         +42m16s607ms (1) 017 00080000 -running
+         +43m02s997ms (2) 017 c0080000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+         +43m03s003ms (2) 018 80080000 -wake_lock
+         +43m04s978ms (1) 018 00080000 -running
+         +43m14s998ms (2) 018 80080000 +running wake_reason=0:"113:"
+         +43m16s598ms (1) 018 00080000 -running
+         +44m14s998ms (2) 018 80080000 +running wake_reason=0:"113:"
+         +44m15s002ms (2) 019 80080000 volt=3901
+         +44m16s816ms (1) 019 00080000 -running
+         +45m14s997ms (2) 019 80080000 +running wake_reason=0:"113:"
+         +45m15s003ms (2) 020 80080000
+         +45m16s607ms (1) 020 00080000 -running
+         +46m14s997ms (2) 020 80080000 +running wake_reason=0:"113:"
+         +46m15s003ms (2) 021 80080000
+         +46m16s597ms (1) 021 00080000 -running
+         +47m14s997ms (2) 021 80080000 +running wake_reason=0:"113:"
+         +47m16s967ms (1) 021 00080000 -running
+         +48m14s997ms (2) 021 80080000 +running wake_reason=0:"113:"
+         +48m15s002ms (2) 022 80080000
+         +48m16s817ms (1) 022 00080000 -running
+         +49m14s997ms (2) 022 80080000 +running wake_reason=0:"113:"
+         +49m15s002ms (2) 023 80080000
+         +49m16s607ms (1) 023 00080000 -running
+         +50m14s997ms (2) 023 80080000 +running wake_reason=0:"113:"
+         +50m15s002ms (2) 024 80080000
+         +50m17s177ms (1) 024 00080000 -running
+         +51m14s997ms (2) 024 80080000 +running wake_reason=0:"113:"
+         +51m15s002ms (2) 024 80080000 temp=542
+         +51m16s978ms (1) 024 00080000 -running
+         +52m14s997ms (2) 024 80080000 +running wake_reason=0:"113:"
+         +52m15s002ms (2) 025 80080000
+         +52m16s837ms (1) 025 00080000 -running
+         +53m14s997ms (2) 025 80080000 +running wake_reason=0:"113:"
+         +53m15s003ms (2) 026 80080000
+         +53m16s597ms (1) 026 00080000 -running
+         +54m14s997ms (2) 026 80080000 +running wake_reason=0:"113:"
+         +54m15s002ms (2) 027 80080000
+         +54m16s606ms (1) 027 00080000 -running
+         +55m02s997ms (2) 027 c0080000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+         +55m03s035ms (1) 027 80080000 -wake_lock
+         +55m04s608ms (1) 027 00080000 -running
+         +55m14s998ms (2) 027 80080000 +running wake_reason=0:"113:"
+         +55m16s607ms (1) 027 00080000 -running
+         +56m14s997ms (2) 027 80080000 +running wake_reason=0:"113:"
+         +56m15s003ms (2) 028 80080000
+         +56m16s598ms (1) 028 00080000 -running
+         +57m14s998ms (2) 028 80080000 +running wake_reason=0:"113:"
+         +57m15s002ms (2) 029 80080000
+         +57m16s602ms (1) 029 00080000 -running
+         +58m15s003ms (3) 030 80080000 volt=3922 +running wake_reason=0:"113:"
+         +58m16s607ms (1) 030 00080000 -running
+         +59m14s997ms (2) 030 80080000 +running wake_reason=0:"113:"
+         +59m16s978ms (1) 030 00080000 -running
+       +1h00m14s998ms (2) 030 80080000 +running wake_reason=0:"113:"
+       +1h00m15s002ms (2) 031 80080000
+       +1h00m16s607ms (1) 031 00080000 -running
+       +1h01m14s997ms (2) 031 80080000 +running wake_reason=0:"113:"
+       +1h01m15s002ms (2) 032 80080000
+       +1h01m16s608ms (1) 032 00080000 -running
+       +1h02m14s998ms (2) 032 80080000 +running wake_reason=0:"113:"
+       +1h02m15s002ms (2) 032 80080000 temp=525
+       +1h02m16s970ms (1) 032 00080000 -running
+       +1h02m36s998ms (3) 032 c0180003 +running +wake_lock=1000:"PhoneWindowManager.mPowerKeyWakeLock" +screen brightness=light wake_reason=0:"113:"
+       +1h02m37s006ms (2) 033 c0180003
+       +1h02m40s987ms (2) 033 c0180003 temp=513 volt=3896
+       +1h02m49s012ms (2) 033 c0180003 temp=498
+       +1h02m57s028ms (2) 033 c0180003 temp=486
+       +1h03m09s057ms (2) 033 c0180003 temp=473
+       +1h03m21s087ms (2) 033 c0180003 temp=463
+       +1h03m41s138ms (2) 033 c0180003 temp=453
+       +1h04m29s258ms (2) 034 c0180003
+       +1h04m45s298ms (2) 034 c0180003 temp=443
+       +1h06m25s395ms (7) SHUTDOWN
+       +1h06m25s400ms (7) START
+       +1h06m25s400ms (9) TIME: 2013-01-23-10-17-05
+       +1h06m28s470ms (4) 035 80080000 status=charging health=good plug=usb temp=451 volt=3886 +running +plugged wake_reason=0:"unknown"
+       +1h06m30s453ms (3) 035 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +1h06m30s453ms (3) 035 c0180003 brightness=light +user=0:"0"
+       +1h06m31s437ms (2) 035 c0180003 +userfg=0:"0"
+       +1h06m31s603ms (2) 035 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +1h06m33s585ms (2) 035 c0980003 +sensor
+       +1h08m27s169ms (2) 036 c0980003
+       +1h08m51s229ms (2) 036 c0980003 temp=461
+       +1h10m43s509ms (2) 037 c0980003
+       +1h12m55s839ms (2) 038 c0980003
+       +1h15m08s169ms (2) 039 c0980003
+       +1h15m16s189ms (2) 039 c0980003 temp=471
+       +1h17m20s499ms (2) 040 c0980003
+       +1h19m36s839ms (2) 041 c0980003
+       +1h21m28s168ms (2) 041 c0980000 brightness=dark
+       +1h21m35s183ms (2) 041 80080000 -wake_lock -sensor -screen
+       +1h21m35s815ms (2) 041 c0080000 +wake_lock=1000:"ActivityManager-Sleep"
+       +1h21m35s822ms (1) 041 00080000 -running -wake_lock
+       +1h22m24s545ms (2) 041 80080000 +running wake_reason=0:"113:"
+       +1h22m24s550ms (2) 042 80080000 temp=528 volt=3939
+       +1h22m26s156ms (1) 042 00080000 -running
+       +1h23m24s546ms (2) 042 80080000 +running wake_reason=0:"113:"
+       +1h23m24s551ms (2) 043 80080000
+       +1h23m27s749ms (1) 043 00080000 -running
+       +1h24m26s578ms (2) 043 c0080000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +1h24m26s600ms (1) 043 80080000 -wake_lock
+       +1h24m29s856ms (1) 043 00080000 -running
+       +1h25m24s545ms (2) 043 80080000 +running wake_reason=0:"113:"
+       +1h25m24s550ms (3) 044 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +1h25m24s581ms (1) 044 80080000 -wake_lock
+       +1h25m26s365ms (1) 044 00080000 -running
+       +1h26m24s544ms (2) 044 80080000 +running wake_reason=0:"113:"
+       +1h26m24s549ms (2) 045 80080000
+       +1h26m26s155ms (1) 045 00080000 -running
+       +1h27m24s545ms (2) 045 80080000 +running wake_reason=0:"113:"
+       +1h27m26s514ms (1) 045 00080000 -running
+       +1h28m24s544ms (2) 045 80080000 +running wake_reason=0:"113:"
+       +1h28m24s548ms (2) 046 80080000
+       +1h28m26s153ms (1) 046 00080000 -running
+       +1h29m24s544ms (2) 046 80080000 +running wake_reason=0:"113:"
+       +1h29m24s550ms (2) 046 80080000 temp=517
+       +1h29m26s155ms (1) 046 00080000 -running
+       +1h30m24s544ms (2) 046 80080000 +running wake_reason=0:"113:"
+       +1h30m24s549ms (2) 047 80080000
+       +1h30m26s154ms (1) 047 00080000 -running
+       +1h31m24s544ms (2) 047 80080000 +running wake_reason=0:"113:"
+       +1h31m24s549ms (2) 048 80080000 volt=3961
+       +1h31m26s514ms (1) 048 00080000 -running
+       +1h32m24s544ms (2) 048 80080000 +running wake_reason=0:"113:"
+       +1h32m26s524ms (1) 048 00080000 -running
+       +1h33m24s544ms (2) 048 80080000 +running wake_reason=0:"113:"
+       +1h33m24s549ms (2) 049 80080000
+       +1h33m26s153ms (1) 049 00080000 -running
+       +1h34m24s543ms (2) 049 80080000 +running wake_reason=0:"113:"
+       +1h34m24s551ms (2) 050 80080000 temp=506
+       +1h34m26s155ms (1) 050 00080000 -running
+       +1h35m24s545ms (2) 050 80080000 +running wake_reason=0:"113:"
+       +1h35m26s514ms (1) 050 00080000 -running
+       +1h36m24s544ms (2) 050 80080000 +running wake_reason=0:"113:"
+       +1h36m24s549ms (2) 051 80080000
+       +1h36m28s320ms (1) 051 00080000 -running
+       +1h36m32s490ms (2) 051 c0080000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +1h36m32s528ms (1) 051 80080000 -wake_lock
+       +1h36m35s020ms (1) 051 00080000 -running
+       +1h37m26s810ms (2) 051 80080000 +running wake_reason=0:"113:"
+       +1h37m28s726ms (1) 051 00080000 -running
+       +1h38m26s196ms (2) 051 80080000 +running wake_reason=0:"113:"
+       +1h38m26s201ms (2) 052 80080000 temp=494
+       +1h38m28s546ms (2) 052 c0080000 +wake_lock=1000:"NetworkStats"
+       +1h38m28s550ms (1) 052 00080000 -running -wake_lock
+       +1h39m24s544ms (2) 052 80080000 +running wake_reason=0:"113:"
+       +1h39m27s754ms (1) 052 00080000 -running
+       +1h40m26s573ms (2) 052 c0080000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +1h40m26s578ms (1) 052 80080000 -wake_lock
+       +1h40m26s579ms (2) 052 c0080000 +wake_lock=1000:"NetworkStats"
+       +1h40m26s581ms (2) 053 80080000 -wake_lock
+       +1h40m29s284ms (1) 053 00080000 -running
+       +1h41m24s544ms (2) 053 80080000 +running wake_reason=0:"113:"
+       +1h41m24s549ms (2) 053 80080000 volt=3982
+       +1h41m26s153ms (1) 053 00080000 -running
+       +1h42m24s544ms (2) 053 80080000 +running wake_reason=0:"113:"
+       +1h42m24s548ms (2) 054 80080000 temp=484
+       +1h42m26s513ms (1) 054 00080000 -running
+       +1h43m24s544ms (2) 054 80080000 +running wake_reason=0:"113:"
+       +1h43m24s549ms (2) 055 80080000
+       +1h43m26s154ms (1) 055 00080000 -running
+       +1h44m24s544ms (2) 055 80080000 +running wake_reason=0:"113:"
+       +1h44m24s549ms (2) 055 80080000 temp=473
+       +1h44m26s524ms (1) 055 00080000 -running
+       +1h45m24s544ms (2) 055 80080000 +running wake_reason=0:"113:"
+       +1h45m24s549ms (2) 056 80080000
+       +1h45m26s153ms (1) 056 00080000 -running
+       +1h46m24s544ms (2) 056 80080000 +running wake_reason=0:"113:"
+       +1h46m26s524ms (1) 056 00080000 -running
+       +1h47m24s544ms (2) 056 80080000 +running wake_reason=0:"113:"
+       +1h47m24s550ms (2) 057 80080000
+       +1h47m26s524ms (1) 057 00080000 -running
+       +1h48m24s544ms (2) 057 80080000 +running wake_reason=0:"113:"
+       +1h48m26s153ms (1) 057 00080000 -running
+       +1h48m32s544ms (2) 057 c0080000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+       +1h48m32s550ms (2) 057 80080000 volt=4042 -wake_lock
+       +1h48m34s763ms (1) 057 00080000 -running
+       +1h49m24s544ms (2) 057 80080000 +running wake_reason=0:"113:"
+       +1h49m24s549ms (2) 058 80080000 volt=4001
+       +1h49m27s386ms (1) 058 00080000 -running
+       +1h50m26s207ms (2) 058 c0080000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +1h50m26s220ms (1) 058 80080000 -wake_lock
+       +1h50m26s277ms (2) 058 c0080000 +wake_lock=1000:"NetworkStats"
+       +1h50m26s280ms (1) 058 80080000 -wake_lock
+       +1h50m28s803ms (1) 058 00080000 -running
+       +1h51m24s544ms (2) 058 80080000 +running wake_reason=0:"113:"
+       +1h51m24s549ms (2) 059 80080000
+       +1h51m26s154ms (1) 059 00080000 -running
+       +1h52m24s544ms (2) 059 80080000 +running wake_reason=0:"113:"
+       +1h52m26s154ms (1) 059 00080000 -running
+       +1h53m24s544ms (2) 059 80080000 +running wake_reason=0:"113:"
+       +1h53m24s549ms (2) 060 80080000 temp=461
+       +1h53m26s153ms (1) 060 00080000 -running
+       +1h54m24s544ms (2) 060 80080000 +running wake_reason=0:"113:"
+       +1h54m26s155ms (1) 060 00080000 -running
+       +1h55m24s544ms (2) 060 80080000 +running wake_reason=0:"113:"
+       +1h55m24s549ms (2) 061 80080000
+       +1h55m26s523ms (1) 061 00080000 -running
+       +1h56m24s544ms (2) 061 80080000 +running wake_reason=0:"113:"
+       +1h56m26s155ms (1) 061 00080000 -running
+       +1h56m54s544ms (3) 061 c0180003 +running +wake_lock=1000:"PhoneWindowManager.mPowerKeyWakeLock" +screen brightness=light wake_reason=0:"113:"
+       +1h56m54s552ms (2) 062 c0180003 temp=471
+       +1h56m58s534ms (2) 062 c0180003 volt=4024
+       +1h57m08s189ms (3) 062 c0100003 plug=none temp=464 volt=4023 -plugged
+       +1h57m10s564ms (3) 062 c0100003 status=discharging volt=3959
+       +1h57m18s584ms (2) 062 c0100003 temp=449
+       +1h57m26s604ms (2) 062 c0100003 temp=439
+       +1h57m34s060ms (3) 062 c0180003 plug=usb temp=426 volt=3945 +plugged
+       +1h57m38s634ms (2) 062 c0180003 status=charging
+       +1h57m42s644ms (2) 062 c0180003 temp=414
+       +1h57m54s674ms (2) 062 c0180003 temp=402
+       +1h58m10s714ms (2) 062 c0180003 temp=391
+       +1h58m14s469ms (3) 062 c0100003 plug=none temp=389 volt=3957 -plugged
+       +1h58m14s473ms (7) START
+       +1h58m14s473ms (9) TIME: 2013-01-23-11-09-34
+       +1h58m14s477ms (7) START
+       +1h58m14s477ms (9) TIME: 2013-01-23-11-10-16
+       +1h58m17s550ms (4) 062 80080000 status=discharging health=good plug=usb temp=372 volt=3940 +running +plugged wake_reason=0:"unknown"
+       +1h58m19s473ms (3) 062 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +1h58m19s473ms (2) 062 c0180003 brightness=light
+       +1h58m20s668ms (2) 062 c0180003 +user=0:"0"
+       +1h58m20s668ms (2) 062 c0180003 +userfg=0:"0"
+       +1h58m20s779ms (2) 062 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +1h58m22s639ms (2) 062 c0980003 +sensor
+       +1h58m27s814ms (2) 062 c0980003 status=charging
+       +1h58m33s589ms (3) 062 c0900003 plug=none volt=3951 -plugged
+       +1h58m35s834ms (2) 062 c0900003 status=discharging
+       +1h58m46s382ms (2) 062 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +1h58m46s382ms (2) 062 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +1h58m47s864ms (2) 062 c0900003 volt=3924
+       +1h59m07s917ms (2) 061 c0900003
+       +1h59m39s994ms (2) 061 c0900003 temp=362
+       +2h01m36s283ms (2) 061 c0900003 temp=352
+       +2h03m17s532ms (3) 061 c0980003 plug=usb temp=347 volt=3927 +plugged
+       +2h03m17s537ms (7) START
+       +2h03m17s537ms (9) TIME: 2013-01-23-11-15-43
+       +2h03m20s704ms (4) 061 80080000 status=discharging health=good plug=usb temp=343 volt=3930 +running +plugged wake_reason=0:"unknown"
+       +2h03m22s474ms (3) 061 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h03m22s474ms (2) 061 c0180003 brightness=light
+       +2h03m23s559ms (2) 061 c0180003 +user=0:"0"
+       +2h03m23s559ms (2) 061 c0180003 +userfg=0:"0"
+       +2h03m23s693ms (2) 061 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +2h03m25s468ms (2) 061 c0980003 +sensor
+       +2h03m30s833ms (2) 061 c0980003 status=charging
+       +2h03m42s508ms (3) 061 c0900003 plug=none volt=3944 -plugged
+       +2h03m42s863ms (2) 061 c0900003 status=discharging
+       +2h03m46s793ms (2) 061 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +2h03m46s793ms (2) 061 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +2h03m54s893ms (2) 061 c0900003 volt=3911
+       +2h05m27s187ms (3) 061 c0980003 plug=usb temp=340 volt=3918 +plugged
+       +2h05m27s191ms (7) START
+       +2h05m27s191ms (9) TIME: 2013-01-23-11-18-21
+       +2h05m30s274ms (4) 061 80080000 status=discharging health=good plug=usb temp=339 volt=3908 +running +plugged wake_reason=0:"unknown"
+       +2h05m32s176ms (3) 061 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h05m32s176ms (2) 061 c0180003 brightness=light
+       +2h05m33s441ms (2) 061 c0180003 +user=0:"0"
+       +2h05m33s441ms (2) 061 c0180003 +userfg=0:"0"
+       +2h05m33s534ms (2) 061 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +2h05m35s189ms (2) 061 c0980003 +sensor
+       +2h05m40s571ms (3) 061 c0980003 status=charging volt=3940
+       +2h05m45s316ms (3) 061 c0900003 status=discharging plug=none temp=341 volt=3941 -plugged
+       +2h05m50s969ms (2) 061 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +2h05m50s970ms (2) 061 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +2h05m52s606ms (2) 061 c0900003 volt=3917
+       +2h06m57s136ms (3) 061 c0980003 plug=usb temp=342 volt=3921 +plugged
+       +2h06m57s141ms (7) START
+       +2h06m57s141ms (9) TIME: 2013-01-23-11-20-35
+       +2h07m00s328ms (4) 061 80080000 status=discharging health=good plug=usb temp=340 volt=3910 +running +plugged wake_reason=0:"unknown"
+       +2h07m02s115ms (3) 061 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h07m02s115ms (2) 061 c0180003 brightness=light
+       +2h07m03s225ms (2) 061 c0180003 +user=0:"0"
+       +2h07m03s226ms (2) 061 c0180003 +userfg=0:"0"
+       +2h07m03s363ms (2) 061 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +2h07m05s160ms (2) 061 c0980003 +sensor
+       +2h07m10s411ms (3) 061 c0980003 status=charging volt=3939
+       +2h07m37s586ms (3) 061 c0900003 plug=none temp=342 volt=3943 -plugged
+       +2h07m38s481ms (2) 061 c0900003 status=discharging
+       +2h07m41s794ms (2) 061 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +2h07m41s794ms (2) 061 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +2h07m42s490ms (2) 061 c0900003 volt=3917
+       +2h11m11s011ms (2) 060 c0900003
+       +2h15m19s631ms (2) 060 c0900003 temp=332
+       +2h15m37s627ms (3) 060 c0980003 plug=usb temp=331 volt=3913 +plugged
+       +2h15m37s631ms (7) START
+       +2h15m37s631ms (9) TIME: 2013-01-23-11-29-48
+       +2h15m40s940ms (4) 060 80080000 status=discharging health=good plug=usb temp=331 volt=3900 +running +plugged wake_reason=0:"unknown"
+       +2h15m42s744ms (3) 060 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h15m42s744ms (2) 060 c0180003 brightness=light
+       +2h15m43s974ms (2) 060 c0180003 +user=0:"0"
+       +2h15m43s974ms (2) 060 c0180003 +userfg=0:"0"
+       +2h15m44s148ms (2) 060 c0180003 +wifi_running +wifi wifi_suppl=disconn +top=u0a13:"com.royole.bwlauncher"
+       +2h15m44s475ms (1) 060 c0180003 wifi_suppl=scanning
+       +2h15m46s251ms (2) 060 c0980003 +sensor
+       +2h15m51s188ms (3) 060 c0980003 status=charging volt=3929
+       +2h15m59s212ms (2) 060 c0980003 status=discharging
+       +2h16m03s218ms (2) 060 c0980003 status=charging
+       +2h16m43s743ms (3) 060 c0900003 plug=none temp=335 volt=3934 -plugged
+       +2h16m47s328ms (3) 060 c0900003 status=discharging volt=3912
+       +2h16m50s413ms (2) 060 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +2h16m50s414ms (2) 060 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +2h17m54s715ms (3) 060 c0980003 plug=usb temp=339 volt=3906 +plugged
+       +2h17m54s719ms (7) START
+       +2h17m54s719ms (9) TIME: 2013-01-23-11-32-30
+       +2h17m57s834ms (4) 060 80080000 status=discharging health=good plug=usb temp=338 volt=3913 +running +plugged wake_reason=0:"unknown"
+       +2h17m59s651ms (3) 060 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h17m59s651ms (2) 060 c0180003 brightness=light
+       +2h18m00s757ms (2) 060 c0180003 +user=0:"0"
+       +2h18m00s757ms (2) 060 c0180003 +userfg=0:"0"
+       +2h18m00s880ms (2) 060 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +2h18m02s570ms (2) 060 c0980003 +sensor
+       +2h18m08s145ms (2) 060 c0980003 status=charging
+       +2h18m18s969ms (3) 060 c0900003 plug=none temp=340 volt=3932 -plugged
+       +2h18m20s174ms (2) 060 c0900003 status=discharging
+       +2h18m23s948ms (2) 060 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +2h18m23s948ms (2) 060 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +2h18m28s193ms (2) 060 c0900003 volt=3905
+       +2h20m17s960ms (3) 060 c0980003 plug=usb volt=3910 +plugged
+       +2h20m17s966ms (7) START
+       +2h20m17s966ms (9) TIME: 2013-01-23-11-35-20
+       +2h20m21s017ms (4) 060 80080000 status=discharging health=good plug=usb temp=340 volt=3917 +running +plugged wake_reason=0:"unknown"
+       +2h20m23s364ms (3) 060 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h20m23s364ms (2) 060 c0180003 brightness=light
+       +2h20m24s411ms (2) 060 c0180003 +user=0:"0"
+       +2h20m24s411ms (2) 060 c0180003 +userfg=0:"0"
+       +2h20m24s499ms (2) 060 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +2h20m26s336ms (2) 060 c0980003 +sensor
+       +2h20m27s493ms (2) 060 c0980003 volt=3895
+       +2h20m29s575ms (2) 060 c0080000 -sensor -screen brightness=dark
+       +2h20m31s505ms (3) 060 c0080000 status=charging volt=3916
+       +2h20m32s944ms (1) 060 80080000 -wake_lock
+       +2h20m34s663ms (2) 060 c0080000 +wake_lock=1000:"SyncLoopWakeLock"
+       +2h20m34s664ms (1) 060 80080000 -wake_lock
+       +2h20m34s777ms (2) 060 c0080000 +wake_lock=1000:"WifiSuspend"
+       +2h20m34s779ms (1) 060 80080000 -wake_lock
+       +2h20m43s535ms (2) 060 80080000 volt=3937
+       +2h20m46s534ms (3) 060 c0180003 +wake_lock=1000:"PhoneWindowManager.mPowerKeyWakeLock" +screen brightness=light
+       +2h20m51s580ms (3) 060 c0100003 plug=none temp=342 volt=3931 -plugged
+       +2h20m55s565ms (2) 060 c0100003 status=discharging
+       +2h21m01s120ms (2) 060 c0100003 -top=u0a13:"com.royole.bwlauncher"
+       +2h21m01s120ms (2) 060 c0100003 +top=u0a11:"com.royole.bwbrowser"
+       +2h21m03s588ms (2) 060 c0100003 volt=3903
+       +2h23m43s985ms (2) 059 c0100003
+       +2h27m09s461ms (3) 059 c0180003 plug=usb temp=337 volt=3901 +plugged
+       +2h27m09s465ms (7) START
+       +2h27m09s465ms (9) TIME: 2013-01-23-11-42-50
+       +2h27m12s824ms (4) 059 80080000 status=discharging health=good plug=usb temp=337 volt=3887 +running +plugged wake_reason=0:"unknown"
+       +2h27m14s576ms (3) 059 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h27m14s576ms (2) 059 c0180003 brightness=light
+       +2h27m15s903ms (2) 059 c0180003 +user=0:"0"
+       +2h27m15s903ms (2) 059 c0180003 +userfg=0:"0"
+       +2h27m16s007ms (2) 059 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +2h27m17s692ms (2) 059 c0980003 +sensor
+       +2h27m22s854ms (3) 059 c0980003 status=charging volt=3921
+       +2h28m01s289ms (3) 059 c0900003 plug=none temp=341 volt=3925 -plugged
+       +2h28m02s954ms (2) 059 c0900003 status=discharging
+       +2h28m10s972ms (2) 059 c0900003 volt=3896
+       +2h28m12s425ms (2) 059 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +2h28m12s425ms (2) 059 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +2h33m24s710ms (3) 059 c0980003 plug=usb temp=342 +plugged
+       +2h33m27s864ms (2) 059 c0980003 status=charging
+       +2h33m39s894ms (2) 059 c0980003 volt=3917
+       +2h39m31s259ms (3) 059 c0900003 status=discharging plug=none temp=348 volt=3927 -plugged
+       +2h39m36s783ms (2) 059 c0900003 volt=3906
+       +2h43m41s394ms (2) 058 c0900003
+       +2h49m21s650ms (3) 058 c0980003 plug=usb temp=343 volt=3876 +plugged
+       +2h49m26s264ms (3) 058 c0980003 status=charging volt=3906
+       +2h49m26s899ms (3) 058 c0900003 plug=none temp=342 -plugged
+       +2h49m30s273ms (2) 058 c0900003 status=discharging
+       +2h50m42s454ms (2) 058 c0900003 volt=3885
+       +2h51m47s881ms (3) 058 c0980003 plug=usb temp=344 volt=3882 +plugged
+       +2h51m50s694ms (2) 058 c0980003 status=charging
+       +2h51m54s704ms (2) 058 c0980003 volt=3903
+       +2h52m19s029ms (3) 058 c0900003 plug=none temp=343 volt=3907 -plugged
+       +2h52m22s771ms (2) 058 c0900003 status=discharging
+       +2h52m30s793ms (2) 058 c0900003 volt=3886
+       +2h54m07s479ms (3) 058 c0980003 plug=usb temp=344 volt=3883 +plugged
+       +2h54m07s484ms (7) START
+       +2h54m07s484ms (9) TIME: 2013-01-23-12-11-04
+       +2h54m10s984ms (4) 057 80000000 status=discharging health=good plug=none temp=348 volt=3840 +running wake_reason=0:"unknown"
+       +2h54m12s754ms (3) 057 c0100004 +wake_lock=-1:"screen" +screen brightness=bright
+       +2h54m12s757ms (2) 057 c0100003 brightness=light
+       +2h54m13s865ms (2) 057 c0100003 +user=0:"0"
+       +2h54m13s865ms (2) 057 c0100003 +userfg=0:"0"
+       +2h54m13s977ms (2) 057 c0100003 +top=u0a13:"com.royole.bwlauncher"
+       +2h54m15s777ms (2) 057 c0900003 +sensor
+       +2h54m21s070ms (2) 057 c0900003 volt=3875
+       +2h54m32s206ms (3) 057 c0980003 plug=usb temp=352 volt=3876 +plugged
+       +2h54m33s100ms (2) 057 c0980003 status=charging
+       +2h54m38s296ms (3) 057 c0900003 plug=none temp=350 volt=3895 -plugged
+       +2h54m41s120ms (2) 057 c0900003 status=discharging
+       +2h54m54s472ms (2) 057 c0900003 -top=u0a13:"com.royole.bwlauncher"
+       +2h54m54s472ms (2) 057 c0900003 +top=u0a11:"com.royole.bwbrowser"
+       +2h54m57s158ms (2) 057 c0900003 volt=3870
+       +3h03m10s410ms (2) 056 c0900003
+       +3h08m15s170ms (2) 056 c0900003 temp=340
+       +3h12m50s064ms (2) 056 c0900000 brightness=dark
+       +3h12m57s060ms (2) 056 80000000 -wake_lock -sensor -screen
+       +3h12m58s044ms (2) 056 c0000000 +wake_lock=1000:"ActivityManager-Sleep"
+       +3h12m58s134ms (1) 056 00000000 -running -wake_lock
+       +3h14m38s707ms (2) 056 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+       +3h14m38s746ms (1) 056 00000000 -running -wake_lock
+       +3h24m13s711ms (3) 056 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +3h24m13s722ms (2) 055 00000000 temp=305 -running -wake_lock
+       +3h24m38s709ms (2) 055 80000000 +running wake_reason=0:"113:"
+       +3h24m38s969ms (1) 055 00000000 -running
+       +3h34m38s709ms (3) 055 80000000 +running wake_reason=0:"113:"
+       +3h34m38s713ms (2) 055 00000000 temp=292 -running
+       +3h36m13s709ms (2) 055 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+       +3h36m13s742ms (1) 055 00000000 -running -wake_lock
+       +3h44m38s706ms (2) 055 80000000 +running wake_reason=0:"113:"
+       +3h44m38s967ms (1) 055 00000000 -running
+       +3h54m13s707ms (3) 055 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +3h54m13s718ms (2) 055 00000000 temp=279 -running -wake_lock
+       +3h54m38s706ms (2) 055 80000000 +running wake_reason=0:"113:"
+       +3h54m38s956ms (1) 055 00000000 -running
+       +4h04m38s706ms (3) 055 80000000 +running wake_reason=0:"113:"
+       +4h04m38s956ms (1) 055 00000000 -running
+       +4h06m13s706ms (2) 055 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+       +4h06m13s730ms (1) 055 00000000 -running -wake_lock
+       +4h14m38s706ms (2) 055 80000000 +running wake_reason=0:"113:"
+       +4h14m38s966ms (1) 055 00000000 -running
+       +4h24m13s706ms (3) 055 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +4h24m13s762ms (1) 055 00000000 -running -wake_lock
+       +4h24m38s719ms (2) 055 80000000 +running wake_reason=0:"113:"
+       +4h24m38s989ms (1) 055 00000000 -running
+       +4h34m38s709ms (3) 055 80000000 +running wake_reason=0:"113:"
+       +4h34m38s714ms (2) 055 00000000 temp=268 -running
+       +4h36m13s706ms (2) 055 80000000 +running wake_reason=0:"113:"
+       +4h36m13s711ms (3) 054 c0000000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +4h36m13s741ms (1) 054 00000000 -running -wake_lock
+       +4h44m38s706ms (2) 054 80000000 +running wake_reason=0:"113:"
+       +4h44m38s956ms (1) 054 00000000 -running
+       +4h54m13s706ms (3) 054 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +4h54m13s749ms (1) 054 00000000 -running -wake_lock
+       +4h54m38s706ms (2) 054 80000000 +running wake_reason=0:"113:"
+       +4h54m38s956ms (1) 054 00000000 -running
+       +5h04m38s706ms (3) 054 80000000 +running wake_reason=0:"113:"
+       +5h04m38s966ms (1) 054 00000000 -running
+       +5h06m13s706ms (2) 054 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+       +5h06m13s733ms (1) 054 00000000 -running -wake_lock
+       +5h14m38s706ms (2) 054 80000000 +running wake_reason=0:"113:"
+       +5h14m38s965ms (1) 054 00000000 -running
+       +5h24m13s705ms (3) 054 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+       +5h24m13s754ms (1) 054 00000000 -running -wake_lock
+       +5h24m38s707ms (2) 054 80000000 +running wake_reason=0:"113:"
+       +5h24m38s946ms (1) 054 00000000 -running
+       +5h34m38s706ms (4) 054 c0100003 +running +wake_lock=-1:"screen" +screen brightness=light wake_reason=0:"113:"
+       +5h35m06s752ms (2) 054 c0100003 volt=3849
+       +5h37m27s102ms (2) 054 c0100003 temp=278
+       +5h37m39s132ms (2) 053 c0100003
+       +5h41m51s762ms (2) 053 c0100003 temp=288
+       +5h49m00s832ms (2) 053 c0100003 temp=298
+       +5h52m25s342ms (2) 052 c0100003
+       +6h02m06s792ms (3) 052 c0100003 temp=308
+       +6h07m11s553ms (2) 051 c0100003
+       +6h11m29s240ms (7) SHUTDOWN
+       +6h11m29s246ms (7) START
+       +6h11m29s246ms (9) TIME: 2013-01-21-10-50-12
+       +6h11m29s251ms (7) START
+       +6h11m29s251ms (9) TIME: 2013-01-21-10-50-06
+       +6h11m32s709ms (4) 055 80080000 status=charging health=good plug=usb temp=255 volt=3815 +running +plugged wake_reason=0:"unknown"
+       +6h11m34s673ms (3) 055 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +6h11m34s673ms (2) 055 c0180003 brightness=light
+       +6h11m34s688ms (2) 055 c0180003 status=discharging
+       +6h11m35s969ms (2) 055 c0180003 +user=0:"0"
+       +6h11m35s969ms (2) 055 c0180003 +userfg=0:"0"
+       +6h11m36s084ms (2) 055 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +6h11m37s492ms (2) 055 c0980003 +sensor
+       +6h11m42s706ms (3) 055 c0980003 status=charging volt=3856
+       +6h12m41s361ms (3) 055 c0900003 plug=none temp=261 volt=3861 -plugged
+       +6h12m41s366ms (7) START
+       +6h12m41s366ms (9) TIME: 2013-01-21-11-05-01
+       +6h12m44s892ms (4) 056 80080000 status=discharging health=good plug=usb temp=305 volt=3845 +running +plugged wake_reason=0:"unknown"
+       +6h12m46s678ms (3) 056 c0180004 +wake_lock=-1:"screen" +screen brightness=bright
+       +6h12m46s678ms (2) 056 c0180003 brightness=light
+       +6h12m47s720ms (2) 056 c0180003 +user=0:"0"
+       +6h12m47s720ms (2) 056 c0180003 +userfg=0:"0"
+       +6h12m47s874ms (2) 056 c0180003 +top=u0a13:"com.royole.bwlauncher"
+       +6h12m49s643ms (2) 056 c0980003 +sensor
+       +6h12m54s815ms (2) 056 c0980003 status=charging
+       +6h13m22s885ms (2) 056 c0980003 volt=3866
+       +6h18m03s585ms (2) 056 c0980003 temp=315
+       +6h27m44s085ms (3) 056 c0980000 brightness=dark
+       +6h27m51s084ms (2) 056 80080000 -wake_lock -sensor -screen
+       +6h27m52s013ms (2) 056 c0080000 +wake_lock=1000:"ActivityManager-Sleep"
+       +6h27m52s021ms (1) 056 80080000 -wake_lock
+       +6h29m09s245ms (2) 057 80080000
+       +6h31m29s595ms (2) 057 80080000 volt=3887
+       +6h31m39s445ms (2) 057 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +6h31m39s470ms (1) 057 80080000 -wake_lock
+       +6h39m02s725ms (2) 058 80080000
+       +6h42m47s175ms (2) 058 c0080000 +wake_lock=1000:"NetworkStats"
+       +6h42m47s201ms (1) 058 80080000 -wake_lock
+       +6h48m44s175ms (2) 059 80080000
+       +6h53m52s945ms (2) 059 80080000 volt=3908
+       +6h54m47s183ms (2) 059 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +6h54m47s208ms (1) 059 80080000 -wake_lock
+       +6h58m25s625ms (2) 060 80080000
+       +7h03m02s315ms (2) 060 80080000 temp=305
+       +7h08m07s075ms (2) 061 80080000
+       +7h12m31s735ms (2) 061 80080000 volt=3929
+       +7h12m47s175ms (2) 061 c0080000 +wake_lock=1000:"NetworkStats"
+       +7h12m47s209ms (1) 061 80080000 -wake_lock
+       +7h17m52s535ms (2) 062 80080000
+       +7h24m47s186ms (2) 062 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +7h24m47s207ms (1) 062 80080000 -wake_lock
+       +7h27m33s985ms (2) 063 80080000
+       +7h31m40s423ms (2) 063 80080000 volt=3950
+       +7h37m19s445ms (2) 064 80080000
+       +7h42m47s175ms (3) 064 c0080000 +wake_lock=1000:"NetworkStats" +job=u0a3:"com.android.providers.downloads/.DownloadIdleService"
+       +7h42m47s196ms (2) 064 c0080000 +job=1000:"android/com.android.server.pm.BackgroundDexOptService"
+       +7h42m47s217ms (2) 064 c0080000 -job=1000:"android/com.android.server.pm.BackgroundDexOptService"
+       +7h42m47s225ms (2) 064 80080000 -wake_lock -job=u0a3:"com.android.providers.downloads/.DownloadIdleService"
+       +7h44m47s228ms (2) 064 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +7h44m47s247ms (1) 064 80080000 -wake_lock
+       +7h47m04s905ms (2) 065 80080000
+       +7h49m49s315ms (2) 065 80080000 temp=295
+       +7h54m47s189ms (2) 065 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +7h54m47s209ms (1) 065 80080000 -wake_lock
+       +7h56m58s385ms (2) 066 80080000
+       +8h00m38s935ms (2) 066 80080000 volt=3971
+       +8h06m43s845ms (2) 067 80080000
+       +8h12m47s175ms (2) 067 c0080000 +wake_lock=1000:"NetworkStats"
+       +8h12m47s204ms (1) 067 80080000 -wake_lock
+       +8h16m17s275ms (2) 068 80080000
+       +8h24m47s184ms (2) 068 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +8h24m47s206ms (1) 068 80080000 -wake_lock
+       +8h26m14s765ms (2) 069 80080000
+       +8h32m03s635ms (2) 069 80080000 volt=3992
+       +8h36m00s225ms (2) 070 80080000
+       +8h42m47s175ms (2) 070 c0080000 +wake_lock=1000:"NetworkStats"
+       +8h42m47s203ms (1) 070 80080000 -wake_lock
+       +8h45m49s695ms (2) 071 80080000
+       +8h54m47s186ms (3) 071 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +8h54m47s208ms (1) 071 80080000 -wake_lock
+       +8h55m35s155ms (2) 072 80080000
+       +9h04m52s555ms (3) 072 80080000 volt=4013
+       +9h05m36s665ms (2) 073 80080000
+       +9h12m47s175ms (2) 073 c0080000 +wake_lock=1000:"NetworkStats"
+       +9h12m47s206ms (1) 073 80080000 -wake_lock
+       +9h15m26s135ms (2) 074 80080000
+       +9h24m47s183ms (3) 074 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+       +9h24m47s207ms (1) 074 80080000 -wake_lock
+       +9h25m15s605ms (2) 075 80080000
+       +9h35m09s085ms (3) 076 80080000
+       +9h38m34s340ms (4) 076 c0100003 plug=none temp=300 volt=4030 +wake_lock=-1:"screen" +screen -plugged brightness=light
+       +9h38m37s605ms (3) 076 c0100003 status=discharging volt=4002
+       +9h38m37s611ms (7) START
+       +9h38m37s611ms (9) TIME: 2013-01-21-10-50-26
+       +9h38m41s015ms (4) 073 80000000 status=discharging health=good plug=none temp=248 volt=3920 +running wake_reason=0:"unknown"
+       +9h38m42s769ms (3) 073 c0100004 +wake_lock=-1:"screen" +screen brightness=bright
+       +9h38m42s773ms (2) 073 c0100003 brightness=light
+       +9h38m43s828ms (2) 073 c0100003 +user=0:"0"
+       +9h38m43s828ms (2) 073 c0100003 +userfg=0:"0"
+       +9h38m43s945ms (2) 073 c0100003 +top=u0a13:"com.royole.bwlauncher"
+       +9h38m45s482ms (2) 073 c0900003 +sensor
+       +9h38m50s944ms (2) 073 c0900003 volt=3962
+       +9h40m39s214ms (2) 073 c0900003 temp=258
+       +9h43m27s634ms (2) 073 c0900003 temp=268
+       +9h46m20s064ms (2) 072 c0900003
+       +9h47m12s194ms (2) 072 c0900003 temp=278
+       +9h52m20s964ms (2) 072 c0900003 temp=288
+       +9h53m40s251ms (2) 072 c0900000 brightness=dark
+       +9h53m47s266ms (2) 072 80000000 -wake_lock -sensor -screen
+       +9h53m48s217ms (2) 072 c0000000 +wake_lock=1000:"ActivityManager-Sleep"
+       +9h53m48s225ms (1) 072 00000000 -running -wake_lock
+       +9h58m36s589ms (2) 072 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+       +9h58m36s627ms (1) 072 80000000 -wake_lock
+       +9h58m38s962ms (1) 072 00000000 -running
+      +10h08m38s382ms (3) 072 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +10h08m38s386ms (2) 072 80000000 temp=267 -wake_lock
+      +10h08m38s390ms (2) 072 c0000000 +wake_lock=1000:"NetworkStats"
+      +10h08m38s393ms (1) 072 80000000 -wake_lock
+      +10h08m40s801ms (1) 072 00000000 -running
+      +10h08m43s591ms (2) 072 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +10h08m43s625ms (1) 072 80000000 -wake_lock
+      +10h08m46s425ms (1) 072 00000000 -running
+      +10h18m38s245ms (3) 072 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +10h18m38s266ms (1) 072 80000000 -wake_lock
+      +10h18m38s266ms (2) 072 c0000000 +wake_lock=1000:"NetworkStats"
+      +10h18m38s270ms (1) 072 80000000 -wake_lock
+      +10h18m41s611ms (1) 072 00000000 -running
+      +10h20m44s591ms (2) 072 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +10h20m44s622ms (1) 072 80000000 -wake_lock
+      +10h20m46s189ms (1) 072 00000000 -running
+      +10h28m36s590ms (2) 072 80000000 +running wake_reason=0:"113:"
+      +10h28m38s190ms (1) 072 00000000 -running
+      +10h38m36s589ms (3) 072 80000000 +running wake_reason=0:"113:"
+      +10h38m36s594ms (2) 072 80000000 temp=256
+      +10h38m38s190ms (1) 072 00000000 -running
+      +10h38m43s590ms (2) 072 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +10h38m43s604ms (1) 072 80000000 -wake_lock
+      +10h38m45s570ms (1) 072 00000000 -running
+      +10h48m37s589ms (3) 072 80000000 +running wake_reason=0:"113:"
+      +10h48m39s188ms (1) 072 00000000 -running
+      +10h50m43s589ms (2) 072 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +10h50m43s607ms (1) 072 80000000 -wake_lock
+      +10h50m45s201ms (1) 072 00000000 -running
+      +10h58m36s590ms (2) 072 80000000 +running wake_reason=0:"113:"
+      +10h58m38s928ms (1) 072 00000000 -running
+      +11h08m36s589ms (3) 072 80000000 +running wake_reason=0:"113:"
+      +11h08m38s559ms (1) 072 00000000 -running
+      +11h08m43s589ms (2) 072 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +11h08m43s618ms (1) 072 80000000 -wake_lock
+      +11h08m45s420ms (1) 072 00000000 -running
+      +11h18m36s590ms (3) 072 80000000 +running wake_reason=0:"113:"
+      +11h18m36s594ms (2) 072 80000000 temp=246
+      +11h18m38s570ms (1) 072 00000000 -running
+      +11h20m44s589ms (2) 072 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +11h20m44s602ms (1) 072 80000000 -wake_lock
+      +11h20m46s198ms (1) 072 00000000 -running
+      +11h28m36s598ms (2) 072 80000000 +running wake_reason=0:"113:"
+      +11h28m38s560ms (1) 072 00000000 -running
+      +11h38m37s589ms (3) 072 80000000 +running wake_reason=0:"113:"
+      +11h38m39s938ms (1) 072 00000000 -running
+      +11h38m43s589ms (2) 072 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +11h38m43s606ms (1) 072 80000000 -wake_lock
+      +11h38m45s200ms (1) 072 00000000 -running
+      +11h48m36s589ms (3) 072 80000000 +running wake_reason=0:"113:"
+      +11h48m38s939ms (1) 072 00000000 -running
+      +11h50m43s590ms (2) 072 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +11h50m43s606ms (1) 072 80000000 -wake_lock
+      +11h50m45s561ms (1) 072 00000000 -running
+      +11h58m37s590ms (2) 072 80000000 +running wake_reason=0:"113:"
+      +11h58m39s568ms (1) 072 00000000 -running
+      +12h08m37s589ms (3) 072 80000000 +running wake_reason=0:"113:"
+      +12h08m37s594ms (2) 071 80000000
+      +12h08m39s199ms (1) 071 00000000 -running
+      +12h08m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +12h08m43s622ms (1) 071 80000000 -wake_lock
+      +12h08m45s561ms (1) 071 00000000 -running
+      +12h18m37s590ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +12h18m39s199ms (1) 071 00000000 -running
+      +12h20m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +12h20m43s625ms (1) 071 80000000 -wake_lock
+      +12h20m45s199ms (1) 071 00000000 -running
+      +12h28m36s590ms (2) 071 80000000 +running wake_reason=0:"113:"
+      +12h28m38s199ms (1) 071 00000000 -running
+      +12h38m36s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +12h38m38s189ms (1) 071 00000000 -running
+      +12h38m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +12h38m43s603ms (1) 071 80000000 -wake_lock
+      +12h38m45s569ms (1) 071 00000000 -running
+      +12h48m37s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +12h48m39s190ms (1) 071 00000000 -running
+      +12h50m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +12h50m43s604ms (1) 071 80000000 -wake_lock
+      +12h50m45s399ms (1) 071 00000000 -running
+      +12h58m36s589ms (2) 071 80000000 +running wake_reason=0:"113:"
+      +12h58m38s400ms (1) 071 00000000 -running
+      +13h08m36s590ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +13h08m38s199ms (1) 071 00000000 -running
+      +13h08m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +13h08m43s602ms (1) 071 80000000 -wake_lock
+      +13h08m45s189ms (1) 071 00000000 -running
+      +13h18m36s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +13h18m38s569ms (1) 071 00000000 -running
+      +13h20m44s589ms (2) 071 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +13h20m44s621ms (1) 071 80000000 -wake_lock
+      +13h20m46s569ms (1) 071 00000000 -running
+      +13h28m37s589ms (2) 071 80000000 +running wake_reason=0:"113:"
+      +13h28m39s190ms (1) 071 00000000 -running
+      +13h38m36s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +13h38m38s188ms (1) 071 00000000 -running
+      +13h38m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +13h38m43s606ms (1) 071 80000000 -wake_lock
+      +13h38m45s189ms (1) 071 00000000 -running
+      +13h48m36s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +13h48m38s429ms (1) 071 00000000 -running
+      +13h50m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +13h50m43s604ms (1) 071 80000000 -wake_lock
+      +13h50m45s399ms (1) 071 00000000 -running
+      +13h58m36s589ms (2) 071 80000000 +running wake_reason=0:"113:"
+      +13h58m38s559ms (1) 071 00000000 -running
+      +14h08m37s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +14h08m39s199ms (1) 071 00000000 -running
+      +14h08m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +14h08m43s604ms (1) 071 80000000 -wake_lock
+      +14h08m45s199ms (1) 071 00000000 -running
+      +14h18m36s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +14h18m38s439ms (1) 071 00000000 -running
+      +14h20m43s589ms (2) 071 c0000000 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK" wake_reason=0:"113:"
+      +14h20m43s604ms (1) 071 80000000 -wake_lock
+      +14h20m45s197ms (1) 071 00000000 -running
+      +14h28m36s598ms (2) 071 80000000 +running wake_reason=0:"113:"
+      +14h28m40s283ms (1) 071 00000000 -running
+      +14h38m39s243ms (3) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +14h38m39s256ms (1) 071 80000000 -wake_lock
+      +14h38m42s367ms (1) 071 00000000 -running
+      +14h38m45s247ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +14h38m45s280ms (1) 071 80000000 -wake_lock
+      +14h38m45s281ms (2) 071 c0000000 +wake_lock=1000:"NetworkStats"
+      +14h38m45s284ms (1) 071 80000000 -wake_lock
+      +14h38m49s760ms (1) 071 00000000 -running
+      +14h48m36s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +14h48m39s418ms (1) 071 00000000 -running
+      +14h50m47s239ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +14h50m47s275ms (1) 071 80000000 -wake_lock
+      +14h50m49s579ms (2) 071 c0000000 +wake_lock=1000:"NetworkStats"
+      +14h50m49s585ms (1) 071 80000000 -wake_lock
+      +14h50m52s420ms (1) 071 00000000 -running
+      +14h58m36s590ms (2) 071 80000000 +running wake_reason=0:"113:"
+      +14h58m38s429ms (1) 071 00000000 -running
+      +15h08m36s589ms (3) 071 80000000 +running wake_reason=0:"113:"
+      +15h08m38s560ms (1) 071 00000000 -running
+      +15h08m43s590ms (2) 071 c0000000 +running +wake_lock=1000:"NetworkStats" wake_reason=0:"113:"
+      +15h08m43s602ms (1) 071 80000000 -wake_lock
+      +15h08m45s191ms (1) 071 00000000 -running
+      +15h09m06s589ms (3) 071 c0100003 +running +wake_lock=1000:"PhoneWindowManager.mPowerKeyWakeLock" +screen brightness=light wake_reason=0:"113:"
+      +15h09m40s844ms (3) 071 c0180003 plug=usb temp=255 volt=3957 +plugged
+      +15h09m42s660ms (3) 071 c0180003 status=charging volt=3980
+      +15h10m54s840ms (2) 071 c0180003 status=discharging
+      +15h10m58s851ms (2) 071 c0180003 status=charging
+      +15h11m06s895ms (2) 071 c0180003 temp=265
+      +15h12m47s140ms (2) 071 c0180003 temp=275
+      +15h15m31s560ms (2) 071 c0180003 temp=285
+      +15h19m16s120ms (2) 072 c0180003
+      +15h19m24s140ms (2) 072 c0180003 temp=295
+      +15h24m33s871ms (2) 072 c0180000 brightness=dark
+      +15h24m41s420ms (2) 072 80080000 -wake_lock -screen
+      +15h24m41s766ms (2) 072 c0080000 +wake_lock=1000:"ActivityManager-Sleep"
+      +15h24m41s784ms (1) 072 80080000 -wake_lock
+      +15h24m44s940ms (2) 072 80080000 volt=4001
+      +15h24m56s970ms (2) 072 80080000 temp=305
+      +15h28m11s584ms (2) 072 c0080000 +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+      +15h28m11s608ms (1) 072 80080000 -wake_lock
+      +15h31m09s900ms (2) 073 80080000
+
+Per-PID Stats:
+  PID 460 wake time: +11s860ms
+  PID 650 wake time: +470ms
+
+Discharge step durations:
+  #0: +2h22m17s530ms to 71 (power-save-off)
+  #1: +14m46s211ms to 51 (screen-on, power-save-off)
+  #2: +14m46s210ms to 52 (screen-on, power-save-off)
+  #3: +1h1m25s421ms to 53 (power-save-off)
+  #4: +1h11m59s989ms to 54 (screen-off, power-save-off)
+  #5: +21m3s312ms to 55 (power-save-off)
+  Estimated screen off time: 4d 23h 59m 58s 900ms 
+  Estimated screen on time: 1d 0h 37m 1s 0ms 
+
+Charge step durations:
+  #0: +11m53s780ms to 73 (power-save-off)
+  Estimated charge time remaining: +5h21m12s60ms
+
+Statistics since last charge:
+  System starts: 18, currently on battery: false
+  Time on battery: 9h 49m 32s 874ms (62.7%) realtime, 2h 14m 29s 344ms (14.3%) uptime
+  Time on battery screen off: 7h 37m 5s 184ms (48.6%) realtime, 2m 1s 656ms (0.2%) uptime
+  Total run time: 15h 40m 0s 844ms realtime, 7h 1m 33s 732ms uptime
+  Charge time remaining: 5h 21m 12s 60ms 
+  Start clock time: 2013-01-22-19-27-40
+  Screen on: 2h 12m 27s 690ms (22.5%) 19x, Interactive: 2h 12m 26s 568ms (22.5%)
+  Screen brightnesses:
+    dark 15s 223ms (0.2%)
+    light 2h 12m 12s 457ms (99.8%)
+    bright 1ms (0.0%)
+  Total full wakelock time: 322ms
+  Total partial wakelock time: 951ms
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels: (no activity)
+  Signal scanning time: 0ms
+  Radio types: (no activity)
+  Mobile radio active time: 0ms (0.0%) 0x
+  Wi-Fi total received: 0B, sent: 0B (packets received 0, sent 0)
+  Wifi on: 1m 11s 12ms (0.2%), Wifi running: 1m 11s 12ms (0.2%)
+  Wifi states: (no activity)
+  Wifi supplicant states:
+    scanning 1m 11s 12ms (0.2%) 1x
+  Wifi signal levels: (no activity)
+  Bluetooth on: 0ms (0.0%)
+  Bluetooth states: (no activity)
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 6
+    Amount discharged (upper bound): 13
+    Amount discharged while screen on: 10
+    Amount discharged while screen off: 3
+
+  Estimated power use (mAh):
+    Capacity: 6700, Computed drain: 1153, actual drain: 402-871
+    Screen: 1071
+    Idle: 52.9
+    Uid 1000: 14.8
+    Uid u0a13: 5.11
+    Uid 0: 5.08
+    Uid u0a11: 1.86
+    Uid 2000: 1.20
+    Uid u0a9: 0.501
+    Uid u0a26: 0.412
+    Uid u0a3: 0.0267
+    Wifi: 0.0225
+    Uid u0a6: 0.00588
+    Uid u0a5: 0.00533
+    Uid u0a2: 0.00434
+    Uid u0a25: 0.00263
+    Uid 1003: 0.00205
+    Uid 1017: 0.00153
+    Uid u0a15: 0.000634
+    Over-counted: 282
+
+  All kernel wake locks:
+  Kernel Wake lock alarm       : 7s 32ms (62 times) realtime
+  Kernel Wake lock usb_detect  : 3s 606ms (0 times) realtime
+  Kernel Wake lock PowerManagerService.Display: 761ms (3 times) realtime
+  Kernel Wake lock rk808_irq_wake: 97ms (25 times) realtime
+  Kernel Wake lock bq27542-battery: 34ms (4 times) realtime
+  Kernel Wake lock KeyEvents   : 33ms (80 times) realtime
+  Kernel Wake lock usb_pcd     : 26ms (0 times) realtime
+  Kernel Wake lock bq25890-charger: 25ms (78 times) realtime
+  Kernel Wake lock PowerManagerService.Broadcasts: 8ms (1 times) realtime
+
+  All partial wake locks:
+  Wake lock 1000 *alarm*: 772ms (32 times) realtime
+  Wake lock 1000 ActivityManager-Sleep: 98ms (2 times) realtime
+  Wake lock 1000 NetworkStats: 80ms (26 times) realtime
+  Wake lock 1000 PhoneWindowManager.mPowerKeyWakeLock: 1ms (4 times) realtime
+
+  All wakeup reasons:
+  Wakeup reason 113:: 1m 4s 817ms (54 times) realtime
+  Wakeup reason unknown: 10s 26ms (2 times) realtime
+
+  0:
+    Proc kconsole:
+      CPU: 0ms usr + 1m 8s 50ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 3s 620ms krn ; 0ms fg
+    Proc sdcard:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc RTW_CMD_THREAD:
+      CPU: 0ms usr + 1s 530ms krn ; 0ms fg
+    Proc zygote:
+      CPU: 3s 500ms usr + 880ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 360ms usr + 620ms krn ; 0ms fg
+    Proc debuggerd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc fb-vsync:
+      CPU: 0ms usr + 15s 170ms krn ; 0ms fg
+    Proc watchdog/0:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc watchdog/1:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc watchdog/2:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc watchdog/3:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p10:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p13:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc logd:
+      CPU: 1s 930ms usr + 1s 570ms krn ; 0ms fg
+    Proc netd:
+      CPU: 120ms usr + 940ms krn ; 0ms fg
+    Proc rild:
+      CPU: 90ms usr + 240ms krn ; 0ms fg
+    Proc vold:
+      CPU: 170ms usr + 110ms krn ; 0ms fg
+    Proc /init:
+      CPU: 40ms usr + 80ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 12s 30ms krn ; 0ms fg
+    Proc khubd:
+      CPU: 0ms usr + 2s 280ms krn ; 0ms fg
+    Proc rk-fb:
+      CPU: 0ms usr + 19s 960ms krn ; 0ms fg
+    Proc displayd:
+      CPU: 120ms usr + 160ms krn ; 0ms fg
+    Proc vmalloc:
+      CPU: 0ms usr + 810ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 0ms usr + 420ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 7s 330ms krn ; 0ms fg
+    Proc kworker/0:2:
+      CPU: 0ms usr + 8s 980ms krn ; 0ms fg
+    Proc kworker/0:3:
+      CPU: 0ms usr + 890ms krn ; 0ms fg
+    Proc kworker/0:4:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/1:1:
+      CPU: 0ms usr + 3s 30ms krn ; 0ms fg
+    Proc kworker/1:2:
+      CPU: 0ms usr + 840ms krn ; 0ms fg
+    Proc kworker/1:3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/2:0:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/2:1:
+      CPU: 0ms usr + 880ms krn ; 0ms fg
+    Proc kworker/2:2:
+      CPU: 0ms usr + 290ms krn ; 0ms fg
+    Proc kworker/2:3:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc kworker/3:1:
+      CPU: 0ms usr + 590ms krn ; 0ms fg
+    Proc kworker/3:2:
+      CPU: 0ms usr + 250ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 100ms usr + 3s 950ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 1s 990ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 3s 340ms krn ; 0ms fg
+    Proc ksoftirqd/1:
+      CPU: 0ms usr + 2s 750ms krn ; 0ms fg
+    Proc ksoftirqd/2:
+      CPU: 0ms usr + 2s 720ms krn ; 0ms fg
+    Proc ksoftirqd/3:
+      CPU: 0ms usr + 2s 630ms krn ; 0ms fg
+    Proc wpa_supplicant:
+      CPU: 130ms usr + 860ms krn ; 0ms fg
+    Proc migration/0:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc migration/1:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc migration/2:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc migration/3:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc input_uart_thre:
+      CPU: 0ms usr + 6s 990ms krn ; 0ms fg
+    Proc irq/194-rk808:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 3s 490ms krn ; 0ms fg
+    Proc kworker/u8:0:
+      CPU: 0ms usr + 730ms krn ; 0ms fg
+    Proc kworker/u8:1:
+      CPU: 0ms usr + 140ms krn ; 0ms fg
+    Proc kworker/u8:2:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc kworker/u8:3:
+      CPU: 0ms usr + 490ms krn ; 0ms fg
+    Proc kworker/u8:4:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:5:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:7:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc kworker/u8:8:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:9:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u9:0:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc kworker/u9:1:
+      CPU: 0ms usr + 750ms krn ; 0ms fg
+    Proc kworker/u9:2:
+      CPU: 0ms usr + 1s 720ms krn ; 0ms fg
+    Proc kworker/u8:13:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u8:14:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:15:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kworker/u8:16:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kworker/u8:17:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:18:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kworker/u8:19:
+      CPU: 0ms usr + 190ms krn ; 0ms fg
+    Proc kworker/u8:20:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/u8:24:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+  1000:
+    User activity: 631 other, 252 touch
+    Wake lock SyncLoopWakeLock realtime
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock ShutdownThread-cpu realtime
+    Wake lock NextAlarmTracker realtime
+    Wake lock NetworkStats: 80ms partial (26 times) realtime
+    Wake lock *vibrator* realtime
+    Wake lock AudioMix realtime
+    Wake lock PhoneWindowManager.mPowerKeyWakeLock: 1ms partial (4 times) realtime
+    Wake lock ShutdownThread-screen: 322ms full (3 times) realtime
+    Wake lock *alarm*: 772ms partial (32 times) realtime
+    Wake lock WiredAccessoryManager realtime
+    Wake lock WifiSuspend realtime
+    Wake lock ActivityManager-Sleep: 98ms partial (2 times) realtime
+    TOTAL wake: 322ms full, 951ms partial realtime
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Sensor 4: 2h 12m 17s 945ms realtime (19 times)
+    Vibrator: 47ms realtime (7 times)
+    Foreground for: 9h 49m 32s 874ms 
+    Proc WebViewLoader-armeabi-v7a:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      3 starts
+    Proc system:
+      CPU: 1m 8s 190ms usr + 1m 16s 810ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 2m 17s 90ms usr + 3m 21s 10ms krn ; 0ms fg
+    Proc com.android.keychain:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      3 starts
+    Proc mediaserver:
+      CPU: 32s 830ms usr + 7s 760ms krn ; 0ms fg
+    Proc com.android.settings:
+      CPU: 40ms usr + 50ms krn ; 0ms fg
+      3 starts
+    Proc servicemanager:
+      CPU: 100ms usr + 230ms krn ; 0ms fg
+    Apk android:
+      57 wakeup alarms
+      Service android.hardware.location.GeofenceHardwareService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 16
+      Service com.android.internal.backup.LocalTransportService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 16
+    Apk com.android.keychain:
+      Service com.android.keychain.KeyChainService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 3
+    Apk com.android.location.fused:
+      Service com.android.location.fused.FusedLocationService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 16
+  1002:
+    Apk com.android.bluetooth:
+      (nothing executed)
+  1003:
+    Proc bootanimation:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+  1017:
+    Proc keystore:
+      CPU: 30ms usr + 0ms krn ; 0ms fg
+  2000:
+    Proc logcat:
+      CPU: 200ms usr + 45s 880ms krn ; 0ms fg
+    Proc sh:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+  u0a1:
+    Foreground for: 1s 577ms 
+    Running for: 9h 49m 15s 808ms 
+    Proc android.process.acore:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      3 starts
+  u0a2:
+    Foreground for: 18s 699ms 
+    Active for: 18s 705ms 
+    Running for: 3h 21m 0s 377ms 
+    Proc com.android.defcontainer:
+      CPU: 110ms usr + 50ms krn ; 0ms fg
+    Apk com.android.defcontainer:
+      Service com.android.defcontainer.DefaultContainerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 3
+  u0a3:
+    Wake lock *job*/com.android.providers.downloads/.DownloadIdleService realtime
+    Wake lock MediaScannerService realtime
+    Job com.android.providers.downloads/.DownloadIdleService: (not used)
+    Foreground for: 9h 49m 24s 44ms 
+    Active for: 9h 49m 26s 868ms 
+    Proc android.process.media:
+      CPU: 520ms usr + 360ms krn ; 0ms fg
+      3 starts
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 2s 799ms uptime
+        Starts: 12, launches: 12
+      Service com.android.providers.media.MediaScannerService:
+        Created for: 1s 825ms uptime
+        Starts: 3, launches: 3
+    Apk com.android.providers.downloads:
+      Service com.android.providers.downloads.DownloadService:
+        Created for: 2s 378ms uptime
+        Starts: 6, launches: 6
+  u0a5:
+    Active for: 245ms 
+    Running for: 9h 49m 13s 129ms 
+    Proc com.android.managedprovisioning:
+      CPU: 160ms usr + 30ms krn ; 0ms fg
+      3 starts
+  u0a6:
+    Active for: 109ms 
+    Running for: 9h 49m 11s 882ms 
+    Proc com.android.onetimeinitializer:
+      CPU: 130ms usr + 60ms krn ; 0ms fg
+      3 starts
+    Apk com.android.onetimeinitializer:
+      Service com.android.onetimeinitializer.OneTimeInitializerService:
+        Created for: 28ms uptime
+        Starts: 3, launches: 3
+  u0a9:
+    Foreground for: 9h 49m 25s 347ms 
+    Active for: 9h 49m 26s 803ms 
+    Proc com.android.systemui:
+      CPU: 14s 490ms usr + 4s 700ms krn ; 0ms fg
+      3 starts
+    Apk com.android.systemui:
+      Service com.android.systemui.SystemUIService:
+        Created for: 2h 14m 23s 522ms uptime
+        Starts: 16, launches: 16
+      Service com.android.systemui.ImageWallpaper:
+        Created for: 0ms uptime
+        Starts: 0, launches: 16
+  u0a11:
+    Foreground activities: 1h 50m 6s 500ms realtime (23 times)
+    Foreground for: 4h 11m 47s 444ms 
+    Proc com.royole.bwbrowser:
+      CPU: 44s 190ms usr + 26s 680ms krn ; 33s 910ms fg
+      11 starts
+  u0a13:
+    Foreground activities: 22m 16s 36ms realtime (17 times)
+    Foreground for: 5h 37m 36s 382ms 
+    Running for: 9h 49m 23s 826ms 
+    Proc com.royole.bwlauncher:
+      CPU: 1m 57s 890ms usr + 1m 18s 220ms krn ; 2m 1s 910ms fg
+      3 starts
+  u0a15:
+    Foreground for: 9h 49m 23s 999ms 
+    Proc com.royole.bwsettings:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+      3 starts
+  u0a25:
+    Running for: 3h 21m 0s 377ms 
+    Proc com.svox.pico:
+      CPU: 80ms usr + 20ms krn ; 0ms fg
+  u0a26:
+    Foreground for: 3h 34m 23s 613ms 
+    Active for: 9h 49m 25s 15ms 
+    Proc com.android.inputmethod.pinyin:
+      CPU: 10s 60ms usr + 4s 450ms krn ; 0ms fg
+      7 starts, 2 crashes
+    Apk com.android.inputmethod.pinyin:
+      Service com.android.inputmethod.pinyin.PinyinIME:
+        Created for: 0ms uptime
+        Starts: 0, launches: 20
+      Service com.android.inputmethod.pinyin.PinyinDecoderService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 20
+
+Statistics since last unplugged:
+  Time on battery: 5h 30m 59s 829ms (92.6%) realtime, 17m 30s 863ms (4.9%) uptime
+  Time on battery screen off: 5h 15m 18s 738ms (88.2%) realtime, 1m 49s 773ms (0.5%) uptime
+  Total run time: 5h 57m 18s 919ms realtime, 43m 49s 954ms uptime
+  Charge time remaining: 5h 21m 12s 60ms 
+  Start clock time: 2013-01-22-19-27-40
+  Screen on: 15m 39s 337ms (4.7%) 2x, Interactive: 15m 38s 750ms (4.7%)
+  Screen brightnesses:
+    dark 7s 611ms (0.8%)
+    light 15m 31s 722ms (99.2%)
+    bright 1ms (0.0%)
+  Total partial wakelock time: 509ms
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels: (no activity)
+  Signal scanning time: 0ms
+  Radio types: (no activity)
+  Mobile radio active time: 0ms (0.0%) 0x
+  Wi-Fi total received: 0B, sent: 0B (packets received 0, sent 0)
+  Wifi on: 0ms (0.0%), Wifi running: 0ms (0.0%)
+  Wifi states: (no activity)
+  Wifi supplicant states: (no activity)
+  Wifi signal levels: (no activity)
+  Bluetooth on: 0ms (0.0%)
+  Bluetooth states: (no activity)
+
+  Device is currently plugged into power
+    Last discharge cycle start level: 73
+    Last discharge cycle end level: 71
+    Amount discharged while screen on: 1
+    Amount discharged while screen off: 1
+ 
+  Estimated power use (mAh):
+    Capacity: 6700, Computed drain: 170, actual drain: 402-871
+    Unaccounted: 232
+    Screen: 126
+    Idle: 36.5
+    Uid 1000: 3.45
+    Uid u0a13: 2.16
+    Uid 0: 1.45
+    Uid u0a9: 0.0744
+    Uid u0a3: 0.00784
+    Uid u0a26: 0.00313
+    Uid u0a5: 0.00219
+    Uid u0a6: 0.00219
+    Uid 1003: 0.00102
+    Uid 1017: 0.000511
+    Uid u0a15: 0.000407
+    Uid 2000: 0.000351
+
+  All kernel wake locks:
+  Kernel Wake lock alarm       : 6s 882ms (43 times) realtime
+  Kernel Wake lock PowerManagerService.Display: 363ms (1 times) realtime
+  Kernel Wake lock bq27542-battery: 34ms (4 times) realtime
+  Kernel Wake lock KeyEvents   : 27ms (55 times) realtime
+
+  All partial wake locks:
+  Wake lock 1000 *alarm*: 435ms (22 times) realtime
+  Wake lock 1000 NetworkStats: 66ms (21 times) realtime
+  Wake lock 1000 ActivityManager-Sleep: 8ms (1 times) realtime
+  Wake lock 1000 PhoneWindowManager.mPowerKeyWakeLock: 1ms (1 times) realtime
+
+  All wakeup reasons:
+  Wakeup reason 113:: 1m 1s 208ms (54 times) realtime
+  Wakeup reason unknown: 4s 939ms (1 times) realtime
+
+  0:
+    Proc kconsole:
+      CPU: 0ms usr + 24s 740ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc sdcard:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+    Proc zygote:
+      CPU: 1s 10ms usr + 210ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 60ms usr + 90ms krn ; 0ms fg
+    Proc debuggerd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc fb-vsync:
+      CPU: 0ms usr + 2s 90ms krn ; 0ms fg
+    Proc watchdog/0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc watchdog/1:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc watchdog/2:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc watchdog/3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p10:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p13:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc logd:
+      CPU: 40ms usr + 110ms krn ; 0ms fg
+    Proc netd:
+      CPU: 30ms usr + 290ms krn ; 0ms fg
+    Proc rild:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc vold:
+      CPU: 40ms usr + 0ms krn ; 0ms fg
+    Proc /init:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 1s 760ms krn ; 0ms fg
+    Proc khubd:
+      CPU: 0ms usr + 450ms krn ; 0ms fg
+    Proc rk-fb:
+      CPU: 0ms usr + 8s 280ms krn ; 0ms fg
+    Proc displayd:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc vmalloc:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 0ms usr + 420ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc kworker/0:2:
+      CPU: 0ms usr + 5s 280ms krn ; 0ms fg
+    Proc kworker/1:1:
+      CPU: 0ms usr + 900ms krn ; 0ms fg
+    Proc kworker/1:2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/2:1:
+      CPU: 0ms usr + 400ms krn ; 0ms fg
+    Proc kworker/2:2:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kworker/3:1:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 590ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 200ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 740ms krn ; 0ms fg
+    Proc ksoftirqd/1:
+      CPU: 0ms usr + 610ms krn ; 0ms fg
+    Proc ksoftirqd/2:
+      CPU: 0ms usr + 600ms krn ; 0ms fg
+    Proc ksoftirqd/3:
+      CPU: 0ms usr + 560ms krn ; 0ms fg
+    Proc migration/0:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc migration/1:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc migration/2:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc migration/3:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc input_uart_thre:
+      CPU: 0ms usr + 920ms krn ; 0ms fg
+    Proc irq/194-rk808:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 450ms krn ; 0ms fg
+    Proc kworker/u8:1:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u8:2:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/u8:3:
+      CPU: 0ms usr + 210ms krn ; 0ms fg
+    Proc kworker/u8:5:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:7:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/u8:8:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:9:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u9:2:
+      CPU: 0ms usr + 1s 90ms krn ; 0ms fg
+    Proc kworker/u8:13:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:15:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/u8:16:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:17:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:18:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:19:
+      CPU: 0ms usr + 190ms krn ; 0ms fg
+    Proc kworker/u8:24:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+  1000:
+    User activity: 2 other
+    Wake lock SyncLoopWakeLock realtime
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock ShutdownThread-cpu realtime
+    Wake lock NextAlarmTracker realtime
+    Wake lock NetworkStats: 66ms partial (21 times) realtime
+    Wake lock *vibrator* realtime
+    Wake lock AudioMix realtime
+    Wake lock PhoneWindowManager.mPowerKeyWakeLock: 1ms partial (1 times) realtime
+    Wake lock ShutdownThread-screen realtime
+    Wake lock *alarm*: 435ms partial (22 times) realtime
+    Wake lock WiredAccessoryManager realtime
+    Wake lock WifiSuspend realtime
+    Wake lock ActivityManager-Sleep: 8ms partial (1 times) realtime
+    TOTAL wake: 510ms partial realtime
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Sensor 4: 15m 36s 15ms realtime (2 times)
+    Vibrator: 1ms realtime (1 times)
+    Foreground for: 5h 30m 59s 829ms 
+    Proc WebViewLoader-armeabi-v7a:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc system:
+      CPU: 13s 520ms usr + 16s 920ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 39s 580ms usr + 42s 520ms krn ; 0ms fg
+    Proc com.android.keychain:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc mediaserver:
+      CPU: 10s 150ms usr + 1s 750ms krn ; 0ms fg
+    Proc com.android.settings:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+      1 starts
+    Proc servicemanager:
+      CPU: 20ms usr + 60ms krn ; 0ms fg
+    Apk android:
+      22 wakeup alarms
+      Service android.hardware.location.GeofenceHardwareService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.android.internal.backup.LocalTransportService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.android.keychain:
+      Service com.android.keychain.KeyChainService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.android.location.fused:
+      Service com.android.location.fused.FusedLocationService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  1002:
+    Apk com.android.bluetooth:
+      (nothing executed)
+  1003:
+    Proc bootanimation:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  1017:
+    Proc keystore:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  2000:
+    Proc sh:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a1:
+    Foreground for: 525ms 
+    Running for: 5h 30m 54s 124ms 
+    Proc android.process.acore:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+  u0a2:
+    Apk com.android.defcontainer:
+      (nothing executed)
+  u0a3:
+    Wake lock *job*/com.android.providers.downloads/.DownloadIdleService realtime
+    Wake lock MediaScannerService realtime
+    Job com.android.providers.downloads/.DownloadIdleService: (not used)
+    Foreground for: 5h 30m 56s 898ms 
+    Active for: 5h 30m 57s 886ms 
+    Proc android.process.media:
+      CPU: 200ms usr + 80ms krn ; 0ms fg
+      1 starts
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.android.providers.media.MediaScannerService:
+        Created for: 585ms uptime
+        Starts: 1, launches: 1
+    Apk com.android.providers.downloads:
+      Service com.android.providers.downloads.DownloadService:
+        Created for: 735ms uptime
+        Starts: 2, launches: 2
+  u0a5:
+    Active for: 93ms 
+    Running for: 5h 30m 53s 240ms 
+    Proc com.android.managedprovisioning:
+      CPU: 60ms usr + 10ms krn ; 0ms fg
+      1 starts
+  u0a6:
+    Active for: 36ms 
+    Running for: 5h 30m 52s 841ms 
+    Proc com.android.onetimeinitializer:
+      CPU: 40ms usr + 30ms krn ; 0ms fg
+      1 starts
+    Apk com.android.onetimeinitializer:
+      Service com.android.onetimeinitializer.OneTimeInitializerService:
+        Created for: 8ms uptime
+        Starts: 1, launches: 1
+  u0a9:
+    Foreground for: 5h 30m 57s 306ms 
+    Active for: 5h 30m 57s 833ms 
+    Proc com.android.systemui:
+      CPU: 2s 200ms usr + 580ms krn ; 0ms fg
+      1 starts
+    Apk com.android.systemui:
+      Service com.android.systemui.SystemUIService:
+        Created for: 17m 28s 916ms uptime
+        Starts: 1, launches: 1
+      Service com.android.systemui.ImageWallpaper:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a11:
+    (nothing executed)
+  u0a13:
+    Foreground activities: 15m 38s 471ms realtime (2 times)
+    Foreground for: 5h 30m 56s 860ms 
+    Proc com.royole.bwlauncher:
+      CPU: 39s 420ms usr + 42s 40ms krn ; 1m 17s 470ms fg
+      1 starts
+  u0a15:
+    Foreground for: 5h 30m 56s 895ms 
+    Proc com.royole.bwsettings:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+      1 starts
+  u0a25:
+    (nothing executed)
+  u0a26:
+    Active for: 5h 30m 57s 195ms 
+    Proc com.android.inputmethod.pinyin:
+      CPU: 60ms usr + 20ms krn ; 0ms fg
+      1 starts
+    Apk com.android.inputmethod.pinyin:
+      Service com.android.inputmethod.pinyin.PinyinIME:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.android.inputmethod.pinyin.PinyinDecoderService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1

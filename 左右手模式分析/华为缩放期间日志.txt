@@ -1,0 +1,72 @@
+--------- beginning of main
+07-14 15:15:14.419  2681  2968 I BlackListAlarmRestrict: [resume] net alarms
+07-14 15:15:14.552  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:14.555  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:14.558  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:14.558  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+07-14 15:15:14.577  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:14.579  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:14.580  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:14.580  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+07-14 15:15:14.838   772   772 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 32
+07-14 15:15:14.839   772   772 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+07-14 15:15:15.290  1960  4348 I MQoS    : MSG_QUERY_TCP_INFO called,count:565
+07-14 15:15:15.290  1960  1960 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+07-14 15:15:15.291  1960  2207 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+07-14 15:15:15.291  1960  2207 W WifiProJNI: poll before: g_monitor_fd =313
+07-14 15:15:15.291  1960  1960 I MQoS    : rtt=720,tcp_tx_pkts=912424,tcp_rx_pkts=940983
+07-14 15:15:15.294  1960  4348 I TrafficMonitor: during_ms:2001,period_ms:6000
+07-14 15:15:15.294  1960  4348 I TrafficMonitor: during_ms:4004,period_ms:6000
+07-14 15:15:15.294  1960  4348 I TrafficMonitor: during_ms:6007,period_ms:6000
+07-14 15:15:15.295  1960  4348 I TrafficMonitor: count:23,rx_sum:24,tx_sum:29,rxBytes:970,during_ms:6007,rx_speed:161.47827534543035,tx_speed:206.42583652405528,rto:0.8275862068965517
+07-14 15:15:15.295  1960  4348 I MQoS    : QOS_level:5(5),use RAT:4G;signalLvl:5
+07-14 15:15:15.531  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:15.534  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:15.536  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:15.536  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+07-14 15:15:16.016  1960  1960 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+07-14 15:15:16.016  1960  1960 I MQoS    : received cell-signal:1
+07-14 15:15:16.017  3579  3656 I amsnl   : csr
+07-14 15:15:16.018  1960 31943 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+07-14 15:15:16.018  3579  3656 I amsnl   : t:false, fl: false, p: 86400000, ce: true, we: false
+07-14 15:15:16.020  3579  3656 I amsnl   : m1: false
+07-14 15:15:16.021  3579  3656 I amsnl   : c: true, w: false, t: false, l: false
+07-14 15:15:17.189  1960  1970 E HsmCoreServiceImpl: onTransact in code is: 103
+07-14 15:15:17.189  1960  1970 I MediaProcessHandler: playingUids: 
+07-14 15:15:17.506  2558 28799 W PhoneInterfaceManager: shouldBlockLocation running ...
+07-14 15:15:17.514  2558 28799 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+07-14 15:15:17.559  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:17.560  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:17.561  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:17.561  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+07-14 15:15:17.580  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:17.583  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:17.584  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:17.585  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+07-14 15:15:17.730   525  3453 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+07-14 15:15:17.740  1960  1974 I HwPointEventFilter: do not support AFT because of no config
+07-14 15:15:17.773  1960 13083 I OpenGLRenderer: Initialized EGL, version 1.4
+07-14 15:15:17.791  1960 13083 E OpenGLRenderer: allen debug liyu Key: 1
+07-14 15:15:17.995  1960  1960 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+07-14 15:15:17.995  1960  1960 I MQoS    : received cell-signal:5
+07-14 15:15:17.995  1960 16451 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+07-14 15:15:17.995  3579  3656 I amsnl   : csr
+07-14 15:15:17.996  3579  3656 I amsnl   : t:false, fl: false, p: 86400000, ce: true, we: false
+07-14 15:15:17.997  3579  3656 I amsnl   : m1: false
+07-14 15:15:17.997  3579  3656 I amsnl   : c: true, w: false, t: false, l: false
+07-14 15:15:17.998  2311  2426 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+07-14 15:15:18.233  2681  2796 I ScenarioAction: new ScenarioAction sPoolSize: 0
+07-14 15:15:18.536  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:18.540  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:18.542  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:18.543  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+07-14 15:15:19.843   772   772 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 32
+07-14 15:15:19.843   772   772 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+07-14 15:15:20.561  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:20.563  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:20.565  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:20.565  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+07-14 15:15:20.584  2311  2311 I NetworkSpeedManagerEx: mIsStop = false
+07-14 15:15:20.585  2311  2311 I NetworkSpeedManagerEx:  value = 0.0
+07-14 15:15:20.586  2311  2311 I NetworkSpeedManagerEx: speed = 0K/s
+07-14 15:15:20.586  2311  2311 I NetworkSpeedView: /update(), speed=0K/s parent class:class com.android.systemui.statusbar.HwSystemIcons

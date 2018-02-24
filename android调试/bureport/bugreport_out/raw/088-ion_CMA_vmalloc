@@ -1,0 +1,21 @@
+          client              pid             size
+----------------------------------------------------
+  surfaceflinger              159          4153344
+  surfaceflinger              159         59375616
+           rk_fb                1         33460224
+----------------------------------------------------
+orphaned allocations (info is from last known client):
+  surfaceflinger              159          2359296 0xc5aac080 0 1
+  surfaceflinger              159          8294400 0xdc588280 0 1
+----------------------------------------------------
+  total orphaned         10653696
+          total          99348480
+   deferred free                0
+----------------------------------------------------
+57 order 8 highmem pages in pool = 59768832 total
+0 order 8 lowmem pages in pool = 0 total
+346 order 4 highmem pages in pool = 22675456 total
+0 order 4 lowmem pages in pool = 0 total
+268 order 0 highmem pages in pool = 1097728 total
+0 order 0 lowmem pages in pool = 0 total
+

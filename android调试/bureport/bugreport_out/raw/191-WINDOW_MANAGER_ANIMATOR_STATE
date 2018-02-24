@@ -1,0 +1,12 @@
+    DisplayContentsAnimator #0:
+      Window #0: WindowStateAnimator{3adbc2a8 com.android.systemui.ImageWallpaper}
+      Window #1: WindowStateAnimator{3ad141c1 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}
+      Window #2: WindowStateAnimator{2967fd66 KeyguardScrim}
+      Window #3: WindowStateAnimator{336028a7 StatusBar}
+      Window #4: WindowStateAnimator{47e6154 Heads Up}
+      no ScreenRotationAnimation 
+
+    mAnimTransactionSequence=1254 mForceHiding=KEYGUARD_NOT_SHOWN
+    mCurrentTime=1958570 (692443 ms ago)
+    mBulkUpdateParams=0x8 ORIENTATION_CHANGE_COMPLETE
+

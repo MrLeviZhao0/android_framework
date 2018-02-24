@@ -1,0 +1,10 @@
+MEDIA SESSION SERVICE (dumpsys media_session)
+
+0 sessions listeners.
+0 Sessions:
+Global priority session is null
+Sessions Stack - have 0 sessions:
+User Records:
+Record for user 0
+  MediaButtonReceiver:null
+  0 Sessions:

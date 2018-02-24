@@ -1,0 +1,75 @@
+  Recent tasks:
+  * Recent #0: TaskRecord{965ebfe #314 A=com.royole.bwlauncher U=0 sz=1}
+    userId=0 effectiveUid=u0a13 mCallingUid=0 mCallingPackage=null
+    affinity=com.royole.bwlauncher
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.royole.bwlauncher/.gallery.GalleryActivity}
+    realActivity=com.royole.bwlauncher/.gallery.GalleryActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+ mTopOfLauncher=true
+    Activities=[ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/314_task_thumbnail.png
+    hasBeenVisible=true firstActiveTime=1358778990184 lastActiveTime=1358778990184 (inactive for 678s)
+  * Recent #1: TaskRecord{12c10f5f #51 A=com.royole.lezh.pinyinimecandidateservice U=0 sz=0}
+    userId=0 effectiveUid=u0a34 mCallingUid=u0a13 mCallingPackage=com.royole.bwlauncher
+    affinity=com.royole.lezh.pinyinimecandidateservice
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.royole.lezh.pinyinimecandidateservice/.MainActivity}
+    realActivity=com.royole.lezh.pinyinimecandidateservice/.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+ mTopOfLauncher=false
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/51_task_thumbnail.png
+    hasBeenVisible=false firstActiveTime=1359357348880 lastActiveTime=1359357348880 (inactive for -577680s)
+  * Recent #2: TaskRecord{115cadac #313 A=android.task.browser U=0 sz=0}
+    userId=0 effectiveUid=u0a11 mCallingUid=u0a11 mCallingPackage=com.royole.bwbrowser
+    affinity=android.task.browser
+    intent={act=android.intent.action.VIEW dat=http://www.royole.com/ flg=0x10000000 cmp=com.royole.bwbrowser/.BrowserActivity}
+    realActivity=com.royole.bwbrowser/.BrowserActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+ mTopOfLauncher=false
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/313_task_thumbnail.png
+    hasBeenVisible=false firstActiveTime=1358947706443 lastActiveTime=1358947706443 (inactive for -168038s)
+  * Recent #3: TaskRecord{20688a75 #263 A=com.royole.bwvideoplayer U=0 sz=0}
+    userId=0 effectiveUid=u0a16 mCallingUid=u0a13 mCallingPackage=com.royole.bwlauncher
+    affinity=com.royole.bwvideoplayer
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.royole.bwvideoplayer/.MainActivity}
+    realActivity=com.royole.bwvideoplayer/.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+ mTopOfLauncher=false
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/263_task_thumbnail.png
+    hasBeenVisible=false firstActiveTime=1358872413183 lastActiveTime=1358872413183 (inactive for -92744s)
+  * Recent #4: TaskRecord{3230ca0a #181 A=com.royole.bwsettings U=0 sz=0}
+    userId=0 effectiveUid=u0a15 mCallingUid=u0a13 mCallingPackage=com.royole.bwlauncher
+    affinity=com.royole.bwsettings
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.royole.bwsettings/.Settings}
+    realActivity=com.royole.bwsettings/.Settings
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+ mTopOfLauncher=false
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/181_task_thumbnail.png
+    hasBeenVisible=false firstActiveTime=1358784864299 lastActiveTime=1358784864299 (inactive for -5196s)
+  * Recent #5: TaskRecord{a11427b #47 A=com.android.settings U=0 sz=0}
+    userId=0 effectiveUid=1000 mCallingUid=u0a13 mCallingPackage=com.royole.bwlauncher
+    affinity=com.android.settings
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings}
+    origActivity=com.android.settings/.Settings
+    realActivity=com.android.settings/.Settings
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+ mTopOfLauncher=false
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/47_task_thumbnail.png
+    hasBeenVisible=false firstActiveTime=1359000782032 lastActiveTime=1359000782032 (inactive for -221113s)
+

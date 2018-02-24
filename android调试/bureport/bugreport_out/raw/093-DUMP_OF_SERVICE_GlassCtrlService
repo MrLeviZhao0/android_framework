@@ -1,0 +1,10 @@
+
+mglassled_off=0
+mglassled_on=0
+mLastHdmiInState=0
+mI2S_master=0
+m2d3dState=0
+mleftGlassOff=0
+mrightGlassOff=0
+mlrGlassOn=0
+mBootCompled=1

@@ -1,0 +1,369 @@
+Applications Database Info:
+
+** Database info for pid 910 [com.royole.bwlauncher] **
+
+** Database info for pid 1056 [com.android.settings] **
+
+** Database info for pid 1100 [com.android.onetimeinitializer] **
+
+** Database info for pid 1079 [com.android.managedprovisioning] **
+
+** Database info for pid 1035 [com.android.keychain] **
+
+** Database info for pid 1000 [android.process.acore] **
+
+Connection pool for /data/user/0/com.android.providers.contacts/databases/profile.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2013-01-21 14:22:55.600] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_size;"
+        1: [2013-01-21 14:22:55.600] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_count;"
+        2: [2013-01-21 14:22:55.600] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        3: [2013-01-21 14:22:55.599] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        4: [2013-01-21 14:22:55.599] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        5: [2013-01-21 14:22:42.509] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_size;"
+        6: [2013-01-21 14:22:42.509] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_count;"
+        7: [2013-01-21 14:22:42.509] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        8: [2013-01-21 14:22:42.508] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        9: [2013-01-21 14:22:42.508] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        10: [2013-01-21 08:50:35.490] executeForCursorWindow took 1ms - succeeded, sql="SELECT stream_item_photos._id, stream_item_photos.stream_item_id, photo_file_id FROM stream_item_photos JOIN stream_items ON stream_item_id=stream_items._id"
+        11: [2013-01-21 08:50:35.490] prepare took 0ms - succeeded, sql="SELECT stream_item_photos._id, stream_item_photos.stream_item_id, photo_file_id FROM stream_item_photos JOIN stream_items ON stream_item_id=stream_items._id"
+        12: [2013-01-21 08:50:35.490] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, data14 FROM view_data WHERE mimetype_id=10 AND data14 IS NOT NULL"
+        13: [2013-01-21 08:50:35.487] prepare took 2ms - succeeded, sql="SELECT _id, data14 FROM view_data WHERE mimetype_id=10 AND data14 IS NOT NULL"
+        14: [2013-01-21 08:50:35.481] executeForLong took 0ms - succeeded, sql="select count(*) from contacts"
+        15: [2013-01-21 08:50:35.481] prepare took 0ms - succeeded, sql="select count(*) from contacts"
+        16: [2013-01-21 08:50:35.478] executeForCursorWindow took 1ms - succeeded, sql="SELECT property_value FROM properties WHERE property_key=?"
+        17: [2013-01-21 08:50:35.478] prepare took 0ms - succeeded, sql="SELECT property_value FROM properties WHERE property_key=?"
+        18: [2013-01-21 08:50:35.477] executeForCursorWindow took 0ms - succeeded, sql="SELECT property_value FROM properties WHERE property_key=?"
+        19: [2013-01-21 08:50:35.477] prepare took 0ms - succeeded, sql="SELECT property_value FROM properties WHERE property_key=?"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/user/0/com.android.providers.contacts/databases/contacts2.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2013-01-21 14:22:55.600] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_size;"
+        1: [2013-01-21 14:22:55.600] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_count;"
+        2: [2013-01-21 14:22:55.600] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        3: [2013-01-21 14:22:55.600] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        4: [2013-01-21 14:22:55.600] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        5: [2013-01-21 14:22:42.510] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_size;"
+        6: [2013-01-21 14:22:42.510] executeForLong took 0ms - succeeded, sql="PRAGMA presence_db.page_count;"
+        7: [2013-01-21 14:22:42.510] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        8: [2013-01-21 14:22:42.510] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        9: [2013-01-21 14:22:42.509] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        10: [2013-01-21 08:50:35.492] executeForChangedRowCount took 0ms - succeeded, sql="DELETE FROM deleted_contacts WHERE contact_deleted_timestamp < ?"
+        11: [2013-01-21 08:50:35.491] prepare took 1ms - succeeded, sql="DELETE FROM deleted_contacts WHERE contact_deleted_timestamp < ?"
+        12: [2013-01-21 08:50:35.487] executeForCursorWindow took 0ms - succeeded, sql="SELECT stream_item_photos._id, stream_item_photos.stream_item_id, photo_file_id FROM stream_item_photos JOIN stream_items ON stream_item_id=stream_items._id"
+        13: [2013-01-21 08:50:35.486] prepare took 0ms - succeeded, sql="SELECT stream_item_photos._id, stream_item_photos.stream_item_id, photo_file_id FROM stream_item_photos JOIN stream_items ON stream_item_id=stream_items._id"
+        14: [2013-01-21 08:50:35.486] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, data14 FROM view_data WHERE mimetype_id=10 AND data14 IS NOT NULL"
+        15: [2013-01-21 08:50:35.483] prepare took 2ms - succeeded, sql="SELECT _id, data14 FROM view_data WHERE mimetype_id=10 AND data14 IS NOT NULL"
+        16: [2013-01-21 08:50:35.481] executeForLong took 0ms - succeeded, sql="select exists(select 1 from contacts)"
+        17: [2013-01-21 08:50:35.480] prepare took 1ms - succeeded, sql="select exists(select 1 from contacts)"
+        18: [2013-01-21 08:50:35.480] executeForCursorWindow took 0ms - succeeded, sql="SELECT property_value FROM properties WHERE property_key=?"
+        19: [2013-01-21 08:50:35.480] prepare took 0ms - succeeded, sql="SELECT property_value FROM properties WHERE property_key=?"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 893 [com.royole.bwsettings] **
+
+** Database info for pid 854 [com.android.inputmethod.pinyin] **
+
+** Database info for pid 713 [com.android.systemui] **
+
+** Database info for pid 650 [android.process.media] **
+
+Connection pool for /data/data/com.android.providers.media/databases/external-ffffffff.db:
+  Open: true
+  Max connections: 4
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2013-01-21 14:22:57.568] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+        1: [2013-01-21 14:22:56.471] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        2: [2013-01-21 14:22:56.471] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        3: [2013-01-21 14:22:56.470] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        4: [2013-01-21 14:22:43.444] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        5: [2013-01-21 14:22:43.443] executeForLong took 1ms - succeeded, sql="PRAGMA page_size;"
+        6: [2013-01-21 14:22:43.443] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        7: [2013-01-21 08:50:36.699] executeForChangedRowCount took 2ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        8: [2013-01-21 08:50:36.699] prepare took 0ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        9: [2013-01-21 08:50:36.698] executeForChangedRowCount took 1ms - succeeded, sql="INSERT OR REPLACE INTO log (time,message) VALUES (strftime('%Y-%m-%d %H:%M:%f','now'),?);"
+        10: [2013-01-21 08:50:36.698] prepare took 0ms - succeeded, sql="INSERT OR REPLACE INTO log (time,message) VALUES (strftime('%Y-%m-%d %H:%M:%f','now'),?);"
+        11: [2013-01-21 08:50:36.697] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+        12: [2013-01-21 08:50:36.654] executeForChangedRowCount took 1ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        13: [2013-01-21 08:50:36.654] prepare took 0ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        14: [2013-01-21 08:50:36.653] executeForChangedRowCount took 1ms - succeeded, sql="INSERT OR REPLACE INTO log (time,message) VALUES (strftime('%Y-%m-%d %H:%M:%f','now'),?);"
+        15: [2013-01-21 08:50:36.653] prepare took 0ms - succeeded, sql="INSERT OR REPLACE INTO log (time,message) VALUES (strftime('%Y-%m-%d %H:%M:%f','now'),?);"
+        16: [2013-01-21 08:50:36.651] prepare took 1ms - succeeded, sql="PRAGMA user_version;"
+        17: [2013-01-21 08:50:36.629] executeForChangedRowCount took 2ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        18: [2013-01-21 08:50:36.629] prepare took 0ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        19: [2013-01-21 08:50:36.626] executeForChangedRowCount took 3ms - succeeded, sql="INSERT OR REPLACE INTO log (time,message) VALUES (strftime('%Y-%m-%d %H:%M:%f','now'),?);"
+  Available non-primary connections:
+    Connection #1:
+      isPrimaryConnection: false
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2013-01-21 14:22:57.570] executeForCursorWindow took 3ms - succeeded, sql="SELECT time, message FROM log ORDER BY rowid"
+        1: [2013-01-21 14:22:57.570] prepare took 0ms - succeeded, sql="SELECT time, message FROM log ORDER BY rowid"
+        2: [2013-01-21 14:22:57.569] executeForCursorWindow took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        3: [2013-01-21 14:22:57.568] prepare took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        4: [2013-01-21 14:22:57.568] executeForLong took 0ms - succeeded, sql="PRAGMA user_version;"
+        5: [2013-01-21 14:22:56.472] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        6: [2013-01-21 14:22:56.472] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        7: [2013-01-21 14:22:56.471] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        8: [2013-01-21 14:22:43.445] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        9: [2013-01-21 14:22:43.445] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        10: [2013-01-21 14:22:43.445] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        11: [2013-01-21 08:50:36.698] executeForCursorWindow took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        12: [2013-01-21 08:50:36.697] prepare took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        13: [2013-01-21 08:50:36.697] executeForLong took 0ms - succeeded, sql="PRAGMA user_version;"
+        14: [2013-01-21 08:50:36.696] executeForCursorWindow took 0ms - succeeded, sql="SELECT _data FROM thumbnails"
+        15: [2013-01-21 08:50:36.695] prepare took 0ms - succeeded, sql="SELECT _data FROM thumbnails"
+        16: [2013-01-21 08:50:36.693] prepare took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (media_type=2)"
+        17: [2013-01-21 08:50:36.692] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+        18: [2013-01-21 08:50:36.692] prepare took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+        19: [2013-01-21 08:50:36.691] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/data/com.android.providers.downloads/databases/downloads.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2013-01-21 14:22:57.536] executeForCursorWindow took 1ms - succeeded, sql="SELECT * FROM downloads WHERE lastmod>1358774577535 ORDER BY _id ASC"
+        1: [2013-01-21 14:22:57.535] prepare took 1ms - succeeded, sql="SELECT * FROM downloads WHERE lastmod>1358774577535 ORDER BY _id ASC"
+        2: [2013-01-21 14:22:56.472] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        3: [2013-01-21 14:22:56.472] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        4: [2013-01-21 14:22:56.472] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        5: [2013-01-21 14:22:43.446] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        6: [2013-01-21 14:22:43.445] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        7: [2013-01-21 14:22:43.445] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        8: [2013-01-21 08:50:35.938] executeForChangedRowCount took 0ms - succeeded, sql="DELETE FROM downloads WHERE (notificationpackage=? AND notificationclass=?)"
+        9: [2013-01-21 08:50:35.938] prepare took 0ms - succeeded, sql="DELETE FROM downloads WHERE (notificationpackage=? AND notificationclass=?)"
+        10: [2013-01-21 08:50:35.938] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id FROM downloads WHERE (notificationpackage=? AND notificationclass=?)"
+        11: [2013-01-21 08:50:35.938] prepare took 0ms - succeeded, sql="SELECT _id FROM downloads WHERE (notificationpackage=? AND notificationclass=?)"
+        12: [2013-01-21 08:50:35.937] executeForCursorWindow took 1ms - succeeded, sql="SELECT _id FROM downloads WHERE (notificationpackage=? AND notificationclass=?)"
+        13: [2013-01-21 08:50:35.937] prepare took 0ms - succeeded, sql="SELECT _id FROM downloads WHERE (notificationpackage=? AND notificationclass=?)"
+        14: [2013-01-21 08:50:35.908] executeForCursorWindow took 0ms - succeeded, sql="SELECT * FROM downloads"
+        15: [2013-01-21 08:50:35.907] prepare took 0ms - succeeded, sql="SELECT * FROM downloads"
+        16: [2013-01-21 08:50:32.276] executeForCursorWindow took 1ms - succeeded, sql="SELECT * FROM downloads"
+        17: [2013-01-21 08:50:32.274] prepare took 0ms - succeeded, sql="SELECT * FROM downloads"
+        18: [2013-01-21 08:50:32.268] executeForLong took 6ms - succeeded, sql="PRAGMA user_version;"
+        19: [2013-01-21 08:50:32.268] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/data/com.android.providers.media/databases/internal.db:
+  Open: true
+  Max connections: 4
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2013-01-21 14:22:57.553] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+        1: [2013-01-21 14:22:56.473] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        2: [2013-01-21 14:22:56.472] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        3: [2013-01-21 14:22:56.472] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        4: [2013-01-21 14:22:43.446] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        5: [2013-01-21 14:22:43.446] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        6: [2013-01-21 14:22:43.446] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        7: [2013-01-21 08:50:36.595] executeForChangedRowCount took 1ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        8: [2013-01-21 08:50:36.595] prepare took 0ms - succeeded, sql="DELETE FROM log WHERE rowid IN (SELECT rowid FROM log ORDER BY rowid DESC LIMIT 500,-1);"
+        9: [2013-01-21 08:50:36.573] executeForChangedRowCount took 22ms - succeeded, sql="INSERT OR REPLACE INTO log (time,message) VALUES (strftime('%Y-%m-%d %H:%M:%f','now'),?);"
+        10: [2013-01-21 08:50:36.573] prepare took 0ms - succeeded, sql="INSERT OR REPLACE INTO log (time,message) VALUES (strftime('%Y-%m-%d %H:%M:%f','now'),?);"
+        11: [2013-01-21 08:50:36.564] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+        12: [2013-01-21 08:50:36.311] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+        13: [2013-01-21 08:50:36.310] executeForString took 1ms - succeeded, sql="SELECT locale FROM android_metadata UNION SELECT NULL ORDER BY locale DESC LIMIT 1"
+        14: [2013-01-21 08:50:36.310] execute took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS android_metadata (locale TEXT)"
+        15: [2013-01-21 08:50:36.308] executeForLong took 0ms - succeeded, sql="PRAGMA wal_autocheckpoint=100"
+        16: [2013-01-21 08:50:36.308] executeForLong took 0ms - succeeded, sql="PRAGMA wal_autocheckpoint"
+        17: [2013-01-21 08:50:36.308] executeForLong took 0ms - succeeded, sql="PRAGMA journal_size_limit=524288"
+        18: [2013-01-21 08:50:36.308] executeForLong took 0ms - succeeded, sql="PRAGMA journal_size_limit"
+        19: [2013-01-21 08:50:36.308] executeForString took 0ms - succeeded, sql="PRAGMA synchronous"
+  Available non-primary connections:
+    Connection #1:
+      isPrimaryConnection: false
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2013-01-21 14:22:57.556] executeForCursorWindow took 1ms - succeeded, sql="SELECT time, message FROM log ORDER BY rowid"
+        1: [2013-01-21 14:22:57.555] prepare took 1ms - succeeded, sql="SELECT time, message FROM log ORDER BY rowid"
+        2: [2013-01-21 14:22:57.554] executeForCursorWindow took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        3: [2013-01-21 14:22:57.554] prepare took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        4: [2013-01-21 14:22:57.553] executeForLong took 1ms - succeeded, sql="PRAGMA user_version;"
+        5: [2013-01-21 14:22:56.473] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        6: [2013-01-21 14:22:56.473] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        7: [2013-01-21 14:22:56.473] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        8: [2013-01-21 14:22:43.447] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        9: [2013-01-21 14:22:43.446] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        10: [2013-01-21 14:22:43.446] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        11: [2013-01-21 08:50:36.565] executeForCursorWindow took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        12: [2013-01-21 08:50:36.565] prepare took 0ms - succeeded, sql="SELECT count(*) FROM files"
+        13: [2013-01-21 08:50:36.564] executeForLong took 1ms - succeeded, sql="PRAGMA user_version;"
+        14: [2013-01-21 08:50:36.564] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+        15: [2013-01-21 08:50:36.564] prepare took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+        16: [2013-01-21 08:50:36.564] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+        17: [2013-01-21 08:50:36.563] prepare took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+        18: [2013-01-21 08:50:36.563] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+        19: [2013-01-21 08:50:36.563] prepare took 0ms - succeeded, sql="SELECT _id, _data, format, date_modified FROM files WHERE (_data=?)"
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 460 [system] **
+
+Connection pool for /data/system/locksettings.db:
+  Open: true
+  Max connections: 4
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2013-01-21 16:22:56.862] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2013-01-21 16:22:56.862] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2013-01-21 16:22:56.861] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        3: [2013-01-21 16:22:43.839] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        4: [2013-01-21 16:22:43.838] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        5: [2013-01-21 16:22:43.838] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        6: [2013-01-21 10:50:30.786] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+        7: [2013-01-21 10:50:30.785] executeForString took 0ms - succeeded, sql="SELECT locale FROM android_metadata UNION SELECT NULL ORDER BY locale DESC LIMIT 1"
+        8: [2013-01-21 10:50:30.785] execute took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS android_metadata (locale TEXT)"
+        9: [2013-01-21 10:50:30.784] executeForLong took 0ms - succeeded, sql="PRAGMA wal_autocheckpoint=100"
+        10: [2013-01-21 10:50:30.784] executeForLong took 0ms - succeeded, sql="PRAGMA wal_autocheckpoint"
+        11: [2013-01-21 10:50:30.784] executeForLong took 0ms - succeeded, sql="PRAGMA journal_size_limit=524288"
+        12: [2013-01-21 10:50:30.784] executeForLong took 0ms - succeeded, sql="PRAGMA journal_size_limit"
+        13: [2013-01-21 10:50:30.784] executeForString took 0ms - succeeded, sql="PRAGMA synchronous"
+        14: [2013-01-21 10:50:30.780] executeForString took 4ms - succeeded, sql="PRAGMA journal_mode"
+        15: [2013-01-21 10:50:30.780] executeForLong took 0ms - succeeded, sql="PRAGMA foreign_keys"
+        16: [2013-01-21 10:50:30.780] executeForLong took 0ms - succeeded, sql="PRAGMA page_size"
+  Available non-primary connections:
+    Connection #1:
+      isPrimaryConnection: false
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2013-01-21 16:22:56.863] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2013-01-21 16:22:56.862] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2013-01-21 16:22:56.862] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        3: [2013-01-21 16:22:43.839] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        4: [2013-01-21 16:22:43.839] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        5: [2013-01-21 16:22:43.839] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        6: [2013-01-21 10:50:33.130] executeForCursorWindow took 2ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        7: [2013-01-21 10:50:33.130] prepare took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        8: [2013-01-21 10:50:32.663] executeForCursorWindow took 1ms - succeeded, sql="SELECT name, value FROM locksettings WHERE user=?"
+        9: [2013-01-21 10:50:32.663] prepare took 0ms - succeeded, sql="SELECT name, value FROM locksettings WHERE user=?"
+        10: [2013-01-21 10:50:30.795] executeForCursorWindow took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        11: [2013-01-21 10:50:30.795] prepare took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        12: [2013-01-21 10:50:30.794] executeForCursorWindow took 1ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        13: [2013-01-21 10:50:30.794] prepare took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        14: [2013-01-21 10:50:30.794] executeForCursorWindow took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        15: [2013-01-21 10:50:30.793] prepare took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        16: [2013-01-21 10:50:30.790] executeForCursorWindow took 0ms - succeeded, sql="SELECT name, value FROM locksettings WHERE user=?"
+        17: [2013-01-21 10:50:30.790] prepare took 0ms - succeeded, sql="SELECT name, value FROM locksettings WHERE user=?"
+        18: [2013-01-21 10:50:30.790] executeForCursorWindow took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+        19: [2013-01-21 10:50:30.790] prepare took 0ms - succeeded, sql="SELECT value FROM locksettings WHERE user=? AND name=?"
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/data/com.android.providers.settings/databases/settings.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2013-01-21 16:47:44.967] executeForCursorWindow took 0ms - succeeded, sql="SELECT name, value FROM system LIMIT 201"
+        1: [2013-01-21 16:47:44.966] prepare took 0ms - succeeded, sql="SELECT name, value FROM system LIMIT 201"
+        2: [2013-01-21 16:47:44.964] executeForCursorWindow took 1ms - succeeded, sql="SELECT name, value FROM secure LIMIT 201"
+        3: [2013-01-21 16:47:44.963] prepare took 0ms - succeeded, sql="SELECT name, value FROM secure LIMIT 201"
+        4: [2013-01-21 16:47:44.961] executeForCursorWindow took 1ms - succeeded, sql="SELECT name, value FROM global LIMIT 201"
+        5: [2013-01-21 16:47:44.960] prepare took 0ms - succeeded, sql="SELECT name, value FROM global LIMIT 201"
+        6: [2013-01-21 16:22:56.863] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        7: [2013-01-21 16:22:56.863] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        8: [2013-01-21 16:22:56.863] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        9: [2013-01-21 16:22:43.840] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        10: [2013-01-21 16:22:43.840] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        11: [2013-01-21 16:22:43.839] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        12: [2013-01-21 16:22:36.772] executeForCursorWindow took 1ms - succeeded, sql="SELECT name, value FROM system LIMIT 201"
+        13: [2013-01-21 16:22:36.772] prepare took 0ms - succeeded, sql="SELECT name, value FROM system LIMIT 201"
+        14: [2013-01-21 16:22:36.770] executeForCursorWindow took 1ms - succeeded, sql="SELECT name, value FROM secure LIMIT 201"
+        15: [2013-01-21 16:22:36.770] prepare took 0ms - succeeded, sql="SELECT name, value FROM secure LIMIT 201"
+        16: [2013-01-21 16:22:36.768] executeForCursorWindow took 1ms - succeeded, sql="SELECT name, value FROM global LIMIT 201"
+        17: [2013-01-21 16:22:36.767] prepare took 0ms - succeeded, sql="SELECT name, value FROM global LIMIT 201"
+        18: [2013-01-21 10:50:29.683] executeForCursorWindow took 0ms - succeeded, sql="SELECT shortcut, intent FROM bookmarks"
+        19: [2013-01-21 10:50:29.682] executeForCursorWindow took 0ms - succeeded, sql="SELECT shortcut, intent FROM bookmarks"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/system/users/0/accounts.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2013-01-21 16:22:56.864] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2013-01-21 16:22:56.864] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2013-01-21 16:22:56.863] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        3: [2013-01-21 16:22:43.840] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        4: [2013-01-21 16:22:43.840] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        5: [2013-01-21 16:22:43.840] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        6: [2013-01-21 10:50:33.056] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, type, name FROM accounts ORDER BY _id"
+        7: [2013-01-21 10:50:33.056] prepare took 0ms - succeeded, sql="SELECT _id, type, name FROM accounts ORDER BY _id"
+        8: [2013-01-21 10:50:33.055] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, type, name FROM accounts ORDER BY _id"
+        9: [2013-01-21 10:50:33.055] prepare took 0ms - succeeded, sql="SELECT _id, type, name FROM accounts ORDER BY _id"
+        10: [2013-01-21 10:50:33.045] executeForCursorWindow took 1ms - succeeded, sql="SELECT uid FROM grants GROUP BY uid"
+        11: [2013-01-21 10:50:33.045] prepare took 0ms - succeeded, sql="SELECT uid FROM grants GROUP BY uid"
+        12: [2013-01-21 10:50:33.045] executeForLong took 0ms - succeeded, sql="PRAGMA user_version;"
+        13: [2013-01-21 10:50:33.044] prepare took 1ms - succeeded, sql="PRAGMA user_version;"
+        14: [2013-01-21 10:50:33.044] executeForString took 0ms - succeeded, sql="SELECT locale FROM android_metadata UNION SELECT NULL ORDER BY locale DESC LIMIT 1"
+        15: [2013-01-21 10:50:33.044] execute took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS android_metadata (locale TEXT)"
+        16: [2013-01-21 10:50:33.043] executeForLong took 0ms - succeeded, sql="PRAGMA wal_autocheckpoint=100"
+        17: [2013-01-21 10:50:33.042] executeForLong took 1ms - succeeded, sql="PRAGMA wal_autocheckpoint"
+        18: [2013-01-21 10:50:33.041] executeForLong took 1ms - succeeded, sql="PRAGMA journal_size_limit=524288"
+        19: [2013-01-21 10:50:33.041] executeForLong took 0ms - succeeded, sql="PRAGMA journal_size_limit"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>

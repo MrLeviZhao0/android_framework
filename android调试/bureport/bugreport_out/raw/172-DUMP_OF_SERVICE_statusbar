@@ -1,0 +1,26 @@
+Icon list:
+   0: (ime) null
+   1: (sync_failing) null
+   2: (sync_active) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201ba level=0 visible=false num=0 )
+   3: (cast) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020186 level=0 visible=false num=0 )
+   4: (hotspot) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201aa level=0 visible=false num=0 )
+   5: (location) null
+   6: (bluetooth) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020187 level=0 visible=false num=0 )
+   7: (nfc) null
+   8: (tty) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201bb level=0 visible=false num=0 )
+   9: (speakerphone) null
+  10: (zen) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201c8 level=0 visible=false num=0 )
+  11: (mute) null
+  12: (volume) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201ad level=0 visible=false num=0 )
+  13: (wifi) null
+  14: (cdma_eri) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201ae level=0 visible=false num=0 )
+  15: (data_connection) null
+  16: (phone_evdo_signal) null
+  17: (phone_signal) null
+  18: (battery) null
+  19: (alarm_clock) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020161 level=0 visible=false num=0 )
+  20: (headset) StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201a7 level=0 visible=false num=0 )
+  21: (secure) null
+  22: (clock) null
+  mDisabled=0x0
+  mDisableRecords.size=0

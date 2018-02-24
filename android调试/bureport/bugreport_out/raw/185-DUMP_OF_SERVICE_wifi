@@ -1,0 +1,215 @@
+Wi-Fi is disabled
+Stay-awake conditions: 0
+mMulticastEnabled 0
+mMulticastDisabled 0
+WifiController:
+ total records=276
+ rec[0]: time=01-21 16:26:15.820 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[1]: time=01-21 16:26:23.839 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[2]: time=01-21 16:26:39.879 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[3]: time=01-21 16:26:59.929 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[4]: time=01-21 16:27:19.979 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[5]: time=01-21 16:27:44.039 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[6]: time=01-21 16:27:52.059 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[7]: time=01-21 16:28:04.091 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[8]: time=01-21 16:28:20.129 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[9]: time=01-21 16:28:48.204 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[10]: time=01-21 16:29:04.239 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[11]: time=01-21 16:29:16.270 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[12]: time=01-21 16:29:20.279 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[13]: time=01-21 16:29:32.312 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[14]: time=01-21 16:30:00.380 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[15]: time=01-21 16:30:20.429 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[16]: time=01-21 16:30:24.439 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[17]: time=01-21 16:30:28.449 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[18]: time=01-21 16:30:29.269 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[19]: time=01-21 16:30:36.469 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[20]: time=01-21 16:30:48.501 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[21]: time=01-21 16:31:04.541 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[22]: time=01-21 16:31:12.559 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[23]: time=01-21 16:31:36.620 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[24]: time=01-21 16:31:40.630 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[25]: time=01-21 16:31:44.643 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[26]: time=01-21 16:31:52.659 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[27]: time=01-21 16:32:00.679 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[28]: time=01-21 16:32:04.689 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[29]: time=01-21 16:32:16.721 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[30]: time=01-21 16:32:36.769 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[31]: time=01-21 16:32:44.789 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[32]: time=01-21 16:32:52.809 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[33]: time=01-21 16:32:56.821 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[34]: time=01-21 16:33:16.869 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[35]: time=01-21 16:33:28.899 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[36]: time=01-21 16:33:44.939 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[37]: time=01-21 16:33:56.972 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[38]: time=01-21 16:34:00.979 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[39]: time=01-21 16:34:13.009 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[40]: time=01-21 16:34:17.019 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[41]: time=01-21 16:34:21.030 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[42]: time=01-21 16:34:25.043 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[43]: time=01-21 16:34:29.050 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[44]: time=01-21 16:34:37.070 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[45]: time=01-21 16:34:45.089 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[46]: time=01-21 16:34:53.110 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[47]: time=01-21 16:35:01.130 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[48]: time=01-21 16:35:09.149 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[49]: time=01-21 16:35:29.199 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[50]: time=01-21 16:36:09.299 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[51]: time=01-21 16:36:13.309 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[52]: time=01-21 16:36:17.319 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[53]: time=01-21 16:36:21.330 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[54]: time=01-21 16:36:25.343 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[55]: time=01-21 16:36:29.300 processed=DefaultState org=DeviceActiveState dest=<null> what=155651(0x26003)
+ rec[56]: time=01-21 16:36:33.359 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[57]: time=01-21 16:36:45.389 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[58]: time=01-21 16:36:49.399 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[59]: time=01-21 16:37:09.448 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[60]: time=01-21 16:37:37.518 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[61]: time=01-21 16:38:13.608 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[62]: time=01-21 16:38:37.668 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[63]: time=01-21 16:38:41.679 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[64]: time=01-21 16:38:45.689 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[65]: time=01-21 16:39:01.729 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[66]: time=01-21 16:39:29.269 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[67]: time=01-21 16:39:33.808 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[68]: time=01-21 16:39:45.838 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[69]: time=01-21 16:40:29.269 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[70]: time=01-21 16:40:37.969 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[71]: time=01-21 16:40:45.989 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[72]: time=01-21 16:40:49.999 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[73]: time=01-21 16:41:58.168 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[74]: time=01-21 16:42:29.269 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[75]: time=01-21 16:42:30.248 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[76]: time=01-21 16:42:34.259 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[77]: time=01-21 16:42:58.319 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[78]: time=01-21 16:43:10.348 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[79]: time=01-21 16:43:14.359 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[80]: time=01-21 16:43:18.370 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[81]: time=01-21 16:43:22.379 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[82]: time=01-21 16:44:42.579 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[83]: time=01-21 16:46:06.788 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[84]: time=01-21 16:46:14.809 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[85]: time=01-21 16:46:18.819 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[86]: time=01-21 16:46:29.268 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[87]: time=01-21 16:46:30.849 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[88]: time=01-21 16:46:34.858 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[89]: time=01-21 16:46:38.868 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[90]: time=01-21 16:47:02.929 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[91]: time=01-21 16:47:18.969 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[92]: time=01-21 16:47:22.977 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[93]: time=01-21 16:47:29.269 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[94]: time=01-21 16:47:30.999 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[95]: time=01-21 16:47:43.030 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[96]: time=01-21 16:47:47.040 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[97]: time=01-21 16:47:51.077 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[98]: time=01-21 16:47:55.071 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[99]: time=01-21 16:47:59.079 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+curState=DeviceActiveState
+mScreenOff true
+mDeviceIdle false
+mPluggedType 2
+mIdleMillis 900000
+mSleepPolicy 2
+mPersistWifiState 1
+mAirplaneModeOn false
+mNotificationEnabled true
+mNotificationRepeatTime 0
+mNotificationShown false
+mNumScansSinceNetworkStateChange 0
+mEnableTrafficStatsPoll false
+mTrafficStatsPollToken 0
+mTxPkts 0
+mRxPkts 0
+mDataActivity 0
+Latest scan results:
+
+Locks acquired: 0 full, 0 full high perf, 0 scan
+Locks released: 0 full, 0 full high perf, 0 scan
+
+Locks held:
+WifiWatchdogStateMachine:
+ total records=0
+curState=NotConnectedState
+mWifiInfo: [null]
+mLinkProperties: [null]
+mCurrentSignalLevel: [0]
+mPoorNetworkDetectionEnabled: [false]
+
+WifiStateMachine:
+ total records=38
+ rec[0]: time=01-21 10:50:30.399 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) CMD_ENABLE_RSSI_POLL 1 0
+ rec[1]: time=01-21 10:50:30.400 processed=DefaultState org=InitialState dest=<null> what=69632(0x11000) AsyncChannel.CMD_CHANNEL_HALF_CONNECTED 0 0
+ rec[2]: time=01-21 10:50:30.802 processed=DefaultState org=InitialState dest=<null> what=131084(0x2000c) (-5)CMD_STOP_SUPPLICANT 0 0
+ rec[3]: time=01-21 10:50:46.382 processed=InitialState org=InitialState dest=SupplicantStartingState what=131083(0x2000b) CMD_START_SUPPLICANT 0 0
+ rec[4]: time=01-21 10:50:46.382 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131144(0x20048) (-4)CMD_SET_OPERATIONAL_MODE 1 0
+ rec[5]: time=01-21 10:50:46.383 processed=SupplicantStartingState org=SupplicantStartingState dest=<null> what=131085(0x2000d) (-4)CMD_START_DRIVER 0 0
+ rec[6]: time=01-21 10:50:46.384 processed=DefaultState org=SupplicantStartingState dest=<null> what=131149(0x2004d) CMD_SET_HIGH_PERF_MODE 0 0
+ rec[7]: time=01-21 10:50:46.385 processed=DefaultState org=SupplicantStartingState dest=<null> what=131206(0x20086) CMD_BOOT_COMPLETED 0 0
+ rec[8]: time=01-21 10:50:46.386 processed=SupplicantStartingState org=SupplicantStartingState dest=InitialState what=147458(0x24002) SUP_DISCONNECTION_EVENT 0 0
+ rec[9]: time=01-21 10:50:46.589 processed=DefaultState org=InitialState dest=<null> what=131144(0x20048) (-5)CMD_SET_OPERATIONAL_MODE 1 0
+ rec[10]: time=01-21 10:50:46.590 processed=DefaultState org=InitialState dest=<null> what=131085(0x2000d) (-5)CMD_START_DRIVER 0 0
+ rec[11]: time=01-21 10:50:50.501 processed=InitialState org=InitialState dest=<null> what=131083(0x2000b) CMD_START_SUPPLICANT 0 0
+ rec[12]: time=01-21 11:05:35.689 processed=DefaultState org=InitialState dest=<null> what=131167(0x2005f) !CMD_SCREEN_STATE_CHANGED 1 0
+ rec[13]: time=01-21 11:05:35.690 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) !CMD_ENABLE_RSSI_POLL 1 0
+ rec[14]: time=01-21 11:05:35.691 processed=DefaultState org=InitialState dest=<null> what=131127(0x20037) !(-5)CMD_ENABLE_ALL_NETWORKS 0 0
+ rec[15]: time=01-21 11:05:35.692 processed=DefaultState org=InitialState dest=<null> what=131158(0x20056) !CMD_SET_SUSPEND_OPT_ENABLED 0 0
+ rec[16]: time=01-21 11:05:35.693 processed=DefaultState org=InitialState dest=<null> what=131129(0x20039) !(-5)CMD_CLEAR_BLACKLIST 0 0
+ rec[17]: time=01-21 11:05:35.701 processed=DefaultState org=InitialState dest=<null> what=131167(0x2005f) CMD_SCREEN_STATE_CHANGED 0 0
+ rec[18]: time=01-21 11:05:35.703 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) CMD_ENABLE_RSSI_POLL 0 0
+ rec[19]: time=01-21 11:05:35.704 processed=DefaultState org=InitialState dest=<null> what=131158(0x20056) CMD_SET_SUSPEND_OPT_ENABLED 1 0
+ rec[20]: time=01-21 11:20:26.803 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[21]: time=01-21 11:20:26.806 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[22]: time=01-21 11:30:26.678 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[23]: time=01-21 11:30:26.681 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[24]: time=01-21 15:50:27.670 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[25]: time=01-21 15:50:33.672 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[26]: time=01-21 15:50:33.676 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[27]: time=01-21 15:50:33.678 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[28]: time=01-21 16:02:35.667 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[29]: time=01-21 16:02:37.997 processed=DefaultState org=InitialState dest=<null> what=131101(0x2001d) (-5)CMD_TETHER_STATE_CHANGE 0 0
+ rec[30]: time=01-21 16:20:55.052 processed=DefaultState org=InitialState dest=<null> what=131167(0x2005f) !CMD_SCREEN_STATE_CHANGED 1 0
+ rec[31]: time=01-21 16:20:55.052 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) !CMD_ENABLE_RSSI_POLL 1 0
+ rec[32]: time=01-21 16:20:55.052 processed=DefaultState org=InitialState dest=<null> what=131127(0x20037) !(-5)CMD_ENABLE_ALL_NETWORKS 0 0
+ rec[33]: time=01-21 16:20:55.053 processed=DefaultState org=InitialState dest=<null> what=131158(0x20056) !CMD_SET_SUSPEND_OPT_ENABLED 0 0
+ rec[34]: time=01-21 16:20:55.053 processed=DefaultState org=InitialState dest=<null> what=131129(0x20039) !(-5)CMD_CLEAR_BLACKLIST 0 0
+ rec[35]: time=01-21 16:36:29.300 processed=DefaultState org=InitialState dest=<null> what=131167(0x2005f) CMD_SCREEN_STATE_CHANGED 0 0
+ rec[36]: time=01-21 16:36:29.302 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) CMD_ENABLE_RSSI_POLL 0 0
+ rec[37]: time=01-21 16:36:29.309 processed=DefaultState org=InitialState dest=<null> what=131158(0x20056) CMD_SET_SUSPEND_OPT_ENABLED 1 0
+curState=InitialState
+SupplicantStateTracker:
+ total records=0
+curState=UninitializedState
+mAuthenticationFailuresCount 0
+mAuthFailureInSupplicantBroadcast false
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0}
+mWifiInfo SSID: <unknown ssid>, BSSID: <none>, MAC: <none>, Supplicant state: UNINITIALIZED, RSSI: -127, Link speed: -1Mbps, Frequency: -1MHz, Net ID: -1, Metered hint: false, score: 0
+mDhcpResults null
+mNetworkInfo [type: WIFI[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false]
+mLastSignalLevel -1
+mLastBssid null
+mLastNetworkId -1
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 0
+Supplicant status null
+mEnableBackgroundScan false
+mLastSetCountryCode null
+mPersistedCountryCode null
+mConnectionRequests 1
+mUntrustedReqCount 0
+
+Dump of WifiConfigStore
+mLastPriority -1
+Configured networks
+
+WifiConfigStore - Log Begin ----
+01-21 10:50:31.377 - p2p0: connectToSupplicant
+01-21 10:50:42.379 - p2p0: connectToSupplicant
+01-21 10:50:43.379 - p2p0: connectToSupplicant
+01-21 10:50:44.380 - p2p0: connectToSupplicant
+01-21 10:50:45.381 - p2p0: connectToSupplicant
+01-21 10:50:46.381 - p2p0: connectToSupplicant
+WifiConfigStore - Log End ----
+

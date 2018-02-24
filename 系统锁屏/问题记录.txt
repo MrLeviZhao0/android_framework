@@ -1,0 +1,13 @@
+1.没有权限 
+
+问题描述：报错 Permission Denial: not allowed to send broadcast android.intent.action.USER_PRESENT
+问题分析：错误步骤是 1.获取root权限后 2.install -r 覆盖系统自带应用 
+					错误原因是 install 方式是以第三方应用权限放在目录中  而有root权限可以覆盖掉系统应用 
+										 当系统应用被覆盖掉之后，没有系统权限，所以有些广播无法发出
+解决方法：刷systemimage的时候不会强制刷新apk，导致刷完之后应用没有替换成系统镜像中的。
+					uninstall掉应用，重启即可。或将板子所有镜像全刷。
+					刷新应用时可以push到system/priv-app/目录下即可
+					
+					
+2.需求改变设置密码的限制（不需要数字+至少一个字母）
+代码在ChooseLockPassword 的 validatePassword函数中设置

@@ -1,0 +1,52 @@
+Display #0 (activities from top to bottom):
+  Stack #0:
+    Task id #314
+    * TaskRecord{965ebfe #314 A=com.royole.bwlauncher U=0 sz=1}
+      userId=0 effectiveUid=u0a13 mCallingUid=0 mCallingPackage=null
+      affinity=com.royole.bwlauncher
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.royole.bwlauncher/.gallery.GalleryActivity}
+      realActivity=com.royole.bwlauncher/.gallery.GalleryActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+ mTopOfLauncher=true
+      Activities=[ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/314_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1358778990184 lastActiveTime=1358778990184 (inactive for 678s)
+      * Hist #0: ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}
+          packageName=com.royole.bwlauncher processName=com.royole.bwlauncher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{359dee43 910:com.royole.bwlauncher/u0a13}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.royole.bwlauncher/.gallery.GalleryActivity }
+          frontOfTask=true task=TaskRecord{965ebfe #314 A=com.royole.bwlauncher U=0 sz=1}
+          taskAffinity=com.royole.bwlauncher
+          realActivity=com.royole.bwlauncher/.gallery.GalleryActivity
+          baseDir=/system/app/BWLauncher/BWLauncher.apk
+          dataDir=/data/user/0/com.royole.bwlauncher
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+           isHomeActivity=true
+          compat={213dpi always-compat} labelRes=0x7f060000 icon=0x7f02006d theme=0x1030006
+          config={1.0 multiwindowflag=DISABLE dualscreenflag=DISABLE ?mcc?mnc zh_CN ?layoutDir sw811dp w1442dp h720dp 213dpi xlrg long land finger -keyb/v/h dpad/v s.4}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-43m46s857ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=692]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=true idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-26m53s161ms
+
+    Running activities (most recent first):
+      TaskRecord{965ebfe #314 A=com.royole.bwlauncher U=0 sz=1}
+        Run #0: ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}
+
+    mLastPausedActivity: ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}
+
+  mFocusedActivity: ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}
+  mFocusedStack=ActivityStack{31bcf898 stackId=0, 1 tasks} mLastFocusedStack=ActivityStack{31bcf898 stackId=0, 1 tasks}
+  mSleepTimeout=false
+  mCurTaskId=314
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
+

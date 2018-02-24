@@ -1,0 +1,326 @@
+  User 0 active services:
+  * ServiceRecord{2452ec87 u0 com.android.bluetooth/.hid.HidService}
+    intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-5h57m14s61ms startingBgTimeout=--
+    lastActivity=-43m45s96ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{32ca07b4}:
+      intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{17964fdd ProcessRecord{623c20b 713:com.android.systemui/u0a9}}
+        Per-process Connections:
+          ConnectionRecord{1e9de18a u0 com.android.bluetooth/.hid.HidService:@7854ff5}
+    All Connections:
+      ConnectionRecord{1e9de18a u0 com.android.bluetooth/.hid.HidService:@7854ff5}
+
+  * ServiceRecord{275daff9 u0 com.android.inputmethod.pinyin/.PinyinIME}
+    intent={act=android.view.InputMethod cmp=com.android.inputmethod.pinyin/.PinyinIME}
+    packageName=com.android.inputmethod.pinyin
+    processName=com.android.inputmethod.pinyin
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/data/app/com.android.inputmethod.pinyin-1/base.apk
+    dataDir=/data/data/com.android.inputmethod.pinyin
+    app=ProcessRecord{2cb97ba2 854:com.android.inputmethod.pinyin/u0a26}
+    createTime=-5h57m16s255ms startingBgTimeout=--
+    lastActivity=-43m47s186ms restartTime=-43m47s186ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{39438752 CREATE}:
+      intent={act=android.view.InputMethod cmp=com.android.inputmethod.pinyin/.PinyinIME}
+      binder=android.os.BinderProxy@3067ca23
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{35d9eb20 ProcessRecord{4de25f 460:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{35bd00fd u0 CR !FG UI !VIS com.android.inputmethod.pinyin/.PinyinIME:@1cc64954}
+    All Connections:
+      ConnectionRecord{35bd00fd u0 CR !FG UI !VIS com.android.inputmethod.pinyin/.PinyinIME:@1cc64954}
+
+  * ServiceRecord{2ec41aaf u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/data/com.android.systemui
+    app=ProcessRecord{623c20b 713:com.android.systemui/u0a9}
+    createTime=-5h57m16s264ms startingBgTimeout=--
+    lastActivity=-43m47s298ms restartTime=-43m47s298ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{e2d0cd9 CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@beec69e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{1162e57f ProcessRecord{4de25f 460:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{2ecbd28e u0 CR UI com.android.systemui/.ImageWallpaper:@39c81289}
+    All Connections:
+      ConnectionRecord{2ecbd28e u0 CR UI com.android.systemui/.ImageWallpaper:@39c81289}
+
+  * ServiceRecord{1b0d8969 u0 com.android.inputmethod.pinyin/.PinyinDecoderService}
+    intent={cmp=com.android.inputmethod.pinyin/.PinyinDecoderService}
+    packageName=com.android.inputmethod.pinyin
+    processName=com.android.inputmethod.pinyin
+    baseDir=/data/app/com.android.inputmethod.pinyin-1/base.apk
+    dataDir=/data/data/com.android.inputmethod.pinyin
+    app=ProcessRecord{2cb97ba2 854:com.android.inputmethod.pinyin/u0a26}
+    createTime=-5h57m16s16ms startingBgTimeout=--
+    lastActivity=-43m47s50ms restartTime=-43m47s50ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{842994c CREATE}:
+      intent={cmp=com.android.inputmethod.pinyin/.PinyinDecoderService}
+      binder=android.os.BinderProxy@2bd89d95
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{217caeaa ProcessRecord{2cb97ba2 854:com.android.inputmethod.pinyin/u0a26}}
+        Per-process Connections:
+          ConnectionRecord{d33ff0 u0 CR com.android.inputmethod.pinyin/.PinyinDecoderService:@ff13033}
+    All Connections:
+      ConnectionRecord{d33ff0 u0 CR com.android.inputmethod.pinyin/.PinyinDecoderService:@ff13033}
+
+  * ServiceRecord{ca5a9b u0 com.android.bluetooth/.hfpclient.HeadsetClientService}
+    intent={act=android.bluetooth.IBluetoothHeadsetClient cmp=com.android.bluetooth/.hfpclient.HeadsetClientService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-5h57m14s65ms startingBgTimeout=--
+    lastActivity=-43m45s98ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2ca5fe38}:
+      intent={act=android.bluetooth.IBluetoothHeadsetClient cmp=com.android.bluetooth/.hfpclient.HeadsetClientService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{2d727e11 ProcessRecord{623c20b 713:com.android.systemui/u0a9}}
+        Per-process Connections:
+          ConnectionRecord{b17f8df u0 com.android.bluetooth/.hfpclient.HeadsetClientService:@9888b7e}
+    All Connections:
+      ConnectionRecord{b17f8df u0 com.android.bluetooth/.hfpclient.HeadsetClientService:@9888b7e}
+
+  * ServiceRecord{e4f0b76 u0 com.android.bluetooth/.a2dp.A2dpSinkService}
+    intent={act=android.bluetooth.IBluetoothA2dpSink cmp=com.android.bluetooth/.a2dp.A2dpSinkService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-5h57m14s74ms startingBgTimeout=--
+    lastActivity=-43m45s108ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6a0577}:
+      intent={act=android.bluetooth.IBluetoothA2dpSink cmp=com.android.bluetooth/.a2dp.A2dpSinkService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{2bd8c5e4 ProcessRecord{623c20b 713:com.android.systemui/u0a9}}
+        Per-process Connections:
+          ConnectionRecord{34adeb94 u0 com.android.bluetooth/.a2dp.A2dpSinkService:@24a73e7}
+    All Connections:
+      ConnectionRecord{34adeb94 u0 com.android.bluetooth/.a2dp.A2dpSinkService:@24a73e7}
+
+  * ServiceRecord{29efea4d u0 com.android.bluetooth/.avrcp.AvrcpControllerService}
+    intent={act=android.bluetooth.IBluetoothAvrcpController cmp=com.android.bluetooth/.avrcp.AvrcpControllerService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-5h57m14s71ms startingBgTimeout=--
+    lastActivity=-43m45s106ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{39186902}:
+      intent={act=android.bluetooth.IBluetoothAvrcpController cmp=com.android.bluetooth/.avrcp.AvrcpControllerService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{38ef8213 ProcessRecord{623c20b 713:com.android.systemui/u0a9}}
+        Per-process Connections:
+          ConnectionRecord{26406783 u0 com.android.bluetooth/.avrcp.AvrcpControllerService:@a90be32}
+    All Connections:
+      ConnectionRecord{26406783 u0 com.android.bluetooth/.avrcp.AvrcpControllerService:@a90be32}
+
+  * ServiceRecord{254e5c50 u0 com.android.bluetooth/.a2dp.A2dpService}
+    intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-5h57m16s268ms startingBgTimeout=--
+    lastActivity=-43m47s303ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{385dde49}:
+      intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{f28134e ProcessRecord{4de25f 460:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{73745d5 u0 com.android.bluetooth/.a2dp.A2dpService:@f4dba8c}
+      * Client AppBindRecord{26462c6f ProcessRecord{623c20b 713:com.android.systemui/u0a9}}
+        Per-process Connections:
+          ConnectionRecord{3c374b01 u0 com.android.bluetooth/.a2dp.A2dpService:@21db28e8}
+    All Connections:
+      ConnectionRecord{73745d5 u0 com.android.bluetooth/.a2dp.A2dpService:@f4dba8c}
+      ConnectionRecord{3c374b01 u0 com.android.bluetooth/.a2dp.A2dpService:@21db28e8}
+
+  * ServiceRecord{31c59ac5 u0 com.android.systemui/.SystemUIService}
+    intent={cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/data/com.android.systemui
+    app=ProcessRecord{623c20b 713:com.android.systemui/u0a9}
+    createTime=-5h57m16s840ms startingBgTimeout=--
+    lastActivity=-43m47s826ms restartTime=-43m47s826ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{1206d34c u0 android/.hardware.location.GeofenceHardwareService}
+    intent={cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{4de25f 460:system/1000}
+    createTime=-5h57m15s983ms startingBgTimeout=--
+    lastActivity=-43m47s18ms restartTime=-43m47s18ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3a44ed7c CREATE}:
+      intent={cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@399d1605
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3176165a ProcessRecord{4de25f 460:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{370bc77f u0 CR android/.hardware.location.GeofenceHardwareService:@105f09e}
+    All Connections:
+      ConnectionRecord{370bc77f u0 CR android/.hardware.location.GeofenceHardwareService:@105f09e}
+
+  * ServiceRecord{1b268ff8 u0 com.android.providers.media/.MtpService}
+    intent={cmp=com.android.providers.media/.MtpService}
+    packageName=com.android.providers.media
+    processName=android.process.media
+    baseDir=/system/priv-app/MediaProvider/MediaProvider.apk
+    dataDir=/data/data/com.android.providers.media
+    app=ProcessRecord{21190cd1 650:android.process.media/u0a3}
+    createTime=-26m18s799ms startingBgTimeout=--
+    lastActivity=-26m18s797ms restartTime=-26m18s799ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{2db3208b CREATE}:
+      intent={cmp=com.android.providers.media/.MtpService}
+      binder=android.os.BinderProxy@3fb16568
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{1de0d81 ProcessRecord{21190cd1 650:android.process.media/u0a3}}
+        Per-process Connections:
+          ConnectionRecord{371a1237 u0 CR com.android.providers.media/.MtpService:@34385336}
+    All Connections:
+      ConnectionRecord{371a1237 u0 CR com.android.providers.media/.MtpService:@34385336}
+
+  * ServiceRecord{18b5f90a u0 android/com.android.internal.backup.LocalTransportService}
+    intent={act=android.backup.TRANSPORT_HOST cmp=android/com.android.internal.backup.LocalTransportService}
+    packageName=android
+    processName=system
+    permission=android.permission.CONFIRM_FULL_BACKUP
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{4de25f 460:system/1000}
+    createTime=-5h57m17s67ms startingBgTimeout=--
+    lastActivity=-43m48s99ms restartTime=-43m48s99ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{266f3e26 CREATE}:
+      intent={act=android.backup.TRANSPORT_HOST cmp=android/com.android.internal.backup.LocalTransportService}
+      binder=android.app.backup.BackupTransport$TransportImpl@25c74ad4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{39b13a67 ProcessRecord{4de25f 460:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{c191575 u0 CR android/com.android.internal.backup.LocalTransportService:@109c84ac}
+    All Connections:
+      ConnectionRecord{c191575 u0 CR android/com.android.internal.backup.LocalTransportService:@109c84ac}
+
+  * ServiceRecord{1c92dcfa u0 com.android.location.fused/.FusedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused}
+    packageName=com.android.location.fused
+    processName=system
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/FusedLocation/FusedLocation.apk
+    dataDir=/data/data/com.android.location.fused
+    app=ProcessRecord{4de25f 460:system/1000}
+    createTime=-5h57m15s990ms startingBgTimeout=--
+    lastActivity=-43m47s24ms restartTime=-43m47s24ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{22eb7014 CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused}
+      binder=com.android.location.provider.LocationProviderBase$Service@1ddd00bd
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{1c8116b2 ProcessRecord{4de25f 460:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{2fec5325 u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@10c46b1c}
+    All Connections:
+      ConnectionRecord{2fec5325 u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@10c46b1c}
+
+  * ServiceRecord{378d1603 u0 com.android.bluetooth/.pan.PanService}
+    intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-5h57m14s59ms startingBgTimeout=--
+    lastActivity=-43m45s93ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2d197980}:
+      intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{2fddebb9 ProcessRecord{623c20b 713:com.android.systemui/u0a9}}
+        Per-process Connections:
+          ConnectionRecord{7008c56 u0 com.android.bluetooth/.pan.PanService:@1ea7f671}
+    All Connections:
+      ConnectionRecord{7008c56 u0 com.android.bluetooth/.pan.PanService:@1ea7f671}
+
+  Connection bindings to services:
+  * ConnectionRecord{370bc77f u0 CR android/.hardware.location.GeofenceHardwareService:@105f09e}
+    binding=AppBindRecord{3176165a android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@105f09e flags=0x1
+  * ConnectionRecord{34adeb94 u0 com.android.bluetooth/.a2dp.A2dpSinkService:@24a73e7}
+    binding=AppBindRecord{2bd8c5e4 com.android.bluetooth/.a2dp.A2dpSinkService:com.android.systemui}
+    conn=android.os.BinderProxy@24a73e7 flags=0x0
+  * ConnectionRecord{1e9de18a u0 com.android.bluetooth/.hid.HidService:@7854ff5}
+    binding=AppBindRecord{17964fdd com.android.bluetooth/.hid.HidService:com.android.systemui}
+    conn=android.os.BinderProxy@7854ff5 flags=0x0
+  * ConnectionRecord{b17f8df u0 com.android.bluetooth/.hfpclient.HeadsetClientService:@9888b7e}
+    binding=AppBindRecord{2d727e11 com.android.bluetooth/.hfpclient.HeadsetClientService:com.android.systemui}
+    conn=android.os.BinderProxy@9888b7e flags=0x0
+  * ConnectionRecord{26406783 u0 com.android.bluetooth/.avrcp.AvrcpControllerService:@a90be32}
+    binding=AppBindRecord{38ef8213 com.android.bluetooth/.avrcp.AvrcpControllerService:com.android.systemui}
+    conn=android.os.BinderProxy@a90be32 flags=0x0
+  * ConnectionRecord{73745d5 u0 com.android.bluetooth/.a2dp.A2dpService:@f4dba8c}
+    binding=AppBindRecord{f28134e com.android.bluetooth/.a2dp.A2dpService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@f4dba8c flags=0x0
+  * ConnectionRecord{d33ff0 u0 CR com.android.inputmethod.pinyin/.PinyinDecoderService:@ff13033}
+    binding=AppBindRecord{217caeaa com.android.inputmethod.pinyin/.PinyinDecoderService:com.android.inputmethod.pinyin}
+    conn=android.os.BinderProxy@ff13033 flags=0x1
+  * ConnectionRecord{c191575 u0 CR android/com.android.internal.backup.LocalTransportService:@109c84ac}
+    binding=AppBindRecord{39b13a67 android/com.android.internal.backup.LocalTransportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@109c84ac flags=0x1
+  * ConnectionRecord{2fec5325 u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@10c46b1c}
+    binding=AppBindRecord{1c8116b2 com.android.location.fused/.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@10c46b1c flags=0x40000005
+  * ConnectionRecord{35bd00fd u0 CR !FG UI !VIS com.android.inputmethod.pinyin/.PinyinIME:@1cc64954}
+    binding=AppBindRecord{35d9eb20 com.android.inputmethod.pinyin/.PinyinIME:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@1cc64954 flags=0x60000005
+  * ConnectionRecord{7008c56 u0 com.android.bluetooth/.pan.PanService:@1ea7f671}
+    binding=AppBindRecord{2fddebb9 com.android.bluetooth/.pan.PanService:com.android.systemui}
+    conn=android.os.BinderProxy@1ea7f671 flags=0x0
+  * ConnectionRecord{3c374b01 u0 com.android.bluetooth/.a2dp.A2dpService:@21db28e8}
+    binding=AppBindRecord{26462c6f com.android.bluetooth/.a2dp.A2dpService:com.android.systemui}
+    conn=android.os.BinderProxy@21db28e8 flags=0x0
+  * ConnectionRecord{371a1237 u0 CR com.android.providers.media/.MtpService:@34385336}
+    binding=AppBindRecord{1de0d81 com.android.providers.media/.MtpService:android.process.media}
+    conn=android.os.BinderProxy@34385336 flags=0x1
+  * ConnectionRecord{2ecbd28e u0 CR UI com.android.systemui/.ImageWallpaper:@39c81289}
+    binding=AppBindRecord{1162e57f com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@39c81289 flags=0x20000001
+

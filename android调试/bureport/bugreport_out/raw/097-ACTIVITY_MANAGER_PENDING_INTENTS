@@ -1,0 +1,76 @@
+  * PendingIntentRecord{2f37dbbe android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_SCAN flg=0x4000000 pkg=com.android.server.wifi
+  * PendingIntentRecord{12b0a41f android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_WAKEUP
+  * PendingIntentRecord{1631836c android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.REFRESH_BATCHED_SCAN flg=0x4000000 pkg=com.android.server.wifi
+  * PendingIntentRecord{1aa80d35 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER (has extras)
+  * PendingIntentRecord{3991f5ca android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+  * PendingIntentRecord{2045633b android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_TIMEOUT
+  * PendingIntentRecord{1c696a58 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.RUN flg=0x40000000
+  * PendingIntentRecord{f5947b1 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x4000000
+    requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20000000
+  * PendingIntentRecord{20c1a496 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.TIME_TICK flg=0x50000000
+    sent=true canceled=false
+  * PendingIntentRecord{149cf817 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL
+    sent=true canceled=false
+  * PendingIntentRecord{1336d404 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{2209aded android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.DEVICE_IDLE
+  * PendingIntentRecord{236b7422 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.NETWORK_STATS_POLL
+    sent=true canceled=false
+  * PendingIntentRecord{66efeb3 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.proxy.PAC_REFRESH
+  * PendingIntentRecord{fe03be9 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.INPUT_METHOD_SETTINGS
+  * PendingIntentRecord{13f0b06e android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{3650d30f android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DELAY_EXPIRED
+    sent=true canceled=false
+  * PendingIntentRecord{d529f9c android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/.UsbSettings
+  * PendingIntentRecord{2777ada5 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=5 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.INIT
+  * PendingIntentRecord{377b657a android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE
+    sent=true canceled=false
+  * PendingIntentRecord{2ed1912b android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.syncmanager.SYNC_ALARM
+  * PendingIntentRecord{3bb81988 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.settings.SHOW_INPUT_METHOD_PICKER
+

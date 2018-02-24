@@ -1,0 +1,17 @@
+USB Manager State:
+  USB Device State:
+    Current Functions: mtp,adb
+    Default Functions: mtp,adb
+    mConnected: true
+    mConfigured: true
+    mCurrentAccessory: null
+    Kernel state: CONFIGURED
+    Kernel function list: mtp,ffs
+    Mass storage backing file: 
+  USB Host State:
+  USB AudioDevices:
+  Settings for user 0:
+    Device permissions:
+    Accessory permissions:
+    Device preferences:
+    Accessory preferences:

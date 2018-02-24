@@ -1,0 +1,217 @@
+SERVICE com.android.bluetooth/.hid.HidService 2452ec87 pid=(not running)
+
+SERVICE com.android.inputmethod.pinyin/.PinyinIME 275daff9 pid=854
+  Client:
+    Input method service state for com.android.inputmethod.pinyin.PinyinIME@26b7fbb4:
+      mWindowCreated=false mWindowAdded=false
+      mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+      Configuration={1.0 multiwindowflag=DISABLE dualscreenflag=DISABLE ?mcc?mnc zh_CN ldltr sw811dp w1442dp h720dp 213dpi xlrg long land finger -keyb/v/h dpad/v s.4}
+      mToken=android.os.BinderProxy@3b6c42aa
+      mInputBinding=InputBinding{android.os.BinderProxy@2e45e9b / uid 10013 / pid 910}
+      mInputConnection=com.android.internal.view.InputConnectionWrapper@16f1b238
+      mStartedInputConnection=null
+      mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+      mInputEditorInfo:
+        inputType=0x0 imeOptions=0x0 privateImeOptions=null
+        actionLabel=null actionId=0
+        initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+        hintText=null label=null
+        packageName=com.royole.bwlauncher fieldId=-1 fieldName=null
+        extras=null
+      mShowInputRequested=false mLastShowInputRequested=false mShowInputForced=false mShowInputFlags=0x0
+      mCandidatesVisibility=4 mFullscreenApplied=false mIsFullscreen=false mExtractViewHidden=false
+      mExtractedText: null
+      mExtractedToken=0
+      mIsInputViewShown=false mStatusIcon=0
+    Last computed insets:
+      contentTopInsets=0 visibleTopInsets=0 touchableInsets=0 touchableRegion=SkRegion()
+
+SERVICE com.android.systemui/.ImageWallpaper 2ec41aaf pid=713
+  Client:
+    State of wallpaper com.android.systemui.ImageWallpaper@1875f71d:
+      Engine com.android.systemui.ImageWallpaper$DrawableEngine@18f33d92:
+        mInitializing=false mDestroyed=false
+        mVisible=false mReportedVisible=false
+        mDisplay=Display id 0: DisplayInfo{"???????¡À????", uniqueId "local:0", app 1920 x 1016, real 1920 x 1080, largest app 1920 x 1799, smallest app 1080 x 959, 60.000004 fps, supportedRefreshRates [60.000004], rotation 0, density 213 (159.89508 x 160.42105) dpi, layerStack 0, appVsyncOff 0, presDeadline 17666666, type BUILT_IN, state OFF, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}, DisplayMetrics{density=1.3312501, width=1920, height=1016, scaledDensity=1.3312501, xdpi=159.89508, ydpi=160.42105}, isValid=true
+        mCreated=true mSurfaceCreated=true mIsCreating=false mDrawingAllowed=true
+        mWidth=1920 mCurWidth=1920 mHeight=1080 mCurHeight=1080
+        mType=-1 mWindowFlags=16 mCurWindowFlags=16
+        mWindowPrivateFlags=0 mCurWindowPrivateFlags=0
+        mVisibleInsets=[0,0][0,0] mWinFrame=[0,0][1920,1080] mContentInsets=[0,0][0,0]
+        mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+        mLayout=WM.LayoutParams{(0,0)(1920x1080)mPosX=0mPosY=0mHScale=1.0mVScale=1.0 align=UNDEFINE taskId=-1 gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302e8 surfaceInsets=Rect(0, 0 - 0, 0)packageName=nulltoken=android.os.BinderProxy@2d3fe363}
+        mPendingXOffset=0.0 mPendingXOffset=0.0
+        mPendingXOffsetStep=0.0 mPendingXOffsetStep=0.0
+        mOffsetMessageEnqueued=false mPendingSync=false
+
+SERVICE com.android.inputmethod.pinyin/.PinyinDecoderService 1b0d8969 pid=854
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.hfpclient.HeadsetClientService ca5a9b pid=(not running)
+
+SERVICE com.android.bluetooth/.a2dp.A2dpSinkService e4f0b76 pid=(not running)
+
+SERVICE com.android.bluetooth/.avrcp.AvrcpControllerService 29efea4d pid=(not running)
+
+SERVICE com.android.bluetooth/.a2dp.A2dpService 254e5c50 pid=(not running)
+
+SERVICE com.android.systemui/.SystemUIService 31c59ac5 pid=713
+  Client:
+    dumping service: com.android.systemui.keyguard.KeyguardViewMediator
+    dumping service: com.android.systemui.recent.Recents
+    dumping service: com.android.systemui.volume.VolumeUI
+    mEnabled=true
+    VolumePanel state:
+      mTag=VolumePanel.2082617c
+      mRingIsSilent=false
+      mVoiceCapable=false
+      mHasVibrator=true
+      mZenModeAvailable=true
+      mZenPanelExpanded=false
+      mNotificationEffectsSuppressor=null
+      mTimeoutDelay=3000
+      mDisabledAlpha=0.7
+      mLastRingerMode=2
+      mLastRingerProgress=0
+      mPlayMasterStreamTones=false
+      isShowing()=false
+      mCallback=com.android.systemui.volume.VolumeUI$1@3d0e2b60
+      sConfirmSafeVolumeDialog=null
+      mActiveStreamType=-1
+      mStreamControls=null
+    dumping service: com.android.systemui.statusbar.SystemBars
+    Current Status Bar state:
+      mExpandedVisible=false, mTrackingPosition=0
+      mTickerEnabled=false
+      mTracking=false
+      mDisplayMetrics=DisplayMetrics{density=1.3312501, width=1920, height=1016, scaledDensity=1.3312501, xdpi=159.89508, ydpi=160.42105}
+      mStackScroller: [(0,0)(0,0) 0x0]
+      mStackScroller: [(0,0)(0,0) 0x0] scroll 0,0
+      mInteractingWindows=0
+      mStatusBarWindowState=WINDOW_STATE_SHOWING
+      mStatusBarMode=MODE_TRANSPARENT
+      mDozing=false
+      mZenMode=ZEN_MODE_OFF
+      mUseHeadsUp=true
+      interrupting package: null
+      mStatusBarView.BarTransitions.mMode=MODE_TRANSPARENT
+      mNavigationBarWindowState=WINDOW_STATE_SHOWING
+      mNavigationBarMode=MODE_TRANSPARENT
+      mNavigationBarView.BarTransitions.mMode=MODE_TRANSPARENT
+      mNavigationBarView=NavigationBarView {
+          this: [(0,0)(0,0) 0x0] VISIBLE
+          window: [0,0][1920,1016] GONE
+          mCurrentView: id=com.android.systemui:id/rot0 (0x0) VISIBLE
+          disabled=0x00000000 vertical=false menu=false
+          back: [(0,0)(0,0) 0x0] VISIBLE alpha=1.0 drawingAlpha=1.0 quiescentAlpha=1.0
+          home: [(0,0)(0,0) 0x0] VISIBLE alpha=1.0 drawingAlpha=1.0 quiescentAlpha=1.0
+          rcnt: [(0,0)(0,0) 0x0] VISIBLE alpha=1.0 drawingAlpha=1.0 quiescentAlpha=1.0
+          menu: [(0,0)(0,0) 0x0] INVISIBLE alpha=1.0 drawingAlpha=1.0 quiescentAlpha=1.0
+        }
+      mMediaSessionManager=android.media.session.MediaSessionManager@3c7fe819
+      mMediaNotificationKey=null
+      mMediaController=null
+      mMediaMetadata=null
+      Panels: 
+        mNotificationPanel=com.android.systemui.statusbar.phone.NotificationPanelView{1783a0de G.E..... ......I. 0,0-0,0 #7f0f0111 app:id/notification_panel} params=ViewGroup.LayoutParams={ width=match-parent, height=match-parent }
+          [PanelView(NotificationPanelView): expandedHeight=0.000000 maxPanelHeight=123 closing=f tracking=f justPeeked=f peekAnim=null timeAnim=null touchDisabled=f]
+      active notifications: 1
+        [0] key=-1|android|17040638|null|1000 icon=StatusBarIconView(slot=android/0x10404fe icon=StatusBarIcon(pkg=androiduser=-1 id=0x1080689 level=0 visible=true num=0 ) notification=Notification(pri=-1 contentView=android/0x1090077 vibrate=null sound=null defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+            pkg=android id=17040638 score=-10
+            notification=Notification(pri=-1 contentView=android/0x1090077 vibrate=null sound=null defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC)
+            tickerText="?¡¤?????????????¨¨???¡è?¨¨?????"
+      inactive notifications: 0
+      system icons: 10
+        [0] icon=StatusBarIconView(slot=sync_active icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201ba level=0 visible=false num=0 ) notification=null)
+        [1] icon=StatusBarIconView(slot=cast icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020186 level=0 visible=false num=0 ) notification=null)
+        [2] icon=StatusBarIconView(slot=hotspot icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201aa level=0 visible=false num=0 ) notification=null)
+        [3] icon=StatusBarIconView(slot=bluetooth icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020187 level=0 visible=false num=0 ) notification=null)
+        [4] icon=StatusBarIconView(slot=tty icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201bb level=0 visible=false num=0 ) notification=null)
+        [5] icon=StatusBarIconView(slot=zen icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201c8 level=0 visible=false num=0 ) notification=null)
+        [6] icon=StatusBarIconView(slot=volume icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201ad level=0 visible=false num=0 ) notification=null)
+        [7] icon=StatusBarIconView(slot=cdma_eri icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201ae level=0 visible=false num=0 ) notification=null)
+        [8] icon=StatusBarIconView(slot=alarm_clock icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020161 level=0 visible=false num=0 ) notification=null)
+        [9] icon=StatusBarIconView(slot=headset icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201a7 level=0 visible=false num=0 ) notification=null)
+    NetworkController state:
+      - telephony ------
+      hasVoiceCallingFeature()=false
+      - Bluetooth ----
+      mBtReverseTethered=false
+      - connectivity ------
+      mConnectedTransports={}
+      mValidatedTransports={}
+      mInetCondition=false
+      mAirplaneMode=false
+      mLocale=zh_CN
+      - NetworkController.WifiSignalController -----
+      Current State: Empty WifiState
+    BluetoothController state:
+      mAdapter=android.bluetooth.BluetoothAdapter@6b669f8
+      mEnabled=false
+      mConnecting=false
+      mLastDevice=null
+      mCallbacks.size=0
+      mProfiles=[]
+      mDeviceInfo.size=0
+    CastController state:
+      mDiscovering=false
+      mCallbackRegistered=true
+      mCallbacks.size=1
+      mRoutes.size=0
+      mProjection=null
+    BatteryController state:
+      mLevel=73
+      mPluggedIn=true
+      mCharging=true
+      mCharged=false
+      mPowerSave=false
+    NextAlarmController state:
+      mNextAlarm=null
+    SecurityController state:
+      mCurrentVpnNetworkId=-1
+      mVpnConfig=null
+      mVpnName=null
+    SharedPreferences:
+    dumping service: com.android.systemui.usb.StorageNotification
+    dumping service: com.android.systemui.power.PowerUI
+    mLowBatteryAlertCloseLevel=15
+    mLowBatteryReminderLevels=[10, 5]
+    mBatteryLevel=73
+    mBatteryStatus=2
+    mPlugType=2
+    mInvalidCharger=0
+    mScreenOffTime=20766773 (697187 ago)
+    soundTimeout=0
+    bucket: 1
+    mSaver=false
+    mWarning=false
+    mPlaySound=false
+    mInvalidCharger=false
+    mShowing=SHOWING_NOTHING
+    mSaverConfirmation=null
+    dumping service: com.android.systemui.media.RingtonePlayer
+    Clients:
+
+SERVICE android/.hardware.location.GeofenceHardwareService 1206d34c pid=460
+  Client:
+    nothing to dump
+
+SERVICE com.android.providers.media/.MtpService 1b268ff8 pid=650
+  Client:
+    nothing to dump
+
+SERVICE android/com.android.internal.backup.LocalTransportService 18b5f90a pid=460
+  Client:
+    nothing to dump
+
+SERVICE com.android.location.fused/.FusedLocationService 1c92dcfa pid=460
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.pan.PanService 378d1603 pid=(not running)
+[dumpsys: 0.101s elapsed]
+
+========================================================
+== Running Application Providers
+========================================================

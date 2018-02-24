@@ -1,0 +1,283 @@
+Applications Graphics Acceleration Info:
+Uptime: 2637125 Realtime: 21446091
+
+** Graphics info for pid 910 [com.royole.bwlauncher] **
+
+Recent DisplayList operations
+            SetupPaintFilter
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+          RestoreToCount
+          Save
+          ConcatMatrix
+          DrawRenderNode
+            SetupPaintFilter
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+          RestoreToCount
+          Save
+          ConcatMatrix
+          DrawRenderNode
+            SetupPaintFilter
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+          RestoreToCount
+          Save
+          ConcatMatrix
+          DrawRenderNode
+            SetupPaintFilter
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+          RestoreToCount
+        DrawRenderNode
+          DrawRenderNode
+            DrawRenderNode
+              DrawPatch
+RestoreToCount
+DrawRect
+DrawBitmap
+DrawRoundRect
+DrawBitmap
+DrawText
+DrawText
+DrawText
+DrawPatch
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          9729780 / 25165824
+  LayerCache                  0 / 16777216 (numLayers = 0)
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  2097152
+  GradientCache               0 /   524288
+  PathCache              399116 / 10485760
+  TessellationCache        1488 /  1048576
+  TextDropShadowCache         0 /  2097152
+  PatchCache              15872 /   131072
+  FontRenderer 0 A8      524288 /   524288
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total   524288 /   524288
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  10670544 bytes, 10.18 MB
+
+Profile data in ms:
+
+	com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity/android.view.ViewRootImpl@1dd02b17 (visibility=0)
+View hierarchy:
+
+  com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity/android.view.ViewRootImpl@1dd02b17
+  166 views, 168.65 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        166
+Total DisplayList:  168.65 kB
+
+
+** Graphics info for pid 1056 [com.android.settings] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1100 [com.android.onetimeinitializer] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1079 [com.android.managedprovisioning] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1035 [com.android.keychain] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1000 [android.process.acore] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 893 [com.royole.bwsettings] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 854 [com.android.inputmethod.pinyin] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 713 [com.android.systemui] **
+
+Recent DisplayList operations
+    DrawRenderNode
+  DrawRenderNode
+RestoreToCount
+DrawColor
+DrawBitmap
+DrawBitmap
+DrawText
+Save
+DrawRenderNode
+  DrawRenderNode
+    DrawColor
+  DrawRenderNode
+    DrawRenderNode
+    Save
+    ClipRect
+    DrawRenderNode
+      Save
+      ClipRect
+      DrawRenderNode
+        DrawRenderNode
+      DrawRenderNode
+        DrawRenderNode
+          DrawRenderNode
+            Save
+            ConcatMatrix
+            Save
+            DrawBitmap
+            RestoreToCount
+        DrawRenderNode
+          DrawRenderNode
+            Save
+            ClipRect
+            DrawText
+            RestoreToCount
+          DrawRenderNode
+            Save
+            Translate
+            Save
+            DrawBitmap
+            RestoreToCount
+      RestoreToCount
+    RestoreToCount
+  DrawRenderNode
+    DrawRenderNode
+  DrawRenderNode
+RestoreToCount
+DrawColor
+DrawBitmap
+DrawBitmap
+DrawText
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache            49816 / 25165824
+  LayerCache                  0 / 16777216 (numLayers = 0)
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  2097152
+  GradientCache               0 /   524288
+  PathCache                   0 / 10485760
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  PatchCache                576 /   131072
+  FontRenderer 0 A8      524288 /   524288
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total   524288 /   524288
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  574680 bytes, 0.55 MB
+
+Profile data in ms:
+
+	StatusBar/android.view.ViewRootImpl@77488ad (visibility=0)
+	Heads Up/android.view.ViewRootImpl@111117e2 (visibility=8)
+View hierarchy:
+
+  StatusBar/android.view.ViewRootImpl@77488ad
+  276 views, 223.00 kB of display lists
+
+  Heads Up/android.view.ViewRootImpl@111117e2
+  2 views, 1.59 kB of display lists
+
+
+Total ViewRootImpl: 2
+Total Views:        278
+Total DisplayList:  224.60 kB
+
+
+** Graphics info for pid 650 [android.process.media] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 460 [system] **
+Profile data in ms:
+
+	KeyguardScrim/android.view.ViewRootImpl@a2c9feb (visibility=8)
+View hierarchy:
+
+  KeyguardScrim/android.view.ViewRootImpl@a2c9feb
+  1 views, 0.80 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        1
+Total DisplayList:  0.80 kB
+

@@ -1,0 +1,56 @@
+Backup Manager is disabled / provisioned / not pending init
+Auto-restore is enabled
+Last backup pass started: 0 (now = 1358779668289)
+  next scheduled: 0
+Available transports:
+  * android/com.android.internal.backup.LocalTransport
+       destination: Backing up to debug-only private cache
+       intent: null
+Pending init: 0
+Participants:
+  uid: 1000
+    com.android.providers.settings
+    android
+  uid: 10001
+    com.android.providers.userdictionary
+  uid: 10008
+    com.android.sharedstoragebackup
+  uid: 10011
+    com.royole.bwbrowser
+Ancestral packages: none
+Ever backed up: 0
+Pending key/value backup: 5
+    BackupRequest{pkg=com.android.providers.userdictionary}
+    BackupRequest{pkg=com.android.sharedstoragebackup}
+    BackupRequest{pkg=com.royole.bwbrowser}
+    BackupRequest{pkg=com.android.providers.settings}
+    BackupRequest{pkg=android}
+Full backup queue:28
+    0 : com.royole.bwsettings
+    0 : com.android.providers.media
+    0 : com.android.documentsui
+    0 : com.android.externalstorage
+    0 : com.royole.bwaudioplayer
+    0 : com.android.providers.downloads.ui
+    0 : com.android.pacprocessor
+    0 : com.royole.bwpictureplayer
+    0 : com.royole.bwlauncher
+    0 : com.android.provision
+    0 : com.royole.fileexplorer
+    0 : com.royole.bwvideoplayer
+    0 : com.android.phasebeam
+    0 : com.gitvvideo
+    0 : com.android.apkinstaller
+    0 : com.android.dreams.basic
+    0 : com.android.webview
+    0 : com.android.onetimeinitializer
+    0 : com.royole.packageinstaller
+    0 : com.svox.pico
+    0 : com.android.proxyhandler
+    0 : com.android.managedprovisioning
+    0 : com.android.noisefield
+    0 : com.android.wallpaper.livepicker
+    0 : com.android.captiveportallogin
+    0 : com.cibn.tv
+    1358935892741 : com.android.inputmethod.pinyin
+    1359346202144 : com.royole.lezh.pinyinimecandidateservice

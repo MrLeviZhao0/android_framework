@@ -1,0 +1,75 @@
+mObbMounts:
+
+mObbPathToStateMap:
+
+mVolumes:
+  StorageVolume:
+      mStorageId=65537 mPath=/mnt/internal_sd mDescriptionId=17041221 
+      mPrimary=true mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=unmounted 
+    Current state: mounted
+  StorageVolume:
+      mStorageId=131073 mPath=/mnt/external_sd mDescriptionId=17040808 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=unmounted 
+    Current state: unmounted
+  StorageVolume:
+      mStorageId=196609 mPath=/mnt/usb_storage/USB_DISK0 mDescriptionId=17041125 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=removed 
+    Current state: removed
+  StorageVolume:
+      mStorageId=262145 mPath=/mnt/usb_storage/USB_DISK1 mDescriptionId=17041126 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=removed 
+    Current state: removed
+  StorageVolume:
+      mStorageId=327681 mPath=/mnt/usb_storage/USB_DISK2 mDescriptionId=17041127 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=removed 
+    Current state: removed
+  StorageVolume:
+      mStorageId=393217 mPath=/mnt/usb_storage/USB_DISK3 mDescriptionId=17041128 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=removed 
+    Current state: removed
+  StorageVolume:
+      mStorageId=458753 mPath=/mnt/usb_storage/USB_DISK4 mDescriptionId=17041129 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=removed 
+    Current state: removed
+  StorageVolume:
+      mStorageId=524289 mPath=/mnt/usb_storage/USB_DISK5 mDescriptionId=17041130 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=100 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=removed 
+    Current state: removed
+
+mConnection:
+  01-21 10:50:29.862 - SND -> {1 volume list broadcast}
+  01-21 10:50:29.864 - RCV <- {110 1 usb_storage /mnt/usb_storage/USB_DISK0 0}
+  01-21 10:50:29.865 - RCV <- {110 1 usb_storage /mnt/usb_storage/USB_DISK1 0}
+  01-21 10:50:29.866 - RCV <- {110 1 usb_storage /mnt/usb_storage/USB_DISK2 0}
+  01-21 10:50:29.866 - RCV <- {110 1 usb_storage /mnt/usb_storage/USB_DISK3 0}
+  01-21 10:50:29.866 - RCV <- {110 1 usb_storage /mnt/usb_storage/USB_DISK4 0}
+  01-21 10:50:29.866 - RCV <- {110 1 usb_storage /mnt/usb_storage/USB_DISK5 0}
+  01-21 10:50:29.866 - RCV <- {200 1 Volumes listed.}
+  01-21 10:50:29.867 - SND -> {2 cryptfs getfield SystemLocale}
+  01-21 10:50:29.868 - RCV <- {200 2 -1}
+  01-21 10:50:29.868 - SND -> {3 asec list}
+  01-21 10:50:29.870 - RCV <- {200 3 asec operation succeeded}
+  01-21 10:50:29.911 - SND -> {4 asec list}
+  01-21 10:50:29.912 - RCV <- {200 4 asec operation succeeded}
+  01-21 10:50:31.402 - SND -> {5 volume mount /mnt/external_sd}
+  01-21 10:50:31.402 - RCV <- {406 5 volume operation failed (No such file or directory)}
+  
+  Pending requests:
+
+Last maintenance: 2013-01-29 06:16:23

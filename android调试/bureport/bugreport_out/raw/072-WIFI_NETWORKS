@@ -1,0 +1,4 @@
+Using interface 'wlan0'
+*** /system/xbin/su: Exit code 255
+[/system/xbin/su: 0.101s elapsed]
+

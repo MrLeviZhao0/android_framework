@@ -1,0 +1,55 @@
+           CPU0       CPU1       CPU2       CPU3       
+ 29:     287104     234986     202197     154673       GIC  arch_timer
+ 30:          0          0          0          0       GIC  arch_timer
+ 32:        228          0          0          0       GIC  ffb20000.pdma
+ 34:          0          0          0          0       GIC  ff250000.pdma
+ 38:      37702          0          0          0       GIC  ffa30000.gpu
+ 39:          0          0          0          0       GIC  ffa30000.gpu
+ 40:      57211          0          0          0       GIC  ffa30000.gpu
+ 41:          0          0          0          0       GIC  ff9a0000.vpu_service
+ 42:          0          0          0          0       GIC  ff9a0000.vpu_service
+ 43:          0          0          0          0       GIC  ff9a0800.vpu_mmu
+ 44:          0          0          0          0       GIC  ff9c0000.hevc_service
+ 45:          0          0          0          0       GIC  ff950800.vip_mmu
+ 46:          0          0          0          0       GIC  ff914000.isp_mmu, MarvinIrq
+ 47:     221642          0          0          0       GIC  ff930300.vopb_mmu, lcdc0
+ 48:          0          0          0          0       GIC  ff940300.vopl_mmu
+ 49:          0          0          0          0       GIC  ff900800.iep_mmu, ff900000.iep
+ 50:          0          0          0          0       GIC  rga
+ 55:      14405          0          0          0       GIC  dwc_otg, dwc_otg_pcd, dwc_otg_hcd:usb2
+ 56:      44477          0          0          0       GIC  ehci_hcd:usb1
+ 57:          0          0          0          0       GIC  dwc_otg, dwc_otg_hcd:usb3
+ 65:          0          0          0          0       GIC  dw-mci
+ 67:      21160          0          0          0       GIC  dw-mci
+ 68:          0          0          0          0       GIC  ff100000.adc
+ 69:          0          0          0          0       GIC  tsadc
+ 88:         61          0          0          0       GIC  rk29_serial.1
+ 92:      81342          0          0          0       GIC  i2c-0
+ 93:       1734          0          0          0       GIC  i2c-2
+ 94:          0          0          0          0       GIC  i2c-1
+ 95:       3402          0          0          0       GIC  i2c-3
+ 96:         54          0          0          0       GIC  i2c-4
+104:          0          0          0          0       GIC  rk_timer
+106:          0          0          0          0       GIC  debug-signal
+110:          0          0          0          0       GIC  rk_pwm_irq
+125:          0          0          0          0       GIC  otg_id
+126:          1          0          0          0       GIC  otg_bvalid
+135:          2          0          0          0       GIC  ff980000.hdmi
+143:          0          0          0          0       GIC  ff9c0440.hevc_mmu
+192:          0          0          0          0      GPIO  hdmi_plug
+193:          1          0          0          0      GPIO  bq25890_chg_irq
+194:        108          0          0          0      GPIO  rk808
+195:          0          0          0          0     rk808  RTC period
+196:          0          0         54          0     rk808  RTC alarm
+197:          2          0          0          0      GPIO  power
+FIQ:              fiq_glue
+IPI0:          0          0          0          0  CPU wakeup interrupts
+IPI1:          0          0          0          0  Timer broadcast interrupts
+IPI2:     292340     350981     306125     299177  Rescheduling interrupts
+IPI3:         44        128        129        130  Function call interrupts
+IPI4:          3        292        325        363  Single function call interrupts
+IPI5:          0          0          0          0  CPU stop interrupts
+IPI6:          0          0          0          0  completion interrupts
+IPI7:          0          0          0          0  CPU backtrace
+Err:          0
+

@@ -1,0 +1,28 @@
+Current Location Manager state:
+  Location Listeners:
+    Reciever[18285619 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[3be76de listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+  Active Records by Provider:
+    passive:
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+  Historical Records by Provider:
+    android: passive: Interval 0 seconds: Duration requested 357 out of the last 357 minutes: Currently active
+  Last Known Locations:
+  Last Known Locations Coarse Intervals:
+  Geofences:
+  Enabled Providers:
+    fused
+    passive
+  mWhitelist=[] mBlacklist=[]
+  fudger: offset: -29, -48 (meters)
+passive Internal State:
+mReportLocation=true
+fused Internal State (com.android.location.fused):
+REMOTE SERVICE name=fused pkg=com.android.location.fused version=0
+mEnabled=false null
+fused=null
+gps Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+    UNAVAILABLE ---
+net Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+    UNAVAILABLE ---

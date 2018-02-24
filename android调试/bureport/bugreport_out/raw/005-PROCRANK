@@ -1,0 +1,42 @@
+  PID       Vss      Rss      Pss      Uss  cmdline
+  460  1502904K   75976K   45191K   36684K  system_server
+  713   900576K   66436K   36051K   29884K  com.android.systemui
+  854   878016K   54964K   32532K   30012K  com.android.inputmethod.pinyin
+  910  1565936K   57164K   28433K   23616K  com.royole.bwlauncher
+  171  1498228K   50588K   17293K    8792K  zygote
+  166    52120K   18180K   14319K   12672K  /system/bin/mediaserver
+  650   859644K   35340K   10064K    6608K  android.process.media
+ 1000   858452K   32932K    9908K    7228K  android.process.acore
+ 1056   872748K   31440K    8710K    6244K  com.android.settings
+  159   138480K   11360K    6679K    5104K  /system/bin/surfaceflinger
+ 1079   853344K   26544K    6281K    4336K  com.android.managedprovisioning
+ 1035   852324K   26304K    6090K    4132K  com.android.keychain
+ 1100   852240K   26192K    5982K    4040K  com.android.onetimeinitializer
+  893   854160K   25572K    4663K    2336K  com.royole.bwsettings
+  165    13924K    5368K    2676K    1736K  /system/bin/drmserver
+  153     6996K    1696K    1104K    1064K  /system/bin/logd
+  158     6920K    2004K     843K     684K  /system/bin/vold
+  168     4320K    1740K     669K     520K  /system/bin/keystore
+  163     1948K    1156K     603K     568K  /system/bin/debuggerd
+  162    10700K    1152K     545K     480K  /system/bin/netd
+  164     4300K    1196K     507K     456K  /system/bin/rild
+  157     6424K     952K     381K     328K  /system/bin/displayd
+    1      796K     508K     368K     260K  /init
+  155     2376K    1092K     352K     256K  /system/bin/lmkd
+  125      764K     436K     326K     220K  /sbin/ueventd
+  160     1112K     556K     321K     312K  /system/bin/sh
+ 1518     1256K     692K     317K     300K  /system/bin/dumpstate
+ 1521     1052K     548K     282K     272K  procrank
+  173     4648K     256K     236K     236K  /sbin/adbd
+  167     1156K     568K     230K     216K  /system/bin/installd
+  156     1236K     560K     221K     204K  /system/bin/servicemanager
+  161     3580K     560K     213K     192K  /system/bin/sdcard
+  154     1592K     208K     204K     204K  /sbin/healthd
+  172     3572K     524K     193K     172K  /system/bin/sdcard
+ 1516      988K     440K     155K     144K  bugreport
+                           ------   ------  ------
+                          242957K  190512K  TOTAL
+
+RAM: 4105928K total, 3268740K free, 16500K buffers, 390728K cached, 228K shmem, 23156K slab
+[procrank: 0.802s elapsed]
+

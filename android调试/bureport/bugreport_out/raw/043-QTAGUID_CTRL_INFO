@@ -1,0 +1,2 @@
+events: sockets_tagged=0 sockets_untagged=0 counter_set_changes=16 delete_cmds=0 iface_events=13 match_calls=0 match_calls_prepost=0 match_found_sk=0 match_found_sk_in_ct=0 match_found_no_sk_in_ct=0 match_no_sk=0 match_no_sk_file=0
+

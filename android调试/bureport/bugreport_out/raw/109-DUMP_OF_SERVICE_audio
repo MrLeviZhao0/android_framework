@@ -1,0 +1,87 @@
+
+Audio Focus stack entries (last is top of stack):
+
+ Notify on duck: true
+
+
+Remote Control stack entries (last is top of stack):
+
+Remote Control Client stack entries (last is top of stack):
+
+Current remote control generation ID = 0
+
+Remote Volume State:
+  has remote: false
+  is remote active: false
+  rccId: -1
+  volume handling: PLAYBACK_VOLUME_VARIABLE(1)
+  volume: 50
+  volume steps: 50
+
+Remote Control Display list entries:
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Mute count: 0
+   Max: 5
+   Current: 40000000 (default): 4
+- STREAM_SYSTEM:
+   Mute count: 0
+   Max: 7
+   Current: 40000000 (default): 5
+- STREAM_RING:
+   Mute count: 0
+   Max: 7
+   Current: 40000000 (default): 5
+- STREAM_MUSIC:
+   Mute count: 0
+   Max: 50
+   Current: 40000000 (default): 11, 4 (headset): 10, 8 (headphone): 10
+- STREAM_ALARM:
+   Mute count: 0
+   Max: 7
+   Current: 40000000 (default): 6
+- STREAM_NOTIFICATION:
+   Mute count: 0
+   Max: 7
+   Current: 40000000 (default): 5
+- STREAM_BLUETOOTH_SCO:
+   Mute count: 0
+   Max: 15
+   Current: 40000000 (default): 7
+- STREAM_SYSTEM_ENFORCED:
+   Mute count: 0
+   Max: 7
+   Current: 40000000 (default): 5
+- STREAM_DTMF:
+   Mute count: 0
+   Max: 15
+   Current: 40000000 (default): 3, 4 (headset): 3, 8 (headphone): 3
+- STREAM_TTS:
+   Mute count: 0
+   Max: 15
+   Current: 40000000 (default): 3, 4 (headset): 3, 8 (headphone): 3
+
+- mute affected streams = 0x2e
+
+Ringer mode: 
+- mode (internal) = NORMAL
+- mode (external) = NORMAL
+- ringer mode affected streams = 0xa6
+- ringer mode muted streams = 0x0
+- delegate = ZenModeHelper
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@e2763c,mVisible=false)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_ACTIVE
+  mSafeMediaVolumeIndex=100
+  mPendingVolumeCommand=null
+  mMusicActiveMs=0
+  mMcc=0
+  mHasVibrator=true
+
+Audio policies:

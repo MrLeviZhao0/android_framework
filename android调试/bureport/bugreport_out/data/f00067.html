@@ -1,0 +1,117 @@
+<html>
+<head>
+  <title>f00067.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00067.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><div class="btn-header"><a href="javascript:$('#dialog').dialog()"><img src="ic_help.png"/></a></div><h2>Kernel wakelocks</h2>
+<div id="dialog" class="dialog"><div><p>Statistics based on kernel wakelocks.</p><div class="hint">(NOTE: The data is collected from boot!)</div>
+<div class="hint">(NOTE: Wakelocks created by the java code are aggregated into the PowerManagerService kernel wakelock!)</div>
+<div class="see-also">See also: <a href="http://developer.android.com/reference/android/os/PowerManager.WakeLock.html" target="_blank">Android documentation regarding WakeLock</a></div></div></div><table class=" tablesorter">
+<div class="hint">(A CSV format version is saved as: <a href="../raw/kernel_wakesources.csv">../raw/kernel_wakesources.csv</a>)</div>
+<thead>
+<tr>
+<th>Name</th>
+<th>Active count</th>
+<th>Event count</th>
+<th>Wakeup count</th>
+<th>Expire count</th>
+<th>Active since (ms)</th>
+<th>Total time (ms)</th>
+<th>Total time (%)</th>
+<th>Max time (ms)</th>
+<th>Last change</th>
+<th>Prevent Suspend Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PowerManagerService.Broadcasts</td><td class="right">3</td><td class="right">3</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1957814</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>PowerManagerService.WakeLocks</td><td class="right">76</td><td class="right">76</td><td class="right">1</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2168382</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>KeyEvents   </td><td class="right">150</td><td class="right">150</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2609686</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>PowerManagerService.Display</td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1958539</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rfkill_rk_irq_wl</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">804</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rfkill_wlan_wake</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">804</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>key.36      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">794</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rk29-keypad </td><td class="right">1</td><td class="right">2</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1024420</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>alarm       </td><td class="right">86</td><td class="right">86</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2408356</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>mmc1_detect </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">751</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>mmc0_detect </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1280</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>bq27542-battery</td><td class="right">628</td><td class="right">628</td><td class="right">4</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2611326</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ff680000.pwm</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">570</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rk29_pwm_remote</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">570</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>usb_pcd     </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right">0</td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right">1057192</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rtw_wifi_scan</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rtw_wifi_resume</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rtw_wifi_traffic</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rtw_wifi_rx </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rtw_wifi_ext</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rtw_wifi    </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>vibrator    </td><td class="right">7</td><td class="right">7</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2606986</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>iep         </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">524</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>alarmtimer  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">514</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>vpu         </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">513</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>vpu         </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">512</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rga         </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">353</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rk808-rtc   </td><td class="right">54</td><td class="right">54</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1593273</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rk808_irq_wake</td><td class="right">55</td><td class="right">55</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1593273</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>bq25890-charger</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">200</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>bq25890-charger</td><td class="right">56</td><td class="right">56</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1057604</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>usb_detect  </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1066740</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>serial-debug</td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">640</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>autosleep   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">120</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+</tbody>
+<div class="hint">(HINT: Click on the headers to sort the data. Shift+click to sort on multiple columns.)</div>
+</table>
+</body>
+</html>

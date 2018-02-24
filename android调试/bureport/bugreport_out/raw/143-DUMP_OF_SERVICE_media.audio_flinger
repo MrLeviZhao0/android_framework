@@ -1,0 +1,49 @@
+Clients:
+Notification Clients:
+  pid: 166
+  pid: 460
+Global session refs:
+  session   pid count
+Hardware status: 0
+Standby Time mSec: 3000
+
+Output thread 0xb4c3b008:
+  Normal frame count: 2048
+  Last write occurred (msecs): 2621460
+  Total writes: 242
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xb716ad80
+  Mixer buffer: 0xb716cda0
+  Effect buffer: 0xb7170dc0
+  Fast track availMask=0xfe
+  I/O handle: 2
+  TID: 502
+  Standby: yes
+  Sample rate: 44100
+  HAL frame count: 2048
+  HAL buffer size: 8192 bytes
+  Channel Count: 2
+  Channel Mask: 0x00000003 (front-left, front-right)
+  Format: 0x1 (pcm16)
+  Frame size: 4
+  Pending config events: none
+  AudioMixer tracks: 0x00000000
+  FastMixer not initialized
+  Stream volumes in dB: 0:-8.5, 1:-18, 2:-18, 3:-39, 4:-14, 5:-18, 6:0, 7:-18, 8:-40, 9:-96, 10:-39, 11:0, 12:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  0 Tracks
+  0 Effect Chains
+
+Reroute submix audio module:
+ route[0] rate in=0 out=0, addr=[]
+ route[1] rate in=0 out=0, addr=[]
+ route[2] rate in=0 out=0, addr=[]
+ route[3] rate in=0 out=0, addr=[]
+ route[4] rate in=0 out=0, addr=[]
+ route[5] rate in=0 out=0, addr=[]
+ route[6] rate in=0 out=0, addr=[]
+ route[7] rate in=0 out=0, addr=[]
+ route[8] rate in=0 out=0, addr=[]
+ route[9] rate in=48000 out=48000, addr=[]

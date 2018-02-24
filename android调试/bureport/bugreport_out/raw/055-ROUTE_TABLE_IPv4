@@ -1,0 +1,6 @@
+broadcast 127.0.0.0 dev lo  proto kernel  scope link  src 127.0.0.1 
+local 127.0.0.0/8 dev lo  proto kernel  scope host  src 127.0.0.1 
+local 127.0.0.1 dev lo  proto kernel  scope host  src 127.0.0.1 
+broadcast 127.255.255.255 dev lo  proto kernel  scope link  src 127.0.0.1 
+[ip: 0.101s elapsed]
+

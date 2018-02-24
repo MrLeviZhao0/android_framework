@@ -1,0 +1,332 @@
+user=0 
+  In-memory daily stats
+  timeRange="2013/1/21 ??????2:00ии????????4:36" 
+    packages
+      package=android totalTime="00:00" lastTime="2013/1/21 ??????1:09" 
+      package=com.royole.bwlauncher totalTime="3:38:05" lastTime="2013/1/21 ??????4:36" 
+      package=com.royole.bwbrowser totalTime="5:09:38" lastTime="2013/1/21 ??????7:47" 
+    configurations
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/21 ??????11:44" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:51" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/21 ??????10:51" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:-81" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:52" count=1 
+    events
+      time="2013/1/21 ??????10:50" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????10:50" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????10:50" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????10:50" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:51" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????10:51" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????10:51" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????10:51" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:51" type=CONFIGURATION_CHANGE package=android config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 
+      time="2013/1/21 ??????10:51" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????10:51" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????10:51" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:52" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????10:52" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????10:52" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????10:52" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:52" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????10:52" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????10:52" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????10:52" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:53" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????10:53" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????10:53" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????10:53" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????10:54" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????10:56" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????10:56" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????10:56" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????10:56" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????11:00" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????11:00" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????11:00" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:00" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:01" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????11:01" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????11:01" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:01" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:02" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????11:02" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????11:02" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:02" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:03" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:03" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????11:03" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????11:03" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????11:04" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:05" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????11:05" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????11:05" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:05" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:05" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:06" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:13" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????11:15" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????11:15" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????11:15" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:15" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:17" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:20" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:20" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????11:25" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????11:25" type=CONFIGURATION_CHANGE package=android config=h720dp-v22 
+      time="2013/1/21 ??????11:25" type=CONFIGURATION_CHANGE package=android config=finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????11:25" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:25" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:25" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:25" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????11:25" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????11:25" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????11:26" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:26" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:28" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????11:44" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????11:44" type=CONFIGURATION_CHANGE package=android config=h720dp-v22 
+      time="2013/1/21 ??????11:44" type=CONFIGURATION_CHANGE package=android config=finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????11:44" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:44" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:53" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????11:53" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????11:54" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????11:54" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:54" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????11:54" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????11:54" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????11:54" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????11:59" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:02" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????12:02" type=CONFIGURATION_CHANGE package=android config=h720dp-v22 
+      time="2013/1/21 ??????12:02" type=CONFIGURATION_CHANGE package=android config=finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????12:02" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????12:02" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:03" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????12:03" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????12:03" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????12:03" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:13" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????12:18" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:19" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:25" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????12:27" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????12:27" type=CONFIGURATION_CHANGE package=android config=h720dp-v22 
+      time="2013/1/21 ??????12:27" type=CONFIGURATION_CHANGE package=android config=finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????12:27" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????12:27" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:28" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:28" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????12:28" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????12:28" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????12:29" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????12:33" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????12:33" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????12:33" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????12:33" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:41" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????12:41" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????12:50" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????12:59" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????12:59" type=CONFIGURATION_CHANGE package=android config=navexposed-dpad-v22 
+      time="2013/1/21 ??????12:59" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????12:59" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????1:00" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????1:00" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????1:00" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????1:00" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????1:00" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????1:09" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????1:09" type=MOVE_TO_FOREGROUND package=android class=com.android.internal.app.ShutdownActivity 
+      time="2013/1/21 ??????1:09" type=MOVE_TO_BACKGROUND package=android class=com.android.internal.app.ShutdownActivity 
+      time="2013/1/21 ??????1:09" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????1:09" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????1:16" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????1:16" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????1:16" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????1:16" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????1:31" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????1:41" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????1:41" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????1:41" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????1:41" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????1:42" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????1:42" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????1:42" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????1:42" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????1:59" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????2:14" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????2:27" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????2:27" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????2:27" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????2:27" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????2:42" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:29" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:29" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:30" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????3:30" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????3:30" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????3:30" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:34" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:40" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????3:40" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????3:40" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????3:40" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:40" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:47" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????3:47" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????3:47" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????3:48" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:48" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????3:48" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????3:48" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????3:48" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????4:20" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????4:30" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????4:30" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????4:30" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????4:30" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????4:30" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????4:30" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????4:30" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????4:30" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????4:36" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????4:55" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????4:55" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????4:55" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????4:55" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:01" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:01" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????5:01" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????5:01" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????5:52" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????5:52" type=CONFIGURATION_CHANGE package=android config=h720dp-v22 
+      time="2013/1/21 ??????5:52" type=CONFIGURATION_CHANGE package=android config=finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????5:52" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????5:52" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:53" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????5:53" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????5:53" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????5:54" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:54" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:54" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:55" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????5:55" type=CONFIGURATION_CHANGE package=android config=navexposed-dpad-v22 
+      time="2013/1/21 ??????5:55" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????5:55" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????5:55" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:55" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????5:57" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????5:57" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????5:57" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????5:57" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:00" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:14" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????6:14" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????6:14" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????6:15" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:15" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:16" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:16" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:16" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:17" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:17" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????6:17" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????6:17" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????6:32" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????6:43" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????6:43" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????6:43" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????6:43" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:44" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:44" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:44" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:44" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????6:44" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????7:03" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-v22 
+      time="2013/1/21 ??????7:03" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-v22 
+      time="2013/1/21 ??????7:03" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????7:03" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????7:05" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????7:05" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????7:15" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????7:32" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????7:43" type=CONFIGURATION_CHANGE package=android config=h811dp-notouch-navhidden-nonav-v22 
+      time="2013/1/21 ??????7:43" type=CONFIGURATION_CHANGE package=android config=h720dp-finger-navexposed-dpad-v22 
+      time="2013/1/21 ??????7:43" type=CONFIGURATION_CHANGE package=android config=notnight-v22 
+      time="2013/1/21 ??????7:43" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????7:43" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????7:43" type=MOVE_TO_FOREGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????7:44" type=MOVE_TO_BACKGROUND package=com.royole.bwlauncher class=com.royole.bwlauncher.gallery.GalleryActivity 
+      time="2013/1/21 ??????7:44" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????7:44" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????7:44" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????7:47" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.BrowserActivity 
+      time="2013/1/21 ??????8:15" type=MOVE_TO_FOREGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+      time="2013/1/21 ??????8:20" type=MOVE_TO_BACKGROUND package=com.royole.bwbrowser class=com.royole.bwbrowser.custom.BrowserBookmark 
+  In-memory weekly stats
+  timeRange="2013/1/17 ??????2:00 ??? 2013/1/21 ??????4:36" 
+    packages
+      package=android totalTime="00:00" lastTime="2013/1/21 ??????1:09" 
+      package=com.royole.bwlauncher totalTime="8:43:24" lastTime="2013/1/21 ??????4:36" 
+      package=com.royole.bwbrowser totalTime="15:27:59" lastTime="2013/1/23 ??????3:28" 
+    configurations
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:11" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????3:37" count=1 
+    events
+  In-memory monthly stats
+  timeRange="2013/1/15 ??????2:00 ??? 2013/1/21 ??????4:36" 
+    packages
+      package=android totalTime="00:00" lastTime="2013/1/21 ??????1:09" 
+      package=com.royole.bwlauncher totalTime="11:06:39" lastTime="2013/1/21 ??????4:36" 
+      package=com.android.settings totalTime="00:08" lastTime="2013/1/24 ??????6:13" 
+      package=com.royole.lezh.pinyinimecandidateservice totalTime="35:10" lastTime="2013/1/28 ??????9:15" 
+      package=com.royole.bwbrowser totalTime="17:56:47" lastTime="2013/1/23 ??????3:28" 
+    configurations
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/24 ??????5:52" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/24 ??????5:52" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:-284527" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/24 ??????5:52" count=1 
+    events
+  In-memory yearly stats
+  timeRange="2012/12/21 ??????2:00 ??? 2013/1/21 ??????4:36" 
+    packages
+      package=android totalTime="00:00" lastTime="2013/1/21 ??????1:09" 
+      package=com.royole.bwlauncher totalTime="11:06:39" lastTime="2013/1/21 ??????4:36" 
+      package=com.android.settings totalTime="00:08" lastTime="2013/1/24 ??????6:13" 
+      package=com.royole.lezh.pinyinimecandidateservice totalTime="35:10" lastTime="2013/1/28 ??????9:15" 
+      package=com.royole.bwbrowser totalTime="17:56:49" lastTime="2013/1/23 ??????3:28" 
+    configurations
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2013/1/24 ??????5:52" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:01" lastTime="2013/1/24 ??????5:52" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h720dp-xlarge-long-land-notnight-tvdpi-finger-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:-284527" lastTime="2013/1/21 ??????10:50" count=1 
+      config=zh-rCN-sw811dp-w1442dp-h811dp-xlarge-long-land-tvdpi-notouch-keysexposed-nokeys-navexposed-dpad-v22 totalTime="00:00" lastTime="2013/1/24 ??????5:52" count=1 
+    events

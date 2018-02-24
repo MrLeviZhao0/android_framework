@@ -1,0 +1,43 @@
+NetworkFactories for:
+  WIFI_UT
+  Ethernet
+  WIFI
+  PPPOE
+
+Active default network: none
+
+Current Networks:
+
+Network Requests:
+  Listen from uid/pid:10009/713 for NetworkRequest [ id=2, legacyType=-1, [] ]
+  Request from uid/pid:1000/460 for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  
+mLegacyTypeTracker:
+  0 none
+  1 none
+  2 none
+  3 none
+  4 none
+  5 none
+  7 none
+  9 none
+  10 none
+  11 none
+  12 none
+  15 none
+  17 none
+
+NetworkTransitionWakeLock is currently not held.
+It was last requested for 
+
+mUpstreamIfaceTypes: 
+ 0
+ 1
+ 5
+ 7
+ 9
+
+Tether state:
+
+
+Inet condition reports:

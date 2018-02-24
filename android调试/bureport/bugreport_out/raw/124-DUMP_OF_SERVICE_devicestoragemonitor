@@ -1,0 +1,8 @@
+Current DeviceStorageMonitor state:
+  mFreeMem=702 MB mTotalMemory=0.97 GB
+  mFreeMemAfterLastCacheClear=702 MB
+  mLastReportedFreeMem=703 MB mLastReportedFreeMemTime=-5h57m18s98ms
+  mLowMemFlag=false mMemFullFlag=false
+ mIsBootImageOnDisk=true  mClearSucceeded=false mClearingCache=false
+  mMemLowThreshold=99.19 MB mMemFullThreshold=1.00 MB
+  mMemCacheStartTrimThreshold=74.64 MB mMemCacheTrimToThreshold=148 MB

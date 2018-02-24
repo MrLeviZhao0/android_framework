@@ -1,0 +1,52 @@
+Sensor List:
+MPL rotation vector| Invensense| version=1 |android.sensor.rotation_vector| 0x00000000 | "" | type=11 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0,  0.0,  0.0, 0>
+
+MPL linear accel| Invensense| version=1 |android.sensor.linear_acceleration| 0x00000001 | "" | type=10 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+MPL gravity    | Invensense| version=1 |android.sensor.gravity| 0x00000002 | "" | type=9 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+MPL Gyro       | Invensense| version=1 |android.sensor.gyroscope| 0x00000003 | "" | type=4 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+MPL accel      | Invensense| version=1 |android.sensor.accelerometer| 0x00000004 | "" | type=1 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+MPL magnetic field| Invensense| version=1 |android.sensor.magnetic_field| 0x00000005 | "" | type=2 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+MPL Orientation (android deprecated format)| Invensense| version=1 |android.sensor.orientation| 0x00000006 | "" | type=3 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Light sensor   | Invensense| version=1 |android.sensor.light| 0x00000007 | "" | type=5 | on-change | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Rotation Vector Sensor| AOSP      | version=3 |android.sensor.rotation_vector| 0x5f726f76 | "" | type=11 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0,  0.0,  0.0, 0>
+
+Gravity Sensor | AOSP      | version=3 |android.sensor.gravity| 0x5f677276 | "" | type=9 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Linear Acceleration Sensor| AOSP      | version=3 |android.sensor.linear_acceleration| 0x5f6c696e | "" | type=10 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Orientation Sensor| AOSP      | version=1 |android.sensor.orientation| 0x5f797072 | "" | type=3 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Corrected Gyroscope Sensor| AOSP      | version=1 |android.sensor.gyroscope| 0x5f636779 | "" | type=4 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Gyroscope Bias (debug)| AOSP      | version=1 |android.sensor.accelerometer| 0x5f676273 | "" | type=1 | continuous | maxDelay=0us |maxRate=50.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+halVersion 0
+8 h/w sensors:
+handle=0x00000000, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000000, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000001, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000001, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000002, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000002, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000003, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000003, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000004, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000004, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000005, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000005, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000006, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000006, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000007, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000007, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+Active sensors:
+Socket Buffer size = 39 events
+WakeLock Status: not held 
+0 active connections

@@ -1,0 +1,91 @@
+Current Alarm Manager state:
+nowRTC=1358779668276=2013-01-21 16:47:48 nowELAPSED=+5h57m25s598ms
+Time since non-interactive: +11m18s982ms
+Max wakeup delay: +15m0s0ms
+Time since last dispatch: +7m48s276ms
+Next non-wakeup delivery time: +3m48s276ms
+Next non-wakeup alarm: -3m48s276ms = 2013-01-21 16:44:00
+Next wakeup: +2m43s520ms = 2013-01-21 16:50:31
+Num time change events: 0
+
+Pending alarm batches: 5
+Batch{3a58720c num=2 start=21609118 end=21789339}:
+  ELAPSED #1: Alarm{bb06755 type 3 when 21609118 android}
+    tag=*alarm*:com.android.server.action.NETWORK_STATS_POLL
+    type=3 whenElapsed=+2m43s520ms when=+2m43s520ms
+    window=-1 repeatInterval=1800000 count=0
+    operation=PendingIntent{3a56156a: PendingIntentRecord{236b7422 android broadcastIntent}}
+  ELAPSED_WAKEUP #0: Alarm{3a0b3ed6 type 2 when 21249339 android}
+    tag=*walarm*:android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+    type=2 whenElapsed=-3m16s259ms when=-3m16s259ms
+    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{4b9a93f: PendingIntentRecord{13f0b06e android broadcastIntent}}
+Batch{13732557 num=1 start=25026621 end=25326621}:
+  ELAPSED_WAKEUP #0: Alarm{15b19844 type 2 when 25026621 android}
+    tag=*walarm*:com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE
+    type=2 whenElapsed=+59m41s23ms when=+59m41s23ms
+    window=300000 repeatInterval=0 count=0
+    operation=PendingIntent{219abd2d: PendingIntentRecord{1336d404 android broadcastIntent}}
+Batch{b299a5b num=1 start=47377321 end=47377321 STANDALONE}:
+  RTC #0: Alarm{2b20a2f8 type 1 when 1358805600000 android}
+    tag=*alarm*:android.intent.action.DATE_CHANGED
+    type=1 whenElapsed=+7h12m11s723ms when=2013-01-22 00:00:00
+    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{125d23d1: PendingIntentRecord{f5947b1 android broadcastIntent}}
+Batch{37381e36 num=2 start=86409544 end=101800393}:
+  ELAPSED #1: Alarm{2fdd8137 type 3 when 86409544 android}
+    tag=*alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    type=3 whenElapsed=+18h2m43s946ms when=+18h2m43s946ms
+    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{638f6a4: PendingIntentRecord{3991f5ca android broadcastIntent}}
+  ELAPSED #0: Alarm{283f2c0d type 3 when 58177321 android}
+    tag=*alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    type=3 whenElapsed=+10h12m11s723ms when=+10h12m11s723ms
+    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{15fe7c2: PendingIntentRecord{3650d30f android broadcastIntent}}
+Batch{107ef9d3 num=1 start=864189566 end=1512189566}:
+  ELAPSED #0: Alarm{260d910 type 3 when 864189566 android}
+    tag=*alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+    type=3 whenElapsed=+9d18h5m43s968ms when=+9d18h5m43s968ms
+    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{37bf7c09: PendingIntentRecord{149cf817 android broadcastIntent}}
+
+Past-due non-wakeup alarms: 1
+  ELAPSED #0: Alarm{32547262 type 3 when 21037322 android}
+    tag=*alarm*:android.intent.action.TIME_TICK
+    type=3 whenElapsed=-6m48s276ms when=-6m48s276ms
+    window=0 repeatInterval=0 count=1
+    operation=PendingIntent{358da19d: PendingIntentRecord{20c1a496 android broadcastIntent}}
+  Number of delayed alarms: 23, total delay time: +2h5m26s888ms
+  Max delay time: +10m8s658ms, max non-interactive time: +5h15m19s338ms
+
+  Broadcast ref count: 0
+
+  Top Alarms:
+    +1s145ms running, 0 wakeups, 54 alarms: 1000:android
+      *alarm*:android.intent.action.TIME_TICK
+    +577ms running, 0 wakeups, 12 alarms: 1000:android
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +442ms running, 0 wakeups, 1 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +72ms running, 24 wakeups, 24 alarms: 1000:android
+      *walarm*:android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+    +17ms running, 1 wakeups, 1 alarms: 1000:android
+      *walarm*:com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE
+    +4ms running, 0 wakeups, 3 alarms: 1000:android
+      *alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+    +2ms running, 1 wakeups, 1 alarms: 1000:android
+      *walarm*:NextAlarmTracker.trigger
+    +2ms running, 1 wakeups, 1 alarms: 1000:android
+      *walarm*:com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE
+ 
+  Alarm Stats:
+  1000:android +1s599ms running, 27 wakeups:
+    +1s145ms 0 wakes 54 alarms: *alarm*:android.intent.action.TIME_TICK
+    +577ms 0 wakes 12 alarms: *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +442ms 0 wakes 1 alarms: *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +72ms 24 wakes 24 alarms: *walarm*:android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+    +17ms 1 wakes 1 alarms: *walarm*:com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE
+    +4ms 0 wakes 3 alarms: *alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+    +2ms 1 wakes 1 alarms: *walarm*:com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE
+    +2ms 1 wakes 1 alarms: *walarm*:NextAlarmTracker.trigger

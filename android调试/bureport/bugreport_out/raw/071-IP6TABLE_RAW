@@ -1,0 +1,16 @@
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 bw_raw_PREROUTING  all      *      *       ::/0                 ::/0                
+       0        0 idletimer_raw_PREROUTING  all      *      *       ::/0                 ::/0                
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain bw_raw_PREROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0            all      *      *       ::/0                 ::/0                 owner socket exists
+
+Chain idletimer_raw_PREROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+[/system/xbin/su: 0.101s elapsed]
+

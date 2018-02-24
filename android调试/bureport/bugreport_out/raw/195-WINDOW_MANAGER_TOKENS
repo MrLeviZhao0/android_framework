@@ -1,0 +1,25 @@
+  All tokens:
+  WindowToken{350a3ec0 null}:
+    windows=[Window{3bc7fd8e u0 Heads Up}, Window{22e45bdb u0 StatusBar}, Window{a2070dc u0 KeyguardScrim}]
+    windowType=-1 hidden=false hasVisible=true
+  WindowToken{3cfb67f9 android.os.Binder@3874b1f2}:
+    windows=[]
+    windowType=2011 hidden=false hasVisible=false
+  AppWindowToken{1935faae token=Token{279f4729 ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}}}:
+    windows=[Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}]
+    windowType=2 hidden=false hasVisible=true
+    app=true voiceInteraction=false
+    allAppWindows=[Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}]
+    groupId=314 appFullscreen=true requestedOrientation=0
+    hiddenRequested=false clientHidden=false willBeHidden=false reportedDrawn=true reportedVisible=true
+    numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+    startingData=null removed=false firstWindowDrawn=true mDeferRemoval=false
+  WindowToken{344f533e android.os.Binder@3bfadebc}:
+    windows=[Window{ed7fda8 u0 com.android.systemui.ImageWallpaper}]
+    windowType=2013 hidden=true hasVisible=false
+
+  Wallpaper tokens:
+  Wallpaper #0 WindowToken{344f533e android.os.Binder@3bfadebc}:
+    windows=[Window{ed7fda8 u0 com.android.systemui.ImageWallpaper}]
+    windowType=2013 hidden=true hasVisible=false
+

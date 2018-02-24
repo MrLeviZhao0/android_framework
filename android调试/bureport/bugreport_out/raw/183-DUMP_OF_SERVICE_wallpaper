@@ -1,0 +1,11 @@
+Current Wallpaper Service state:
+ User 0:
+  mWidth=1920 mHeight=1920
+  mPadding=Rect(0, 0 - 0, 0)
+  mName=
+  mWallpaperComponent=ComponentInfo{com.android.systemui/com.android.systemui.ImageWallpaper}
+  Wallpaper connection com.android.server.wallpaper.WallpaperManagerService$WallpaperConnection@346bb990:
+    mToken=android.os.Binder@3bfadebc
+    mService=android.service.wallpaper.IWallpaperService$Stub$Proxy@17a5619a
+    mEngine=android.service.wallpaper.IWallpaperEngine$Stub$Proxy@c43aacb
+    mLastDiedTime=-2650985

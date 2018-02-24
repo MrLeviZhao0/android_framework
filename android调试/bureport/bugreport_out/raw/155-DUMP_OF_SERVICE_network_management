@@ -1,0 +1,151 @@
+NetworkManagementService NativeDaemonConnector Log:
+01-21 10:50:30.843 - SND -> {1 interface list}
+01-21 10:50:30.844 - RCV <- {110 1 sit0}
+01-21 10:50:30.844 - RCV <- {110 1 eth0}
+01-21 10:50:30.844 - RCV <- {110 1 lo}
+01-21 10:50:30.844 - RCV <- {200 1 Interface list completed}
+01-21 10:50:30.845 - SND -> {2 interface getcfg eth0}
+01-21 10:50:30.845 - RCV <- {213 2 00:00:00:00:00:00 0.0.0.0 0 down broadcast multicast}
+01-21 10:50:30.846 - SND -> {3 interface setcfg eth0 0.0.0.0 0 up multicast broadcast}
+01-21 10:50:30.918 - RCV <- {400 3 Failed to up interface (No such device)}
+01-21 10:50:31.120 - SND -> {4 interface getcfg eth0}
+01-21 10:50:31.120 - RCV <- {213 4 fa:18:9d:ea:a8:fe 0.0.0.0 0 down broadcast multicast}
+01-21 10:50:31.310 - SND -> {5 softap fwreload wlan0 STA}
+01-21 10:50:31.310 - RCV <- {214 5 Ok}
+01-21 10:50:31.310 - SND -> {6 interface getcfg wlan0}
+01-21 10:50:31.311 - RCV <- {213 6 00:00:00:00:00:00 0.0.0.0 0 down}
+01-21 10:50:31.312 - SND -> {7 interface setcfg wlan0 0.0.0.0 0 down}
+01-21 10:50:31.317 - RCV <- {400 7 Failed to set address (No such device)}
+01-21 10:50:31.402 - SND -> {8 bandwidth enable}
+01-21 10:50:31.726 - RCV <- {200 8 Bandwidth command succeeeded}
+01-21 10:50:31.730 - SND -> {9 firewall disable}
+01-21 10:50:31.780 - RCV <- {200 9 Firewall command succeeded}
+01-21 10:50:31.794 - SND -> {10 bandwidth gettetherstats}
+01-21 10:50:31.795 - RCV <- {200 10 Tethering stats list completed}
+01-21 10:50:31.797 - SND -> {11 bandwidth setglobalalert 2097152}
+01-21 10:50:31.833 - RCV <- {200 11 Bandwidth command succeeeded}
+01-21 10:50:31.838 - SND -> {12 firewall disable}
+01-21 10:50:31.921 - RCV <- {200 12 Firewall command succeeded}
+01-21 10:50:31.923 - SND -> {13 network permission user set SYSTEM 10025 10027 10002 10001 10003 10022 10017 10014 10008 10013}
+01-21 10:50:31.925 - RCV <- {200 13 success}
+01-21 10:50:31.925 - SND -> {14 network permission user set SYSTEM 10011 10009 10019 10004 10018 10024 1002 10020 10023 10007}
+01-21 10:50:31.926 - RCV <- {200 14 success}
+01-21 10:50:31.926 - SND -> {15 network permission user set SYSTEM 10030 2000 10029 10005 10010 10028 10016 1001 10021 10012}
+01-21 10:50:31.926 - RCV <- {200 15 success}
+01-21 10:50:31.926 - SND -> {16 network permission user set SYSTEM 1000 10000 10015 10006 10026}
+01-21 10:50:31.926 - RCV <- {200 16 success}
+01-21 10:50:33.084 - SND -> {17 bandwidth gettetherstats}
+01-21 10:50:33.084 - RCV <- {200 17 Tethering stats list completed}
+01-21 10:50:33.095 - SND -> {18 bandwidth setglobalalert 2097152}
+01-21 10:50:33.096 - RCV <- {200 18 Bandwidth command succeeeded}
+01-21 10:50:50.392 - SND -> {19 softap fwreload wlan0 STA}
+01-21 10:50:50.393 - RCV <- {214 19 Ok}
+01-21 10:50:50.394 - SND -> {20 interface getcfg wlan0}
+01-21 10:50:50.397 - RCV <- {213 20 00:00:00:00:00:00 0.0.0.0 0 down}
+01-21 10:50:50.398 - SND -> {21 interface setcfg wlan0 0.0.0.0 0 down}
+01-21 10:50:50.399 - RCV <- {400 21 Failed to set address (No such device)}
+01-21 11:20:26.794 - RCV <- {600 Iface added wlan0}
+01-21 11:20:26.794 - RCV <- {600 Iface added p2p0}
+01-21 11:20:26.794 - RCV <- {600 Iface linkstate wlan0 down}
+01-21 11:20:26.794 - RCV <- {600 Iface linkstate p2p0 down}
+01-21 11:20:26.802 - SND -> {22 bandwidth gettetherstats}
+01-21 11:20:26.802 - RCV <- {200 22 Tethering stats list completed}
+01-21 11:20:26.808 - SND -> {23 bandwidth gettetherstats}
+01-21 11:20:26.808 - RCV <- {200 23 Tethering stats list completed}
+01-21 11:20:26.866 - RCV <- {600 Iface removed wlan0}
+01-21 11:20:28.987 - RCV <- {600 Iface removed p2p0}
+01-21 11:20:32.013 - SND -> {24 bandwidth gettetherstats}
+01-21 11:20:32.013 - RCV <- {200 24 Tethering stats list completed}
+01-21 11:20:32.017 - SND -> {25 bandwidth setglobalalert 2097152}
+01-21 11:20:32.018 - RCV <- {200 25 Bandwidth command succeeeded}
+01-21 11:30:26.662 - RCV <- {600 Iface added wlan0}
+01-21 11:30:26.662 - RCV <- {600 Iface added p2p0}
+01-21 11:30:26.662 - RCV <- {600 Iface linkstate wlan0 down}
+01-21 11:30:26.662 - RCV <- {600 Iface linkstate p2p0 down}
+01-21 11:30:26.678 - SND -> {26 bandwidth gettetherstats}
+01-21 11:30:26.680 - RCV <- {200 26 Tethering stats list completed}
+01-21 11:30:26.684 - SND -> {27 bandwidth gettetherstats}
+01-21 11:30:26.685 - RCV <- {200 27 Tethering stats list completed}
+01-21 11:30:26.756 - RCV <- {600 Iface removed wlan0}
+01-21 11:30:28.995 - RCV <- {600 Iface removed p2p0}
+01-21 11:50:32.012 - SND -> {28 bandwidth gettetherstats}
+01-21 11:50:32.013 - RCV <- {200 28 Tethering stats list completed}
+01-21 11:50:32.016 - SND -> {29 bandwidth setglobalalert 2097152}
+01-21 11:50:32.017 - RCV <- {200 29 Bandwidth command succeeeded}
+01-21 12:20:32.023 - SND -> {30 bandwidth gettetherstats}
+01-21 12:20:32.024 - RCV <- {200 30 Tethering stats list completed}
+01-21 12:20:32.027 - SND -> {31 bandwidth setglobalalert 2097152}
+01-21 12:20:32.028 - RCV <- {200 31 Bandwidth command succeeeded}
+01-21 12:50:32.010 - SND -> {32 bandwidth gettetherstats}
+01-21 12:50:32.010 - RCV <- {200 32 Tethering stats list completed}
+01-21 12:50:32.015 - SND -> {33 bandwidth setglobalalert 2097152}
+01-21 12:50:32.016 - RCV <- {200 33 Bandwidth command succeeeded}
+01-21 13:20:32.009 - SND -> {34 bandwidth gettetherstats}
+01-21 13:20:32.010 - RCV <- {200 34 Tethering stats list completed}
+01-21 13:20:32.013 - SND -> {35 bandwidth setglobalalert 2097152}
+01-21 13:20:32.013 - RCV <- {200 35 Bandwidth command succeeeded}
+01-21 13:50:32.011 - SND -> {36 bandwidth gettetherstats}
+01-21 13:50:32.012 - RCV <- {200 36 Tethering stats list completed}
+01-21 13:50:32.014 - SND -> {37 bandwidth setglobalalert 2097152}
+01-21 13:50:32.015 - RCV <- {200 37 Bandwidth command succeeeded}
+01-21 14:20:32.009 - SND -> {38 bandwidth gettetherstats}
+01-21 14:20:32.010 - RCV <- {200 38 Tethering stats list completed}
+01-21 14:20:32.013 - SND -> {39 bandwidth setglobalalert 2097152}
+01-21 14:20:32.013 - RCV <- {200 39 Bandwidth command succeeeded}
+01-21 14:50:32.010 - SND -> {40 bandwidth gettetherstats}
+01-21 14:50:32.010 - RCV <- {200 40 Tethering stats list completed}
+01-21 14:50:32.013 - SND -> {41 bandwidth setglobalalert 2097152}
+01-21 14:50:32.014 - RCV <- {200 41 Bandwidth command succeeeded}
+01-21 15:20:32.012 - SND -> {42 bandwidth gettetherstats}
+01-21 15:20:32.013 - RCV <- {200 42 Tethering stats list completed}
+01-21 15:20:32.017 - SND -> {43 bandwidth setglobalalert 2097152}
+01-21 15:20:32.017 - RCV <- {200 43 Bandwidth command succeeeded}
+01-21 15:50:27.665 - RCV <- {600 Iface linkstate wlan0 down}
+01-21 15:50:27.665 - RCV <- {600 Iface linkstate p2p0 down}
+01-21 15:50:27.665 - RCV <- {600 Iface added wlan0}
+01-21 15:50:27.666 - RCV <- {600 Iface added p2p0}
+01-21 15:50:27.670 - SND -> {44 bandwidth gettetherstats}
+01-21 15:50:27.671 - RCV <- {200 44 Tethering stats list completed}
+01-21 15:50:33.665 - RCV <- {600 Iface removed wlan0}
+01-21 15:50:33.666 - RCV <- {600 Iface removed p2p0}
+01-21 15:50:33.666 - RCV <- {600 Iface added wlan0}
+01-21 15:50:33.666 - RCV <- {600 Iface added p2p0}
+01-21 15:50:33.667 - RCV <- {600 Iface linkstate wlan0 down}
+01-21 15:50:33.667 - RCV <- {600 Iface linkstate p2p0 down}
+01-21 15:50:33.674 - SND -> {45 bandwidth gettetherstats}
+01-21 15:50:33.674 - RCV <- {200 45 Tethering stats list completed}
+01-21 15:50:33.683 - SND -> {46 bandwidth gettetherstats}
+01-21 15:50:33.683 - RCV <- {200 46 Tethering stats list completed}
+01-21 15:50:33.687 - SND -> {47 bandwidth setglobalalert 2097152}
+01-21 15:50:33.688 - RCV <- {200 47 Bandwidth command succeeeded}
+01-21 15:50:33.694 - SND -> {48 bandwidth gettetherstats}
+01-21 15:50:33.695 - RCV <- {200 48 Tethering stats list completed}
+01-21 15:50:33.699 - SND -> {49 bandwidth gettetherstats}
+01-21 15:50:33.699 - RCV <- {200 49 Tethering stats list completed}
+01-21 15:50:33.757 - RCV <- {600 Iface removed wlan0}
+01-21 15:50:36.047 - RCV <- {600 Iface removed p2p0}
+01-21 16:02:35.657 - RCV <- {600 Iface linkstate wlan0 down}
+01-21 16:02:35.657 - RCV <- {600 Iface linkstate p2p0 down}
+01-21 16:02:35.657 - RCV <- {600 Iface added wlan0}
+01-21 16:02:35.657 - RCV <- {600 Iface added p2p0}
+01-21 16:02:35.667 - SND -> {50 bandwidth gettetherstats}
+01-21 16:02:35.667 - RCV <- {200 50 Tethering stats list completed}
+01-21 16:02:37.994 - RCV <- {600 Iface removed wlan0}
+01-21 16:02:37.997 - SND -> {51 bandwidth gettetherstats}
+01-21 16:02:37.998 - RCV <- {200 51 Tethering stats list completed}
+01-21 16:02:38.051 - RCV <- {600 Iface removed p2p0}
+01-21 16:20:32.009 - SND -> {52 bandwidth gettetherstats}
+01-21 16:20:32.010 - RCV <- {200 52 Tethering stats list completed}
+01-21 16:20:32.013 - SND -> {53 bandwidth setglobalalert 2097152}
+01-21 16:20:32.013 - RCV <- {200 53 Bandwidth command succeeeded}
+
+Pending requests:
+
+Bandwidth control enabled: true
+mMobileActivityFromRadio=false mLastPowerStateFromRadio=1
+mNetworkActive=false
+Active quota ifaces: {}
+Active alert ifaces: {}
+UID reject on quota ifaces: []
+Idle timers:
+Firewall enabled: false

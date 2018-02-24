@@ -1,0 +1,15 @@
+DREAM MANAGER (dumpsys dreams)
+
+mCurrentDreamToken=null
+mCurrentDreamName=null
+mCurrentDreamUserId=0
+mCurrentDreamIsTest=false
+mCurrentDreamCanDoze=false
+mCurrentDreamIsDozing=false
+mCurrentDreamIsWaking=false
+mCurrentDreamDozeScreenState=UNKNOWN
+mCurrentDreamDozeScreenBrightness=-1
+getDozeComponent()=null
+
+Dreamland:
+  mCurrentDream: null

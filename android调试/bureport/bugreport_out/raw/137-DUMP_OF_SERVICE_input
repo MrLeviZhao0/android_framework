@@ -1,0 +1,267 @@
+INPUT MANAGER (dumpsys input)
+
+Event Hub State:
+  BuiltInKeyboardId: 3
+  Devices:
+    -1: Virtual
+      Classes: 0x40000023
+      Path: <virtual>
+      Descriptor: a718a782d34bc767f4689c232d64d527998ea7fd
+      Location: 
+      ControllerNumber: 0
+      UniqueId: <virtual>
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Virtual.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    1: fts_ts
+      Classes: 0x00000014
+      Path: /dev/input/event3
+      Descriptor: a1cc21cba608c55d28d6dd2b1939004df0e0c756
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0018, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    2: input_uart
+      Classes: 0x00000421
+      Path: /dev/input/event0
+      Descriptor: fc084104806f74682be90c2bad4fbc1c81744116
+      Location: ts/inputuart
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0xabcd, product=0xabcd, version=0x006f
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    3: rk29-keypad (aka device 0 - built-in keyboard)
+      Classes: 0x00000401
+      Path: /dev/input/event2
+      Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+      Location: gpio-keys/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/rk29-keypad.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    4: ff680000.pwm
+      Classes: 0x00000421
+      Path: /dev/input/event1
+      Descriptor: d2c52ff0f656fac4cd7b7a118d575e0109a9fe1c
+      Location: gpio-keys/remotectl
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/ff680000_pwm.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+
+Input Reader State:
+  Device -1: Virtual
+    Generation: 2
+    IsExternal: false
+    Sources: 0x00000301
+    KeyboardType: 2
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 2
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 0: rk29-keypad
+    Generation: 6
+    IsExternal: false
+    Sources: 0x00002103
+    KeyboardType: 1
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 1056820118000
+  Device 1: fts_ts
+    Generation: 12
+    IsExternal: false
+    Sources: 0x00001002
+    KeyboardType: 0
+    Motion Ranges:
+      X: source=0x00001002, min=0.000, max=1919.000, flat=0.000, fuzz=0.000, resolution=0.000
+      Y: source=0x00001002, min=0.000, max=1079.000, flat=0.000, fuzz=0.000, resolution=0.000
+      PRESSURE: source=0x00001002, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+    Touch Input Mapper:
+      Parameters:
+        GestureMode: spots
+        DeviceType: touchScreen
+        AssociatedDisplay: hasAssociatedDisplay=true, isExternal=false
+        OrientationAware: true
+      Raw Touch Axes:
+        X: min=0, max=240, flat=0, fuzz=0, resolution=0
+        Y: min=0, max=240, flat=0, fuzz=0, resolution=0
+        Pressure: unknown range
+        TouchMajor: unknown range
+        TouchMinor: unknown range
+        ToolMajor: unknown range
+        ToolMinor: unknown range
+        Orientation: unknown range
+        Distance: unknown range
+        TiltX: unknown range
+        TiltY: unknown range
+        TrackingId: min=0, max=65535, flat=0, fuzz=0, resolution=0
+        Slot: min=0, max=9, flat=0, fuzz=0, resolution=0
+      Calibration:
+        touch.size.calibration: none
+        touch.pressure.calibration: none
+        touch.orientation.calibration: none
+        touch.distance.calibration: none
+        touch.coverage.calibration: none
+      Affine Transformation:
+        X scale: 1.000
+        X ymix: 0.000
+        X offset: 0.000
+        Y xmix: 0.000
+        Y scale: 1.000
+        Y offset: 0.000
+      Viewport: displayId=0, orientation=0, logicalFrame=[0, 0, 1920, 1080], physicalFrame=[0, 0, 1920, 1080], deviceSize=[1920, 1080]
+      SurfaceWidth: 1920px
+      SurfaceHeight: 1080px
+      SurfaceLeft: 0
+      SurfaceTop: 0
+      SurfaceOrientation: 0
+      Translation and Scaling Factors:
+        XTranslate: 0.000
+        YTranslate: 0.000
+        XScale: 7.967
+        YScale: 4.481
+        XPrecision: 0.126
+        YPrecision: 0.223
+        GeometricScale: 6.224
+        PressureScale: 0.000
+        SizeScale: 0.000
+        OrientationScale: 0.000
+        DistanceScale: 0.000
+        HaveTilt: false
+        TiltXCenter: 0.000
+        TiltXScale: 0.000
+        TiltYCenter: 0.000
+        TiltYScale: 0.000
+      Last Button State: 0x00000000
+      Last Raw Touch: pointerCount=0
+      Last Cooked Touch: pointerCount=0
+  Device 2: input_uart
+    Generation: 8
+    IsExternal: false
+    Sources: 0x00002303
+    KeyboardType: 1
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 4: ff680000.pwm
+    Generation: 4
+    IsExternal: false
+    Sources: 0x00002303
+    KeyboardType: 1
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Configuration:
+    ExcludedDeviceNames: []
+    VirtualKeyQuietTime: 0.0ms
+    PointerVelocityControlParameters: scale=1.000, lowThreshold=500.000, highThreshold=3000.000, acceleration=3.000
+    WheelVelocityControlParameters: scale=1.000, lowThreshold=15.000, highThreshold=50.000, acceleration=4.000
+    PointerGesture:
+      Enabled: true
+      QuietInterval: 100.0ms
+      DragMinSwitchSpeed: 50.0px/s
+      TapInterval: 150.0ms
+      TapDragInterval: 300.0ms
+      TapSlop: 20.0px
+      MultitouchSettleInterval: 100.0ms
+      MultitouchMinDistance: 15.0px
+      SwipeTransitionAngleCosine: 0.3
+      SwipeMaxWidthRatio: 0.2
+      MovementSpeedRatio: 0.8
+      ZoomSpeedRatio: 0.3
+
+Input Dispatcher State:
+  DispatchEnabled: 1
+  DispatchFrozen: 0
+  FocusedApplication: name='AppWindowToken{1935faae token=Token{279f4729 ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}}}', dispatchingTimeout=5000.000ms
+  FocusedWindow: name='Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}'
+  TouchStates: <no displays touched>
+  Windows:
+    0: name='Window{3bc7fd8e u0 Heads Up}', isHomeWindow=false displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01820328, type=0x000007de, layer=161000, frame=[0,0][1920,0], scale=1.000000, touchableRegion=<empty>, inputFeatures=0x00000000, ownerPid=713, ownerUid=10009, dispatchingTimeout=5000.000ms
+    1: name='Window{22e45bdb u0 StatusBar}', isHomeWindow=false displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x81840048, type=0x000007d0, layer=151000, frame=[0,0][1920,57], scale=1.000000, touchableRegion=[0,0][1920,57], inputFeatures=0x00000000, ownerPid=713, ownerUid=10009, dispatchingTimeout=5000.000ms
+    2: name='Window{a2070dc u0 KeyguardScrim}', isHomeWindow=false displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01110900, type=0x000007ed, layer=131000, frame=[0,0][1920,1080], scale=1.000000, touchableRegion=[0,0][1920,1080], inputFeatures=0x00000000, ownerPid=460, ownerUid=1000, dispatchingTimeout=5000.000ms
+    3: name='Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}', isHomeWindow=true displayId=0, paused=false, hasFocus=true, hasWallpaper=false, visible=true, canReceiveKeys=true, flags=0x81810120, type=0x00000001, layer=21005, frame=[0,0][1920,1080], scale=1.000000, touchableRegion=[0,0][1920,1080], inputFeatures=0x00000000, ownerPid=910, ownerUid=10013, dispatchingTimeout=5000.000ms
+    4: name='Window{ed7fda8 u0 com.android.systemui.ImageWallpaper}', isHomeWindow=false displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x00000318, type=0x000007dd, layer=21000, frame=[0,0][1920,1080], scale=1.000000, touchableRegion=[0,0][1920,1080], inputFeatures=0x00000000, ownerPid=713, ownerUid=10009, dispatchingTimeout=5000.000ms
+  MonitoringChannels:
+    0: 'WindowManagerService (server)'
+  RecentQueue: length=10
+    DeviceResetEvent(deviceId=4), policyFlags=0x00000000, age=2630076.2ms
+    DeviceResetEvent(deviceId=0), policyFlags=0x00000000, age=2630076.2ms
+    DeviceResetEvent(deviceId=2), policyFlags=0x00000000, age=2630076.2ms
+    DeviceResetEvent(deviceId=1), policyFlags=0x00000000, age=2630076.2ms
+    , age=2630076.2ms
+    DeviceResetEvent(deviceId=1), policyFlags=0x00000000, age=2630040.8ms
+    KeyEvent(deviceId=0, source=0x00000101, action=0, flags=0x00000008, keyCode=26, scanCode=116, metaState=0x00000000, repeatCount=0), policyFlags=0x02000000, age=1613828.9ms
+    KeyEvent(deviceId=0, source=0x00000101, action=1, flags=0x00000008, keyCode=26, scanCode=116, metaState=0x00000000, repeatCount=0), policyFlags=0x22000000, age=1613802.0ms
+    KeyEvent(deviceId=0, source=0x00000101, action=0, flags=0x00000008, keyCode=224, scanCode=143, metaState=0x00000000, repeatCount=0), policyFlags=0x22000000, age=1580342.2ms
+    KeyEvent(deviceId=0, source=0x00000101, action=1, flags=0x00000008, keyCode=224, scanCode=143, metaState=0x00000000, repeatCount=0), policyFlags=0x22000000, age=1580342.2ms
+  PendingEvent: <none>
+  InboundQueue: <empty>
+  ReplacedKeys: <empty>
+  Connections:
+    0: channelName='WindowManagerService (server)', windowName='monitor', status=NORMAL, monitor=true, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    1: channelName='a2070dc KeyguardScrim (server)', windowName='Window{a2070dc u0 KeyguardScrim}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    2: channelName='28ac5446 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity (server)', windowName='Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    3: channelName='22e45bdb StatusBar (server)', windowName='Window{22e45bdb u0 StatusBar}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    4: channelName='3bc7fd8e Heads Up (server)', windowName='Window{3bc7fd8e u0 Heads Up}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    5: channelName='ed7fda8 com.android.systemui.ImageWallpaper (server)', windowName='Window{ed7fda8 u0 com.android.systemui.ImageWallpaper}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+  AppSwitch: not pending
+  Configuration:
+    KeyRepeatDelay: 50.0ms
+    KeyRepeatTimeout: 500.0ms
+
+

@@ -1,0 +1,104 @@
+<html>
+<head>
+  <title>f00128.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00128.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h2>com.android.settings (1056)</h2>
+<div><p>Mem info from 'meminfo' service:</p><pre class="box">** MEMINFO in pid 1056 [com.android.settings] **
+                   Pss      Pss   Shared  Private   Shared  Private  Swapped     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      787        0     1792      628        0        0        0     2420     2280      139
+  Dalvik Heap     2151        0      584     2092        0        0        0     2653     2082      571
+ Dalvik Other      148        0        4      148        0        0        0                           
+        Stack       92        0        4       92        0        0        0                           
+    Other dev        4        0       24        0        0        4        0                           
+     .so mmap      455        0     2540       64     3432        0        0                           
+    .apk mmap     1402     1196        0        0     1376     1196        0                           
+    .dex mmap      676      672        0        0        8      672        0                           
+    .oat mmap      741        0        0        0     6340        0        0                           
+    .art mmap     1734        0      848      976     8004        0        0                           
+   Other mmap        6        0        8        4       48        0        0                           
+      Unknown      445        0      184      440        0        0        0                           
+        TOTAL     8641     1868     5988     4444    19208     1872        0     5073     4362      710
+ 
+ Dalvik Details
+        .Heap     1968        0        0     1968        0        0        0                           
+         .LOS       12        0       60        8        0        0        0                           
+          .GC      104        0        0      104        0        0        0                           
+      .Zygote       21        0       20       20        0        0        0                           
+   .NonMoving      150        0      504       96        0        0        0                           
+ .IndirectRef       44        0        4       44        0        0        0                           
+ 
+ Objects
+               Views:        1         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        7        Proxy Binders:       10
+       Parcel memory:        2         Parcel count:       11
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+</pre></div><p><a href="f00021.html#ch0">Current stack trace &gt;&gt;&gt;</a></p><div><p>Memory usage of process <a href="f00128.html#ch0">com.android.settings(1056)</a> from librank output:</p><a name="librank_list_1056"></a><div class="hint">(Limited to 10 items, <a href="f00152.html#librank_list_1056">click here for a full list</a>)</div>
+<table class=" tablesorter">
+<thead>
+<tr>
+<th>Memory</th>
+<th>VSS (KB)</th>
+<th>RSS (KB)</th>
+<th>PSS (KB)</th>
+<th>USS (KB)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/dev/ashmem/dalvik-main</td><td class="right">393<span class="kb">216</span></td><td class="right">1<span class="kb">904</span></td><td class="right">1<span class="kb">904</span></td><td class="right">1<span class="kb">904</span></td></tr>
+<tr>
+<td>/data/dalvik-cache/arm/system@framework@boot.art</td><td class="right">9<span class="kb">932</span></td><td class="right">9<span class="kb">828</span></td><td class="right">1<span class="kb">734</span></td><td class="right"><span class="kb">976</span></td></tr>
+<tr>
+<td>/system/priv-app/Settings/Settings.apk</td><td class="right">14<span class="kb">576</span></td><td class="right">1<span class="kb">196</span></td><td class="right">1<span class="kb">196</span></td><td class="right">1<span class="kb">196</span></td></tr>
+<tr>
+<td>/data/dalvik-cache/arm/system@framework@boot.oat</td><td class="right">49<span class="kb">712</span></td><td class="right">6<span class="kb">340</span></td><td class="right"><span class="kb">741</span></td><td class="right"><span class="kb">0</span></td></tr>
+<tr>
+<td>/data/dalvik-cache/arm/system@priv-app@Settings@Settings.apk@classes.dex</td><td class="right">4<span class="kb">868</span></td><td class="right"><span class="kb">680</span></td><td class="right"><span class="kb">676</span></td><td class="right"><span class="kb">672</span></td></tr>
+<tr>
+<td>/system/framework/framework-res.apk</td><td class="right">13<span class="kb">948</span></td><td class="right">1<span class="kb">376</span></td><td class="right"><span class="kb">206</span></td><td class="right"><span class="kb">0</span></td></tr>
+<tr>
+<td>/dev/ashmem/dalvik-non</td><td class="right">65<span class="kb">496</span></td><td class="right"><span class="kb">600</span></td><td class="right"><span class="kb">150</span></td><td class="right"><span class="kb">96</span></td></tr>
+<tr>
+<td>/system/lib/libart.so</td><td class="right">3<span class="kb">108</span></td><td class="right">1<span class="kb">564</span></td><td class="right"><span class="kb">140</span></td><td class="right"><span class="kb">4</span></td></tr>
+<tr>
+<td>/system/vendor/lib/egl/libGLES_mali.so</td><td class="right">20<span class="kb">296</span></td><td class="right"><span class="kb">668</span></td><td class="right"><span class="kb">60</span></td><td class="right"><span class="kb">0</span></td></tr>
+<tr>
+<td>/dev/ashmem/dalvik-allocspace</td><td class="right">36<span class="kb">864</span></td><td class="right"><span class="kb">48</span></td><td class="right"><span class="kb">48</span></td><td class="right"><span class="kb">48</span></td></tr>
+</tbody>
+<div class="hint">(HINT: Click on the headers to sort the data. Shift+click to sort on multiple columns.)</div>
+<tbody>
+<tr>
+<td>...</td><td class="right">...</td><td class="right">...</td><td class="right">...</td><td class="right">...</td></tr>
+</tbody>
+</table>
+</div><div><a href="f00195.html#ch0">System log (filtered by this process) &gt;&gt;&gt;</a></div></body>
+</html>

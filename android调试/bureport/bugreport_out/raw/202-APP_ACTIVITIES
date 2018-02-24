@@ -1,0 +1,198 @@
+TASK com.royole.bwlauncher id=314
+  ACTIVITY com.royole.bwlauncher/.gallery.GalleryActivity 1f425cb0 pid=910
+    Local Activity 10930fb9 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 multiwindowflag=DISABLE dualscreenflag=DISABLE ?mcc?mnc zh_CN ?layoutDir sw811dp w1442dp h720dp 213dpi xlrg long land finger -keyb/v/h dpad/v s.4}
+    FragmentManager misc state:
+      mActivity=com.royole.bwlauncher.gallery.GalleryActivity@10930fb9
+      mContainer=android.app.Activity$1@657660f
+      mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=true
+      mLastFrameTime=2654799 (79 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{3d01d6e9 V.E..... R......D 0,0-1920,1080}
+        android.widget.LinearLayout{12e9369c V.E..... .......D 0,0-1920,1080}
+          android.view.ViewStub{3497f8a5 G.E..... ......I. 0,0-0,0 #1020382}
+          android.widget.FrameLayout{2715547a V.E..... .......D 0,0-1920,1080 #1020002 android:id/content}
+            android.widget.RelativeLayout{342e542b V.E..... .......D 0,0-1920,1080}
+              com.royole.libgallery.MyViewPager{19a12088 VFED.... ........ 827,250-1093,716 #7f090004 app:id/gallery}
+                com.royole.libgallery.GalleryLinearLayout{32b47a21 V.E..... ........ 0,0-266,466}
+                  android.widget.LinearLayout{2a943e46 V.E..... ........ 0,0-266,423}
+                    android.widget.ImageView{3c3c0807 V.ED.... ........ 0,0-266,45}
+                    com.royole.bwlauncher.gallery.CellView1{2a79af6e VFE...CL .F...... 0,45-266,378}
+                      android.widget.LinearLayout{2c6bbd34 V.E..... ........ 40,12-226,320}
+                        android.widget.ImageView{7bd975d V.ED.... ........ 0,0-186,186 #7f090010 app:id/iv_icon}
+                        android.widget.TextView{3ec5f8d2 V.ED.... ........ 26,279-159,308 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{10871da3 G.ED.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                    android.widget.ImageView{3a178a0 V.ED.... ........ 0,394-266,423}
+                com.royole.libgallery.GalleryLinearLayout{2a414c59 V.E..... ........ -305,0--39,466}
+                  android.widget.LinearLayout{8e6d01e V.E..... ........ 0,0-266,423}
+                    android.widget.ImageView{32e3f0ff V.ED.... ........ 0,0-266,45}
+                    com.royole.bwlauncher.gallery.CellView1{2b57ecc VFE...CL ........ 0,45-266,378}
+                      android.widget.LinearLayout{11b15515 V.E..... ........ 40,12-226,320}
+                        android.widget.ImageView{33abd02a V..D.... ........ 0,0-186,186 #7f090010 app:id/iv_icon}
+                        android.widget.TextView{4109e1b V..D.... ........ 26,279-159,308 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{2f21bbb8 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                    android.widget.ImageView{df2d91 V.ED.... ........ 0,394-266,423}
+                com.royole.libgallery.GalleryLinearLayout{2e0ec4f6 V.E..... ........ -610,0--344,466}
+                  android.widget.ImageView{289100f7 V.ED.... ........ 0,0-266,45}
+                  com.royole.bwlauncher.gallery.CellView2{2a12db64 VFE...CL ........ 0,45-266,205}
+                    android.widget.LinearLayout{3c3811cd V.E..... ........ 66,5-199,154}
+                      android.widget.ImageView{ada3a82 V..D.... ........ 26,0-106,80 #7f090010 app:id/iv_icon}
+                      android.widget.TextView{1f4ab593 V..D.... ........ 0,120-133,149 #7f090011 app:id/txv_name}
+                    android.widget.ImageView{18d449d0 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.TextView{27c0fdc9 V.ED.... ........ 0,205-13,218}
+                  android.widget.LinearLayout{cf57cce V.E..... ........ 0,218-266,378}
+                    com.royole.bwlauncher.gallery.CellView2{25e117ef VFE...CL ........ 0,0-266,160}
+                      android.widget.LinearLayout{27fc32fc V.E..... ........ 66,5-199,154}
+                        android.widget.ImageView{8d2ad85 V..D.... ........ 26,0-106,80 #7f090010 app:id/iv_icon}
+                        android.widget.TextView{2c7097da V..D.... ........ 0,120-133,149 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{6d1440b G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.ImageView{155782e8 V.ED.... ........ 0,394-266,423}
+                com.royole.libgallery.GalleryLinearLayout{27959d01 V.E..... ........ 305,0-571,466}
+                  android.widget.LinearLayout{205057a6 V.E..... ........ 0,0-266,423}
+                    android.widget.ImageView{2d4e15e7 V.ED.... ........ 0,0-266,45}
+                    com.royole.bwlauncher.gallery.CellView1{2c95e594 VFE...CL ........ 0,45-266,378}
+                      android.widget.LinearLayout{c3e083d V.E..... ........ 40,12-226,320}
+                        android.widget.ImageView{391a4832 V..D.... ........ 0,0-186,186 #7f090010 app:id/iv_icon}
+                        android.widget.TextView{1adc2983 V..D.... ........ 26,279-159,308 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{22b5c700 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                    android.widget.ImageView{1407eb39 V.ED.... ........ 0,394-266,423}
+                com.royole.libgallery.GalleryLinearLayout{1820b57e V.E..... ........ 610,0-876,466}
+                  android.widget.ImageView{1aaddadf V.ED.... ........ 0,0-266,45}
+                  android.widget.LinearLayout{3c30532c V.E..... ........ 0,45-266,205}
+                    com.royole.bwlauncher.gallery.CellView4{19f301f5 VFE...CL ........ 0,0-127,160}
+                      android.widget.LinearLayout{f8eab8a V.E..... ........ 13,18-113,141}
+                        android.widget.ImageView{ebf45fb V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{29e57618 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{2f3ec871 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                    android.widget.TextView{3733f656 V.ED.... ........ 127,0-140,13}
+                    com.royole.bwlauncher.gallery.CellView4{32b246d7 VFE...CL ........ 140,0-266,160}
+                      android.widget.LinearLayout{8c7dbc4 V.E..... ........ 13,18-113,141}
+                        android.widget.ImageView{1fa67aad V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{21121e2 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{306a7973 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.TextView{3048f030 V.ED.... ........ 0,205-13,218}
+                  android.widget.LinearLayout{3d5d14a9 V.E..... ........ 0,218-266,378}
+                    android.widget.LinearLayout{20a37a2e V.E..... ........ 0,0-266,160}
+                      com.royole.bwlauncher.gallery.CellView4{226939cf VFE...CL ........ 0,0-127,160}
+                        android.widget.LinearLayout{3b84df5c V.E..... ........ 13,18-113,141}
+                          android.widget.ImageView{30c95265 V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{3bf10b3a V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{1fe9a3eb G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                      android.widget.TextView{392e9548 V.ED.... ........ 127,0-140,13}
+                      com.royole.bwlauncher.gallery.CellView4{801afe1 VFE...CL ........ 140,0-266,160}
+                        android.widget.LinearLayout{1554a106 V.E..... ........ 13,18-113,141}
+                          android.widget.ImageView{2ebc93c7 V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{2e3bbdf4 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{208691d G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.ImageView{1709c792 V.ED.... ........ 0,394-266,423}
+                com.royole.libgallery.GalleryLinearLayout{36e4a563 V.E..... ........ 915,0-1181,466}
+                  android.widget.ImageView{1750c560 V.ED.... ........ 0,0-266,45}
+                  android.widget.LinearLayout{11c77a19 V.E..... ........ 0,45-266,205}
+                    com.royole.bwlauncher.gallery.CellView4{2178cade VFE...CL ........ 0,0-127,160}
+                      android.widget.LinearLayout{13f234bf V.E..... ........ 13,18-113,141}
+                        android.widget.ImageView{14ecd78c V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{14cc9ed5 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{2142b6ea G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                    android.widget.TextView{201f5ddb V.ED.... ........ 127,0-140,13}
+                    com.royole.bwlauncher.gallery.CellView4{2e55e078 VFE...CL ........ 140,0-266,160}
+                      android.widget.LinearLayout{39c55351 V.E..... ........ 13,18-113,141}
+                        android.widget.ImageView{3a0d57b6 V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{152bfcb7 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{17448c24 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.TextView{12bad38d V.ED.... ........ 0,205-13,218}
+                  android.widget.LinearLayout{120f3942 V.E..... ........ 0,218-266,378}
+                    android.widget.LinearLayout{1ef9ad53 V.E..... ........ 0,0-266,160}
+                      com.royole.bwlauncher.gallery.CellView4{24504690 VFE...CL ........ 0,0-127,160}
+                        android.widget.LinearLayout{f0e1b89 V.E..... ........ 13,18-113,141}
+                          android.widget.ImageView{a5ba78e V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{3be7cbaf V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{1a1b3bbc G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                      android.widget.TextView{1933e745 V.ED.... ........ 127,0-140,13}
+                      com.royole.bwlauncher.gallery.CellView4{2feeae9a VFE...CL ........ 140,0-266,160}
+                        android.widget.LinearLayout{6ef73cb V.E..... ........ 13,18-113,141}
+                          android.widget.ImageView{33e57a8 V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{1430b2c1 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{31791a66 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.ImageView{77f81a7 V.ED.... ........ 0,394-266,423}
+                com.royole.libgallery.GalleryLinearLayout{38f54654 V.E..... ........ 1220,0-1486,466}
+                  android.widget.ImageView{34d4b9fd V.ED.... ........ 0,0-266,45}
+                  android.widget.LinearLayout{25ec76f2 V.E..... ........ 0,45-266,205}
+                    com.royole.bwlauncher.gallery.CellView4{23189143 VFE...CL ........ 0,0-127,160}
+                      android.widget.LinearLayout{a8a73c0 V.E..... ........ 13,18-113,141}
+                        android.widget.ImageView{32b7f8f9 V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{2fc7103e V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{ca8fe9f G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                    android.widget.TextView{2f830bec V.ED.... ........ 127,0-140,13}
+                    com.royole.bwlauncher.gallery.CellView4{cf62bb5 VFE...CL ........ 140,0-266,160}
+                      android.widget.LinearLayout{91ff24a V.E..... ........ 13,18-113,141}
+                        android.widget.ImageView{da8e5bb V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{308afad8 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{1eaace31 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.TextView{472e916 V.ED.... ........ 0,205-13,218}
+                  android.widget.LinearLayout{4f62297 V.E..... ........ 0,218-266,378}
+                    android.widget.LinearLayout{3320ec84 V.E..... ........ 0,0-266,160}
+                      com.royole.bwlauncher.gallery.CellView4{3f2d1c6d VFE...CL ........ 0,0-127,160}
+                        android.widget.LinearLayout{e2c80a2 V.E..... ........ 13,18-113,141}
+                          android.widget.ImageView{37705133 V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{14024cf0 V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{2a0c1269 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                      android.widget.TextView{3af604ee V.ED.... ........ 127,0-140,13}
+                      com.royole.bwlauncher.gallery.CellView4{e54cd8f VFE...CL ........ 140,0-266,160}
+                        android.widget.LinearLayout{3c57481c V.E..... ........ 13,18-113,141}
+                          android.widget.ImageView{2aca6c25 V..D.... ........ 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{2ec181fa V..D.... ........ 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{1f5ab3ab G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.ImageView{1d9eca08 V.ED.... ........ 0,394-266,423}
+                com.royole.libgallery.GalleryLinearLayout{85aa5a1 V.E..... ........ 1525,0-1791,466}
+                  android.widget.ImageView{2895c3c6 V.ED.... ........ 0,0-266,45}
+                  android.widget.LinearLayout{1a8edf87 V.E..... ........ 0,45-266,205}
+                    com.royole.bwlauncher.gallery.CellView4{5a7eb4 VFE...CL ........ 0,0-127,160}
+                      android.widget.LinearLayout{2c5afadd G.E..... ......I. 0,0-0,0}
+                        android.widget.ImageView{3f1a5652 V..D.... ......I. 0,0-0,0 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{39efed23 V..D.... ......ID 0,0-0,0 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{117ad220 V..D.... ........ 37,53-90,106 #7f090012 app:id/iv_add_tip}
+                    android.widget.TextView{21167d9 V.ED.... ........ 127,0-140,13}
+                    com.royole.bwlauncher.gallery.CellView4{19e3859e IFE...CL ......ID 140,0-266,160}
+                      android.widget.LinearLayout{eca387f V.E..... ......ID 13,18-113,141}
+                        android.widget.ImageView{1a8af04c V..D.... ......ID 16,0-83,67 #7f090010 app:id/iv_icon}
+                        com.royole.bwlauncher.gallery.MarqueeTextView{927a895 V..D.... ......ID 0,94-100,123 #7f090011 app:id/txv_name}
+                      android.widget.ImageView{337e5daa G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.TextView{8d3dd9b V.ED.... ........ 0,205-13,218}
+                  android.widget.LinearLayout{109cc538 V.E..... ........ 0,218-266,378}
+                    android.widget.LinearLayout{18273911 V.E..... ........ 0,0-266,160}
+                      com.royole.bwlauncher.gallery.CellView4{303caa76 IFE...CL ......ID 0,0-127,160}
+                        android.widget.LinearLayout{1308b877 V.E..... ......ID 13,18-113,141}
+                          android.widget.ImageView{25f4fce4 V..D.... ......ID 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{ab5554d V..D.... ......ID 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{15c0f802 G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                      android.widget.TextView{22466513 V.ED.... ........ 127,0-140,13}
+                      com.royole.bwlauncher.gallery.CellView4{a770350 IFE...CL ......ID 140,0-266,160}
+                        android.widget.LinearLayout{178ef949 V.E..... ......ID 13,18-113,141}
+                          android.widget.ImageView{2f4a924e V..D.... ......ID 16,0-83,67 #7f090010 app:id/iv_icon}
+                          com.royole.bwlauncher.gallery.MarqueeTextView{11a83f6f V..D.... ......ID 0,94-100,123 #7f090011 app:id/txv_name}
+                        android.widget.ImageView{6d1047c G..D.... ......I. 0,0-0,0 #7f090012 app:id/iv_add_tip}
+                  android.widget.ImageView{a44e105 V.ED.... ........ 0,394-266,423}
+              com.royole.bwlauncher.gallery.CursorView{2ac1855a V.E..... .......D 0,0-1920,1080 #7f090005 app:id/cursorView}
+                android.widget.ImageView{28a3638b V.ED.... ......ID 803,260-1118,655 #7f090013 app:id/iv_anim}
+    Looper (main, tid 1) {25128322}
+      (Total messages: 0, idling=false, quitting=false)
+[dumpsys: 0.101s elapsed]
+
+========================================================
+== Running Application Services
+========================================================

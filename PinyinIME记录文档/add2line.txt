@@ -1,0 +1,3 @@
+addr2line -e test1 BA23E880
+
+addr2line 在源码和linux环境都有。test1是文件，BA23E880 是出错地址。

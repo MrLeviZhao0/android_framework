@@ -1,0 +1,28 @@
+last known state:
+  Phone Id=0
+  mCallState=0
+  mCallIncomingNumber=
+  mServiceState=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported 0 0 RoamInd=0 DefRoamInd=0 EmergOnly=false
+  mSignalStrength=SignalStrength: 99 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 2147483647 gsm|lte
+  mMessageWaiting=false
+  mCallForwarding=false
+  mDataActivity=0
+  mDataConnectionState=-1
+  mDataConnectionPossible=false
+  mDataConnectionReason=
+  mDataConnectionApn=
+  mDataConnectionLinkProperties=null
+  mDataConnectionNetworkCapabilities=null
+  mCellLocation=Bundle[{}]
+  mCellInfo=null
+  mDcRtInfo=[mTime=9223372036854775807 mDcPowerState=2147483647]
+registrations: count=9
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@3c2d7ab6 callback=android.telephony.PhoneStateListener$2@3c2d7ab6 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=2000}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@1984e3b7 callback=android.telephony.PhoneStateListener$2@1984e3b7 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=1c1}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@3180e724 callback=android.telephony.PhoneStateListener$2@3180e724 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=20}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@427928d callback=android.telephony.PhoneStateListener$2@427928d onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=20}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@398e8c42 callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@2d7a0453 callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=android binder=android.telephony.PhoneStateListener$2@35775190 callback=android.telephony.PhoneStateListener$2@35775190 onSubscriptionsChangedListenererCallback=null callerUid=0 subId=2147483647 phoneId=-1 events=20}
+  {pkgForDebug=android binder=android.telephony.SubscriptionManager$OnSubscriptionsChangedListener$2@407ca89 callback=null onSubscriptionsChangedListenererCallback=android.telephony.SubscriptionManager$OnSubscriptionsChangedListener$2@407ca89 callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.systemui binder=android.os.BinderProxy@5fd2a8e callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@279692af callerUid=0 subId=-1 phoneId=-1 events=0}
+  {pkgForDebug=com.android.settings binder=android.os.BinderProxy@1e27f6bc callback=null onSubscriptionsChangedListenererCallback=com.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy@15998645 callerUid=0 subId=-1 phoneId=-1 events=0}

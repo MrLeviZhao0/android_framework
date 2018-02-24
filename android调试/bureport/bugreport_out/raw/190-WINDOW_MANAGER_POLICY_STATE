@@ -1,0 +1,69 @@
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+    mLidState=-1 mLidOpenRotation=-1 mCameraLensCoverState=-1 mHdmiPlugged=false
+    mLastSystemUiFlags=0x8700 mResettingSystemUiFlags=0x0 mForceClearedSystemUiFlags=0x0
+    mWakeGestureEnabledSetting=true
+    mSupportAutoRotation=true
+    mUiMode=1 mDockMode=0 mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=0 mUserRotation=0 mAllowAllRotations=-1
+    mCurrentAppOrientation=0
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 mLidControlsSleep=false
+    mShortPressOnPowerBehavior=1 mLongPressOnPowerBehavior=2
+    mDoublePressOnPowerBehavior=0 mTriplePressOnPowerBehavior=0
+    mHasSoftInput=true
+    mAwake=false
+    mScreenOnEarly=false mScreenOnFully=false
+    mKeyguardDrawComplete=false mWindowManagerDrawComplete=false
+    mOrientationSensorEnabled=false
+    mOverscanScreen=(0,0) 1920x1080
+    mRestrictedOverscanScreen=(0,0) 1920x1080
+    mUnrestrictedScreen=(0,0) 1920x1080
+    mRestrictedScreen=(0,0) 1920x1080
+    mStableFullscreen=(0,0)-(1920,1080)
+    mStable=(0,57)-(1920,1080)
+    mSystem=(0,0)-(1920,1080)
+    mCur=(0,57)-(1920,1080)
+    mContent=(0,57)-(1920,1080)
+    mVoiceContent=(0,57)-(1920,1080)
+    mDock=(0,57)-(1920,1080)
+    mDockLayer=268435456 mStatusBarLayer=151000
+    mShowingLockscreen=false mShowingDream=false mDreamingLockscreen=false
+    mStatusBar=Window{22e45bdb u0 StatusBar}
+    isStatusBarKeyguard=false    mFocusedWindow=Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}
+    mFocusedApp=Token{279f4729 ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}}
+    mTopFullscreenOpaqueWindowState=Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}
+    mTopIsFullscreen=false mHideLockScreen=false
+    mForceStatusBar=false mForceStatusBarFromKeyguard=false
+    mDismissKeyguard=0 mWinDismissingKeyguard=null mHomePressed=false
+    mAllowLockscreenWhenOn=false mLockScreenTimeout=900000 mLockScreenTimerActive=false
+    mEndcallBehavior=2 mIncallPowerBehavior=1 mLongPressOnHomeBehavior=3
+    mLandscapeRotation=0 mSeascapeRotation=2
+    mPortraitRotation=3 mUpsideDownRotation=1
+    mDemoHdmiRotation=0 mDemoHdmiRotationLock=false
+    mUndockedHdmiRotation=-1
+    mKeyMapping.size=0
+    BarController.StatusBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    PolicyControl.sImmersiveStatusFilter=null
+    PolicyControl.sImmersiveNavigationFilter=null
+    PolicyControl.sImmersivePreconfirmationsFilter=null
+    WakeGestureListener
+      mTriggerRequested=false
+      mSensor=null
+    WindowOrientationListener
+      mEnabled=false
+      mCurrentRotation=0
+      mSensor={Sensor name="MPL accel", vendor="Invensense", version=1, type=1, maxRange=10240.0, resolution=1.0, power=0.5, minDelay=20000}
+      mRate=2
+      mProposedRotation=-1
+      mPredictedRotation=-1
+      mLastFilteredX=0.0
+      mLastFilteredY=0.0
+      mLastFilteredZ=0.0
+      mTiltHistory={last: NaN}
+      mFlat=false
+      mSwinging=false
+      mAccelerating=false
+      mOverhead=false
+

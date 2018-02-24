@@ -1,0 +1,9 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10011, cmp:ComponentInfo{com.royole.bwbrowser/com.royole.bwbrowser.widget.BookmarkThumbnailWidgetProvider}}
+    min=(46081x46081)   minResize=(28161x10241) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f040011 initialKeyguardLayout=#0 zombie=false
+ 
+Widgets:
+ 
+Hosts:
+ 
+Grants:

@@ -1,0 +1,557 @@
+
+WINDOW MANAGER LAST ANR (dumpsys window lastanr)
+  <no ANR has occurred since boot>
+
+WINDOW MANAGER POLICY STATE (dumpsys window policy)
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+    mLidState=-1 mLidOpenRotation=-1 mCameraLensCoverState=-1 mHdmiPlugged=false
+    mLastSystemUiFlags=0x40000600 mResettingSystemUiFlags=0x0 mForceClearedSystemUiFlags=0x0
+    mWakeGestureEnabledSetting=true
+    mSupportAutoRotation=true
+    mUiMode=1 mDockMode=0 mEnableCarDockHomeCapture=true mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=1 mUserRotation=0 mAllowAllRotations=0
+    mCurrentAppOrientation=-1
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 mLidControlsScreenLock=false
+ mLidControlsSleep=false
+     mLongPressOnBackBehavior=0
+    mShortPressOnPowerBehavior=1 mLongPressOnPowerBehavior=1
+    mDoublePressOnPowerBehavior=0 mTriplePressOnPowerBehavior=0
+    mHasSoftInput=true
+    mAwake=true
+    mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mOrientationSensorEnabled=false
+    mOverscanScreen=(0,0) 1080x1920
+    mOverscan left=200 top=200 right=200 bottom=200
+    mRestrictedOverscanScreen=(0,0) 1080x1600
+    mUnrestrictedScreen=(200,200) 680x1520
+    mRestrictedScreen=(200,200) 680x1400
+    mStableFullscreen=(200,200)-(880,1600)
+    mStable=(200,272)-(880,1600)
+    mSystem=(0,0)-(1080,1920)
+    mCur=(200,272)-(880,1600)
+    mContent=(200,272)-(880,1600)
+    mVoiceContent=(200,272)-(880,1600)
+    mDock=(200,272)-(880,1600)
+    mDockLayer=268435456 mStatusBarLayer=161000
+    mShowingLockscreen=false mShowingDream=false mDreamingLockscreen=false mDreamingSleepToken=null
+    mStatusBar=Window{b6be529 u0 StatusBar} isStatusBarKeyguard=false
+    mNavigationBar=Window{785f874 u0 NavigationBar}
+    mFocusedWindow=Window{9ca0182 u0 com.android.browser/com.uc.browser.InnerUCMobile}
+    mFocusedApp=Token{fc70384 ActivityRecord{89a3597 u0 com.android.browser/com.uc.browser.InnerUCMobile t2911}}
+    mTopFullscreenOpaqueWindowState=Window{9ca0182 u0 com.android.browser/com.uc.browser.InnerUCMobile}
+    mTopFullscreenOpaqueOrDimmingWindowState=Window{9ca0182 u0 com.android.browser/com.uc.browser.InnerUCMobile}
+    mTopIsFullscreen=false mHideLockScreen=false
+    mForceStatusBar=false mForceStatusBarFromKeyguard=false
+    mDismissKeyguard=0 mWinDismissingKeyguard=null mHomePressed=false
+    mAllowLockscreenWhenOn=false mLockScreenTimeout=30000 mLockScreenTimerActive=false
+    mEndcallBehavior=2 mIncallPowerBehavior=1 mLongPressOnHomeBehavior=2
+    mLandscapeRotation=1 mSeascapeRotation=3
+    mPortraitRotation=0 mUpsideDownRotation=2
+    mDemoHdmiRotation=1 mDemoHdmiRotationLock=false
+    mUndockedHdmiRotation=-1
+    mKeyMapping.size=0
+    BarController.StatusBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    BarController.NavigationBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    PolicyControl.sImmersiveStatusFilter=null
+    PolicyControl.sImmersiveNavigationFilter=null
+    PolicyControl.sImmersivePreconfirmationsFilter=null
+    WakeGestureListener
+      mTriggerRequested=false
+      mSensor=null
+    WindowOrientationListener
+      mEnabled=false
+      mCurrentRotation=0
+      mSensorType=null
+      mSensor={Sensor name="LIS3DH Accelerometer", vendor="STMicroelectronics", version=1, type=1, maxRange=39.22661, resolution=0.019607544, power=0.185, minDelay=2500}
+      mRate=2
+      AccelSensorJudge
+        mProposedRotation=-1
+        mPredictedRotation=-1
+        mLastFilteredX=0.5244728
+        mLastFilteredY=-8.3024136E-4
+        mLastFilteredZ=9.786043
+        mLastFilteredTimestampNanos=1438159660895098 (1221903.6ms ago)
+        mTiltHistory={last: 87.0}
+        mFlat=true
+        mSwinging=false
+        mAccelerating=false
+        mOverhead=false
+        mTouched=false
+        mTiltToleranceConfig=[[-25, 70], [-25, 65], [-25, 60], [-25, 65]]
+    KeyguardServiceDelegate
+      showing=false
+      showingAndNotOccluded=true
+      inputRestricted=false
+      occluded=false
+      secure=true
+      dreaming=false
+      systemIsReady=true
+      deviceHasKeyguard=true
+      enabled=true
+      offReason=3
+      currentUser=0
+      bootCompleted=true
+      screenState=2
+      interactiveState=1
+      KeyguardStateMonitor
+        mIsShowing=false
+        mSimSecure=false
+        mInputRestricted=false
+        mCurrentUserId=0
+
+WINDOW MANAGER ANIMATOR STATE (dumpsys window animator)
+    DisplayContentsAnimator #0:
+      Window #0: WindowStateAnimator{88d99f8 com.android.systemui.HwImageWallpaper}
+      Window #1: WindowStateAnimator{baae255 com.android.systemui/com.android.systemui.recents.RecentsActivity}
+      Window #2: WindowStateAnimator{66654b0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+      Window #3: WindowStateAnimator{a13f90c com.android.incallui/com.android.incallui.InCallActivity}
+      Window #4: WindowStateAnimator{77fdf29 com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+      Window #5: WindowStateAnimator{a26b2ae com.android.settings/com.android.settings.HWSettings}
+      Window #6: WindowStateAnimator{d7f484f com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity}
+      Window #7: WindowStateAnimator{3540bdc com.android.browser/com.uc.browser.InnerUCMobile}
+      Window #8: WindowStateAnimator{88b9418 com.android.browser/com.uc.browser.InnerUCMobile}
+      Window #9: WindowStateAnimator{abfbc9d InputMethod}
+      Window #10: WindowStateAnimator{e8e44e5 }
+      Window #11: WindowStateAnimator{9af4bba DockedStackDivider}
+      Window #12: WindowStateAnimator{f02cb61 KeyguardScrim}
+      Window #13: WindowStateAnimator{5ceec8 StatusBar}
+      Window #14: WindowStateAnimator{4921a6b }
+      Window #15: WindowStateAnimator{e5268ba NavigationBar}
+      Window #16: WindowStateAnimator{387b5e5 SearchPanel}
+
+
+    mBulkUpdateParams=0x8 ORIENTATION_CHANGE_COMPLETE
+
+WINDOW MANAGER SESSIONS (dumpsys window sessions)
+  Session Session{3a09a59 9962:u0a10111}:
+    mNumWindow=1 mClientDead=false mSurfaceSession=android.view.SurfaceSession@409c8
+  Session Session{3ff10bc 12067:1000}:
+    mNumWindow=2 mClientDead=false mSurfaceSession=android.view.SurfaceSession@5634a61
+  Session Session{60b5469 9996:u0a10030}:
+    mNumWindow=0 mClientDead=false mSurfaceSession=android.view.SurfaceSession@3f66986
+  Session Session{6e77b43 3551:u0a10053}:
+    mNumWindow=1 mClientDead=false mSurfaceSession=android.view.SurfaceSession@7b5f247
+  Session Session{7409bed 11841:u0a10018}:
+    mNumWindow=2 mClientDead=false mSurfaceSession=android.view.SurfaceSession@233fa74
+  Session Session{8ab22bd 2311:u0a10029}:
+    mNumWindow=8 mClientDead=false mSurfaceSession=android.view.SurfaceSession@292b9d
+  Session Session{8c5a210 2558:1001}:
+    mNumWindow=0 mClientDead=false mSurfaceSession=android.view.SurfaceSession@53f9812
+  Session Session{bbd6966 1960:1000}:
+    mNumWindow=1 mClientDead=false mSurfaceSession=android.view.SurfaceSession@c556be3
+  Session Session{dd41ced 15124:u0a10113}:
+    mNumWindow=0 mClientDead=false mSurfaceSession=android.view.SurfaceSession@bd049e0
+  Session Session{f941c4a 9793:u0a10115}:
+    mNumWindow=0 mClientDead=false mSurfaceSession=android.view.SurfaceSession@171e499
+  Session Session{faa95a9 4244:u0a10050}:
+    mNumWindow=1 mClientDead=false mSurfaceSession=android.view.SurfaceSession@87b235e
+  Session Session{ff7c08e 2381:1001}:
+    mNumWindow=1 mClientDead=false mSurfaceSession=android.view.SurfaceSession@9e8e33f
+
+
+WINDOW MANAGER DISPLAY CONTENTS (dumpsys window displays)
+  Display: mDisplayId=0
+    init=1080x1920 480dpi cur=1080x1920 app=1080x1800 rng=1080x1008-1800x1728
+    deferred=false layoutNeeded=false
+
+  Application tokens in top down Z order:
+    mStackId=1
+    mDeferDetach=false
+    mFullscreen=true
+    mBounds=[0,0][1080,1920]
+      taskId=2911
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{6e6e76d token=Token{fc70384 ActivityRecord{89a3597 u0 com.android.browser/com.uc.browser.InnerUCMobile t2911}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{6e6e76d token=Token{fc70384 ActivityRecord{89a3597 u0 com.android.browser/com.uc.browser.InnerUCMobile t2911}}}
+          windows=[Window{9ca0182 u0 com.android.browser/com.uc.browser.InnerUCMobile}, Window{da39a0b u0 com.android.browser/com.uc.browser.InnerUCMobile}]
+          windowType=2 hidden=false hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{9ca0182 u0 com.android.browser/com.uc.browser.InnerUCMobile}, Window{da39a0b u0 com.android.browser/com.uc.browser.InnerUCMobile}]
+          task={taskId=2911 appTokens=[AppWindowToken{6e6e76d token=Token{fc70384 ActivityRecord{89a3597 u0 com.android.browser/com.uc.browser.InnerUCMobile t2911}}}] mdr=false}
+           appFullscreen=true requestedOrientation=-1
+          hiddenRequested=false clientHidden=false reportedDrawn=true reportedVisible=true
+          numInterestingWindows=2 numDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+      taskId=2982
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{dd69ec9 token=Token{a552e93 ActivityRecord{40ef782 u0 com.android.settings/.HWSettings t2982}}}, AppWindowToken{cfc7f77 token=Token{4172d76 ActivityRecord{e9de811 u0 com.android.settings/.Settings$DevelopmentSettingsActivity t2982}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #1 AppWindowToken{cfc7f77 token=Token{4172d76 ActivityRecord{e9de811 u0 com.android.settings/.Settings$DevelopmentSettingsActivity t2982}}}
+          windows=[Window{1d5e214 u0 com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{1d5e214 u0 com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity}]
+          task={taskId=2982 appTokens=[AppWindowToken{dd69ec9 token=Token{a552e93 ActivityRecord{40ef782 u0 com.android.settings/.HWSettings t2982}}}, AppWindowToken{cfc7f77 token=Token{4172d76 ActivityRecord{e9de811 u0 com.android.settings/.Settings$DevelopmentSettingsActivity t2982}}}] mdr=false}
+           appFullscreen=true requestedOrientation=-1
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          Activity #0 AppWindowToken{dd69ec9 token=Token{a552e93 ActivityRecord{40ef782 u0 com.android.settings/.HWSettings t2982}}}
+          windows=[Window{6710ccb u0 com.android.settings/com.android.settings.HWSettings}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{6710ccb u0 com.android.settings/com.android.settings.HWSettings}]
+          task={taskId=2982 appTokens=[AppWindowToken{dd69ec9 token=Token{a552e93 ActivityRecord{40ef782 u0 com.android.settings/.HWSettings t2982}}}, AppWindowToken{cfc7f77 token=Token{4172d76 ActivityRecord{e9de811 u0 com.android.settings/.Settings$DevelopmentSettingsActivity t2982}}}] mdr=false}
+           appFullscreen=true requestedOrientation=-1
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+      taskId=2981
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{2305ef0 token=Token{bb3c2a2 ActivityRecord{120266d u0 com.tencent.mm/.ui.LauncherUI t2981}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{2305ef0 token=Token{bb3c2a2 ActivityRecord{120266d u0 com.tencent.mm/.ui.LauncherUI t2981}}}
+          windows=[Window{6af66ee u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{6af66ee u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}]
+          task={taskId=2981 appTokens=[AppWindowToken{2305ef0 token=Token{bb3c2a2 ActivityRecord{120266d u0 com.tencent.mm/.ui.LauncherUI t2981}}}] mdr=false}
+           appFullscreen=true requestedOrientation=1
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+      taskId=2849
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{2320979 token=Token{f587640 ActivityRecord{32b0dc3 u0 com.tencent.androidqqmail/com.tencent.qqmail.fragment.base.MailFragmentActivity t2849}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{2320979 token=Token{f587640 ActivityRecord{32b0dc3 u0 com.tencent.androidqqmail/com.tencent.qqmail.fragment.base.MailFragmentActivity t2849}}}
+          windows=[]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          task={taskId=2849 appTokens=[AppWindowToken{2320979 token=Token{f587640 ActivityRecord{32b0dc3 u0 com.tencent.androidqqmail/com.tencent.qqmail.fragment.base.MailFragmentActivity t2849}}}] mdr=false}
+           appFullscreen=true requestedOrientation=-1
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      taskId=2369
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{d907cc4 token=Token{f3a8571 ActivityRecord{3b60718 u0 com.android.incallui/.InCallActivity t2369}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{d907cc4 token=Token{f3a8571 ActivityRecord{3b60718 u0 com.android.incallui/.InCallActivity t2369}}}
+          windows=[Window{d834119 u0 com.android.incallui/com.android.incallui.InCallActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{d834119 u0 com.android.incallui/com.android.incallui.InCallActivity}]
+          task={taskId=2369 appTokens=[AppWindowToken{d907cc4 token=Token{f3a8571 ActivityRecord{3b60718 u0 com.android.incallui/.InCallActivity t2369}}}] mdr=false}
+           appFullscreen=true requestedOrientation=1
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+    mStackId=0
+    mDeferDetach=false
+    mFullscreen=true
+    mBounds=[0,0][1080,1920]
+      taskId=2301
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{4d09ca7 token=Token{986e6a8 ActivityRecord{3d4decb u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t2301}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{4d09ca7 token=Token{986e6a8 ActivityRecord{3d4decb u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t2301}}}
+          windows=[Window{49049a6 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{49049a6 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}]
+          task={taskId=2301 appTokens=[AppWindowToken{4d09ca7 token=Token{986e6a8 ActivityRecord{3d4decb u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t2301}}}] mdr=false}
+           appFullscreen=true requestedOrientation=1
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+      taskId=2306
+        mFullscreen=true
+        mBounds=[0,0][1080,1920]
+        mdr=false
+        appTokens=[AppWindowToken{36b6f64 token=Token{84838f6 ActivityRecord{b05f191 u0 com.android.systemui/.recents.RecentsActivity t2306}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{36b6f64 token=Token{84838f6 ActivityRecord{b05f191 u0 com.android.systemui/.recents.RecentsActivity t2306}}}
+          windows=[Window{12680b u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true voiceInteraction=false
+          allAppWindows=[Window{12680b u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}]
+          task={taskId=2306 appTokens=[AppWindowToken{36b6f64 token=Token{84838f6 ActivityRecord{b05f191 u0 com.android.systemui/.recents.RecentsActivity t2306}}}] mdr=false}
+           appFullscreen=true requestedOrientation=3
+          hiddenRequested=true clientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+
+
+    DimLayerController
+      Stack=0
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2982
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2302
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2301
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2369
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2911
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2981
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2306
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Task=2849
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+      Stack=1
+        dimLayer=shared, animator=null, continueDimming=false
+        mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21039 mAlpha=0.0
+        mLastBounds=[-270,-480][1350,2400] mBounds=[-270,-480][1350,2400]
+        Last animation:  mDuration=200 mStartTime=680851655 curTime=681101200
+         mStartAlpha=0.2 mTargetAlpha=0.0
+
+    DockedStackDividerController
+      mLastVisibility=false
+      mMinimizedDock=false
+      mAdjustedForIme=false
+      mAdjustedForDivider=false
+
+WINDOW MANAGER TOKENS (dumpsys window tokens)
+  All tokens:
+  WindowToken{d78a0dc null}
+  AppWindowToken{2305ef0 token=Token{bb3c2a2 ActivityRecord{120266d u0 com.tencent.mm/.ui.LauncherUI t2981}}}
+  AppWindowToken{cfc7f77 token=Token{4172d76 ActivityRecord{e9de811 u0 com.android.settings/.Settings$DevelopmentSettingsActivity t2982}}}
+  AppWindowToken{dd69ec9 token=Token{a552e93 ActivityRecord{40ef782 u0 com.android.settings/.HWSettings t2982}}}
+  AppWindowToken{d907cc4 token=Token{f3a8571 ActivityRecord{3b60718 u0 com.android.incallui/.InCallActivity t2369}}}
+  AppWindowToken{2320979 token=Token{f587640 ActivityRecord{32b0dc3 u0 com.tencent.androidqqmail/com.tencent.qqmail.fragment.base.MailFragmentActivity t2849}}}
+  WindowToken{fb62f74 android.os.Binder@93ebb72}
+  AppWindowToken{4d09ca7 token=Token{986e6a8 ActivityRecord{3d4decb u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t2301}}}
+  WindowToken{ce40d5b android.os.Binder@26bf2e}
+  AppWindowToken{36b6f64 token=Token{84838f6 ActivityRecord{b05f191 u0 com.android.systemui/.recents.RecentsActivity t2306}}}
+  AppWindowToken{6e6e76d token=Token{fc70384 ActivityRecord{89a3597 u0 com.android.browser/com.uc.browser.InnerUCMobile t2911}}}
+
+  Wallpaper tokens:
+  Wallpaper #0 WindowToken{ce40d5b android.os.Binder@26bf2e}
+
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #16 Window{c7ebe9 u0 SearchPanel}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@a479c70
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#800053 sim=#31 ty=2024 fl=#1820100 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 fmt=-3 wanim=0x10302f3}
+    Requested w=1080 h=1920 mLayoutSeq=337482
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{387b5e5 SearchPanel}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+  Window #15 Window{785f874 u0 NavigationBar}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@3392847
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#1840068 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 fmt=-3}
+    Requested w=1080 h=120 mLayoutSeq=337482
+    mHasSurface=true mShownPosition=[0,1600] isReadyForDisplay()=true hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{e5268ba NavigationBar}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null mStackClip=1
+      Surface: shown=true layer=211000 alpha=1.0 rect=(0.0,1600.0) 1080.0 x 120.0 blurRadius = 0 blurRound = (0,0) blurAlpha = 0.0 blurRegion = null blurBlank = null
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mLastFreezeDuration=+306ms
+  Window #14 Window{49bc481 u0 com.android.systemui}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@a879868
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1080x1920) gr=#1 sim=#20 ty=2014 fl=#1000208 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 fmt=-3}
+    Requested w=0 h=0 mLayoutSeq=336906
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{4921a6b }:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #13 Window{b6be529 u0 StatusBar}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@206b2b0
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx72) gr=#30 sim=#10 ty=2000 fl=#81840048 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 fmt=-3 vsysui=0x600}
+    Requested w=680 h=72 mLayoutSeq=337482
+    mHasSurface=true mShownPosition=[200,200] isReadyForDisplay()=true hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{5ceec8 StatusBar}:
+      Surface: shown=true layer=161000 alpha=1.0 rect=(200.0,200.0) 680.0 x 72.0 blurRadius = 0 blurRound = (0,0) blurAlpha = 0.0 blurRegion = null blurBlank = null
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mLastFreezeDuration=+17m58s753ms
+  Window #12 Window{42494fd u0 KeyguardScrim}:
+    mDisplayId=0 stackId=0 mSession=Session{bbd6966 1960:1000} mClient=android.view.ViewRootImpl$W@a976443
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#110900 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=1080 h=1800 mLayoutSeq=592
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{f02cb61 KeyguardScrim}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+  Window #11 Window{63f8b u0 DockedStackDivider}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@b6515a
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx108) sim=#20 ty=2034 fl=#21840028 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 pfl=0x40 fmt=-3 vsysui=0x700}
+    Requested w=1080 h=108 mLayoutSeq=337482
+    mPolicyVisibility=false mPolicyVisibilityAfterAnim=false mAppOpVisibility=true mAttachedHidden=false
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{9af4bba DockedStackDivider}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #10 Window{71d5d05 u0 com.android.systemui}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@e0df07c
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1080x1920) sim=#20 ty=2034 fl=#1040200 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 fmt=-3}
+    Requested w=0 h=0 mLayoutSeq=336902
+    mPolicyVisibility=false mPolicyVisibilityAfterAnim=false mAppOpVisibility=true mAttachedHidden=false
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{e8e44e5 }:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #9 Window{40d145c u0 InputMethod}:
+    mDisplayId=0 stackId=0 mSession=Session{faa95a9 4244:u0a10050} mClient=android.os.BinderProxy@5cd22cf
+    mOwnerUid=10050 mShowToOwnerOnly=true package=com.baidu.input_huawei appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxwrap) gr=#50 sim=#20 ty=2011 fl=#80800108 hwFlags=#10 isEmuiStyle=-2147483647 statusBarColor=#fffcfcfc navigationBarColor=#fffcfcfc fmt=-2 wanim=0x1030056 vsysui=0x700 needsMenuKey=2}
+    Requested w=1080 h=797 mLayoutSeq=337279
+    mIsImWindow=true mIsWallpaper=false mIsFloatingLayer=true mWallpaperVisible=false
+    mHasSurface=false mShownPosition=[0,1003] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{abfbc9d InputMethod}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+  Window #8 Window{da39a0b u0 com.android.browser/com.uc.browser.InnerUCMobile}:
+    mDisplayId=0 stackId=1 mSession=Session{7409bed 11841:u0a10018} mClient=android.os.BinderProxy@85e85da
+    mOwnerUid=10018 mShowToOwnerOnly=true package=com.android.browser appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(wrapxwrap) gr=#50 sim=#120 ty=2 fl=#81820008 hwFlags=#10 isEmuiStyle=-2147483647 statusBarColor=#ff222222 navigationBarColor=#ff000000 fmt=-2 wanim=0x1030002 vsysui=0x600 needsMenuKey=2}
+    Requested w=1080 h=94 mLayoutSeq=337482
+    mHasSurface=true mShownPosition=[200,1506] isReadyForDisplay()=true hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{88b9418 com.android.browser/com.uc.browser.InnerUCMobile}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null mStackClip=1
+      Surface: shown=true layer=21040 alpha=1.0 rect=(200.0,1506.0) 680.0 x 94.0 blurRadius = 0 blurRound = (0,0) blurAlpha = 0.0 blurRegion = null blurBlank = null
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+  Window #7 Window{9ca0182 u0 com.android.browser/com.uc.browser.InnerUCMobile}:
+    mDisplayId=0 stackId=1 mSession=Session{7409bed 11841:u0a10018} mClient=android.os.BinderProxy@b7e94cd
+    mOwnerUid=10018 mShowToOwnerOnly=true package=com.android.browser appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81810100 hwFlags=#10 isEmuiStyle=1 statusBarColor=#fffcfcfc navigationBarColor=#fffcfcfc fmt=1 wanim=0x10303ea sbrt=-0.003921569 vsysui=0x600 needsMenuKey=2}
+    Requested w=1080 h=1920 mLayoutSeq=337482
+    mHasSurface=true mShownPosition=[0,0] isReadyForDisplay()=true hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{3540bdc com.android.browser/com.uc.browser.InnerUCMobile}:
+      Surface: shown=true layer=21035 alpha=1.0 rect=(0.0,0.0) 1080.0 x 1920.0 blurRadius = 0 blurRound = (0,0) blurAlpha = 0.0 blurRegion = null blurBlank = null
+  Window #6 Window{1d5e214 u0 com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity}:
+    mDisplayId=0 stackId=1 mSession=Session{3ff10bc 12067:1000} mClient=android.os.BinderProxy@4d63467
+    mOwnerUid=1000 mShowToOwnerOnly=true package=com.android.settings appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#81810100 hwFlags=#10 isEmuiStyle=1 statusBarColor=#fffcfcfc navigationBarColor=#fffcfcfc wanim=0x10303ea vsysui=0x700 needsMenuKey=2}
+    Requested w=1080 h=1728 mLayoutSeq=337419
+    mHasSurface=false mShownPosition=[270,480] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{d7f484f com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity}:
+      mAnimating=true mLocalAnimating=false mAnimationIsEntrance=false mAnimation=null mStackClip=1
+      XForm: has=true hasLocal=false {alpha=1.0 matrix=[1.0, 0.0, 0.0][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+      mGlobalScale=1.0 mDsDx=0.5 mDtDx=0.0 mDsDy=0.0 mDtDy=0.5
+  Window #5 Window{6710ccb u0 com.android.settings/com.android.settings.HWSettings}:
+    mDisplayId=0 stackId=1 mSession=Session{3ff10bc 12067:1000} mClient=android.os.BinderProxy@6830b9a
+    mOwnerUid=1000 mShowToOwnerOnly=true package=com.android.settings appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#81810100 hwFlags=#10 isEmuiStyle=1 statusBarColor=#fffcfcfc navigationBarColor=#fffcfcfc wanim=0x10303ea vsysui=0x700 needsMenuKey=2}
+    Requested w=1080 h=1920 mLayoutSeq=337409
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{a26b2ae com.android.settings/com.android.settings.HWSettings}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.19999999
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+  Window #4 Window{6af66ee u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}:
+    mDisplayId=0 stackId=1 mSession=Session{3a09a59 9962:u0a10111} mClient=android.os.BinderProxy@925bc69
+    mOwnerUid=10111 mShowToOwnerOnly=true package=com.tencent.mm appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#81810100 hwFlags=#0 isEmuiStyle=0 statusBarColor=#ff303135 navigationBarColor=#ff000000 wanim=0x7f0c003b vsysui=0x700 needsMenuKey=2}
+    Requested w=1080 h=1920 mLayoutSeq=337300
+    mHasSurface=false mShownPosition=[270,480] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{77fdf29 com.tencent.mm/com.tencent.mm.ui.LauncherUI}:
+      mAnimating=true mLocalAnimating=false mAnimationIsEntrance=false mAnimation=null mStackClip=1
+      XForm: has=true hasLocal=false {alpha=1.0 matrix=[1.0, 0.0, 0.0][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+      mGlobalScale=1.0 mDsDx=0.5 mDtDx=0.0 mDsDy=0.0 mDtDy=0.5
+  Window #3 Window{d834119 u0 com.android.incallui/com.android.incallui.InCallActivity}:
+    mDisplayId=0 stackId=1 mSession=Session{ff7c08e 2381:1001} mClient=android.os.BinderProxy@7134860
+    mOwnerUid=1001 mShowToOwnerOnly=true package=com.android.incallui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#8db98100 hwFlags=#12 isEmuiStyle=1 statusBarColor=#0 navigationBarColor=#0 fmt=-2 wanim=0x10303ea vsysui=0x700 needsMenuKey=2}
+    Requested w=1080 h=1920 mLayoutSeq=307414
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{a13f90c com.android.incallui/com.android.incallui.InCallActivity}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mOrientationChanging=false mAppFreezing=false mTurnOnScreen=true
+  Window #2 Window{49049a6 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}:
+    mDisplayId=0 stackId=0 mSession=Session{6e77b43 3551:u0a10053} mClient=android.os.BinderProxy@9f61701
+    mOwnerUid=10053 mShowToOwnerOnly=true package=com.huawei.android.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#8d910300 hwFlags=#0 isEmuiStyle=-1 statusBarColor=#fffcfcfc navigationBarColor=#0 pfl=0x20000000 fmt=-2 wanim=0x10303ea vsysui=0x700 needsMenuKey=2}
+    Requested w=1080 h=1920 mLayoutSeq=337432
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{66654b0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mLastFreezeDuration=+273ms
+    mWallpaperX=0.0 mWallpaperY=0.0
+    mWallpaperXStep=0.0 mWallpaperYStep=0.0
+  Window #1 Window{12680b u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@32fcbda
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 pfl=0x4040 fmt=-3 vsysui=0x700 needsMenuKey=2}
+    Requested w=1080 h=1920 mLayoutSeq=337091
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{baae255 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+  Window #0 Window{278f62a u0 com.android.systemui.HwImageWallpaper}:
+    mDisplayId=0 stackId=0 mSession=Session{8ab22bd 2311:u0a10029} mClient=android.os.BinderProxy@835315
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(2160x1920) gr=#800033 ty=2013 fl=#318 hwFlags=#0 isEmuiStyle=0 statusBarColor=#0 navigationBarColor=#0 fmt=2 wanim=0x10302f2}
+    Requested w=2160 h=1920 mLayoutSeq=337471
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=false
+    mHasSurface=true mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    WindowStateAnimator{88d99f8 com.android.systemui.HwImageWallpaper}:
+      Surface: shown=false layer=21000 alpha=1.0 rect=(0.0,0.0) 2160.0 x 1920.0 blurRadius = 0 blurRound = (0,0) blurAlpha = 0.0 blurRegion = null blurBlank = null
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mLastFreezeDuration=+531ms
+    mWallpaperX=0.0 mWallpaperY=0.0
+    mWallpaperXStep=0.0 mWallpaperYStep=0.0
+
+  mCurConfiguration={1.0 460mcc1mnc [en_US,zh_CN] ldltr sw360dp w360dp h576dp 480dpi nrml long port finger -keyb/v/h -nav/h suim:1 s.1549}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{9ca0182 u0 com.android.browser/com.uc.browser.InnerUCMobile}
+  mFocusedApp=AppWindowToken{6e6e76d token=Token{fc70384 ActivityRecord{89a3597 u0 com.android.browser/com.uc.browser.InnerUCMobile t2911}}}
+  mInputMethodTarget=Window{49049a6 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+  mInTouchMode=true mLayoutSeq=337482
+  mLastDisplayFreezeDuration=+540ms due to Window{e1ac021 u0 Emui:ProximityWnd}
+  mLastWakeLockHoldingWindow=null mLastWakeLockObscuringWindow=null

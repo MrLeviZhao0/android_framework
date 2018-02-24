@@ -1,0 +1,109 @@
+objs:
+--------------
+fb-timeline sw_sync: 19271
+  pt signaled@12.732106: 211
+  pt signaled@12.748758: 212
+  pt signaled@12.765423: 213
+  pt signaled@12.782094: 214
+  pt signaled@1953.745384: 19203
+  pt signaled@1957.762018: 19244
+  pt signaled@1958.532701: 19269
+
+malitl_159_0xb8a81b00 Mali: 18802
+  pt signaled@1953.729652: 18730(0)
+  pt signaled@1957.696195: 18770(0)
+  pt signaled@1958.198053: 18800(0)
+  pt signaled@1958.198833: 18801(0)
+  pt signaled@1958.553480: 18802(0)
+
+malitl_159_0xb8adde90 Mali: 213
+  pt signaled@12.716542: 211(0)
+  pt signaled@12.730868: 212(0)
+  pt signaled@12.741555: 213(0)
+  pt signaled@12.741749: 213(0)
+
+malitl_910_0xb8db4980 Mali: 0
+
+malitl_910_0xb8e0eaf0 Mali: 0
+
+malitl_910_0xb8e0f0c8 Mali: 18358
+  pt signaled@1958.203145: 18358(0)
+  pt signaled@1958.198057: 18357(0)
+
+malitl_713_0xb8e45af8 Mali: 1
+  pt signaled@12.693282: 1(0)
+
+malitl_713_0xb8dc0c68 Mali: 0
+
+malitl_713_0xb8da1898 Mali: 0
+
+malitl_713_0xb8e34570 Mali: 198
+  pt signaled@1953.718671: 198(0)
+  pt signaled@1953.729653: 197(0)
+  pt signaled@1957.666646: 198(0)
+
+malitl_460_0xb8d6a7c0 Mali: 0
+
+malitl_460_0xb8d8dc58 Mali: 27
+  pt signaled@1958.209995: 27(0)
+  pt signaled@1958.198834: 25(0)
+  pt signaled@1958.553480: 26(0)
+
+fences:
+--------------
+[dc565000] ret_fence: signaled
+  fb-timeline_pt signaled@12.732106: 211 / 19271
+
+[dd79c480] mali_fence: signaled
+  malitl_713_0xb8e45af8_pt signaled@12.693282: 1(0) / 1
+
+[dc567a00] FramebufferSurface:0: signaled
+  fb-timeline_pt signaled@12.748758: 212 / 19271
+  malitl_159_0xb8adde90_pt signaled@12.716542: 211(0) / 213
+
+[dc588800] FramebufferSurface:1: signaled
+  fb-timeline_pt signaled@12.765423: 213 / 19271
+  malitl_159_0xb8adde90_pt signaled@12.730868: 212(0) / 213
+
+[dc588780] mali_fence: signaled
+  malitl_159_0xb8adde90_pt signaled@12.741555: 213(0) / 213
+
+[c5a0ed80] FramebufferSurface:2: signaled
+  fb-timeline_pt signaled@12.782094: 214 / 19271
+  malitl_159_0xb8adde90_pt signaled@12.741749: 213(0) / 213
+
+[de9d9c80] mali_fence: signaled
+  malitl_713_0xb8e34570_pt signaled@1953.718671: 198(0) / 198
+
+[dc588b80] StatusBar:1: signaled
+  malitl_159_0xb8a81b00_pt signaled@1953.729652: 18730(0) / 18802
+  malitl_713_0xb8e34570_pt signaled@1953.729653: 197(0) / 198
+  fb-timeline_pt signaled@1953.745384: 19203 / 19271
+
+[dc588900] StatusBar:2: signaled
+  fb-timeline_pt signaled@1957.762018: 19244 / 19271
+  malitl_713_0xb8e34570_pt signaled@1957.666646: 198(0) / 198
+
+[dd4efe00] mali_fence: signaled
+  malitl_159_0xb8a81b00_pt signaled@1957.696195: 18770(0) / 18802
+
+[dccf7880] mali_fence: signaled
+  malitl_460_0xb8d8dc58_pt signaled@1958.209995: 27(0) / 27
+
+[c59f2980] mali_fence: signaled
+  malitl_910_0xb8e0f0c8_pt signaled@1958.203145: 18358(0) / 18358
+
+[dc588f80] com.royole.bwlauncher/com.ro:2: signaled
+  malitl_159_0xb8a81b00_pt signaled@1958.198053: 18800(0) / 18802
+  malitl_910_0xb8e0f0c8_pt signaled@1958.198057: 18357(0) / 18358
+
+[c5b80d00] ColorFade:0: signaled
+  malitl_159_0xb8a81b00_pt signaled@1958.198833: 18801(0) / 18802
+  malitl_460_0xb8d8dc58_pt signaled@1958.198834: 25(0) / 27
+  fb-timeline_pt signaled@1958.532701: 19269 / 19271
+
+[dd5b3400] ColorFade:1: signaled
+  malitl_159_0xb8a81b00_pt signaled@1958.553480: 18802(0) / 18802
+  malitl_460_0xb8d8dc58_pt signaled@1958.553480: 26(0) / 27
+
+

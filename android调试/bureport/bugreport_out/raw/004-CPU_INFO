@@ -1,0 +1,39 @@
+
+
+
+User 1%, System 1%, IOW 0%, IRQ 0%
+User 6 + Nice 0 + Sys 8 + Idle 430 + IOW 0 + IRQ 0 + SIRQ 0 = 444
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+ 1520  1520  3   2% R   2612K   1080K  fg shell    top             top
+  460   477  2   0% S 1502908K  74772K  fg system   Binder_2        system_server
+  159   313  1   0% S 138484K  13216K  fg system   surfaceflinger  /system/bin/surfaceflinger
+  910   910  1   0% S 1565940K  78676K  fg u0_a13   yole.bwlauncher com.royole.bwlauncher
+  159   314  0   0% S 138484K  13216K  fg system   EventThread     /system/bin/surfaceflinger
+  460   476  2   0% S 1502908K  74772K  fg system   Binder_1        system_server
+  460   950  1   0% S 1502908K  74772K  fg system   Binder_5        system_server
+   10    10  1   0% S      0K      0K  fg root     rcu_sched       
+   11    11  0   0% S      0K      0K  fg root     watchdog/0      
+   12    12  1   0% S      0K      0K  fg root     watchdog/1      
+   13    13  1   0% S      0K      0K  fg root     migration/1     
+   14    14  1   0% S      0K      0K  fg root     ksoftirqd/1     
+   16    16  1   0% S      0K      0K  fg root     kworker/1:0H    
+   17    17  2   0% S      0K      0K  fg root     watchdog/2      
+   18    18  2   0% S      0K      0K  fg root     migration/2     
+   19    19  2   0% S      0K      0K  fg root     ksoftirqd/2     
+   20    20  2   0% S      0K      0K  fg root     kworker/2:0     
+   21    21  2   0% S      0K      0K  fg root     kworker/2:0H    
+   22    22  3   0% S      0K      0K  fg root     watchdog/3      
+   23    23  3   0% S      0K      0K  fg root     migration/3     
+   24    24  3   0% S      0K      0K  fg root     ksoftirqd/3     
+   25    25  3   0% S      0K      0K  fg root     kworker/3:0     
+   26    26  3   0% S      0K      0K  fg root     kworker/3:0H    
+   27    27  3   0% S      0K      0K  fg root     khelper         
+   28    28  2   0% S      0K      0K  fg root     kdevtmpfs       
+   29    29  3   0% S      0K      0K  fg root     netns           
+   31    31  2   0% D      0K      0K  fg root     kworker/2:1     
+   33    33  1   0% S      0K      0K  fg root     kworker/1:1     
+   34    34  2   0% S      0K      0K  fg root     kconsole        
+   35    35  0   0% S      0K      0K  fg root     writeback       
+[top: 1.302s elapsed]
+

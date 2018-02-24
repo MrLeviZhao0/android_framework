@@ -1,0 +1,17 @@
+$timescale 1ms $end
+$scope am_logs $end
+$var wire 8 n0 system_server $end
+$upscope $end
+$enddefinitions $end
+#4531823650
+bZ n0
+#4531831886
+b00000001 n0
+#4531832460
+b00000010 n0
+#4531832602
+b00000001 n0
+#4531833176
+bZ n0
+#4553263033
+bZ n0

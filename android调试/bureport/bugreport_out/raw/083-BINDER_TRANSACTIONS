@@ -1,0 +1,32 @@
+binder transactions:
+proc 1100
+  buffer 123511: e68000bc size 16:4 delivered
+proc 1079
+  buffer 123521: e50000bc size 16:4 delivered
+proc 1056
+  buffer 123499: e4f000bc size 16:4 delivered
+proc 1035
+  buffer 123531: e40000bc size 16:4 delivered
+proc 1000
+  buffer 123541: e71000bc size 16:4 delivered
+proc 910
+  buffer 217363: e6f00028 size 40:4 delivered
+proc 893
+  buffer 123551: e6e000bc size 16:4 delivered
+proc 854
+  buffer 123561: e6d000bc size 16:4 delivered
+proc 713
+  buffer 216653: e6900028 size 40:4 delivered
+  buffer 5381: e6900104 size 8:0 delivered
+  buffer 2454: e6900810 size 20:0 delivered
+proc 650
+  buffer 123574: e53000bc size 16:4 delivered
+proc 460
+  buffer 5766: e5200028 size 16:4 delivered
+  buffer 217462: e5200064 size 0:0 delivered
+  buffer 3402: e520008c size 16:4 delivered
+  buffer 2876: e52000c8 size 20:0 delivered
+  buffer 109001: e5200104 size 4:0 delivered
+  buffer 217474: e5200130 size 0:0 delivered
+  buffer 123582: e520017c size 16:4 delivered
+

@@ -1,0 +1,61 @@
+$timescale 1ms $end
+$scope am_logs $end
+$var wire 1 a5 com.royole.bwsettings $end
+$var wire 1 a6 com.royole.bwlauncher/.gallery.GalleryActivity $end
+$var wire 1 a7 com.royole.bwlauncher $end
+$var wire 1 a11 com.android.managedprovisioning $end
+$var wire 1 a3 com.android.systemui $end
+$var wire 1 a8 android.process.acore $end
+$var wire 1 a1 android.process.media $end
+$var wire 1 a4 com.android.inputmethod.pinyin $end
+$var wire 1 a12 com.android.onetimeinitializer $end
+$var wire 1 a2 WebViewLoader-armeabi-v7a $end
+$var wire 1 a10 com.android.settings $end
+$var wire 1 a9 com.android.keychain $end
+$upscope $end
+$enddefinitions $end
+#4531823650
+b0 a5
+bZ a6
+b0 a7
+b0 a11
+b0 a3
+b0 a8
+b0 a1
+b0 a4
+b0 a12
+b0 a2
+b0 a10
+b0 a9
+#4531831289
+bZ a1
+#4531831323
+bZ a2
+#4531831401
+bZ a3
+#4531832006
+bZ a4
+#4531832292
+bZ a5
+#4531832299
+b- a6
+#4531832324
+bZ a7
+#4531832402
+bX a6
+#4531835093
+bZ a8
+#4531835723
+bZ a9
+#4531835757
+bZ a10
+#4531835934
+bZ a11
+#4531836276
+bZ a12
+#4532736635
+b- a6
+#4551655017
+bX a6
+#4552590184
+b- a6

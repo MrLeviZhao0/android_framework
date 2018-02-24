@@ -1,0 +1,18 @@
+Restrict background: false
+Restrict power: false
+Current foreground state: 2
+Network policies:
+Metered ifaces: {}
+Policy for UIDs:
+Power save whitelist app ids:
+  UID=10003: true
+Status for known UIDs:
+  UID=1000 state=13 (bg) pids=[1035=13,1056=13] rules=UNKNOWN
+  UID=10001 state=13 (bg) pids=[1000=13] rules=UNKNOWN
+  UID=10003 state=0 (fg) pids=[650=0] rules=UNKNOWN
+  UID=10005 state=13 (bg) pids=[1079=13] rules=UNKNOWN
+  UID=10006 state=13 (bg) pids=[1100=13] rules=UNKNOWN
+  UID=10009 state=0 (fg) pids=[713=0] rules=UNKNOWN
+  UID=10013 state=2 (fg) pids=[910=2] rules=UNKNOWN
+  UID=10015 state=0 (fg) pids=[893=0] rules=UNKNOWN
+  UID=10026 state=4 (bg) pids=[854=4] rules=UNKNOWN

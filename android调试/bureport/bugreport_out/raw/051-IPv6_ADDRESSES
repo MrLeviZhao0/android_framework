@@ -1,0 +1,5 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+[ip: 0.101s elapsed]
+

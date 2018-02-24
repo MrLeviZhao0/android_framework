@@ -1,0 +1,449 @@
+USER     PID   PPID  VSIZE  RSS   PRIO  NICE  RTPRI SCHED  PCY  WCHAN    PC        NAME
+root      1     0     800    508   20    0     0     0     fg  ffffffff 00000000 S /init
+root      2     0     0      0     20    0     0     0     fg  ffffffff 00000000 S kthreadd
+root      3     2     0      0     20    0     0     0     fg  ffffffff 00000000 S ksoftirqd/0
+root      5     2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/0:0H
+root      7     2     0      0     -100  0     99    1     fg  ffffffff 00000000 S migration/0
+root      8     2     0      0     20    0     0     0     fg  ffffffff 00000000 S rcu_preempt
+root      9     2     0      0     20    0     0     0     fg  ffffffff 00000000 S rcu_bh
+root      10    2     0      0     20    0     0     0     fg  ffffffff 00000000 S rcu_sched
+root      11    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S watchdog/0
+root      12    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S watchdog/1
+root      13    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S migration/1
+root      14    2     0      0     20    0     0     0     fg  ffffffff 00000000 S ksoftirqd/1
+root      16    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/1:0H
+root      17    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S watchdog/2
+root      18    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S migration/2
+root      19    2     0      0     20    0     0     0     fg  ffffffff 00000000 S ksoftirqd/2
+root      20    2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/2:0
+root      21    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/2:0H
+root      22    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S watchdog/3
+root      23    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S migration/3
+root      24    2     0      0     20    0     0     0     fg  ffffffff 00000000 S ksoftirqd/3
+root      25    2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/3:0
+root      26    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/3:0H
+root      27    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S khelper
+root      28    2     0      0     20    0     0     0     fg  ffffffff 00000000 S kdevtmpfs
+root      29    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S netns
+root      31    2     0      0     20    0     0     0     fg  ffffffff 00000000 D kworker/2:1
+root      33    2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/1:1
+root      34    2     0      0     20    0     0     0     fg  ffffffff 00000000 S kconsole
+root      35    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S writeback
+root      36    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S bioset
+root      37    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S crypto
+root      39    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kblockd
+root      40    2     0      0     20    0     0     0     fg  ffffffff 00000000 S khubd
+root      70    2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/193-bq25890
+root      71    2     0      0     20    0     0     5     fg  ffffffff 00000000 S vmalloc
+root      72    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S cfg80211
+root      73    2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/194-rk808
+root      74    2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/50-rga
+root      75    2     0      0     20    0     0     0     fg  ffffffff 00000000 S fb-vsync
+root      76    2     0      0     20    0     0     0     fg  ffffffff 00000000 S rk-fb
+root      77    2     0      0     -100  0     99    1     fg  ffffffff 00000000 S cfinteractive
+root      78    2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/41-ff9a0000
+root      79    2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/42-ff9a0000
+root      80    2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/44-ff9c0000
+root      81    2     0      0     20    0     0     0     fg  ffffffff 00000000 S khungtaskd
+root      82    2     0      0     20    0     0     0     fg  ffffffff 00000000 S kswapd0
+root      83    2     0      0     25    5     0     0     fg  ffffffff 00000000 S ksmd
+root      84    2     0      0     20    0     0     0     fg  ffffffff 00000000 S fsnotify_mark
+root      85    2     0      0     0     -20   0     0     fg  ffffffff 00000000 S cifsiod
+root      104   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S hdmi-ff980000.h
+root      105   2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/49-ff900000
+root      106   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S battery_charge
+root      107   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S dwc_otg
+root      108   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S dwc_otg
+root      109   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S uether
+root      112   2     0      0     -51   0     50    1     fg  ffffffff 00000000 S irq/69-tsadc
+root      113   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S rockchip_tsadc
+root      114   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S dm_bufio_cache
+root      115   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S dw-mci-card
+root      116   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S dw-mci-card
+root      117   2     0      0     20    0     0     0     fg  ffffffff 00000000 S mmcqd/0
+root      118   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S binder
+root      119   2     0      0     -100  0     99    1     fg  ffffffff 00000000 S ddrfreqd
+root      120   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S dvfs
+root      121   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/0:1H
+root      122   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S deferwq
+root      123   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S f_mtp
+root      124   2     0      0     20    0     0     0     fg  ffffffff 00000000 S file-storage
+root      125   1     768    344   20    0     0     0     fg  ffffffff 00000000 S /sbin/ueventd
+root      132   2     0      0     20    0     0     0     fg  ffffffff 00000000 S jbd2/mmcblk0p10
+root      133   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S ext4-dio-unwrit
+root      134   2     0      0     20    0     0     0     fg  ffffffff 00000000 S jbd2/mmcblk0p8-
+root      135   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S ext4-dio-unwrit
+root      139   2     0      0     20    0     0     0     fg  ffffffff 00000000 S jbd2/mmcblk0p11
+root      140   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S ext4-dio-unwrit
+root      147   2     0      0     20    0     0     0     fg  ffffffff 00000000 S jbd2/mmcblk0p13
+root      148   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S ext4-dio-unwrit
+root      149   2     0      0     20    0     0     0     fg  ffffffff 00000000 S jbd2/mmcblk0p15
+root      150   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S ext4-dio-unwrit
+root      151   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S mali_dvfs
+logd      153   1     7000   1556  20    0     0     3     fg  ffffffff 00000000 S /system/bin/logd
+logd      188   153   7000   1556  20    0     0     3     fg  ffffffff 00000000 S logd.reader
+logd      189   153   7000   1556  20    0     0     3     fg  ffffffff 00000000 S logd.writer
+logd      190   153   7000   1556  20    0     0     3     fg  ffffffff 00000000 S logd
+logd      194   153   7000   1556  20    0     0     3     fg  ffffffff 00000000 S logd.auditd
+root      154   1     1596   172   20    0     0     0     fg  ffffffff 00000000 S /sbin/healthd
+root      155   1     2380   1020  -2    0     1     1     fg  ffffffff 00000000 S /system/bin/lmkd
+system    156   1     1240   352   20    0     0     0     fg  ffffffff 00000000 S /system/bin/servicemanager
+root      157   1     6428   884   20    0     0     0     fg  ffffffff 00000000 S /system/bin/displayd
+root      184   157   6428   884   20    0     0     0     fg  ffffffff 00000000 S displayd
+root      185   157   6428   884   20    0     0     0     fg  ffffffff 00000000 S displayd
+root      186   157   6428   884   20    0     0     0     fg  ffffffff 00000000 S displayd
+root      187   157   6428   884   20    0     0     0     fg  ffffffff 00000000 S displayd
+root      158   1     6924   1924  20    0     0     0     fg  ffffffff 00000000 S /system/bin/vold
+root      201   158   6924   1924  20    0     0     0     fg  ffffffff 00000000 S vold
+root      203   158   6924   1924  20    0     0     0     fg  ffffffff 00000000 S vold
+system    159   1     138484 13216 12    -8    0     0     fg  ffffffff 00000000 S /system/bin/surfaceflinger
+system    198   159   138484 13216 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+system    199   159   138484 13216 11    -9    0     0     fg  ffffffff 00000000 S DispSync
+system    200   159   138484 13216 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+system    281   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-mem-purge
+system    282   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-event-hnd
+system    283   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    284   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    285   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    286   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    287   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-renderer
+system    288   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S mali-hist-dump
+system    306   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S HWC_Vsync
+system    307   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S HWC_Uevent
+system    309   159   138484 13216 11    -9    0     0     fg  ffffffff 00000000 S RepaintThread
+system    313   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S surfaceflinger
+system    314   159   138484 13216 11    -9    0     0     fg  ffffffff 00000000 S EventThread
+system    315   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S surfaceflinger
+system    316   159   138484 13216 11    -9    0     0     fg  ffffffff 00000000 S EventThread
+system    317   159   138484 13216 12    -8    0     0     fg  ffffffff 00000000 S EventControl
+system    346   159   138484 13216 20    0     0     0     fg  ffffffff 00000000 S Binder_3
+system    936   159   138484 13216 20    0     0     0     fg  ffffffff 00000000 S Binder_4
+system    960   159   138484 13216 20    0     0     0     fg  ffffffff 00000000 S Binder_5
+shell     160   1     1116   524   20    0     0     0     fg  c02f38fc b6f46958 S /system/bin/sh
+system    161   1     3584   356   20    0     0     0     fg  ffffffff 00000000 S /system/bin/sdcard
+system    178   161   3584   356   20    0     0     0     fg  ffffffff 00000000 S sdcard
+system    179   161   3584   356   20    0     0     0     fg  ffffffff 00000000 S sdcard
+root      162   1     10704  1080  20    0     0     0     fg  ffffffff 00000000 S /system/bin/netd
+root      447   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      448   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      449   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      450   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      451   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      452   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      453   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      454   162   10704  1080  20    0     0     0     fg  ffffffff 00000000 S netd
+root      163   1     1952   1156  20    0     0     0     fg  ffffffff 00000000 S /system/bin/debuggerd
+root      164   1     4304   1028  20    0     0     0     fg  ffffffff 00000000 S /system/bin/rild
+root      195   164   4304   1028  20    0     0     0     fg  ffffffff 00000000 S rild
+root      196   164   4304   1028  20    0     0     0     fg  ffffffff 00000000 S rild
+drm       165   1     13928  5280  20    0     0     0     fg  ffffffff 00000000 S /system/bin/drmserver
+drm       268   165   13928  5280  20    0     0     0     fg  ffffffff 00000000 S Binder_1
+system    166   1     52124  18128 20    0     0     0     fg  ffffffff 00000000 S /system/bin/mediaserver
+system    497   166   52124  18128 4     -16   0     0     fg  ffffffff 00000000 S ApmTone
+system    498   166   52124  18128 4     -16   0     0     fg  ffffffff 00000000 S ApmAudio
+system    499   166   52124  18128 4     -16   0     0     fg  ffffffff 00000000 S ApmOutput
+system    501   166   52124  18128 20    0     0     0     fg  ffffffff 00000000 S mediaserver
+system    502   166   52124  18128 1     -19   0     0     fg  ffffffff 00000000 S AudioOut_2
+system    505   166   52124  18128 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+system    506   166   52124  18128 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+system    517   166   52124  18128 20    0     0     0     fg  ffffffff 00000000 S Binder_3
+system    521   166   52124  18128 16    -4    0     0     fg  ffffffff 00000000 S Binder_1
+system    522   166   52124  18128 16    -4    0     0     fg  ffffffff 00000000 S Binder_1
+install   167   1     1160   380   20    0     0     0     fg  ffffffff 00000000 S /system/bin/installd
+keystore  168   1     4324   1664  20    0     0     0     fg  ffffffff 00000000 S /system/bin/keystore
+root      171   1     1498232 50564 20    0     0     0     fg  ffffffff 00000000 S zygote
+root      1101  171   1498232 50564 20    0     0     0     fg  ffffffff 00000000 S ReferenceQueueD
+root      1102  171   1498232 50564 20    0     0     0     fg  ffffffff 00000000 S FinalizerDaemon
+root      1104  171   1498232 50564 20    0     0     0     fg  ffffffff 00000000 S FinalizerWatchd
+root      1107  171   1498232 50564 20    0     0     0     fg  ffffffff 00000000 S HeapTrimmerDaem
+root      1108  171   1498232 50564 20    0     0     0     fg  ffffffff 00000000 S GCDaemon
+media_rw  172   1     3576   360   20    0     0     0     fg  ffffffff 00000000 S /system/bin/sdcard
+media_rw  182   172   3576   360   20    0     0     0     fg  ffffffff 00000000 S sdcard
+media_rw  183   172   3576   360   20    0     0     0     fg  ffffffff 00000000 S sdcard
+shell     173   1     4652   208   20    0     0     0     fg  ffffffff 00000000 S /sbin/adbd
+shell     174   173   4652   208   20    0     0     0     fg  ffffffff 00000000 S adbd
+shell     175   173   4652   208   20    0     0     0     fg  ffffffff 00000000 S adbd
+shell     176   173   4652   208   20    0     0     0     fg  ffffffff 00000000 S adbd
+shell     1517  173   4652   208   20    0     0     0     fg  ffffffff 00000000 S adbd
+root      191   2     0      0     20    0     0     0     fg  ffffffff 00000000 S kauditd
+root      192   2     0      0     20    0     0     0     fg  ffffffff 00000000 D data_process
+root      193   2     0      0     20    0     0     0     fg  ffffffff 00000000 D input_uart_thre
+root      197   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/u9:2
+root      206   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S fts_wq
+root      279   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kbase_event
+system    460   171   1502908 74772 18    -2    0     0     fg  ffffffff 00000000 S system_server
+system    466   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+system    467   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+system    468   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+system    469   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Signal Catcher
+system    470   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S JDWP
+system    471   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S ReferenceQueueD
+system    472   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S FinalizerDaemon
+system    473   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S FinalizerWatchd
+system    474   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S HeapTrimmerDaem
+system    475   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S GCDaemon
+system    476   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+system    477   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+system    478   460   1502908 74772 12    -8    0     0     fg  ffffffff 00000000 S SensorEventAckR
+system    479   460   1502908 74772 12    -8    0     0     fg  ffffffff 00000000 S SensorService
+system    482   460   1502908 74772 30    10    0     0     bg  ffffffff 00000000 S android.bg
+system    483   460   1502908 74772 18    -2    0     0     fg  ffffffff 00000000 S ActivityManager
+system    484   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S FileObserver
+system    485   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S android.fg
+system    486   460   1502908 74772 18    -2    0     0     fg  ffffffff 00000000 S android.ui
+system    487   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S android.io
+system    488   460   1502908 74772 16    -4    0     0     fg  ffffffff 00000000 S android.display
+system    489   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S CpuTracker
+system    490   460   1502908 74772 16    -4    0     0     fg  ffffffff 00000000 S PowerManagerSer
+system    491   460   1502908 74772 18    -2    0     0     fg  ffffffff 00000000 S system_server
+system    492   460   1502908 74772 18    -2    0     0     fg  ffffffff 00000000 S BatteryStats_wa
+system    493   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S lazy-scan
+system    494   460   1502908 74772 30    10    0     0     bg  ffffffff 00000000 S PackageManager
+system    496   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Binder_3
+system    525   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S PackageInstalle
+system    527   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S AlarmManager
+system    528   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S UEventObserver
+system    538   460   1502908 74772 12    -8    0     0     fg  ffffffff 00000000 S InputDispatcher
+system    539   460   1502908 74772 12    -8    0     0     fg  ffffffff 00000000 S InputReader
+system    540   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S MountService
+system    541   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S VoldConnector
+system    543   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S NetdConnector
+system    544   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S NetworkStats
+system    545   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S NetworkPolicy
+system    546   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S WifiP2pService
+system    547   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S WifiStateMachin
+system    548   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S WifiService
+system    549   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S ConnectivitySer
+system    550   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S NsdService
+system    551   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mDnsConnector
+system    552   460   1502908 74772 30    10    0     0     bg  ffffffff 00000000 S ranker
+system    553   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S AudioService
+system    555   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Hdmi Control Io
+system    556   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S DisplaydConnect
+system    559   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S WifiWatchdogSta
+system    561   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-mem-purge
+system    562   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-event-hnd
+system    563   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    564   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S WifiManager
+system    565   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    566   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    567   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+system    568   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-renderer
+system    569   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S mali-hist-dump
+system    570   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S WifiScanningSer
+system    571   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S WifiRttService
+system    572   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S EthernetService
+system    637   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S PppoeServiceThr
+system    638   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Pppoe Handler T
+system    639   460   1502908 74772 30    10    0     0     bg  ffffffff 00000000 S backup
+system    640   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Thread-78
+system    647   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S LazyTaskWriterT
+system    648   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S UsbService host
+system    649   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Thread-87
+system    706   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Binder_4
+system    842   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S watchdog
+system    846   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S SoundPool
+system    847   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S SoundPoolThread
+system    888   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S NetworkTimeUpda
+system    950   460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S Binder_5
+system    1033  460   1502908 74772 30    10    0     0     bg  ffffffff 00000000 S AsyncTask #1
+system    1073  460   1502908 74772 20    0     0     0     fg  ffffffff 00000000 S pool-1-thread-1
+system    1462  460   1502908 74772 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+system    1502  460   1502908 74772 30    10    0     0     bg  ffffffff 00000000 S AsyncTask #2
+root      481   2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/1:2
+root      560   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kbase_event
+u0_a3     650   171   859648 34820 20    0     0     0     fg  ffffffff 00000000 S android.process.media
+u0_a3     653   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a3     654   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a3     655   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a3     656   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S Signal Catcher
+u0_a3     657   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S JDWP
+u0_a3     658   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S ReferenceQueueD
+u0_a3     659   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S FinalizerDaemon
+u0_a3     660   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S FinalizerWatchd
+u0_a3     661   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a3     662   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S GCDaemon
+u0_a3     666   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a3     667   650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a3     851   650   859648 34820 30    10    0     0     bg  ffffffff 00000000 S thumbs thread
+u0_a3     1077  650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S DownloadReceive
+u0_a3     1150  650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S Binder_3
+u0_a3     1211  650   859648 34820 20    0     0     0     fg  ffffffff 00000000 S MtpServer
+u0_a3     1461  650   859648 34820 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+u0_a9     713   171   900580 68656 20    0     0     0     fg  ffffffff 00000000 S com.android.systemui
+u0_a9     720   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a9     721   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a9     722   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a9     724   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S Signal Catcher
+u0_a9     725   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S JDWP
+u0_a9     726   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S ReferenceQueueD
+u0_a9     727   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S FinalizerDaemon
+u0_a9     728   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S FinalizerWatchd
+u0_a9     729   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a9     730   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S GCDaemon
+u0_a9     732   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a9     736   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a9     739   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S Binder_3
+u0_a9     751   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S SoundPool
+u0_a9     752   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S SoundPoolThread
+u0_a9     754   713   900580 68656 30    10    0     0     bg  ffffffff 00000000 S Recents-TaskRes
+u0_a9     949   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S SystemUI Storag
+u0_a9     993   713   900580 68656 30    10    0     0     bg  ffffffff 00000000 S PhoneStatusBar
+u0_a9     994   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S WifiManager
+u0_a9     995   713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S ConnectivityMan
+u0_a9     996   713   900580 68656 30    10    0     0     bg  ffffffff 00000000 S QSTileHost
+u0_a9     997   713   900580 68656 30    10    0     0     bg  ffffffff 00000000 S AsyncTask #1
+u0_a9     999   713   900580 68656 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+u0_a9     1022  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-mem-purge
+u0_a9     1023  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-event-hnd
+u0_a9     1024  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a9     1025  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a9     1026  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a9     1027  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a9     1028  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-renderer
+u0_a9     1029  713   900580 68656 20    0     0     0     fg  ffffffff 00000000 S mali-hist-dump
+u0_a26    854   171   878020 54620 20    0     0     0     bg  ffffffff 00000000 S com.android.inputmethod.pinyin
+u0_a26    860   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a26    861   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a26    862   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a26    863   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S Signal Catcher
+u0_a26    864   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S JDWP
+u0_a26    866   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S ReferenceQueueD
+u0_a26    867   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S FinalizerDaemon
+u0_a26    868   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S FinalizerWatchd
+u0_a26    869   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a26    870   854   878020 54620 20    0     0     0     bg  ffffffff 00000000 S GCDaemon
+u0_a26    871   854   878020 54620 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a26    875   854   878020 54620 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a26    1457  854   878020 54620 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+u0_a15    893   171   854164 25080 20    0     0     0     fg  ffffffff 00000000 S com.royole.bwsettings
+u0_a15    899   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a15    900   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a15    901   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a15    902   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S Signal Catcher
+u0_a15    904   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S JDWP
+u0_a15    905   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S ReferenceQueueD
+u0_a15    906   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S FinalizerDaemon
+u0_a15    907   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S FinalizerWatchd
+u0_a15    908   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a15    909   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S GCDaemon
+u0_a15    918   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a15    923   893   854164 25080 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a15    1456  893   854164 25080 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+u0_a13    910   171   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S com.royole.bwlauncher
+u0_a13    920   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a13    921   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a13    922   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S Heap thread poo
+u0_a13    924   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S Signal Catcher
+u0_a13    925   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S JDWP
+u0_a13    926   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S ReferenceQueueD
+u0_a13    927   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S FinalizerDaemon
+u0_a13    928   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S FinalizerWatchd
+u0_a13    929   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a13    930   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S GCDaemon
+u0_a13    931   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a13    932   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a13    967   910   1565940 78676 30    10    0     0     bg  ffffffff 00000000 S AsyncTask #1
+u0_a13    968   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+u0_a13    980   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-mem-purge
+u0_a13    981   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-event-hnd
+u0_a13    982   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a13    983   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a13    984   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a13    985   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-utility-wo
+u0_a13    986   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-renderer
+u0_a13    987   910   1565940 78676 16    -4    0     0     fg  ffffffff 00000000 S mali-hist-dump
+u0_a13    988   910   1565940 78676 18    -2    0     0     fg  ffffffff 00000000 S hwuiTask1
+u0_a13    989   910   1565940 78676 18    -2    0     0     fg  ffffffff 00000000 S hwuiTask2
+u0_a13    991   910   1565940 78676 20    0     0     0     fg  ffffffff 00000000 S Binder_3
+root      979   2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kbase_event
+u0_a1     1000  171   858456 32032 20    0     0     0     bg  ffffffff 00000000 S android.process.acore
+u0_a1     1001  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a1     1002  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a1     1003  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a1     1009  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S Signal Catcher
+u0_a1     1010  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S JDWP
+u0_a1     1011  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S ReferenceQueueD
+u0_a1     1012  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S FinalizerDaemon
+u0_a1     1013  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S FinalizerWatchd
+u0_a1     1014  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a1     1015  1000  858456 32032 20    0     0     0     bg  ffffffff 00000000 S GCDaemon
+u0_a1     1016  1000  858456 32032 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a1     1017  1000  858456 32032 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a1     1019  1000  858456 32032 30    10    0     0     bg  ffffffff 00000000 S ContactsProvide
+u0_a1     1020  1000  858456 32032 30    10    0     0     bg  ffffffff 00000000 S CallLogProvider
+u0_a1     1031  1000  858456 32032 20    0     0     0     fg  ffffffff 00000000 S Binder_3
+u0_a1     1454  1000  858456 32032 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+root      1021  2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kbase_event
+system    1035  171   852328 25900 20    0     0     0     bg  ffffffff 00000000 S com.android.keychain
+system    1039  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+system    1040  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+system    1041  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+system    1044  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S Signal Catcher
+system    1045  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S JDWP
+system    1046  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S ReferenceQueueD
+system    1047  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S FinalizerDaemon
+system    1048  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S FinalizerWatchd
+system    1049  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S HeapTrimmerDaem
+system    1050  1035  852328 25900 20    0     0     0     bg  ffffffff 00000000 S GCDaemon
+system    1051  1035  852328 25900 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+system    1052  1035  852328 25900 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+system    1452  1035  852328 25900 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+system    1056  171   872752 30912 20    0     0     0     bg  ffffffff 00000000 S com.android.settings
+system    1061  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+system    1062  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+system    1063  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+system    1065  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S Signal Catcher
+system    1066  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S JDWP
+system    1067  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S ReferenceQueueD
+system    1068  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S FinalizerDaemon
+system    1069  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S FinalizerWatchd
+system    1070  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S HeapTrimmerDaem
+system    1071  1056  872752 30912 20    0     0     0     bg  ffffffff 00000000 S GCDaemon
+system    1072  1056  872752 30912 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+system    1074  1056  872752 30912 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+system    1076  1056  872752 30912 30    10    0     0     bg  ffffffff 00000000 S AsyncTask #1
+system    1446  1056  872752 30912 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+u0_a5     1079  171   853348 26144 20    0     0     0     bg  ffffffff 00000000 S com.android.managedprovisioning
+u0_a5     1081  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a5     1082  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a5     1083  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a5     1084  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S Signal Catcher
+u0_a5     1086  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S JDWP
+u0_a5     1088  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S ReferenceQueueD
+u0_a5     1091  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S FinalizerDaemon
+u0_a5     1092  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S FinalizerWatchd
+u0_a5     1093  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a5     1094  1079  853348 26144 20    0     0     0     bg  ffffffff 00000000 S GCDaemon
+u0_a5     1095  1079  853348 26144 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a5     1096  1079  853348 26144 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a5     1450  1079  853348 26144 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+u0_a6     1100  171   852244 25796 20    0     0     0     bg  ffffffff 00000000 S com.android.onetimeinitializer
+u0_a6     1103  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a6     1105  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a6     1106  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S Heap thread poo
+u0_a6     1109  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S Signal Catcher
+u0_a6     1110  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S JDWP
+u0_a6     1111  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S ReferenceQueueD
+u0_a6     1112  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S FinalizerDaemon
+u0_a6     1113  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S FinalizerWatchd
+u0_a6     1114  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S HeapTrimmerDaem
+u0_a6     1115  1100  852244 25796 20    0     0     0     bg  ffffffff 00000000 S GCDaemon
+u0_a6     1116  1100  852244 25796 20    0     0     0     fg  ffffffff 00000000 S Binder_1
+u0_a6     1117  1100  852244 25796 20    0     0     0     fg  ffffffff 00000000 S Binder_2
+u0_a6     1448  1100  852244 25796 16    -4    0     0     fg  ffffffff 00000000 S RenderThread
+root      1152  2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/0:1
+root      1162  2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/1:1H
+root      1163  2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/2:1H
+root      1164  2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/3:1H
+root      1165  2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/u8:5
+root      1179  2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/u8:19
+root      1222  2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/3:2
+root      1228  2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/2:3
+root      1499  2     0      0     0     -20   0     0     fg  ffffffff 00000000 S kworker/u9:0
+root      1503  2     0      0     20    0     0     0     fg  ffffffff 00000000 S kworker/0:2
+shell     1516  173   992    340   20    0     0     0     fg  c0739d00 b6f60958 S bugreport
+shell     1518  1     1260   700   0     -20   0     0     fg  ffffffff 00000000 S /system/bin/dumpstate
+shell     1523  1518  2436   924   0     -20   0     0     fg  00000000 b6f36958 R ps
+[ps: 0.201s elapsed]
+

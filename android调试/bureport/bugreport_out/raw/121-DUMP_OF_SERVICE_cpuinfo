@@ -1,0 +1,31 @@
+Load: 3.35 / 3.43 / 3.07
+CPU usage from 678209ms to 463387ms ago:
+  1.3% 159/surfaceflinger: 0.4% user + 0.9% kernel / faults: 8025 minor
+  1.2% 910/com.royole.bwlauncher: 0.7% user + 0.4% kernel / faults: 95 minor
+  1.1% 460/system_server: 0.3% user + 0.8% kernel / faults: 8254 minor
+  0.1% 34/kconsole: 0% user + 0.1% kernel
+  0.1% 8/rcu_preempt: 0% user + 0.1% kernel
+  0% 193/input_uart_thre: 0% user + 0% kernel
+  0% 154/healthd: 0% user + 0% kernel
+  0% 713/com.android.systemui: 0% user + 0% kernel / faults: 186 minor
+  0% 121/kworker/0:1H: 0% user + 0% kernel
+  0% 166/mediaserver: 0% user + 0% kernel
+  0% 1152/kworker/0:1: 0% user + 0% kernel
+  0% 14/ksoftirqd/1: 0% user + 0% kernel
+  0% 24/ksoftirqd/3: 0% user + 0% kernel
+  0% 3/ksoftirqd/0: 0% user + 0% kernel
+  0% 19/ksoftirqd/2: 0% user + 0% kernel
+  0% 31/kworker/2:1: 0% user + 0% kernel
+  0% 71/vmalloc: 0% user + 0% kernel
+  0% 125/ueventd: 0% user + 0% kernel
+  0% 164/rild: 0% user + 0% kernel
+  0% 650/android.process.media: 0% user + 0% kernel / faults: 45 minor
+  0% 17/watchdog/2: 0% user + 0% kernel
+  0% 22/watchdog/3: 0% user + 0% kernel
+  0% 25/kworker/3:0: 0% user + 0% kernel
+  0% 33/kworker/1:1: 0% user + 0% kernel
+  0% 77/cfinteractive: 0% user + 0% kernel
+  0% 157/displayd: 0% user + 0% kernel / faults: 1 minor
+  0% 162/netd: 0% user + 0% kernel
+  0% 1228/kworker/2:3: 0% user + 0% kernel
+0.7% TOTAL: 0.3% user + 0.4% kernel + 0% softirq

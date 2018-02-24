@@ -1,0 +1,12 @@
+Camera module HAL API version: 0x1
+Camera module API version: 0x1
+Camera module name: RK29_ICS_CameraHal_Module
+Camera module author: RockChip
+Number of camera devices: 0
+
+Vendor tags left unimplemented.
+
+No active camera clients yet.
+
+Camera traces (0):
+  No camera traces collected.

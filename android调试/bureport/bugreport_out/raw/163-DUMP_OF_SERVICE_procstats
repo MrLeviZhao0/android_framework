@@ -1,0 +1,1189 @@
+COMMITTED STATS FROM 2013-01-28-14-45-19:
+  * system / 1000 / v22:
+           TOTAL: 100% (39MB-42MB-44MB/31MB-34MB-35MB over 7)
+      Persistent: 100% (39MB-42MB-44MB/31MB-34MB-35MB over 7)
+  * android.process.media / u0a3 / v800:
+           TOTAL: 100% (8.2MB-8.3MB-8.4MB/5.0MB-5.1MB-5.2MB over 7)
+      Persistent: 100% (8.2MB-8.3MB-8.4MB/5.0MB-5.1MB-5.2MB over 7)
+         Service: 0.01%
+        Receiver: 0.01%
+  * com.android.systemui / u0a9 / v22:
+           TOTAL: 100% (31MB-35MB-38MB/25MB-29MB-32MB over 7)
+      Persistent: 100% (31MB-35MB-38MB/25MB-29MB-32MB over 7)
+          Imp Fg: 0.01%
+         Service: 0.01%
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+           TOTAL: 100% (7.4MB-7.4MB-7.4MB/5.2MB-5.2MB-5.2MB over 7)
+          Imp Bg: 100% (7.4MB-7.4MB-7.4MB/5.2MB-5.2MB-5.2MB over 7)
+  * com.royole.bwsettings / u0a15 / v1:
+           TOTAL: 100% (3.4MB-3.5MB-3.5MB/1.4MB-1.5MB-1.5MB over 7)
+      Persistent: 100% (3.4MB-3.5MB-3.5MB/1.4MB-1.5MB-1.5MB over 7)
+  * com.royole.bwlauncher / u0a13 / v1:
+           TOTAL: 100% (26MB-28MB-31MB/21MB-24MB-26MB over 23)
+             Top: 100% (26MB-28MB-31MB/21MB-24MB-26MB over 23)
+  * android.process.acore / u0a1 / v22:
+           TOTAL: 0.01%
+          Imp Fg: 0.01%
+        (Cached): 100% (8.8MB-8.8MB-8.8MB/6.4MB-6.4MB-6.4MB over 5)
+  * com.android.keychain / 1000 / v22:
+        (Cached): 100% (5.1MB-5.1MB-5.1MB/3.4MB-3.5MB-3.5MB over 5)
+  * com.android.onetimeinitializer / u0a6 / v22:
+        (Cached): 100% (4.9MB-4.9MB-4.9MB/3.3MB-3.3MB-3.3MB over 5)
+  * com.android.managedprovisioning / u0a5 / v22:
+        (Cached): 100% (5.3MB-5.3MB-5.3MB/3.7MB-3.7MB-3.7MB over 5)
+  * com.android.settings / 1000 / v22:
+        (Cached): 100% (7.1MB-7.3MB-7.7MB/4.3MB-4.8MB-5.5MB over 5)
+
+Run time Stats:
+  SOff/Norm: +45m1s262ms
+  SOn /Norm: +30m8s787ms
+      TOTAL: +1h15m10s49ms
+
+Memory usage:
+  Kernel : 86MB (24 samples)
+  Native : 47MB (24 samples)
+  Persist: 89MB (28 samples)
+  Top    : 28MB (23 samples)
+  ImpFg  : 4.8KB (17 samples)
+  ImpBg  : 7.4MB (7 samples)
+  Service: 3.3KB (24 samples)
+  Receivr: 1.5KB (22 samples)
+  CchEmty: 31MB (25 samples)
+  Cached : 301MB (24 samples)
+  Free   : 3.2GB (24 samples)
+  Z-Ram  : 4.0KB (24 samples)
+  TOTAL  : 3.7GB
+
+          Start time: 2013-01-28 14:45:19
+  Total elapsed time: +15h0m5s462ms (complete) libart.so
+
+COMMITTED STATS FROM 2013-01-29-05-45-25:
+  * com.royole.bwsettings / u0a15 / v1:
+           TOTAL: 100% (3.5MB-3.5MB-3.5MB/1.5MB-1.5MB-1.5MB over 6)
+      Persistent: 100% (3.5MB-3.5MB-3.5MB/1.5MB-1.5MB-1.5MB over 6)
+  * system / 1000 / v22:
+           TOTAL: 100% (43MB-43MB-44MB/35MB-35MB-36MB over 6)
+      Persistent: 100% (43MB-43MB-44MB/35MB-35MB-36MB over 6)
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+           TOTAL: 100% (7.4MB-7.4MB-7.4MB/5.2MB-5.2MB-5.2MB over 6)
+          Imp Bg: 100% (7.4MB-7.4MB-7.4MB/5.2MB-5.2MB-5.2MB over 6)
+  * com.android.systemui / u0a9 / v22:
+           TOTAL: 100% (34MB-37MB-39MB/28MB-31MB-34MB over 6)
+      Persistent: 100% (34MB-37MB-39MB/28MB-31MB-34MB over 6)
+  * android.process.media / u0a3 / v800:
+           TOTAL: 100% (8.5MB-8.6MB-8.7MB/5.2MB-5.4MB-5.5MB over 6)
+      Persistent: 100% (8.5MB-8.6MB-8.7MB/5.2MB-5.4MB-5.5MB over 6)
+  * com.royole.bwlauncher / u0a13 / v1:
+           TOTAL: 100% (26MB-27MB-28MB/22MB-23MB-24MB over 8)
+             Top: 100% (26MB-27MB-28MB/22MB-23MB-24MB over 8)
+  * android.process.acore / u0a1 / v22:
+        (Cached): 100% (8.8MB-8.8MB-8.8MB/6.4MB-6.4MB-6.4MB over 5)
+  * com.android.keychain / 1000 / v22:
+        (Cached): 100% (5.1MB-5.1MB-5.1MB/3.5MB-3.5MB-3.5MB over 5)
+  * com.android.managedprovisioning / u0a5 / v22:
+        (Cached): 100% (5.3MB-5.3MB-5.3MB/3.7MB-3.7MB-3.7MB over 5)
+  * com.android.settings / 1000 / v22:
+        (Cached): 100% (7.7MB-7.7MB-7.7MB/5.5MB-5.5MB-5.5MB over 5)
+  * com.android.onetimeinitializer / u0a6 / v22:
+        (Cached): 100% (4.9MB-4.9MB-4.9MB/3.3MB-3.3MB-3.3MB over 5)
+
+Run time Stats:
+  SOff/Norm: +1h1m9s839ms
+  SOn /Norm: +14s39ms
+      TOTAL: +1h1m23s878ms
+
+Memory usage:
+  Kernel : 98MB (16 samples)
+  Native : 47MB (16 samples)
+  Persist: 93MB (24 samples)
+  Top    : 27MB (8 samples)
+  ImpBg  : 7.4MB (6 samples)
+  CchEmty: 32MB (25 samples)
+  Cached : 308MB (16 samples)
+  Free   : 3.2GB (16 samples)
+  Z-Ram  : 4.0KB (16 samples)
+  TOTAL  : 3.8GB
+
+          Start time: 2013-01-29 05:45:25
+  Total elapsed time: +1h1m23s879ms (shutdown) libart.so
+
+CURRENT STATS:
+System memory usage:
+  SOff/Norm: 3 samples:
+    Cached: 305MB min, 310MB avg, 313MB max
+    Free: 3.1GB min, 3.1GB avg, 3.1GB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 83MB min, 97MB avg, 105MB max
+    Native: 46MB min, 47MB avg, 48MB max
+  SOn /Norm: 2 samples:
+    Cached: 306MB min, 309MB avg, 313MB max
+    Free: 3.1GB min, 3.1GB avg, 3.1GB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 82MB min, 91MB avg, 100MB max
+    Native: 46MB min, 47MB avg, 48MB max
+
+Per-Package Stats:
+  * com.royole.bwsettings / u0a15 / v1:
+      Process com.royole.bwsettings (unique, 2 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m39s461ms
+                  TOTAL  : +44m1s96ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 3.5MB 4.2MB 4.4MB / 1.4MB 2.1MB 2.3MB
+          SOn /Norm/Persist: 5 samples 3.5MB 4.0MB 4.4MB / 1.4MB 1.9MB 2.3MB
+        myID=1e55edfc mCommonProcess=1e55edfc mPackage=com.royole.bwsettings
+        mActive=true
+  * com.android.providers.media / u0a3 / v800:
+      Process android.process.media (multi, 4 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m39s465ms
+                  Service: +702ms
+                  Receivr: +335ms
+                  TOTAL  : +44m2s137ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 8.3MB 9.3MB 9.8MB / 5.1MB 6.1MB 6.5MB
+          SOn /Norm/Persist: 5 samples 8.3MB 8.9MB 9.7MB / 5.1MB 5.7MB 6.4MB
+        myID=26014c85 mCommonProcess=7bc4ada mPackage=com.android.providers.media
+        Common Proc: android.process.media/10003 pkg=com.android.providers.media
+        mActive=true
+  * com.android.providers.downloads / u0a3 / v22:
+      Process android.process.media (multi, 4 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m39s465ms
+                  Service: +702ms
+                  Receivr: +335ms
+                  TOTAL  : +44m2s137ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 8.3MB 9.3MB 9.8MB / 5.1MB 6.1MB 6.5MB
+          SOn /Norm/Persist: 5 samples 8.3MB 8.9MB 9.7MB / 5.1MB 5.7MB 6.4MB
+        myID=28967b0b mCommonProcess=7bc4ada mPackage=com.android.providers.downloads
+        Common Proc: android.process.media/10003 pkg=com.android.providers.media
+        mActive=true
+      Service com.android.providers.downloads.DownloadService:
+        Process: android.process.media
+        Running op count 4:
+          SOn /Norm: +747ms
+              TOTAL: +747ms
+        Started op count 2:
+          SOn /Norm: +735ms
+              TOTAL: +735ms
+        Executing op count 4:
+          SOn /Norm: +625ms
+              TOTAL: +625ms
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+      Process com.android.inputmethod.pinyin (unique, 2 entries):
+        SOff/Norm/ImpBg  : +13m21s635ms (running)
+        SOn /Norm/ImpBg  : +30m39s761ms
+                  TOTAL  : +44m1s396ms
+        PSS/USS (2 entries):
+          SOff/Norm/ImpBg  : 5 samples 31MB 31MB 32MB / 29MB 29MB 29MB
+          SOn /Norm/ImpBg  : 4 samples 31MB 32MB 32MB / 29MB 29MB 30MB
+        myID=1711ede8 mCommonProcess=1711ede8 mPackage=com.android.inputmethod.pinyin
+        mActive=true
+        mNumActiveServices=2 mNumStartedServices=0
+      Service com.android.inputmethod.pinyin.PinyinIME:
+        Process: com.android.inputmethod.pinyin
+        Running op count 1:
+          SOff/Norm: +13m21s635ms (running)
+          SOn /Norm: +30m39s865ms
+              TOTAL: +44m1s500ms
+        Bound op count 1:
+          SOff/Norm: +13m21s635ms (running)
+          SOn /Norm: +30m39s865ms
+              TOTAL: +44m1s500ms
+        Executing op count 1:
+          SOn /Norm: +148ms
+              TOTAL: +148ms
+        mOwner=ServiceRecord{275daff9 u0 com.android.inputmethod.pinyin/.PinyinIME}
+      Service com.android.inputmethod.pinyin.PinyinDecoderService:
+        Process: com.android.inputmethod.pinyin
+        Running op count 1:
+          SOff/Norm: +13m21s635ms (running)
+          SOn /Norm: +30m39s625ms
+              TOTAL: +44m1s260ms
+        Bound op count 1:
+          SOff/Norm: +13m21s635ms (running)
+          SOn /Norm: +30m39s625ms
+              TOTAL: +44m1s260ms
+        Executing op count 1:
+          SOn /Norm: +1s597ms
+              TOTAL: +1s597ms
+        mOwner=ServiceRecord{1b0d8969 u0 com.android.inputmethod.pinyin/.PinyinDecoderService}
+  * android / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m42s294ms
+                  TOTAL  : +44m3s929ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=328f2c01 mCommonProcess=30243aa6 mPackage=android
+        Common Proc: system/1000 pkg=android
+        mActive=true
+  * com.royole.bwlauncher / u0a13 / v1:
+      Process com.royole.bwlauncher (unique, 2 entries):
+        SOff/Norm/Top    : +13m21s635ms (running)
+        SOn /Norm/Top    : +30m39s429ms
+                  TOTAL  : +44m1s64ms
+        PSS/USS (2 entries):
+          SOff/Norm/Top    : 5 samples 27MB 28MB 30MB / 22MB 24MB 25MB
+          SOn /Norm/Top    : 18 samples 25MB 28MB 31MB / 21MB 23MB 26MB
+        myID=bafbce7 mCommonProcess=bafbce7 mPackage=com.royole.bwlauncher
+        mActive=true
+  * com.android.providers.settings / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m42s294ms
+                  TOTAL  : +44m3s929ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=70c0094 mCommonProcess=30243aa6 mPackage=com.android.providers.settings
+        Common Proc: system/1000 pkg=android
+        mActive=true
+  * com.android.onetimeinitializer / u0a6 / v22:
+      Process com.android.onetimeinitializer (unique, 4 entries):
+        SOff/Norm/CchEmty: +13m21s635ms (running)
+        SOn /Norm/Service: +9ms
+                  Receivr: +147ms
+                  CchEmty: +30m35s372ms
+                  TOTAL  : +43m57s163ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 4.9MB 5.4MB 5.8MB / 3.3MB 3.7MB 4.0MB
+          SOn /Norm/CchEmty: 3 samples 4.9MB 5.5MB 5.8MB / 3.3MB 3.8MB 4.0MB
+        myID=2ec1873d mCommonProcess=2ec1873d mPackage=com.android.onetimeinitializer
+        mActive=true
+      Service com.android.onetimeinitializer.OneTimeInitializerService:
+        Process: com.android.onetimeinitializer
+        Running op count 2:
+          SOn /Norm: +10ms
+              TOTAL: +10ms
+        Started op count 1:
+          SOn /Norm: +8ms
+              TOTAL: +8ms
+        Executing op count 2:
+          SOn /Norm: +7ms
+              TOTAL: +7ms
+  * com.android.keychain / 1000 / v22:
+      Process com.android.keychain (unique, 4 entries):
+        SOff/Norm/CchEmty: +13m21s635ms (running)
+        SOn /Norm/ImpFg  : +37ms
+                  Service: +103ms
+                  CchEmty: +30m35s964ms
+                  TOTAL  : +43m57s739ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 5.1MB 5.5MB 5.9MB / 3.5MB 3.8MB 4.1MB
+          SOn /Norm/CchEmty: 3 samples 5.1MB 5.6MB 5.9MB / 3.5MB 3.9MB 4.1MB
+        myID=35c95b32 mCommonProcess=35c95b32 mPackage=com.android.keychain
+        mActive=true
+      Service com.android.keychain.KeyChainService:
+        Process: com.android.keychain
+        Running op count 1:
+          SOn /Norm: +192ms
+              TOTAL: +192ms
+        Bound op count 1:
+          SOn /Norm: +149ms
+              TOTAL: +149ms
+        Executing op count 2:
+          SOn /Norm: +137ms
+              TOTAL: +137ms
+  * com.android.managedprovisioning / u0a5 / v22:
+      Process com.android.managedprovisioning (unique, 3 entries):
+        SOff/Norm/CchEmty: +13m21s635ms (running)
+        SOn /Norm/Receivr: +171ms
+                  CchEmty: +30m35s714ms
+                  TOTAL  : +43m57s520ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 5.3MB 5.7MB 6.1MB / 3.7MB 4.0MB 4.3MB
+          SOn /Norm/CchEmty: 3 samples 5.3MB 5.8MB 6.1MB / 3.7MB 4.1MB 4.3MB
+        myID=3b314083 mCommonProcess=3b314083 mPackage=com.android.managedprovisioning
+        mActive=true
+  * com.android.settings / 1000 / v22:
+      Process com.android.settings (unique, 3 entries):
+        SOff/Norm/CchEmty: +13m21s635ms (running)
+        SOn /Norm/Receivr: +85ms
+                  CchEmty: +30m35s921ms
+                  TOTAL  : +43m57s641ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 7.1MB 7.9MB 8.4MB / 4.3MB 5.4MB 6.2MB
+          SOn /Norm/CchEmty: 3 samples 7.1MB 8.0MB 8.4MB / 4.3MB 5.5MB 6.2MB
+        myID=1df29200 mCommonProcess=1df29200 mPackage=com.android.settings
+        mActive=true
+  * com.android.providers.userdictionary / u0a1 / v22:
+      Process android.process.acore (multi, 3 entries):
+        SOff/Norm/CchEmty: +13m21s635ms (running)
+        SOn /Norm/ImpFg  : +440ms
+                  CchEmty: +30m36s250ms
+                  TOTAL  : +43m58s325ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.8MB 7.3MB
+          SOn /Norm/CchEmty: 3 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.9MB 7.3MB
+        myID=14c45a39 mCommonProcess=2c2df87e mPackage=com.android.providers.userdictionary
+        Common Proc: android.process.acore/10001 pkg=com.android.providers.contacts
+        mActive=true
+  * com.android.location.fused / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m39s598ms
+                  TOTAL  : +44m1s233ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=bd61df mCommonProcess=30243aa6 mPackage=com.android.location.fused
+        Common Proc: system/1000 pkg=android
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=0
+      Service com.android.location.fused.FusedLocationService:
+        Process: system
+        Running op count 1:
+          SOff/Norm: +13m21s635ms (running)
+          SOn /Norm: +30m39s598ms
+              TOTAL: +44m1s233ms
+        Bound op count 1:
+          SOff/Norm: +13m21s635ms (running)
+          SOn /Norm: +30m39s598ms
+              TOTAL: +44m1s233ms
+        Executing op count 1:
+          SOn /Norm: +230ms
+              TOTAL: +230ms
+        mOwner=ServiceRecord{1c92dcfa u0 com.android.location.fused/.FusedLocationService}
+  * com.android.systemui / u0a9 / v22:
+      Process com.android.systemui (unique, 4 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m39s461ms
+                  ImpFg  : +412ms
+                  Service: +527ms
+                  TOTAL  : +44m2s35ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 35MB 36MB 39MB / 29MB 30MB 33MB
+          SOn /Norm/Persist: 5 samples 35MB 39MB 44MB / 29MB 33MB 38MB
+        myID=15eece2c mCommonProcess=15eece2c mPackage=com.android.systemui
+        mActive=true
+  * com.android.providers.contacts / u0a1 / v22:
+      Process android.process.acore (multi, 3 entries):
+        SOff/Norm/CchEmty: +13m21s635ms (running)
+        SOn /Norm/ImpFg  : +440ms
+                  CchEmty: +30m36s250ms
+                  TOTAL  : +43m58s325ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.8MB 7.3MB
+          SOn /Norm/CchEmty: 3 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.9MB 7.3MB
+        myID=3b8760f5 mCommonProcess=2c2df87e mPackage=com.android.providers.contacts
+        Common Proc: android.process.acore/10001 pkg=com.android.providers.contacts
+        mActive=true
+
+Multi-Package Common Processes:
+  * system / 1000 (2 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m42s478ms
+                  TOTAL  : +44m4s113ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=30243aa6 mCommonProcess=30243aa6 mPackage=android
+        mMultiPackage=true
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=0
+
+  * android.process.acore / u0a1 (3 entries):
+        SOff/Norm/CchEmty: +13m21s635ms (running)
+        SOn /Norm/ImpFg  : +440ms
+                  CchEmty: +30m36s250ms
+                  TOTAL  : +43m58s325ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.8MB 7.3MB
+          SOn /Norm/CchEmty: 3 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.9MB 7.3MB
+        myID=2c2df87e mCommonProcess=2c2df87e mPackage=com.android.providers.contacts
+        mMultiPackage=true
+        mActive=true
+
+  * android.process.media / u0a3 (4 entries):
+        SOff/Norm/Persist: +13m21s635ms (running)
+        SOn /Norm/Persist: +30m39s465ms
+                  Service: +702ms
+                  Receivr: +335ms
+                  TOTAL  : +44m2s137ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 8.3MB 9.3MB 9.8MB / 5.1MB 6.1MB 6.5MB
+          SOn /Norm/Persist: 5 samples 8.3MB 8.9MB 9.7MB / 5.1MB 5.7MB 6.4MB
+        myID=7bc4ada mCommonProcess=7bc4ada mPackage=com.android.providers.media
+        mMultiPackage=true
+        mActive=true
+
+  Total procs: 3 shown of 11 total
+
+Summary:
+  * system / 1000 / v22:
+           TOTAL: 100% (40MB-44MB-46MB/32MB-36MB-38MB over 9)
+      Persistent: 100% (40MB-44MB-46MB/32MB-36MB-38MB over 9)
+  * android.process.media / u0a3 / v800:
+           TOTAL: 100% (8.3MB-9.1MB-9.8MB/5.1MB-5.9MB-6.5MB over 9)
+      Persistent: 100% (8.3MB-9.1MB-9.8MB/5.1MB-5.9MB-6.5MB over 9)
+         Service: 0.03%
+        Receiver: 0.01%
+  * com.android.systemui / u0a9 / v22:
+           TOTAL: 100% (35MB-37MB-44MB/29MB-32MB-38MB over 9)
+      Persistent: 100% (35MB-37MB-44MB/29MB-32MB-38MB over 9)
+          Imp Fg: 0.02%
+         Service: 0.02%
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+           TOTAL: 100% (31MB-31MB-32MB/29MB-29MB-30MB over 9)
+          Imp Bg: 100% (31MB-31MB-32MB/29MB-29MB-30MB over 9)
+  * com.royole.bwsettings / u0a15 / v1:
+           TOTAL: 100% (3.5MB-4.1MB-4.4MB/1.4MB-2.0MB-2.3MB over 9)
+      Persistent: 100% (3.5MB-4.1MB-4.4MB/1.4MB-2.0MB-2.3MB over 9)
+  * com.royole.bwlauncher / u0a13 / v1:
+           TOTAL: 100% (25MB-28MB-31MB/21MB-23MB-26MB over 23)
+             Top: 100% (25MB-28MB-31MB/21MB-23MB-26MB over 23)
+  * android.process.acore / u0a1 / v22:
+           TOTAL: 0.02%
+          Imp Fg: 0.02%
+        (Cached): 100% (8.8MB-9.3MB-9.7MB/6.4MB-6.9MB-7.3MB over 8)
+  * com.android.managedprovisioning / u0a5 / v22:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 100% (5.3MB-5.8MB-6.1MB/3.7MB-4.0MB-4.3MB over 8)
+  * com.android.onetimeinitializer / u0a6 / v22:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 100% (4.9MB-5.4MB-5.8MB/3.3MB-3.7MB-4.0MB over 8)
+  * com.android.keychain / 1000 / v22:
+           TOTAL: 0.01%
+        (Cached): 100% (5.1MB-5.6MB-5.9MB/3.5MB-3.8MB-4.1MB over 8)
+  * com.android.settings / 1000 / v22:
+        (Cached): 100% (7.1MB-7.9MB-8.4MB/4.3MB-5.5MB-6.2MB over 8)
+
+Run time Stats:
+  SOff/Norm: +13m21s635ms (running)
+  SOn /Norm: +30m42s478ms
+      TOTAL: +44m4s113ms
+
+Memory usage:
+  Kernel : 95MB (38 samples)
+  Native : 47MB (38 samples)
+  Persist: 94MB (36 samples)
+  Top    : 28MB (23 samples)
+  ImpFg  : 7.6KB (25 samples)
+  ImpBg  : 31MB (9 samples)
+  Service: 10KB (34 samples)
+  Receivr: 2.1KB (33 samples)
+  CchEmty: 34MB (40 samples)
+  Cached : 310MB (38 samples)
+  Free   : 3.1GB (38 samples)
+  Z-Ram  : 4.0KB (38 samples)
+  TOTAL  : 3.8GB
+
+          Start time: 2013-01-21 10:50:26
+  Total elapsed time: +5h57m36s318ms (partial) libart.so
+
+Internal state:
+  Num long arrays: 1
+  Next long entry: 361
+  mRunning=true
+  mFile=/data/system/procstats/state-2013-01-21-10-50-26.bin
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 7 samples:
+    Cached: 300MB min, 306MB avg, 313MB max
+    Free: 3.1GB min, 3.1GB avg, 3.2GB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 82MB min, 93MB avg, 105MB max
+    Native: 46MB min, 47MB avg, 48MB max
+  SOn /Norm: 6 samples:
+    Cached: 301MB min, 305MB avg, 313MB max
+    Free: 3.1GB min, 3.2GB avg, 3.2GB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 79MB min, 88MB avg, 100MB max
+    Native: 46MB min, 47MB avg, 48MB max
+
+Per-Package Stats:
+  * com.royole.bwsettings / u0a15 / v1:
+      Process com.royole.bwsettings (unique, 2 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m12s314ms
+                  TOTAL  : +5h1m16s473ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 3.4MB 3.6MB 4.4MB / 1.4MB 1.6MB 2.3MB
+          SOn /Norm/Persist: 10 samples 3.4MB 3.8MB 4.4MB / 1.4MB 1.7MB 2.3MB
+        myID=3da05155 mCommonProcess=3da05155 mPackage=com.royole.bwsettings
+  * com.android.providers.media / u0a3 / v800:
+      Process android.process.media (multi, 4 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m12s329ms
+                  Service: +1s843ms
+                  Receivr: +1s216ms
+                  TOTAL  : +5h1m19s547ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 8.2MB 8.6MB 9.8MB / 5.0MB 5.4MB 6.5MB
+          SOn /Norm/Persist: 10 samples 8.2MB 8.6MB 9.7MB / 5.0MB 5.4MB 6.4MB
+        myID=12c8b76a mCommonProcess=2d54945b mPackage=com.android.providers.media
+        Common Proc: android.process.media/10003 pkg=com.android.providers.media
+  * com.android.providers.downloads / u0a3 / v22:
+      Process android.process.media (multi, 4 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m12s329ms
+                  Service: +1s843ms
+                  Receivr: +1s216ms
+                  TOTAL  : +5h1m19s547ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 8.2MB 8.6MB 9.8MB / 5.0MB 5.4MB 6.5MB
+          SOn /Norm/Persist: 10 samples 8.2MB 8.6MB 9.7MB / 5.0MB 5.4MB 6.4MB
+        myID=2b9914f8 mCommonProcess=2d54945b mPackage=com.android.providers.downloads
+        Common Proc: android.process.media/10003 pkg=com.android.providers.media
+      Service com.android.providers.downloads.DownloadIdleService:
+        Process: android.process.media
+        Running op count 2:
+          SOff/Norm: +86ms
+              TOTAL: +86ms
+        Bound op count 2:
+          SOff/Norm: +82ms
+              TOTAL: +82ms
+        Executing op count 4:
+          SOff/Norm: +37ms
+              TOTAL: +37ms
+      Service com.android.providers.downloads.DownloadService:
+        Process: android.process.media
+        Running op count 10:
+          SOn /Norm: +2s357ms
+              TOTAL: +2s357ms
+        Started op count 6:
+          SOn /Norm: +2s334ms
+              TOTAL: +2s334ms
+        Executing op count 10:
+          SOn /Norm: +1s802ms
+              TOTAL: +1s802ms
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+      Process com.android.inputmethod.pinyin (unique, 2 entries):
+        SOff/Norm/ImpBg  : +3h45m4s159ms
+        SOn /Norm/ImpBg  : +1h16m13s316ms
+                  TOTAL  : +5h1m17s475ms
+        PSS/USS (2 entries):
+          SOff/Norm/ImpBg  : 21 samples 7.4MB 13MB 32MB / 5.2MB 11MB 29MB
+          SOn /Norm/ImpBg  : 9 samples 7.4MB 18MB 32MB / 5.2MB 16MB 30MB
+        myID=2461add1 mCommonProcess=2461add1 mPackage=com.android.inputmethod.pinyin
+      Service com.android.inputmethod.pinyin.PinyinIME:
+        Process: com.android.inputmethod.pinyin
+        Running op count 4:
+          SOff/Norm: +3h45m4s159ms
+          SOn /Norm: +1h16m13s626ms
+              TOTAL: +5h1m17s785ms
+        Bound op count 4:
+          SOff/Norm: +3h45m4s159ms
+          SOn /Norm: +1h16m13s626ms
+              TOTAL: +5h1m17s785ms
+        Executing op count 3:
+          SOn /Norm: +495ms
+              TOTAL: +495ms
+      Service com.android.inputmethod.pinyin.PinyinDecoderService:
+        Process: com.android.inputmethod.pinyin
+        Running op count 4:
+          SOff/Norm: +3h45m4s159ms
+          SOn /Norm: +1h16m12s899ms
+              TOTAL: +5h1m17s58ms
+        Bound op count 4:
+          SOff/Norm: +3h45m4s159ms
+          SOn /Norm: +1h16m12s899ms
+              TOTAL: +5h1m17s58ms
+        Executing op count 3:
+          SOn /Norm: +2s72ms
+              TOTAL: +2s72ms
+  * android / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m20s888ms
+                  TOTAL  : +5h1m25s47ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 41MB 43MB 46MB / 33MB 35MB 38MB
+          SOn /Norm/Persist: 10 samples 39MB 42MB 45MB / 31MB 34MB 37MB
+        myID=132e036 mCommonProcess=22be1b37 mPackage=android
+        Common Proc: system/1000 pkg=android
+  * com.royole.bwlauncher / u0a13 / v1:
+      Process com.royole.bwlauncher (unique, 2 entries):
+        SOff/Norm/Top    : +3h45m4s159ms
+        SOn /Norm/Top    : +1h16m12s207ms
+                  TOTAL  : +5h1m16s366ms
+        PSS/USS (2 entries):
+          SOff/Norm/Top    : 29 samples 26MB 28MB 30MB / 21MB 23MB 25MB
+          SOn /Norm/Top    : 44 samples 25MB 28MB 31MB / 21MB 23MB 26MB
+        myID=3ac688a4 mCommonProcess=3ac688a4 mPackage=com.royole.bwlauncher
+  * com.android.providers.settings / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m20s888ms
+                  TOTAL  : +5h1m25s47ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 41MB 43MB 46MB / 33MB 35MB 38MB
+          SOn /Norm/Persist: 10 samples 39MB 42MB 45MB / 31MB 34MB 37MB
+        myID=1702560d mCommonProcess=22be1b37 mPackage=com.android.providers.settings
+        Common Proc: system/1000 pkg=android
+  * com.android.onetimeinitializer / u0a6 / v22:
+      Process com.android.onetimeinitializer (unique, 4 entries):
+        SOff/Norm/CchEmty: +3h45m4s159ms
+        SOn /Norm/Service: +29ms
+                  Receivr: +354ms
+                  CchEmty: +1h16m0s658ms
+                  TOTAL  : +5h1m5s200ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 17 samples 4.9MB 5.1MB 5.8MB / 3.3MB 3.4MB 4.0MB
+          SOn /Norm/CchEmty: 7 samples 4.9MB 5.2MB 5.8MB / 3.3MB 3.5MB 4.0MB
+        myID=1d44c9c2 mCommonProcess=1d44c9c2 mPackage=com.android.onetimeinitializer
+      Service com.android.onetimeinitializer.OneTimeInitializerService:
+        Process: com.android.onetimeinitializer
+        Running op count 6:
+          SOn /Norm: +30ms
+              TOTAL: +30ms
+        Started op count 3:
+          SOn /Norm: +25ms
+              TOTAL: +25ms
+        Executing op count 6:
+          SOn /Norm: +20ms
+              TOTAL: +20ms
+  * com.android.keychain / 1000 / v22:
+      Process com.android.keychain (unique, 4 entries):
+        SOff/Norm/CchEmty: +3h45m4s159ms
+        SOn /Norm/ImpFg  : +114ms
+                  Service: +350ms
+                  CchEmty: +1h16m2s369ms
+                  TOTAL  : +5h1m6s992ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 17 samples 5.1MB 5.2MB 5.9MB / 3.5MB 3.6MB 4.1MB
+          SOn /Norm/CchEmty: 7 samples 5.1MB 5.3MB 5.9MB / 3.4MB 3.6MB 4.1MB
+        myID=39cf33d3 mCommonProcess=39cf33d3 mPackage=com.android.keychain
+      Service com.android.keychain.KeyChainService:
+        Process: com.android.keychain
+        Running op count 3:
+          SOn /Norm: +616ms
+              TOTAL: +616ms
+        Bound op count 3:
+          SOn /Norm: +479ms
+              TOTAL: +479ms
+        Executing op count 6:
+          SOn /Norm: +450ms
+              TOTAL: +450ms
+  * com.android.managedprovisioning / u0a5 / v22:
+      Process com.android.managedprovisioning (unique, 3 entries):
+        SOff/Norm/CchEmty: +3h45m4s159ms
+        SOn /Norm/Receivr: +465ms
+                  CchEmty: +1h16m1s596ms
+                  TOTAL  : +5h1m6s220ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 17 samples 5.3MB 5.4MB 6.1MB / 3.7MB 3.8MB 4.3MB
+          SOn /Norm/CchEmty: 7 samples 5.3MB 5.5MB 6.1MB / 3.7MB 3.8MB 4.3MB
+        myID=27358b10 mCommonProcess=27358b10 mPackage=com.android.managedprovisioning
+  * com.android.settings / 1000 / v22:
+      Process com.android.settings (unique, 3 entries):
+        SOff/Norm/CchEmty: +3h45m4s159ms
+        SOn /Norm/Receivr: +279ms
+                  CchEmty: +1h16m2s163ms
+                  TOTAL  : +5h1m6s601ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 17 samples 7.1MB 7.6MB 8.4MB / 4.3MB 5.3MB 6.2MB
+          SOn /Norm/CchEmty: 7 samples 7.1MB 7.6MB 8.4MB / 4.3MB 5.2MB 6.2MB
+        myID=208b4609 mCommonProcess=208b4609 mPackage=com.android.settings
+  * com.android.providers.userdictionary / u0a1 / v22:
+      Process android.process.acore (multi, 3 entries):
+        SOff/Norm/CchEmty: +3h45m4s159ms
+        SOn /Norm/ImpFg  : +1s341ms
+                  CchEmty: +1h16m3s294ms
+                  TOTAL  : +5h1m8s794ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 17 samples 8.8MB 8.9MB 9.7MB / 6.4MB 6.5MB 7.3MB
+          SOn /Norm/CchEmty: 7 samples 8.8MB 9.0MB 9.7MB / 6.4MB 6.6MB 7.3MB
+        myID=3e99c00e mCommonProcess=18cf3a2f mPackage=com.android.providers.userdictionary
+        Common Proc: android.process.acore/10001 pkg=com.android.providers.contacts
+  * com.android.location.fused / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m12s800ms
+                  TOTAL  : +5h1m16s959ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 41MB 43MB 46MB / 33MB 35MB 38MB
+          SOn /Norm/Persist: 10 samples 39MB 42MB 45MB / 31MB 34MB 37MB
+        myID=2350483c mCommonProcess=22be1b37 mPackage=com.android.location.fused
+        Common Proc: system/1000 pkg=android
+      Service com.android.location.fused.FusedLocationService:
+        Process: system
+        Running op count 4:
+          SOff/Norm: +3h45m4s159ms
+          SOn /Norm: +1h16m12s800ms
+              TOTAL: +5h1m16s959ms
+        Bound op count 4:
+          SOff/Norm: +3h45m4s159ms
+          SOn /Norm: +1h16m12s800ms
+              TOTAL: +5h1m16s959ms
+        Executing op count 3:
+          SOn /Norm: +822ms
+              TOTAL: +822ms
+  * com.android.systemui / u0a9 / v22:
+      Process com.android.systemui (unique, 4 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m12s320ms
+                  ImpFg  : +1s344ms
+                  Service: +1s416ms
+                  TOTAL  : +5h1m19s239ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 32MB 36MB 39MB / 26MB 30MB 34MB
+          SOn /Norm/Persist: 10 samples 31MB 37MB 44MB / 25MB 31MB 38MB
+        myID=199939c5 mCommonProcess=199939c5 mPackage=com.android.systemui
+  * com.android.providers.contacts / u0a1 / v22:
+      Process android.process.acore (multi, 3 entries):
+        SOff/Norm/CchEmty: +3h45m4s159ms
+        SOn /Norm/ImpFg  : +1s341ms
+                  CchEmty: +1h16m3s294ms
+                  TOTAL  : +5h1m8s794ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 17 samples 8.8MB 8.9MB 9.7MB / 6.4MB 6.5MB 7.3MB
+          SOn /Norm/CchEmty: 7 samples 8.8MB 9.0MB 9.7MB / 6.4MB 6.6MB 7.3MB
+        myID=935cf1a mCommonProcess=18cf3a2f mPackage=com.android.providers.contacts
+        Common Proc: android.process.acore/10001 pkg=com.android.providers.contacts
+
+Multi-Package Common Processes:
+  * system / 1000 (2 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m21s542ms
+                  TOTAL  : +5h1m25s701ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 41MB 43MB 46MB / 33MB 35MB 38MB
+          SOn /Norm/Persist: 10 samples 39MB 42MB 45MB / 31MB 34MB 37MB
+        myID=22be1b37 mCommonProcess=22be1b37 mPackage=android
+        mMultiPackage=true
+
+  * android.process.acore / u0a1 (3 entries):
+        SOff/Norm/CchEmty: +3h45m4s159ms
+        SOn /Norm/ImpFg  : +1s341ms
+                  CchEmty: +1h16m3s294ms
+                  TOTAL  : +5h1m8s794ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 17 samples 8.8MB 8.9MB 9.7MB / 6.4MB 6.5MB 7.3MB
+          SOn /Norm/CchEmty: 7 samples 8.8MB 9.0MB 9.7MB / 6.4MB 6.6MB 7.3MB
+        myID=18cf3a2f mCommonProcess=18cf3a2f mPackage=com.android.providers.contacts
+        mMultiPackage=true
+
+  * android.process.media / u0a3 (4 entries):
+        SOff/Norm/Persist: +3h45m4s159ms
+        SOn /Norm/Persist: +1h16m12s329ms
+                  Service: +1s843ms
+                  Receivr: +1s216ms
+                  TOTAL  : +5h1m19s547ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 20 samples 8.2MB 8.6MB 9.8MB / 5.0MB 5.4MB 6.5MB
+          SOn /Norm/Persist: 10 samples 8.2MB 8.6MB 9.7MB / 5.0MB 5.4MB 6.4MB
+        myID=2d54945b mCommonProcess=2d54945b mPackage=com.android.providers.media
+        mMultiPackage=true
+
+  Total procs: 3 shown of 11 total
+
+Summary:
+  * system / 1000 / v22:
+           TOTAL: 100% (39MB-43MB-46MB/31MB-35MB-38MB over 30)
+      Persistent: 100% (39MB-43MB-46MB/31MB-35MB-38MB over 30)
+  * android.process.media / u0a3 / v800:
+           TOTAL: 100% (8.2MB-8.6MB-9.8MB/5.0MB-5.4MB-6.5MB over 30)
+      Persistent: 100% (8.2MB-8.6MB-9.8MB/5.0MB-5.4MB-6.5MB over 30)
+         Service: 0.01%
+        Receiver: 0.01%
+  * com.android.systemui / u0a9 / v22:
+           TOTAL: 100% (31MB-36MB-44MB/25MB-31MB-38MB over 30)
+      Persistent: 100% (31MB-36MB-44MB/25MB-31MB-38MB over 30)
+          Imp Fg: 0.01%
+         Service: 0.01%
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+           TOTAL: 100% (7.4MB-15MB-32MB/5.2MB-12MB-30MB over 30)
+          Imp Bg: 100% (7.4MB-15MB-32MB/5.2MB-12MB-30MB over 30)
+  * com.royole.bwsettings / u0a15 / v1:
+           TOTAL: 100% (3.4MB-3.7MB-4.4MB/1.4MB-1.7MB-2.3MB over 30)
+      Persistent: 100% (3.4MB-3.7MB-4.4MB/1.4MB-1.7MB-2.3MB over 30)
+  * com.royole.bwlauncher / u0a13 / v1:
+           TOTAL: 100% (25MB-28MB-31MB/21MB-23MB-26MB over 73)
+             Top: 100% (25MB-28MB-31MB/21MB-23MB-26MB over 73)
+  * android.process.acore / u0a1 / v22:
+           TOTAL: 0.01%
+          Imp Fg: 0.01%
+        (Cached): 100% (8.8MB-9.0MB-9.7MB/6.4MB-6.6MB-7.3MB over 24)
+  * com.android.managedprovisioning / u0a5 / v22:
+        (Cached): 100% (5.3MB-5.5MB-6.1MB/3.7MB-3.8MB-4.3MB over 24)
+  * com.android.keychain / 1000 / v22:
+        (Cached): 100% (5.1MB-5.2MB-5.9MB/3.4MB-3.6MB-4.1MB over 24)
+  * com.android.onetimeinitializer / u0a6 / v22:
+        (Cached): 100% (4.9MB-5.1MB-5.8MB/3.3MB-3.5MB-4.0MB over 24)
+  * com.android.settings / 1000 / v22:
+        (Cached): 100% (7.1MB-7.6MB-8.4MB/4.3MB-5.2MB-6.2MB over 24)
+
+Run time Stats:
+  SOff/Norm: +3h45m4s159ms
+  SOn /Norm: +1h16m21s542ms
+      TOTAL: +5h1m25s701ms
+
+Memory usage:
+  Kernel : 92MB (91 samples)
+  Native : 47MB (91 samples)
+  Persist: 92MB (120 samples)
+  Top    : 28MB (73 samples)
+  ImpFg  : 3.5KB (78 samples)
+  ImpBg  : 14MB (30 samples)
+  Service: 3.9KB (108 samples)
+  Receivr: 0.96KB (102 samples)
+  CchEmty: 32MB (120 samples)
+  Cached : 306MB (91 samples)
+  Free   : 3.1GB (91 samples)
+  Z-Ram  : 4.0KB (91 samples)
+  TOTAL  : 3.7GB
+
+          Start time: 2013-01-21 10:50:26
+  Total elapsed time: +1d0h0m6s188ms (partial) libart.so
+
+Internal state:
+  Num long arrays: 1
+  Next long entry: 364
+  mRunning=false
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOff/Norm: 3 samples:
+    Cached: 305MB min, 310MB avg, 313MB max
+    Free: 3.1GB min, 3.1GB avg, 3.1GB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 83MB min, 97MB avg, 105MB max
+    Native: 46MB min, 47MB avg, 48MB max
+  SOn /Norm: 2 samples:
+    Cached: 306MB min, 309MB avg, 313MB max
+    Free: 3.1GB min, 3.1GB avg, 3.1GB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 82MB min, 91MB avg, 100MB max
+    Native: 46MB min, 47MB avg, 48MB max
+
+Per-Package Stats:
+  * com.royole.bwsettings / u0a15 / v1:
+      Process com.royole.bwsettings (unique, 2 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m39s461ms
+                  TOTAL  : +44m1s185ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 3.5MB 4.2MB 4.4MB / 1.4MB 2.1MB 2.3MB
+          SOn /Norm/Persist: 5 samples 3.5MB 4.0MB 4.4MB / 1.4MB 1.9MB 2.3MB
+        myID=191f4a4b mCommonProcess=191f4a4b mPackage=com.royole.bwsettings
+  * com.android.providers.media / u0a3 / v800:
+      Process android.process.media (multi, 4 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m39s465ms
+                  Service: +702ms
+                  Receivr: +335ms
+                  TOTAL  : +44m2s226ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 8.3MB 9.3MB 9.8MB / 5.1MB 6.1MB 6.5MB
+          SOn /Norm/Persist: 5 samples 8.3MB 8.9MB 9.7MB / 5.1MB 5.7MB 6.4MB
+        myID=3bf7ac28 mCommonProcess=dd8ad41 mPackage=com.android.providers.media
+        Common Proc: android.process.media/10003 pkg=com.android.providers.media
+  * com.android.providers.downloads / u0a3 / v22:
+      Process android.process.media (multi, 4 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m39s465ms
+                  Service: +702ms
+                  Receivr: +335ms
+                  TOTAL  : +44m2s226ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 8.3MB 9.3MB 9.8MB / 5.1MB 6.1MB 6.5MB
+          SOn /Norm/Persist: 5 samples 8.3MB 8.9MB 9.7MB / 5.1MB 5.7MB 6.4MB
+        myID=2b51c2e6 mCommonProcess=dd8ad41 mPackage=com.android.providers.downloads
+        Common Proc: android.process.media/10003 pkg=com.android.providers.media
+      Service com.android.providers.downloads.DownloadService:
+        Process: android.process.media
+        Running op count 4:
+          SOn /Norm: +747ms
+              TOTAL: +747ms
+        Started op count 2:
+          SOn /Norm: +735ms
+              TOTAL: +735ms
+        Executing op count 4:
+          SOn /Norm: +625ms
+              TOTAL: +625ms
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+      Process com.android.inputmethod.pinyin (unique, 2 entries):
+        SOff/Norm/ImpBg  : +13m21s724ms
+        SOn /Norm/ImpBg  : +30m39s761ms
+                  TOTAL  : +44m1s485ms
+        PSS/USS (2 entries):
+          SOff/Norm/ImpBg  : 5 samples 31MB 31MB 32MB / 29MB 29MB 29MB
+          SOn /Norm/ImpBg  : 4 samples 31MB 32MB 32MB / 29MB 29MB 30MB
+        myID=3f164027 mCommonProcess=3f164027 mPackage=com.android.inputmethod.pinyin
+      Service com.android.inputmethod.pinyin.PinyinIME:
+        Process: com.android.inputmethod.pinyin
+        Running op count 1:
+          SOff/Norm: +13m21s724ms
+          SOn /Norm: +30m39s865ms
+              TOTAL: +44m1s589ms
+        Bound op count 1:
+          SOff/Norm: +13m21s724ms
+          SOn /Norm: +30m39s865ms
+              TOTAL: +44m1s589ms
+        Executing op count 1:
+          SOn /Norm: +148ms
+              TOTAL: +148ms
+      Service com.android.inputmethod.pinyin.PinyinDecoderService:
+        Process: com.android.inputmethod.pinyin
+        Running op count 1:
+          SOff/Norm: +13m21s724ms
+          SOn /Norm: +30m39s625ms
+              TOTAL: +44m1s349ms
+        Bound op count 1:
+          SOff/Norm: +13m21s724ms
+          SOn /Norm: +30m39s625ms
+              TOTAL: +44m1s349ms
+        Executing op count 1:
+          SOn /Norm: +1s597ms
+              TOTAL: +1s597ms
+  * android / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m42s294ms
+                  TOTAL  : +44m4s18ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=292f62d4 mCommonProcess=3d41dc7d mPackage=android
+        Common Proc: system/1000 pkg=android
+  * com.royole.bwlauncher / u0a13 / v1:
+      Process com.royole.bwlauncher (unique, 2 entries):
+        SOff/Norm/Top    : +13m21s724ms
+        SOn /Norm/Top    : +30m39s429ms
+                  TOTAL  : +44m1s153ms
+        PSS/USS (2 entries):
+          SOff/Norm/Top    : 5 samples 27MB 28MB 30MB / 22MB 24MB 25MB
+          SOn /Norm/Top    : 18 samples 25MB 28MB 31MB / 21MB 23MB 26MB
+        myID=2be72772 mCommonProcess=2be72772 mPackage=com.royole.bwlauncher
+  * com.android.providers.settings / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m42s294ms
+                  TOTAL  : +44m4s18ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=139cb7c3 mCommonProcess=3d41dc7d mPackage=com.android.providers.settings
+        Common Proc: system/1000 pkg=android
+  * com.android.onetimeinitializer / u0a6 / v22:
+      Process com.android.onetimeinitializer (unique, 4 entries):
+        SOff/Norm/CchEmty: +13m21s724ms
+        SOn /Norm/Service: +9ms
+                  Receivr: +147ms
+                  CchEmty: +30m35s372ms
+                  TOTAL  : +43m57s252ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 4.9MB 5.4MB 5.8MB / 3.3MB 3.7MB 4.0MB
+          SOn /Norm/CchEmty: 3 samples 4.9MB 5.5MB 5.8MB / 3.3MB 3.8MB 4.0MB
+        myID=3d89d840 mCommonProcess=3d89d840 mPackage=com.android.onetimeinitializer
+      Service com.android.onetimeinitializer.OneTimeInitializerService:
+        Process: com.android.onetimeinitializer
+        Running op count 2:
+          SOn /Norm: +10ms
+              TOTAL: +10ms
+        Started op count 1:
+          SOn /Norm: +8ms
+              TOTAL: +8ms
+        Executing op count 2:
+          SOn /Norm: +7ms
+              TOTAL: +7ms
+  * com.android.keychain / 1000 / v22:
+      Process com.android.keychain (unique, 4 entries):
+        SOff/Norm/CchEmty: +13m21s724ms
+        SOn /Norm/ImpFg  : +37ms
+                  Service: +103ms
+                  CchEmty: +30m35s964ms
+                  TOTAL  : +43m57s828ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 5.1MB 5.5MB 5.9MB / 3.5MB 3.8MB 4.1MB
+          SOn /Norm/CchEmty: 3 samples 5.1MB 5.6MB 5.9MB / 3.5MB 3.9MB 4.1MB
+        myID=3514c379 mCommonProcess=3514c379 mPackage=com.android.keychain
+      Service com.android.keychain.KeyChainService:
+        Process: com.android.keychain
+        Running op count 1:
+          SOn /Norm: +192ms
+              TOTAL: +192ms
+        Bound op count 1:
+          SOn /Norm: +149ms
+              TOTAL: +149ms
+        Executing op count 2:
+          SOn /Norm: +137ms
+              TOTAL: +137ms
+  * com.android.managedprovisioning / u0a5 / v22:
+      Process com.android.managedprovisioning (unique, 3 entries):
+        SOff/Norm/CchEmty: +13m21s724ms
+        SOn /Norm/Receivr: +171ms
+                  CchEmty: +30m35s714ms
+                  TOTAL  : +43m57s609ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 5.3MB 5.7MB 6.1MB / 3.7MB 4.0MB 4.3MB
+          SOn /Norm/CchEmty: 3 samples 5.3MB 5.8MB 6.1MB / 3.7MB 4.1MB 4.3MB
+        myID=15fc48be mCommonProcess=15fc48be mPackage=com.android.managedprovisioning
+  * com.android.settings / 1000 / v22:
+      Process com.android.settings (unique, 3 entries):
+        SOff/Norm/CchEmty: +13m21s724ms
+        SOn /Norm/Receivr: +85ms
+                  CchEmty: +30m35s921ms
+                  TOTAL  : +43m57s730ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 7.1MB 7.9MB 8.4MB / 4.3MB 5.4MB 6.2MB
+          SOn /Norm/CchEmty: 3 samples 7.1MB 8.0MB 8.4MB / 4.3MB 5.5MB 6.2MB
+        myID=3b890d1f mCommonProcess=3b890d1f mPackage=com.android.settings
+  * com.android.providers.userdictionary / u0a1 / v22:
+      Process android.process.acore (multi, 3 entries):
+        SOff/Norm/CchEmty: +13m21s724ms
+        SOn /Norm/ImpFg  : +440ms
+                  CchEmty: +30m36s250ms
+                  TOTAL  : +43m58s414ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.8MB 7.3MB
+          SOn /Norm/CchEmty: 3 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.9MB 7.3MB
+        myID=2054386c mCommonProcess=3c951e35 mPackage=com.android.providers.userdictionary
+        Common Proc: android.process.acore/10001 pkg=com.android.providers.contacts
+  * com.android.location.fused / 1000 / v22:
+      Process system (multi, 2 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m39s598ms
+                  TOTAL  : +44m1s322ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=cb032ca mCommonProcess=3d41dc7d mPackage=com.android.location.fused
+        Common Proc: system/1000 pkg=android
+      Service com.android.location.fused.FusedLocationService:
+        Process: system
+        Running op count 1:
+          SOff/Norm: +13m21s724ms
+          SOn /Norm: +30m39s598ms
+              TOTAL: +44m1s322ms
+        Bound op count 1:
+          SOff/Norm: +13m21s724ms
+          SOn /Norm: +30m39s598ms
+              TOTAL: +44m1s322ms
+        Executing op count 1:
+          SOn /Norm: +230ms
+              TOTAL: +230ms
+  * com.android.systemui / u0a9 / v22:
+      Process com.android.systemui (unique, 4 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m39s461ms
+                  ImpFg  : +412ms
+                  Service: +527ms
+                  TOTAL  : +44m2s124ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 35MB 36MB 39MB / 29MB 30MB 33MB
+          SOn /Norm/Persist: 5 samples 35MB 39MB 44MB / 29MB 33MB 38MB
+        myID=28bb5c3b mCommonProcess=28bb5c3b mPackage=com.android.systemui
+  * com.android.providers.contacts / u0a1 / v22:
+      Process android.process.acore (multi, 3 entries):
+        SOff/Norm/CchEmty: +13m21s724ms
+        SOn /Norm/ImpFg  : +440ms
+                  CchEmty: +30m36s250ms
+                  TOTAL  : +43m58s414ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.8MB 7.3MB
+          SOn /Norm/CchEmty: 3 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.9MB 7.3MB
+        myID=3e826f58 mCommonProcess=3c951e35 mPackage=com.android.providers.contacts
+        Common Proc: android.process.acore/10001 pkg=com.android.providers.contacts
+
+Multi-Package Common Processes:
+  * system / 1000 (2 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m42s478ms
+                  TOTAL  : +44m4s202ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 42MB 44MB 46MB / 34MB 36MB 38MB
+          SOn /Norm/Persist: 5 samples 40MB 43MB 45MB / 32MB 35MB 37MB
+        myID=3d41dc7d mCommonProcess=3d41dc7d mPackage=android
+        mMultiPackage=true
+
+  * android.process.acore / u0a1 (3 entries):
+        SOff/Norm/CchEmty: +13m21s724ms
+        SOn /Norm/ImpFg  : +440ms
+                  CchEmty: +30m36s250ms
+                  TOTAL  : +43m58s414ms
+        PSS/USS (2 entries):
+          SOff/Norm/CchEmty: 5 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.8MB 7.3MB
+          SOn /Norm/CchEmty: 3 samples 8.8MB 9.3MB 9.7MB / 6.4MB 6.9MB 7.3MB
+        myID=3c951e35 mCommonProcess=3c951e35 mPackage=com.android.providers.contacts
+        mMultiPackage=true
+
+  * android.process.media / u0a3 (4 entries):
+        SOff/Norm/Persist: +13m21s724ms
+        SOn /Norm/Persist: +30m39s465ms
+                  Service: +702ms
+                  Receivr: +335ms
+                  TOTAL  : +44m2s226ms
+        PSS/USS (2 entries):
+          SOff/Norm/Persist: 4 samples 8.3MB 9.3MB 9.8MB / 5.1MB 6.1MB 6.5MB
+          SOn /Norm/Persist: 5 samples 8.3MB 8.9MB 9.7MB / 5.1MB 5.7MB 6.4MB
+        myID=dd8ad41 mCommonProcess=dd8ad41 mPackage=com.android.providers.media
+        mMultiPackage=true
+
+  Total procs: 3 shown of 11 total
+
+Summary:
+  * system / 1000 / v22:
+           TOTAL: 100% (40MB-44MB-46MB/32MB-36MB-38MB over 9)
+      Persistent: 100% (40MB-44MB-46MB/32MB-36MB-38MB over 9)
+  * android.process.media / u0a3 / v800:
+           TOTAL: 100% (8.3MB-9.1MB-9.8MB/5.1MB-5.9MB-6.5MB over 9)
+      Persistent: 100% (8.3MB-9.1MB-9.8MB/5.1MB-5.9MB-6.5MB over 9)
+         Service: 0.03%
+        Receiver: 0.01%
+  * com.android.systemui / u0a9 / v22:
+           TOTAL: 100% (35MB-37MB-44MB/29MB-32MB-38MB over 9)
+      Persistent: 100% (35MB-37MB-44MB/29MB-32MB-38MB over 9)
+          Imp Fg: 0.02%
+         Service: 0.02%
+  * com.android.inputmethod.pinyin / u0a26 / v22:
+           TOTAL: 100% (31MB-31MB-32MB/29MB-29MB-30MB over 9)
+          Imp Bg: 100% (31MB-31MB-32MB/29MB-29MB-30MB over 9)
+  * com.royole.bwsettings / u0a15 / v1:
+           TOTAL: 100% (3.5MB-4.1MB-4.4MB/1.4MB-2.0MB-2.3MB over 9)
+      Persistent: 100% (3.5MB-4.1MB-4.4MB/1.4MB-2.0MB-2.3MB over 9)
+  * com.royole.bwlauncher / u0a13 / v1:
+           TOTAL: 100% (25MB-28MB-31MB/21MB-23MB-26MB over 23)
+             Top: 100% (25MB-28MB-31MB/21MB-23MB-26MB over 23)
+  * android.process.acore / u0a1 / v22:
+           TOTAL: 0.02%
+          Imp Fg: 0.02%
+        (Cached): 100% (8.8MB-9.3MB-9.7MB/6.4MB-6.9MB-7.3MB over 8)
+  * com.android.managedprovisioning / u0a5 / v22:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 100% (5.3MB-5.8MB-6.1MB/3.7MB-4.0MB-4.3MB over 8)
+  * com.android.onetimeinitializer / u0a6 / v22:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 100% (4.9MB-5.4MB-5.8MB/3.3MB-3.7MB-4.0MB over 8)
+  * com.android.keychain / 1000 / v22:
+           TOTAL: 0.01%
+        (Cached): 100% (5.1MB-5.6MB-5.9MB/3.5MB-3.8MB-4.1MB over 8)
+  * com.android.settings / 1000 / v22:
+        (Cached): 100% (7.1MB-7.9MB-8.4MB/4.3MB-5.5MB-6.2MB over 8)
+
+Run time Stats:
+  SOff/Norm: +13m21s724ms
+  SOn /Norm: +30m42s478ms
+      TOTAL: +44m4s202ms
+
+Memory usage:
+  Kernel : 95MB (38 samples)
+  Native : 47MB (38 samples)
+  Persist: 94MB (36 samples)
+  Top    : 28MB (23 samples)
+  ImpFg  : 7.6KB (25 samples)
+  ImpBg  : 31MB (9 samples)
+  Service: 10KB (34 samples)
+  Receivr: 2.1KB (33 samples)
+  CchEmty: 34MB (40 samples)
+  Cached : 310MB (38 samples)
+  Free   : 3.1GB (38 samples)
+  Z-Ram  : 4.0KB (38 samples)
+  TOTAL  : 3.8GB
+
+          Start time: 2013-01-21 10:50:26
+  Total elapsed time: +5h57m36s351ms (partial) libart.so
+
+Internal state:
+  Num long arrays: 1
+  Next long entry: 361
+  mRunning=false

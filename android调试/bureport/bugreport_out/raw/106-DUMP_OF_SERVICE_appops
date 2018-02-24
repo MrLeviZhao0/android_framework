@@ -1,0 +1,36 @@
+Current AppOps Service state:
+  Op mode watchers:
+    Op COARSE_LOCATION:
+      #0: com.android.server.AppOpsService$Callback@c48be0e
+    Op SYSTEM_ALERT_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@31b5602f
+    Op TOAST_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@31b5602f
+  All mode watchers:
+    android.app.AppOpsManager$1@2de8a6c0 -> com.android.server.AppOpsService$Callback@c48be0e
+    android.app.AppOpsManager$1@3fe202ba -> com.android.server.AppOpsService$Callback@31b5602f
+  Clients:
+    android.os.Binder@1933e745:
+      ClientState{mAppToken=android.os.Binder@1933e745, local}
+
+  Uid 1000:
+    Package com.android.settings:
+      COARSE_LOCATION: mode=0
+      WIFI_SCAN: mode=0; time=-2d13h25m8s12ms ago
+    Package android:
+      COARSE_LOCATION: mode=0
+      VIBRATE: mode=0; time=+5h57m17s504ms ago; duration=+8ms
+      POST_NOTIFICATION: mode=0; time=+26m19s43ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+3h4m3s101ms ago; duration=+1s401ms
+      WAKE_LOCK: mode=0; time=+11m18s79ms ago; duration=+18ms
+      MONITOR_LOCATION: mode=0; time=+5h57m15s906ms ago (running)
+  Uid u0a3:
+    Package com.android.providers.media:
+      WAKE_LOCK: mode=0; time=+5h57m11s579ms ago; duration=+44ms
+  Uid u0a9:
+    Package com.android.systemui:
+      READ_CONTACTS: mode=0; time=+5h57m13s28ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+26m8s853ms ago; duration=+10s69ms
+  Uid u0a11:
+    Package com.royole.bwbrowser:
+      VIBRATE: mode=0; time=-2d15h51m15s399ms ago; duration=+61ms

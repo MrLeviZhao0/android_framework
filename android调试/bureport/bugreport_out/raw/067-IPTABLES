@@ -1,0 +1,64 @@
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 bw_INPUT   all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 fw_INPUT   all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 oem_fwd    all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 fw_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 bw_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 natctrl_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 oem_out    all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 fw_OUTPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+       0        0 bw_OUTPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain bw_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0            all  --  *      *       0.0.0.0/0            0.0.0.0/0            ! quota globalAlert: 2097152 bytes 
+       0        0            all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner socket exists
+
+Chain bw_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0            all  --  *      *       0.0.0.0/0            0.0.0.0/0            ! quota globalAlert: 2097152 bytes 
+       0        0            all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner socket exists
+
+Chain bw_costly_shared (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 bw_penalty_box  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_happy_box (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain bw_penalty_box (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain fw_OUTPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain natctrl_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain natctrl_tether_counters (0 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain oem_fwd (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain oem_out (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+[/system/xbin/su: 0.101s elapsed]
+

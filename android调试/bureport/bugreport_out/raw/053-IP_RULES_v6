@@ -1,0 +1,10 @@
+0:	from all lookup local 
+10000:	from all fwmark 0xc0000/0xd0000 lookup legacy_system 
+13000:	from all fwmark 0x10063/0x1ffff lookup local_network 
+15000:	from all fwmark 0x0/0x10000 lookup legacy_system 
+16000:	from all fwmark 0x0/0x10000 lookup legacy_network 
+17000:	from all fwmark 0x0/0x10000 lookup local_network 
+23000:	from all fwmark 0x0/0xffff uidrange 0-0 lookup main 
+32000:	from all unreachable
+[ip: 0.101s elapsed]
+

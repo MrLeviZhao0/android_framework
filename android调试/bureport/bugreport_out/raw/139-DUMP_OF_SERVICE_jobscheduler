@@ -1,0 +1,32 @@
+Started users: u0 
+Registered jobs:
+  480..:[ComponentInfo{android/com.android.server.MountServiceIdler},jId=808,u0,R=(10:12:11,none),N=0,C=true,I=true,F=0,P=false]
+  349..:[ComponentInfo{com.android.providers.downloads/com.android.providers.downloads.DownloadIdleService},jId=1,u0,R=(-5:57:16,18:02:43),N=0,C=true,I=true,F=0,P=false]
+  969..:[ComponentInfo{android/com.android.server.pm.BackgroundDexOptService},jId=800,u0,R=(none,none),N=0,C=true,I=true,F=0,P=false]
+
+Conn.
+connected: false unmetered: false
+
+Alarms (21446151)
+Next delay alarm in 36731s
+Next deadline alarm in 64963s
+Tracking:
+349..: (9544, 86409544)
+480..: (58177321, N/A)
+
+Idle: false
+3
+  480..
+  969..
+  349..
+
+Batt.
+Stable power: true
+48074044,969233233,349679598
+
+Pending:
+
+Active jobs:
+
+mReadyToRock=true
+

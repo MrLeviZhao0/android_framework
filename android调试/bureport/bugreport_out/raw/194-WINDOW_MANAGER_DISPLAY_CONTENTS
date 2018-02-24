@@ -1,0 +1,27 @@
+  Display: mDisplayId=0
+    init=1920x1080 213dpi cur=1920x1080 app=1920x1016 rng=1080x959-1920x1799
+    deferred=false layoutNeeded=false
+  mStacks[1]0
+    mStackId=0
+    mDeferDetach=false
+    {taskId=314 appTokens=[AppWindowToken{1935faae token=Token{279f4729 ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}}}] mdr=false}
+  mStacks[0]1
+    mStackId=1
+    mDeferDetach=false
+
+  Application tokens in top down Z order:
+  mStackId=0
+    mTaskId=314
+    Activity #0 AppWindowToken{1935faae token=Token{279f4729 ActivityRecord{1f425cb0 u0 com.royole.bwlauncher/.gallery.GalleryActivity t314}}}:
+      windows=[Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}]
+      windowType=2 hidden=false hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{28ac5446 u0 com.royole.bwlauncher/com.royole.bwlauncher.gallery.GalleryActivity}]
+      groupId=314 appFullscreen=true requestedOrientation=0
+      hiddenRequested=false clientHidden=false willBeHidden=false reportedDrawn=true reportedVisible=true
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mDeferRemoval=false
+  mStackId=1
+
+
+

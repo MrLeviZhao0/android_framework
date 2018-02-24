@@ -1,0 +1,5 @@
+Trust manager state:
+ User "Owner" (id=0, flags=0x13) (current): trusted=0, trustManaged=0, deviceLocked=0
+   Enabled agents:
+   Events:
+

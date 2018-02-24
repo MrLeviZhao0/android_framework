@@ -1,0 +1,227 @@
+AudioPolicyManager: 0xb7168768
+Command Thread: 0xb7168198
+Tones Thread: 0xb7167ee0
+AudioCommandThread 0xb7168198 Dump
+- Commands:
+   Command Time        Wait pParam
+  Last Command
+   02      000013.361  0    0xb718c120
+AudioCommandThread 0xb7167ee0 Dump
+- Commands:
+   Command Time        Wait pParam
+  Last Command
+     none
+
+AudioPolicyManager Dump: 0xb7168768
+ Primary Output: 2
+ Phone state: 0
+ Force use for communications 0
+ Force use for media 0
+ Force use for record 0
+ Force use for dock 8
+ Force use for system 0
+ Force use for hdmi system audio 0
+ Available output devices:
+  Device 1:
+  - id:  2
+  - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+  Device 2:
+  - id:  1
+  - type: AUDIO_DEVICE_OUT_SPEAKER                        
+
+ Available input devices:
+  Device 1:
+  - id:  4
+  - type: AUDIO_DEVICE_IN_BUILTIN_MIC                     
+  Device 2:
+  - id:  5
+  - type: AUDIO_DEVICE_IN_REMOTE_SUBMIX                   
+  - address: 0                               
+
+HW Modules dump:
+- HW Module 1:
+  - name: primary
+  - handle: 1
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: primary
+    - sampling rates: 44100, 48000
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0002
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+    output 1:
+    - name: spdif_passthrough
+    - sampling rates: 44100, 48000
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0001
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPDIF                          
+    output 2:
+    - name: hdmi
+    - sampling rates: 44100, 48000, 192000
+    - channel masks: 0x003f, 0x0003, 0x063f
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0001
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+  - inputs:
+    input 0:
+    - name: primary
+    - sampling rates: 8000, 11025, 16000, 22050, 32000, 44100, 48000
+    - channel masks: 0x0010, 0x000c
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_BUILTIN_MIC                     
+      Device 2:
+      - type: AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADSET           
+      Device 3:
+      - type: AUDIO_DEVICE_IN_WIRED_HEADSET                   
+- HW Module 2:
+  - name: a2dp
+  - handle: 4
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: a2dp
+    - sampling rates: 44100
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_ALL_A2DP                       
+  - inputs:
+    input 0:
+    - name: a2dp
+    - sampling rates: 44100
+    - channel masks: 0x000c
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_BLUETOOTH_A2DP                  
+- HW Module 3:
+  - name: usb
+  - handle: 5
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: usb_accessory
+    - sampling rates: 44100
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_USB_ACCESSORY                  
+    output 1:
+    - name: usb_device
+    - sampling rates: Dynamic
+    - channel masks: Dynamic
+    - formats: Dynamic
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_USB_DEVICE                     
+  - inputs:
+    input 0:
+    - name: usb_device
+    - sampling rates: Dynamic
+    - channel masks: 0x000c
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_USB_DEVICE                      
+- HW Module 4:
+  - name: r_submix
+  - handle: 6
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: submix
+    - sampling rates: 48000
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_REMOTE_SUBMIX                  
+      - address: 0                               
+  - inputs:
+    input 0:
+    - name: submix
+    - sampling rates: 48000
+    - channel masks: 0x000c
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_REMOTE_SUBMIX                   
+      - address: 0                               
+
+Outputs dump:
+- Output 2 dump:
+ ID: 3
+ Sampling rate: 44100
+ Format: 00000001
+ Channels: 00000003
+ Latency: 185
+ Flags 00000002
+ Devices 00000400
+ Stream volume refCount muteCount
+ 00     0.376     00       00
+ 01     0.126     00       00
+ 02     0.126     00       00
+ 03     0.011     00       00
+ 04     0.197     00       00
+ 05     0.126     00       00
+ 06     -1.000     00       00
+ 07     0.126     00       00
+ 08     0.010     00       00
+ 09     0.000     00       00
+ 10     0.011     00       00
+ 11     1.000     00       00
+ 12     -1.000     00       00
+
+Inputs dump:
+
+Streams dump:
+ Stream  Can be muted  Index Min  Index Max  Index Cur [device : index]...
+ 00      true          00         05         40000000 : 04, 
+ 01      true          00         07         40000000 : 05, 
+ 02      true          00         07         40000000 : 05, 
+ 03      true          00         50         0004 : 10, 0008 : 10, 40000000 : 11, 
+ 04      true          00         07         40000000 : 06, 
+ 05      true          00         07         40000000 : 05, 
+ 06      true          00         15         40000000 : 07, 
+ 07      true          00         07         40000000 : 05, 
+ 08      true          00         15         0004 : 03, 0008 : 03, 40000000 : 03, 
+ 09      true          00         15         0004 : 03, 0008 : 03, 40000000 : 03, 
+ 10      true          00         50         0004 : 10, 0008 : 10, 40000000 : 11, 
+ 11      true          00         01         40000000 : 00, 
+ 12      true          00         01         40000000 : 00, 
+
+Total Effects CPU: 0.000000 MIPS, Total Effects memory: 0 KB
+Registered effects:
+
+Audio Patches:

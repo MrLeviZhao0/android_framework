@@ -1,0 +1,88 @@
+Current Input Method Manager state:
+  Input Methods:
+  InputMethod #0:
+    mId=com.android.inputmethod.pinyin/.PinyinIME mSettingsActivityName=com.android.inputmethod.pinyin.SettingsActivity
+    mIsDefaultResId=0x7f060000
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.android.inputmethod.pinyin.PinyinIME
+        packageName=com.android.inputmethod.pinyin
+        labelRes=0x7f090000 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.android.inputmethod.pinyin
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  Clients:
+  Client ClientState{11ac139d uid 1000 pid 460}:
+    client=android.view.inputmethod.InputMethodManager$1@30314fae
+    inputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@87be148
+    sessionRequested=false
+    curSession=SessionState{uid 1000 pid 460 method 21130be1 session 33c0cd06 channel ClientState{11ac139d uid 1000 pid 460} (server)}
+  Client ClientState{38745ba3 uid 10013 pid 910}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@20334fc7
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@1311c9f4
+    sessionRequested=false
+    curSession=SessionState{uid 10013 pid 910 method 21130be1 session 30d3851d channel ClientState{38745ba3 uid 10013 pid 910} (server)}
+  Client ClientState{e0cb392 uid 10009 pid 713}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@f0b2163
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@17b9160
+    sessionRequested=false
+    curSession=null
+  mCurMethodId=com.android.inputmethod.pinyin/.PinyinIME
+  mCurClient=ClientState{38745ba3 uid 10013 pid 910} mCurSeq=4
+  mCurFocusedWindow=android.os.BinderProxy@34672821
+  mCurId=com.android.inputmethod.pinyin/.PinyinIME mHaveConnect=true mBoundToMethod=true
+  mCurToken=android.os.Binder@3874b1f2
+  mCurIntent=Intent { act=android.view.InputMethod cmp=com.android.inputmethod.pinyin/.PinyinIME (has extras) }
+  mCurMethod=com.android.internal.view.IInputMethod$Stub$Proxy@21130be1
+  mEnabledSession=SessionState{uid 10013 pid 910 method 21130be1 session 30d3851d channel ClientState{38745ba3 uid 10013 pid 910} (server)}
+  mShowRequested=false mShowExplicitlyRequested=false mShowForced=false mInputShown=false
+  mCurUserActionNotificationSequenceNumber=1
+  mSystemReady=true mInteractive=false
+ 
+Input method client state for android.view.inputmethod.InputMethodManager@98d8b04:
+  mService=com.android.internal.view.IInputMethodManager$Stub$Proxy@3ab798ed
+  mMainLooper=Looper (main, tid 1) {25128322}
+  mIInputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@3b2261b3
+  mActive=false mHasBeenInactive=true mBindSequence=4 mCurId=com.android.inputmethod.pinyin/.PinyinIME
+  mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@1cb78881
+  mCurRootView=com.android.internal.policy.impl.PhoneWindow$DecorView{3d01d6e9 V.E..... R......D 0,0-1920,1080}
+  mServedView=com.royole.bwlauncher.gallery.CellView1{2a79af6e VFE...CL .F...... 0,45-266,378}
+  mNextServedView=com.royole.bwlauncher.gallery.CellView1{2a79af6e VFE...CL .F...... 0,45-266,378}
+  mServedConnecting=false
+  mCurrentTextBoxAttribute:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.royole.bwlauncher fieldId=-1 fieldName=null
+    extras=null
+  mServedInputConnection=null
+  mCompletions=null
+  mCursorRect=Rect(0, 0 - 0, 0)
+  mCursorSelStart=0 mCursorSelEnd=0 mCursorCandStart=0 mCursorCandEnd=0
+  mNextUserActionNotificationSequenceNumber=1 mLastSentUserActionNotificationSequenceNumber=-1
+ 
+Input method service state for com.android.inputmethod.pinyin.PinyinIME@26b7fbb4:
+  mWindowCreated=false mWindowAdded=false
+  mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+  Configuration={1.0 multiwindowflag=DISABLE dualscreenflag=DISABLE ?mcc?mnc zh_CN ldltr sw811dp w1442dp h720dp 213dpi xlrg long land finger -keyb/v/h dpad/v s.4}
+  mToken=android.os.BinderProxy@3b6c42aa
+  mInputBinding=InputBinding{android.os.BinderProxy@2e45e9b / uid 10013 / pid 910}
+  mInputConnection=com.android.internal.view.InputConnectionWrapper@16f1b238
+  mStartedInputConnection=null
+  mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+  mInputEditorInfo:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.royole.bwlauncher fieldId=-1 fieldName=null
+    extras=null
+  mShowInputRequested=false mLastShowInputRequested=false mShowInputForced=false mShowInputFlags=0x0
+  mCandidatesVisibility=4 mFullscreenApplied=false mIsFullscreen=false mExtractViewHidden=false
+  mExtractedText: null
+  mExtractedToken=0
+  mIsInputViewShown=false mStatusIcon=0
+Last computed insets:
+  contentTopInsets=0 visibleTopInsets=0 touchableInsets=0 touchableRegion=SkRegion()

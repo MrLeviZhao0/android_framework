@@ -1,0 +1,27 @@
+01-21 10:50:24.222   164   164 D RILD    : **RIL Daemon Started**
+01-21 10:50:24.222   164   164 D RILD    : **RILd param count=1**
+01-21 10:50:24.227   164   164 D RILD    : RIL_Init argc = 5 clientId = 0
+01-21 10:50:24.227   164   164 D use-Rlog/RLOG-RIL_RK_DATA_V3.5: Enter RIL_Init
+01-21 10:50:24.227   164   164 D RILD    : RIL_Init rilInit completed
+01-21 10:50:24.227   164   164 I RILC    : SIM_COUNT: 1
+01-21 10:50:24.227   164   164 E RILC    : RIL_register: RIL version 11
+01-21 10:50:24.227   164   164 I RILC    : s_registerCalled flag set, 1
+01-21 10:50:24.227   164   164 I RILC    : Start to listen RIL_SOCKET_1
+01-21 10:50:24.227   164   164 D RILD    : RIL_Init RIL_register completed
+01-21 10:50:24.227   164   164 D RILD    : RIL_Init starting sleep loop
+01-21 10:50:24.288   164   196 I use-Rlog/RLOG-RIL_RK_DATA_V3.5: Initial var!
+01-21 10:50:24.289   164   196 D use-Rlog/RLOG-RIL_RK_DATA_V3.5: [mainLoop]: release_wake_lock: ril-rk29-dataonly
+01-21 10:50:27.444   171   171 D TelephonyManager: No /proc/cmdline exception=java.io.FileNotFoundException: /proc/cmdline: open failed: EACCES (Permission denied)
+01-21 10:50:27.444   171   171 D TelephonyManager: /proc/cmdline=
+01-21 10:50:29.479   460   460 D TelephonyManager: /proc/cmdline=vmalloc=496M console=ttyFIQ0 androidboot.selinux=permissive androidboot.hardware=rk30board androidboot.console=ttyFIQ0 init=/init  mtdparts=rk29xxnand:0x00002000@0x00002000(uboot),0x00002000@0x00004000(misc),0x00008000@0x00006000(resource),0x00008000@0x0000e000(kernel),0x00010000@0x00016000(boot),0x00010000@0x00026000(recovery),0x0001a000@0x00036000(backup),0x00040000@0x00050000(cache),0x00002000@0x00090000(kpanic),0x00300000@0x00092000(system),0x00008000@0x00392000(metadata),0x00002000@0x0039A000(baseparamer),0x00200000@0x0039C000(userdata),0x00020000@0x0059C000(radical_update),-@0x005BC000(user) storagemedia=emmc uboot_logo=0x02000000@0xfbc00000 loader.timestamp=2015-07-20_10:28:11 hdmi.vic=16 androidboot.mode=emmc
+01-21 10:50:29.481   460   460 D SubscriptionManager: [getPhoneId]- fail
+01-21 10:50:29.482   460   460 D TelephonyManager: getTelephonyProperty: return propVal='null' phoneId=-1 property='gsm.current.phone-type' defaultVal='null' prop=
+01-21 10:50:29.482   460   460 D TelephonyManager: getTelephonyProperty: return propVal='null' phoneId=-1 property='ro.telephony.default_network' defaultVal='null' prop=
+01-21 10:50:31.584   460   477 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+01-21 10:50:32.174   460   460 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+01-21 10:50:32.245   460   460 D TelephonyRegistry: systemRunning register for intents
+01-21 10:50:32.763   460   460 D TelephonyRegistry: notifyCellLocationForSubscriber: subId=0 cellLocation=Bundle[{}]
+01-21 10:50:34.134   460   706 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+01-21 10:50:36.454   460   950 D TelephonyRegistry: listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+[logcat: 0.101s elapsed]
+

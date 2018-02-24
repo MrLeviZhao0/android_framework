@@ -1,0 +1,119 @@
+Current Notification Manager state:
+  Notification List:
+    NotificationRecord(0x2e0470bf: pkg=android user=UserHandle{-1} id=17040638 tag=null score=-10 key=-1|android|17040638|null|1000: Notification(pri=-1 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+      uid=1000 userId=-1
+      icon=0x1080689 / android:drawable/stat_sys_data_usb
+      pri=-1 score=-10
+      key=-1|android|17040638|null|1000
+      groupKey=-1|android|17040638|null|1000
+      contentIntent=PendingIntent{24f8638c: PendingIntentRecord{d529f9c android startActivity}}
+      deleteIntent=null
+      tickerText=?กค?????????????จจ???ก่?จจ?????
+      contentView=null
+      defaults=0x00000000 flags=0x00000002
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0xff607d8b
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (17303177)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{365f3ad5 android})
+        android.rebuild.contentView=Boolean (true)
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        android.rebuild=Boolean (true)
+      }
+      stats=SingleNotificationStats{posttimeElapsedMs=19866561, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0000:gsmry=1:nsk:rnk=0x0000
+      mRankingTimeMs=1358778089235
+  
+  mUseAttentionLight=false
+  mNotificationPulseEnabled=true
+  mSoundNotificationKey=null
+  mVibrateNotificationKey=null
+  mDisableNotificationEffects=false
+  mCallState=CALL_STATE_IDLE
+  mSystemReady=true
+  mArchive=Archive (0 notifications)
+
+  Usage Stats:
+
+  Zen Mode:
+    mInterruptionFilter=1
+    mZenMode=ZEN_MODE_OFF
+    mConfig=ZenModeConfig[allowCalls=false,allowMessages=false,allowFrom=anyone,allowEvents=true,sleepMode=null,sleepStart=22.0,sleepEnd=7.0,sleepNone=false,conditionComponents=null,conditionIds=null,exitCondition=null,exitConditionComponent=null]
+    mDefaultConfig=ZenModeConfig[allowCalls=false,allowMessages=false,allowFrom=anyone,allowEvents=true,sleepMode=null,sleepStart=22.0,sleepEnd=7.0,sleepNone=false,conditionComponents=null,conditionIds=null,exitCondition=null,exitConditionComponent=null]
+    mPreviousRingerMode=-1
+    mDefaultPhoneApp=null
+    mEffectsSuppressed=false
+
+  Zen Log:
+    01-21 10:50:30.364 set_zen_mode: off,setting
+    01-21 10:50:32.434 downtime: Autotrigger skipped: not in downtime
+
+  Ranking Config:
+    mSignalExtractors.length = 4
+      com.android.server.notification.ValidateNotificationPeople@3722ea
+      com.android.server.notification.PackagePriorityExtractor@f1959db
+      com.android.server.notification.NotificationIntrusivenessExtractor@18e2c78
+      com.android.server.notification.PackageVisibilityExtractor@17e5af51
+    package priorities:
+
+  Notification listeners:
+    All notification listeners (0) enabled for current profiles:
+    Live notification listeners (1):
+      ComponentInfo{com.android.systemui/com.android.systemui.statusbar.phone.PhoneStatusBar} (user -1): android.service.notification.INotificationListener$Stub$Proxy@11dc83b6 SYSTEM
+    mListenerHints: 0
+    mListenersDisablingEffects: ()
+
+  Condition providers:
+    All condition providers (0) enabled for current profiles:
+    Live condition providers (3):
+      ComponentInfo{android/com.android.server.notification.CountdownConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@1fc9b8b7 SYSTEM
+      ComponentInfo{android/com.android.server.notification.DowntimeConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@13b59824 SYSTEM
+      ComponentInfo{android/com.android.server.notification.NextAlarmConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@884ef8d SYSTEM
+    mListeners(0):
+    mRecords(0):
+    mSystemConditionProviders: {next_alarm, countdown, downtime}
+    CountdownConditionProvider:
+      mConnected=true
+      mTime=0
+    DowntimeConditionProvider:
+      mConnected=true
+      mSubscriptions={}
+      mLookaheadThreshold=14400000 (+4h0m0s0ms)
+      mCalendar=DowntimeCalendar[mDays={}]
+      mFiredAlarms=
+      mDowntimed=false
+      mConditionClearing=false
+      mRequesting=false
+    NextAlarmConditionProvider:
+      mConnected=true
+      mLookaheadThreshold=43200000 (+12h0m0s0ms)
+      mSubscriptions={}
+      mRequesting=false
+    NextAlarmTracker:
+      len(mCallbacks)=2
+      mRegistered=true
+      mInit=1358758231927
+      mBootCompleted=1358758235902
+      mCurrentUserId=0
+      mScheduledAlarmTime=1358758255902 (??????10:50:55)
+      mWakeLock=WakeLock{35a52542 held=false, refCount=0}
+
+  Group summaries:

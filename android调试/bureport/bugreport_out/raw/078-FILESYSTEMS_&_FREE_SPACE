@@ -1,0 +1,16 @@
+Filesystem               Size     Used     Free   Blksize
+/dev                     2.0G    36.0K     2.0G   4096
+/sys/fs/cgroup           2.0G     0.0K     2.0G   4096
+/mnt/asec                2.0G     0.0K     2.0G   4096
+/mnt/obb                 2.0G     0.0K     2.0G   4096
+/system                  1.5G   424.6M     1.1G   4096
+/cache                 122.0M   124.0K   121.9M   4096
+/metadata               11.7M    40.0K    11.7M   4096
+/data                  991.9M   273.6M   718.3M   4096
+/mnt/sdext              54.4G    52.1M    54.3G   4096
+/mnt/usb_storage         2.0G     0.0K     2.0G   4096
+/mnt/shell/emulated    991.9M   273.6M   718.3M   4096
+/mnt/internal_sd        54.4G    52.1M    54.3G   4096
+*** df: Exit code 1
+[df: 0.101s elapsed]
+

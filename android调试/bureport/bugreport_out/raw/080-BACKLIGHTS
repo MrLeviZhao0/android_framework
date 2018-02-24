@@ -1,0 +1,7 @@
+LCD brightness=*** /sys/class/leds/lcd-backlight/brightness: No such file or directory
+Button brightness=*** /sys/class/leds/button-backlight/brightness: No such file or directory
+Keyboard brightness=*** /sys/class/leds/keyboard-backlight/brightness: No such file or directory
+ALS mode=*** /sys/class/leds/lcd-backlight/als: No such file or directory
+LCD driver registers:
+*** /sys/class/leds/lcd-backlight/registers: No such file or directory
+

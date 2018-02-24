@@ -1,0 +1,12 @@
+PRINT MANAGER STATE (dumpsys print)
+user state 0:
+  installed services:
+  enabled services:
+  active services:
+  cached print jobs:
+  discovery mediator:
+  print spooler:
+    destroyed=false
+    bound=false
+
+

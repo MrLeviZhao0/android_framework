@@ -1,0 +1,29 @@
+0 0 Dumping loop status
+0 0 Dumping DM status
+0 0 Dumping mounted filesystems
+0 0 rootfs / rootfs rw,seclabel 0 0
+0 0 tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,mode=755 0 0
+0 0 devpts /dev/pts devpts rw,seclabel,relatime,mode=600 0 0
+0 0 proc /proc proc rw,relatime 0 0
+0 0 sysfs /sys sysfs rw,seclabel,relatime 0 0
+0 0 selinuxfs /sys/fs/selinux selinuxfs rw,relatime 0 0
+0 0 none /acct cgroup rw,relatime,cpuacct 0 0
+0 0 none /sys/fs/cgroup tmpfs rw,seclabel,relatime,mode=750,gid=1000 0 0
+0 0 none /sys/fs/cgroup/memory cgroup rw,relatime,memory 0 0
+0 0 tmpfs /mnt/asec tmpfs rw,seclabel,relatime,mode=755,gid=1000 0 0
+0 0 tmpfs /mnt/obb tmpfs rw,seclabel,relatime,mode=755,gid=1000 0 0
+0 0 none /dev/memcg cgroup rw,relatime,memory 0 0
+0 0 none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+0 0 /dev/block/platform/ff0f0000.rksdmmc/by-name/system /system ext4 ro,seclabel,noatime,nodiratime,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/ff0f0000.rksdmmc/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,nodiratime,discard,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/ff0f0000.rksdmmc/by-name/metadata /metadata ext4 rw,seclabel,nosuid,nodev,noatime,nodiratime,discard,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/ff0f0000.rksdmmc/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,nodiratime,discard,noauto_da_alloc,errors=panic,data=ordered 0 0
+0 0 /dev/block/platform/ff0f0000.rksdmmc/by-name/user /mnt/sdext ext4 rw,seclabel,nosuid,nodev,noatime,nodiratime,discard,noauto_da_alloc,data=ordered 0 0
+0 0 adb /dev/usb-ffs/adb functionfs rw,relatime 0 0
+0 0 /sys/kernel/debug /sys/kernel/debug debugfs rw,seclabel,relatime,mode=755 0 0
+0 0 tmpfs /mnt/usb_storage tmpfs rw,seclabel,relatime,mode=555,uid=1013,gid=1023 0 0
+0 0 /dev/fuse /mnt/shell/emulated fuse rw,nosuid,nodev,noexec,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+0 0 /dev/fuse /mnt/internal_sd fuse rw,nosuid,nodev,noexec,relatime,user_id=1000,group_id=1015,default_permissions,allow_other 0 0
+200 0 dump complete
+[vdc: 0.101s elapsed]
+
