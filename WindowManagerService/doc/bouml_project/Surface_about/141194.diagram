@@ -1,0 +1,32 @@
+format 213
+
+classinstance 128010 class_ref 128010 // ViewRootImpl
+  name ""   xyz 63 4 2000 life_line_z 2000
+classinstance 128650 class_ref 150282 // HardwareRenderer
+  name ""   xyz 260 4 2000 life_line_z 2000
+durationcanvas 128138 classinstance_ref 128010 // :ViewRootImpl
+  xyzwh 102 93 2010 11 50
+  overlappingdurationcanvas 128266
+    xyzwh 108 112 2020 11 25
+  end
+end
+durationcanvas 128778 classinstance_ref 128650 // :HardwareRenderer
+  xyzwh 311 127 2010 11 25
+end
+reflexivemsg 128394 synchronous
+  to durationcanvas_ref 128138
+  yz 93 2015 explicitmsg "performDraw"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 129 77
+reflexivemsg 128522 synchronous
+  to durationcanvas_ref 128266
+  yz 112 2025 explicitmsg "draw"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 140 102
+msg 128906 synchronous
+  from durationcanvas_ref 128266
+  to durationcanvas_ref 128778
+  yz 127 3005 explicitmsg "initializeIfNeeded"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 161 115
+end

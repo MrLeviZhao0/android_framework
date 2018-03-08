@@ -1,0 +1,26 @@
+window_sizes 1920 1018 450 1465 876 96
+
+diagrams
+  active  classdiagram_ref 134538 // surface_native
+    1465 916 80 A2 0 0
+  sequencediagram_ref 128010 // surface_create
+    1172 732 100 A2 0 209
+  sequencediagram_ref 141066 // surface_draw_software
+    1172 732 100 A2 0 0
+  sequencediagram_ref 141194 // surface_draw_hardware
+    114 82 100 A4 0 0
+end
+show_stereotypes
+selected sequencediagram_ref 141066 // surface_draw_software
+open
+  class_ref 135434 // SurfaceFlinger
+  class_ref 135562 // Layer
+  class_ref 143370 // BufferQueueProducer
+  class_ref 143626 // GraphicBuffer
+  class_ref 163978 // DisplayDevice
+  class_ref 170506 // BufferQueue
+  class_ref 170634 // IGraphicBufferConsumer
+  class_ref 171530 // BufferSlot
+  class_ref 172042 // TextureRenderer
+end
+end

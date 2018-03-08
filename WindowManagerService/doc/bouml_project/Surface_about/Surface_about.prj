@@ -1,0 +1,1419 @@
+format 213
+"Surface_about"
+  revision 8
+  modified_by 10 "lezh"
+
+
+  
+  // class settings
+  default_attribute_visibility private default_relation_visibility private default_operation_visibility public
+  
+  classdiagramsettings draw_all_relations yes hide_attributes no hide_operations no hide_getset_operations no show_members_full_definition no show_members_visibility no show_members_stereotype no show_members_context no show_members_multiplicity no show_members_initialization no show_attribute_modifiers no member_max_width 127 show_parameter_dir yes show_parameter_name yes package_name_in_tab no class_drawing_mode natural drawing_language uml show_context_mode no auto_label_position yes show_relation_modifiers no show_relation_visibility no show_infonote no shadow yes gradient none show_stereotype_properties no end
+  
+  usecasediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes class_drawing_mode actor shadow yes gradient none show_stereotype_properties no end
+  
+  sequencediagramsettings show_full_operations_definition no show_class_of_operation no write_horizontally yes instances_drawing_mode natural drawing_language uml draw_all_relations yes shadow yes gradient none show_stereotype_properties no show_class_context_mode no show_msg_context_mode no end
+  
+  collaborationdiagramsettings show_full_operations_definition no show_class_of_operation no show_hierarchical_rank no write_horizontally yes instances_drawing_mode natural drawing_language uml package_name_in_tab no show_class_pack_context_mode no show_msg_context_mode no draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  objectdiagramsettings write_horizontally yes package_name_in_tab no show_class_pack_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  componentdiagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  deploymentdiagramsettings package_name_in_tab no show_context_mode no write_horizontally yes auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  statediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes write_label_horizontally yes show_trans_definition no draw_all_relations yes shadow yes gradient none
+   show_activities yes region_horizontally yes drawing_language uml show_stereotype_properties no end
+  
+  activitydiagramsettings package_name_in_tab no show_context_mode no show_opaque_action_definition no auto_label_position yes write_label_horizontally no draw_all_relations yes shadow yes gradient none
+   show_infonote yes drawing_language uml show_stereotype_properties no end
+  
+  class_color yellow duration_color transparent continuation_color gray note_color blue fragment_color transparent subject_color transparent usecase_color yellow package_color transparent component_color green artifact_color green deploymentnode_color gray state_color yellow stateaction_color transparent activity_color transparent activityregion_color transparent activitypartition_color transparent activityaction_color transparent parameterpin_color white generalization_color black 
+  dpi 96
+  font_size 9
+  diagram_format A4
+
+  image_root_dir ""
+
+  mark_for_import
+  
+  classview 128010 "surface"
+    
+    classdiagramsettings member_max_width 0 end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    sequencediagram 128010 "surface_create"
+      sequencediagramsettings end
+      overlapping_bars size A2
+    end
+
+    class 128010 "ViewRootImpl"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 128138 "WindowManagerService"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 128266 "Session"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 128394 "WindowStateAnimator"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 128522 "SurfaceControl"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 134922 "mClient"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 135050 "mGraphicBufferProducer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 136074 // <directional composition>
+	relation 136074 *-->
+	  a role_name "" private
+	    classrelation_ref 136074 // <directional composition>
+	  b parent class_ref 142986 // IGraphicBufferProducer
+      end
+
+      classrelation 136202 // <directional composition>
+	relation 136202 *-->
+	  a role_name "" private
+	    classrelation_ref 136202 // <directional composition>
+	  b parent class_ref 135178 // SurfaceComposerClient
+      end
+
+      classrelation 136970 // <directional aggregation>
+	relation 136970 o-->
+	  a role_name "" private
+	    classrelation_ref 136970 // <directional aggregation>
+	  b parent class_ref 142986 // IGraphicBufferProducer
+      end
+    end
+
+    class 135050 "android_view_SurfaceControl"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 135178 "SurfaceComposerClient"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 128010 "mClient"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 135562 // <directional composition>
+	relation 135562 *-->
+	  a role_name "" private
+	    classrelation_ref 135562 // <directional composition>
+	  b parent class_ref 142602 // ISurfaceComposerClient
+      end
+    end
+
+    class 135306 "Client"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 134794 // <generalisation>
+	relation 134794 ---|>
+	  a public
+	    classrelation_ref 134794 // <generalisation>
+	  b parent class_ref 135946 // BnSurfaceComposer
+      end
+
+      classrelation 135050 // <directional composition>
+	relation 135050 *-->
+	  a role_name "" private
+	    classrelation_ref 135050 // <directional composition>
+	  b parent class_ref 135306 // Client
+      end
+
+      attribute 134666 "mFlinger"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 135434 "SurfaceFlinger"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 135178 // <directional aggregation>
+	relation 135178 o-->
+	  a role_name "" private
+	    classrelation_ref 135178 // <directional aggregation>
+	  b parent class_ref 135306 // Client
+      end
+
+      classrelation 135306 // <generalisation>
+	relation 135306 ---|>
+	  a public
+	    classrelation_ref 135306 // <generalisation>
+	  b parent class_ref 135946 // BnSurfaceComposer
+      end
+
+      classrelation 135434 // <realization>
+	relation 135434 -_-|>
+	  a public
+	    classrelation_ref 135434 // <realization>
+	  b parent class_ref 142474 // HWComposer::EventHandler
+      end
+
+      attribute 142474 "mRenderEngine"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 143882 // <directional composition>
+	relation 143754 *-->
+	  a role_name "" private
+	    classrelation_ref 143882 // <directional composition>
+	  b parent class_ref 150794 // RenderEngine
+      end
+
+      attribute 142602 "mHwc"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 142730 "mEventThread"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 157066 // <directional aggregation>
+	relation 156938 o-->
+	  a role_name "" private
+	    classrelation_ref 157066 // <directional aggregation>
+	  b parent class_ref 163978 // DisplayDevice
+      end
+
+      operation 149770 "getLayerSortedByZForHwcDisplay"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      classrelation 159498 // <directional aggregation>
+	relation 159242 o-->
+	  a role_name "" private
+	    classrelation_ref 159498 // <directional aggregation>
+	  b parent class_ref 135562 // Layer
+      end
+
+      attribute 157578 "State.layersSortedByZ"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 135562 "Layer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 141962 "mSurfaceFlingerConsumer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 142090 "mProducer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 142218 "mTextureName"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 142346 "mActiveBuffer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 166410 // <directional composition>
+	relation 166154 *-->
+	  a role_name "" private
+	    classrelation_ref 166410 // <directional composition>
+	  b parent class_ref 135562 // Layer
+      end
+
+      classrelation 166538 // <directional composition>
+	relation 166282 *-->
+	  a role_name "" private
+	    classrelation_ref 166538 // <directional composition>
+	  b parent class_ref 171786 // SurfaceFlingerConsumer
+      end
+    end
+
+    class 135690 "LayerState.layer_state_t"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    classdiagram 134538 "surface_native"
+      classdiagramsettings draw_all_relations no member_max_width 0 end
+      size A2
+    end
+
+    class 135946 "BnSurfaceComposer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 135690 // <realization>
+	relation 135690 -_-|>
+	  a public
+	    classrelation_ref 135690 // <realization>
+	  b parent class_ref 142602 // ISurfaceComposerClient
+      end
+
+      classrelation 135818 // <realization>
+	relation 135818 -_-|>
+	  a public
+	    classrelation_ref 135818 // <realization>
+	  b parent class_ref 142730 // ISurfaceComposer
+      end
+    end
+
+    class 142474 "HWComposer::EventHandler"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 142602 "ISurfaceComposerClient"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 142730 "ISurfaceComposer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 142858 "ComposerService"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 134794 "mComposerService"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 135946 // <directional composition>
+	relation 135946 *-->
+	  a role_name "" private
+	    classrelation_ref 135946 // <directional composition>
+	  b parent class_ref 142730 // ISurfaceComposer
+      end
+
+      operation 128010 "getComposerService"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 142986 "IGraphicBufferProducer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 128906 "dequeueBuffer"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 129034 "queueBuffer"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      classrelation 137226 // <aggregation>
+	relation_ref 137098 // <aggregation>
+      end
+    end
+
+    class 143114 "Surface"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 136586 // <generalisation>
+	relation 136586 ---|>
+	  a public
+	    classrelation_ref 136586 // <generalisation>
+	  b parent class_ref 143498 // ANativeWindow
+      end
+
+      attribute 135178 "mGraphicBufferProducer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      operation 128394 "lock"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128522 "unlockAndPost"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      attribute 135306 "mLockedBuffer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 135434 "mPostedBuffer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      operation 128650 "dequeueBuffer"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128778 "queueBuffer"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      classrelation 136842 // <directional aggregation>
+	relation 136842 o-->
+	  a role_name "" private
+	    classrelation_ref 136842 // <directional aggregation>
+	  b parent class_ref 143626 // GraphicBuffer
+      end
+
+      classrelation 137098 // <aggregation>
+	relation 137098 o---
+	  a role_name "" private
+	    classrelation_ref 137098 // <aggregation>
+	  b role_name "" private
+	    classrelation_ref 137226 // <aggregation>
+      end
+    end
+
+    class 143242 "BnGraphicBufferProducer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 136330 // <realization>
+	relation 136330 -_-|>
+	  a public
+	    classrelation_ref 136330 // <realization>
+	  b parent class_ref 142986 // IGraphicBufferProducer
+      end
+    end
+
+    class 143370 "BufferQueueProducer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 136458 // <generalisation>
+	relation 136458 ---|>
+	  a public
+	    classrelation_ref 136458 // <generalisation>
+	  b parent class_ref 143242 // BnGraphicBufferProducer
+      end
+
+      operation 128138 "dequeueBuffer"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128266 "queueBuffer"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      attribute 157450 "mSlots"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 159242 // <directional composition>
+	relation 158986 *-->
+	  a role_name "" private
+	    classrelation_ref 159242 // <directional composition>
+	  b parent class_ref 171530 // BufferSlot
+      end
+
+      attribute 157706 "mCore"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 159626 // <directional composition>
+	relation 159370 *-->
+	  a role_name "" private
+	    classrelation_ref 159626 // <directional composition>
+	  b parent class_ref 171658 // BufferQueueCore
+      end
+    end
+
+    class 143498 "ANativeWindow"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 143626 "GraphicBuffer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 136714 // <generalisation>
+	relation 136714 ---|>
+	  a public
+	    classrelation_ref 136714 // <generalisation>
+	  b parent class_ref 143754 // ANativeWindowBuffer
+      end
+
+      attribute 142986 "mWrappedBuffer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 143114 "mBufferMapper"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 150410 // <realization>
+	relation 150282 -_-|>
+	  a public
+	    classrelation_ref 150410 // <realization>
+	  b parent class_ref 157322 // Flattenable
+      end
+
+      operation 135562 "lockAsync"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135690 "unlockAsync"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135818 "flatten"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 135946 "unflatten"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 136074 "getWidth"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      classrelation 150538 // <directional composition>
+	relation 150410 *-->
+	  a role_name "" private
+	    classrelation_ref 150538 // <directional composition>
+	  b parent class_ref 157450 // GraphicBufferMapper
+      end
+    end
+
+    class 143754 "ANativeWindowBuffer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    sequencediagram 141066 "surface_draw_software"
+      sequencediagramsettings end
+      overlapping_bars size A2
+    end
+
+    sequencediagram 141194 "surface_draw_hardware"
+      sequencediagramsettings end
+      overlapping_bars size A4
+    end
+
+    class 150282 "HardwareRenderer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 150410 "Canvas"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 150538 "android_view_Surface"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 150666 "android_graphics_Canvas"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 150794 "RenderEngine"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 157322 "Flattenable"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 157450 "GraphicBufferMapper"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 163978 "DisplayDevice"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 149642 "mFlinger"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 149770 "mHwcDisplayId"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 149898 "mDisplayToken"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 150026 "mNativeWindow"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 150154 "mDisplaySurface"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 150282 "mSurface"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 150410 "mDisplayWidth"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 150538 "mFormat"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 150666 "mVisibleLayersSortedByZ"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      operation 142602 "getWidth"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 142730 "getEGLSurface"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 142858 "getVisibleLayersSortedByZ"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 142986 "getFrame"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      classrelation 157194 // <directional aggregation>
+	relation 157066 o-->
+	  a role_name "" private
+	    classrelation_ref 157194 // <directional aggregation>
+	  b parent class_ref 135562 // Layer
+      end
+
+      classrelation 157322 // <directional aggregation>
+	relation 157194 o-->
+	  a role_name "" private
+	    classrelation_ref 157322 // <directional aggregation>
+	  b parent class_ref 135562 // Layer
+      end
+    end
+
+    class 170506 "BufferQueue"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 158090 // <directional aggregation>
+	relation 157834 o-->
+	  a role_name "" private
+	    classrelation_ref 158090 // <directional aggregation>
+	  b parent class_ref 142986 // IGraphicBufferProducer
+      end
+
+      classrelation 158218 // <directional aggregation>
+	relation 157962 o-->
+	  a role_name "" private
+	    classrelation_ref 158218 // <directional aggregation>
+	  b parent class_ref 170634 // IGraphicBufferConsumer
+      end
+
+      operation 149642 "createBufferQueue"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      classrelation 158986 // <directional aggregation>
+	relation 158730 o-->
+	  a role_name "" private
+	    classrelation_ref 158986 // <directional aggregation>
+	  b parent class_ref 171402 // ProxyConsumerListener
+      end
+    end
+
+    class 170634 "IGraphicBufferConsumer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 149514 "acquireBuffer"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+    end
+
+    class 170762 "BnGraphicBufferConsumer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 157450 // <realization>
+	relation 157322 -_-|>
+	  a public
+	    classrelation_ref 157450 // <realization>
+	  b parent class_ref 170634 // IGraphicBufferConsumer
+      end
+    end
+
+    class 170890 "BufferQueueConsumer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 158346 // <generalisation>
+	relation 158090 ---|>
+	  a public
+	    classrelation_ref 158346 // <generalisation>
+	  b parent class_ref 170762 // BnGraphicBufferConsumer
+      end
+    end
+
+    class 171018 "ConsumerListener"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 171146 "IConsumerListener"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 158602 // <realization>
+	relation 158346 -_-|>
+	  a public
+	    classrelation_ref 158602 // <realization>
+	  b parent class_ref 171018 // ConsumerListener
+      end
+    end
+
+    class 171274 "BnConsumerListener"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 158730 // <realization>
+	relation 158474 -_-|>
+	  a public
+	    classrelation_ref 158730 // <realization>
+	  b parent class_ref 171146 // IConsumerListener
+      end
+    end
+
+    class 171402 "ProxyConsumerListener"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 158858 // <generalisation>
+	relation 158602 ---|>
+	  a public
+	    classrelation_ref 158858 // <generalisation>
+	  b parent class_ref 171274 // BnConsumerListener
+      end
+    end
+
+    class 171530 "BufferSlot"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 157322 "mGraphicBuffer"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 159370 // <directional composition>
+	relation 159114 *-->
+	  a role_name "" private
+	    classrelation_ref 159370 // <directional composition>
+	  b parent class_ref 143626 // GraphicBuffer
+      end
+    end
+
+    class 171658 "BufferQueueCore"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 171786 "SurfaceFlingerConsumer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 159754 // <generalisation>
+	relation 159498 ---|>
+	  a public
+	    classrelation_ref 159754 // <generalisation>
+	  b parent class_ref 171914 // GLConsumer
+      end
+    end
+
+    class 171914 "GLConsumer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 172042 "TextureRenderer"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 157834 "mST"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 159882 // <directional composition>
+	relation 159626 *-->
+	  a role_name "" private
+	    classrelation_ref 159882 // <directional composition>
+	  b parent class_ref 171786 // SurfaceFlingerConsumer
+      end
+    end
+  end
+end

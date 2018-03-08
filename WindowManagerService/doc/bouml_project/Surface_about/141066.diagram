@@ -1,0 +1,167 @@
+format 213
+
+classinstance 128010 class_ref 128010 // ViewRootImpl
+ color lightmediumblue  name ""   xyz 85 4 2000 life_line_z 2000
+classinstance 128906 class_ref 143114 // Surface
+ color lightmediumblue  name ""   xyz 250 4 2000 life_line_z 2000
+classinstance 129546 class_ref 150410 // Canvas
+ color lightmediumblue  name ""   xyz 399 4 2000 life_line_z 2000
+classinstance 130186 class_ref 150538 // android_view_Surface
+  name ""   xyz 506 4 2000 life_line_z 2000
+classinstance 130570 class_ref 143114 // Surface
+  name ""   xyz 694 7 2000 life_line_z 2000
+classinstance 131210 class_ref 150666 // android_graphics_Canvas
+  name ""   xyz 1269 7 2000 life_line_z 2000
+classinstance 131850 class_ref 143626 // GraphicBuffer
+  name ""   xyz 816 4 2005 life_line_z 2000
+classinstance 132234 class_ref 142986 // IGraphicBufferProducer
+  name ""   xyz 935 4 2005 life_line_z 2000
+classinstance 133002 class_ref 143370 // BufferQueueProducer
+  name ""   xyz 1100 4 2000 life_line_z 2000
+durationcanvas 128138 classinstance_ref 128010 // :ViewRootImpl
+  xyzwh 124 78 2010 11 714
+  overlappingdurationcanvas 128394
+    xyzwh 130 97 2020 11 689
+    overlappingdurationcanvas 128650
+      xyzwh 136 118 2030 11 662
+    end
+  end
+end
+durationcanvas 129034 classinstance_ref 128906 // :Surface
+  xyzwh 274 129 2010 11 25
+end
+durationcanvas 129290 classinstance_ref 128906 // :Surface
+  xyzwh 274 752 2010 11 37
+end
+durationcanvas 129674 classinstance_ref 129546 // :Canvas
+  xyzwh 420 466 2010 11 30
+end
+durationcanvas 129930 classinstance_ref 129546 // :Canvas
+  xyzwh 420 539 2010 11 25
+end
+durationcanvas 130314 classinstance_ref 130186 // :android_view_Surface
+  xyzwh 569 142 2010 11 51
+end
+durationcanvas 130698 classinstance_ref 130570 // :Surface
+  xyzwh 718 150 2010 11 142
+  overlappingdurationcanvas 131594
+    xyzwh 724 165 2020 11 96
+  end
+end
+durationcanvas 130954 classinstance_ref 129546 // :Canvas
+  xyzwh 420 172 2010 11 179
+end
+durationcanvas 131338 classinstance_ref 131210 // :android_graphics_Canvas
+  xyzwh 1341 315 2010 11 38
+end
+durationcanvas 131978 classinstance_ref 131850 // :GraphicBuffer
+  xyzwh 858 281 2010 11 28
+end
+durationcanvas 132362 classinstance_ref 132234 // :IGraphicBufferProducer
+  xyzwh 1004 182 2010 11 25
+end
+durationcanvas 132618 classinstance_ref 131850 // :GraphicBuffer
+  xyzwh 858 215 2010 11 34
+end
+durationcanvas 133130 classinstance_ref 133002 // :BufferQueueProducer
+  xyzwh 1160 194 2010 11 25
+end
+reflexivemsg 128266 synchronous
+  to durationcanvas_ref 128138
+  yz 78 2015 explicitmsg "performDraw"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 142 62
+reflexivemsg 128522 synchronous
+  to durationcanvas_ref 128394
+  yz 97 2025 explicitmsg "draw"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 153 87
+reflexivemsg 128778 synchronous
+  to durationcanvas_ref 128650
+  yz 118 2035 explicitmsg "drawSoftware"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 161 108
+msg 129162 synchronous
+  from durationcanvas_ref 128650
+  to durationcanvas_ref 129034
+  yz 139 2040 explicitmsg "lockCanvas"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 180 126
+msg 129418 synchronous
+  from durationcanvas_ref 128650
+  to durationcanvas_ref 129290
+  yz 769 2035 explicitmsg "unlockCanvasAndPost"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 160 757
+msg 129802 synchronous
+  from durationcanvas_ref 128650
+  to durationcanvas_ref 129674
+  yz 475 2035 explicitmsg "setDensity"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 260 463
+msg 130058 synchronous
+  from durationcanvas_ref 128650
+  to durationcanvas_ref 129930
+  yz 539 2035 explicitmsg "translate"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 263 527
+msg 130442 synchronous
+  from durationcanvas_ref 129034
+  to durationcanvas_ref 130314
+  yz 142 2045 explicitmsg "nativeLockCanvas"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 379 130
+msg 130826 synchronous
+  from durationcanvas_ref 130314
+  to durationcanvas_ref 130698
+  yz 151 2015 explicitmsg "lock"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 633 140
+msg 131082 synchronous
+  from durationcanvas_ref 130314
+  to durationcanvas_ref 130954
+  yz 172 2015 explicitmsg "setNativeBitmap"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 455 160
+msg 131466 synchronous
+  from durationcanvas_ref 130954
+  to durationcanvas_ref 131338
+  yz 332 2020 explicitmsg "native_setBitmap"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 666 320
+reflexivemsg 131722 synchronous
+  to durationcanvas_ref 131594
+  yz 165 3005 explicitmsg "dequeueBuffer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 743 153
+msg 132106 synchronous
+  from durationcanvas_ref 130698
+  to durationcanvas_ref 131978
+  yz 281 3005 explicitmsg "lockAsync"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 766 269
+msg 132490 synchronous
+  from durationcanvas_ref 131594
+  to durationcanvas_ref 132362
+  yz 186 3010 explicitmsg "dequeueBuffer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 830 174
+msg 132746 synchronous
+  from durationcanvas_ref 131594
+  to durationcanvas_ref 132618
+  yz 215 2025 explicitmsg "get"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 787 203
+msg 132874 return
+  from durationcanvas_ref 132618
+  to durationcanvas_ref 131594
+  yz 234 2030 explicitmsg "buffer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 778 222
+msg 133258 synchronous
+  from durationcanvas_ref 132362
+  to durationcanvas_ref 133130
+  yz 194 2015 explicitmsg "dequeueBuffer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1048 182
+end

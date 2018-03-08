@@ -1,0 +1,293 @@
+format 213
+
+classinstance 128010 class_ref 128010 // ViewRootImpl
+ color lightmediumblue  name ""   xyz 80.4 4 2000 life_line_z 2000
+classinstance 128138 class_ref 128138 // WindowManagerService
+ color lightmediumblue  name ""   xyz 287.6 4 2000 life_line_z 2000
+classinstance 128266 class_ref 128266 // Session
+ color lightmediumblue  name ""   xyz 206 4 2005 life_line_z 2000
+classinstance 129034 class_ref 128394 // WindowStateAnimator
+ color lightmediumblue  name ""   xyz 434.4 4 2005 life_line_z 2000
+classinstance 129418 class_ref 128522 // SurfaceControl
+ color lightmediumblue  name ""   xyz 577 4.6 2000 life_line_z 2000
+classinstance 130058 class_ref 135050 // android_view_SurfaceControl
+  name ""   xyz 708.8 4.6 2000 life_line_z 2000
+classinstance 130954 class_ref 135178 // SurfaceComposerClient
+  name ""   xyz 993.7 9.7 2005 life_line_z 2000
+classinstance 131594 class_ref 135306 // Client
+  name ""   xyz 1225 7.7 2000 life_line_z 2000
+classinstance 131978 class_ref 135434 // SurfaceFlinger
+  name ""   xyz 1299.6 4 2005 life_line_z 2000
+classinstance 133258 class_ref 135562 // Layer
+  name ""   xyz 1491 4.6 2000 life_line_z 2000
+classinstance 135946 class_ref 128522 // SurfaceControl
+  name ""   xyz 884.5 28.4 2005 life_line_z 2000
+classinstance 136586 class_ref 135690 // LayerState.layer_state_t
+  name ""   xyz 1087.2 44.6 2010 life_line_z 2000
+durationcanvas 128394 classinstance_ref 128010 // :ViewRootImpl
+  xyzwh 119 80 2010 11 40
+end
+durationcanvas 128522 classinstance_ref 128266 // :Session
+  xyzwh 230 80 2010 11 25
+end
+durationcanvas 128778 classinstance_ref 128138 // :WindowManagerService
+  xyzwh 350 91 2010 11 25
+end
+durationcanvas 129162 classinstance_ref 129034 // :WindowStateAnimator
+  xyzwh 494 101 2010 11 539
+end
+durationcanvas 129546 classinstance_ref 129418 // :SurfaceControl
+  xyzwh 622 114 2010 11 45
+  overlappingdurationcanvas 130442
+    xyzwh 628 125 2020 11 28
+  end
+end
+durationcanvas 130698 classinstance_ref 130058 // :android_view_SurfaceControl
+  xyzwh 792 138 2010 11 46
+end
+durationcanvas 131082 classinstance_ref 130954 // :SurfaceComposerClient
+  xyzwh 1059 140 2010 11 25
+end
+durationcanvas 131338 classinstance_ref 130954 // :SurfaceComposerClient
+  xyzwh 1059 173 2010 11 25
+end
+durationcanvas 131722 classinstance_ref 131594 // :Client
+  xyzwh 1246 184 2010 11 25
+end
+durationcanvas 132106 classinstance_ref 131978 // :SurfaceFlinger
+  xyzwh 1344 194 2010 11 157
+  overlappingdurationcanvas 132490
+    xyzwh 1350 206 2020 11 139
+    overlappingdurationcanvas 132746
+      xyzwh 1356 315 2030 11 25
+    end
+    overlappingdurationcanvas 133002
+      xyzwh 1356 238 2030 11 58
+    end
+  end
+end
+durationcanvas 133386 classinstance_ref 133258 // :Layer
+  xyzwh 1510 236 2010 11 31
+end
+durationcanvas 133642 classinstance_ref 129418 // :SurfaceControl
+  xyzwh 622 295 2010 11 41
+  overlappingdurationcanvas 134410
+    xyzwh 628 300 2020 11 30
+  end
+end
+durationcanvas 134666 classinstance_ref 130058 // :android_view_SurfaceControl
+  xyzwh 792 319 2010 11 25
+end
+durationcanvas 134922 classinstance_ref 130954 // :SurfaceComposerClient
+  xyzwh 1059 330 2010 11 25
+end
+durationcanvas 135178 classinstance_ref 129418 // :SurfaceControl
+  xyzwh 622 439 2010 11 46
+  overlappingdurationcanvas 135434
+    xyzwh 628 449 2020 11 30
+  end
+end
+durationcanvas 135690 classinstance_ref 130058 // :android_view_SurfaceControl
+  xyzwh 792 468 2010 11 25
+end
+durationcanvas 136074 classinstance_ref 135946 // :SurfaceControl
+  xyzwh 929 479 2010 11 25
+end
+durationcanvas 136330 classinstance_ref 130954 // :SurfaceComposerClient
+  xyzwh 1059 489 2010 11 25
+end
+durationcanvas 136714 classinstance_ref 136586 // :LayerState.layer_state_t
+  xyzwh 1162 500 2010 11 25
+end
+durationcanvas 136970 classinstance_ref 129418 // :SurfaceControl
+  xyzwh 622 601 2010 11 46
+  overlappingdurationcanvas 137226
+    xyzwh 628 611 2020 11 30
+  end
+end
+durationcanvas 137482 classinstance_ref 130058 // :android_view_SurfaceControl
+  xyzwh 792 630 2010 11 25
+end
+durationcanvas 137738 classinstance_ref 130954 // :SurfaceComposerClient
+  xyzwh 1059 640 2010 11 25
+end
+durationcanvas 138250 classinstance_ref 131978 // :SurfaceFlinger
+  xyzwh 1344 652 2010 11 25
+end
+durationcanvas 138506 classinstance_ref 133258 // :Layer
+  xyzwh 1510 274 2010 11 25
+end
+msg 128650 synchronous
+  from durationcanvas_ref 128394
+  to durationcanvas_ref 128522
+  yz 80 2015 explicitmsg "relayout"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 156 68
+msg 128906 synchronous
+  from durationcanvas_ref 128522
+  to durationcanvas_ref 128778
+  yz 91 2015 explicitmsg "relayoutWindow"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 254 79
+msg 129290 synchronous
+  from durationcanvas_ref 128778
+  to durationcanvas_ref 129162
+  yz 101 2020 explicitmsg "createSurfaceLocked"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 374 89
+msg 129674 synchronous
+  from durationcanvas_ref 129162
+  to durationcanvas_ref 129546
+  yz 115 2025 explicitmsg "new"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 556 103
+reflexivemsg 130570 synchronous
+  to durationcanvas_ref 130442
+  yz 125 2025 explicitmsg "nativeCreate"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 636 103
+msg 130826 synchronous
+  from durationcanvas_ref 130442
+  to durationcanvas_ref 130698
+  yz 142 2030 explicitmsg "nativeCreate"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 682 130
+msg 131210 synchronous
+  from durationcanvas_ref 130698
+  to durationcanvas_ref 131082
+  yz 147 2015 explicitmsg "new"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 950 137
+msg 131466 synchronous
+  from durationcanvas_ref 130698
+  to durationcanvas_ref 131338
+  yz 173 2020 explicitmsg "createSurface"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 920 163
+msg 131850 synchronous
+  from durationcanvas_ref 131338
+  to durationcanvas_ref 131722
+  yz 184 2015 explicitmsg "createSurface"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1098 169
+msg 132234 synchronous
+  from durationcanvas_ref 131722
+  to durationcanvas_ref 132106
+  yz 197 2015 explicitmsg "postMessageSync"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1271 185
+reflexivemsg 132618 synchronous
+  to durationcanvas_ref 132490
+  yz 206 2025 explicitmsg "createLayer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1366 192
+reflexivemsg 132874 synchronous
+  to durationcanvas_ref 132746
+  yz 315 2035 explicitmsg "addClientLayer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1379 305
+reflexivemsg 133130 synchronous
+  to durationcanvas_ref 133002
+  yz 238 2035 explicitmsg "createNormalLayer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1368 222
+msg 133514 synchronous
+  from durationcanvas_ref 133002
+  to durationcanvas_ref 133386
+  yz 247 3005 explicitmsg "new"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1432 240
+msg 133770 synchronous
+  from durationcanvas_ref 129162
+  to durationcanvas_ref 133642
+  yz 300 2015 explicitmsg "openTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 520 288
+reflexivemsg 134538 synchronous
+  to durationcanvas_ref 134410
+  yz 300 2025 explicitmsg "nativeOpenTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 640 287
+msg 134794 synchronous
+  from durationcanvas_ref 134410
+  to durationcanvas_ref 134666
+  yz 319 2030 explicitmsg "nativeOpenTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 655 307
+msg 135050 synchronous
+  from durationcanvas_ref 134666
+  to durationcanvas_ref 134922
+  yz 330 2015 explicitmsg "openGlobalTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 907 320
+msg 135306 synchronous
+  from durationcanvas_ref 129162
+  to durationcanvas_ref 135178
+  yz 442 2015 explicitmsg "setPosition"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 532 430
+reflexivemsg 135562 synchronous
+  to durationcanvas_ref 135434
+  yz 449 2025 explicitmsg "nativeSetPosition"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 649 438
+msg 135818 synchronous
+  from durationcanvas_ref 135434
+  to durationcanvas_ref 135690
+  yz 468 2030 explicitmsg "nativeSetPosition"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 667 456
+msg 136202 synchronous
+  from durationcanvas_ref 135690
+  to durationcanvas_ref 136074
+  yz 479 2015 explicitmsg "setPosition"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 838 467
+msg 136458 synchronous
+  from durationcanvas_ref 136074
+  to durationcanvas_ref 136330
+  yz 489 2015 explicitmsg "setPosition"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 976 477
+msg 136842 synchronous
+  from durationcanvas_ref 136330
+  to durationcanvas_ref 136714
+  yz 500 2015 explicitmsg "set"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1111 488
+msg 137098 synchronous
+  from durationcanvas_ref 129162
+  to durationcanvas_ref 136970
+  yz 603 2015 explicitmsg "closeTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 517 591
+reflexivemsg 137354 synchronous
+  to durationcanvas_ref 137226
+  yz 611 2025 explicitmsg "nativeCloseTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 648 601
+msg 137610 synchronous
+  from durationcanvas_ref 137226
+  to durationcanvas_ref 137482
+  yz 630 2030 explicitmsg "nativeCloseTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 652 621
+msg 137866 synchronous
+  from durationcanvas_ref 137482
+  to durationcanvas_ref 137738
+  yz 640 2015 explicitmsg "closeGlobalTransaction"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 870 628
+msg 138378 synchronous
+  from durationcanvas_ref 137738
+  to durationcanvas_ref 138250
+  yz 652 2015 explicitmsg "setTransactionState"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1157 640
+msg 138634 synchronous
+  from durationcanvas_ref 133002
+  to durationcanvas_ref 138506
+  yz 283 2035 explicitmsg "setBuffers"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1408 275
+end

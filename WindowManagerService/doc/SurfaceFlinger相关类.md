@@ -10,6 +10,7 @@ SurfaceFlinger相关的类，会介绍从Surface及SurfaceControl的native层开
 	1. 由老版本的Surface中拆分出来，负责管理Surface的属性等。WMS中的窗口动画，多数是通过SurfaceControl调整surface属性实现。
 	2. 功能多数是调用SurfaceComposerClient的方法来实现，访问到继承Bn端的Client类，最终访问到SurfaceFlinger得到服务。
 	3. 主要意义是拆分Surface类，将多数提供给上层的接口封装在这里。用于控制窗口变化。
+	4. 通过SurfaceControl的getSurface来获得根据mGraphicBufferProducer新建的Surface。
 
 * Surface :
 	1. SurfaceFlinger主要的客户端实现，多数状态属性都保存在其中。包括dirtyRegion,lockedBuffer,postBuffer,graphicBufferProducer这几个属性。这些属性都直接与图像数据刷新有关系。
@@ -34,4 +35,37 @@ WMS的dump日志中可以看到管理结构有：WMS - Display - Window。
 	4. SurfaceFlinger的doComposeSurfaces时，会按照条件看是否使用HwComposer，若不使用，则会调用到Layer的draw。最终会调用接口onDraw去访问GLES接口。
 
 * GraphicBuffer ：
-	1. GraphicBuffer是申请的一片内存区域，继承本地实现ANativeWindowBuffer，以及序列化接口Flattenable。目的是
+	1. GraphicBuffer是申请的一片内存区域，继承本地实现ANativeWindowBuffer，以及序列化接口Flattenable。是承载图像内容的最基本最直接的类。
+	2. 通过lock系列函数获取空间，lock函数调用GraphicBufferMapper的同名函数，最终会调用到gralloc的结构体gralloc_module_t的方法。调用到gralloc硬件抽象层，分配空间给GraphicBuffer。
+	3. gralloc驱动中的`gralloc_alloc_buffer`负责分配空间，在`fd = ashmem_create_region("gralloc-buffer", size);`中分配一个匿名共享内存用于存放图像数据，最后通过mapBuffer来关联`private_handle_t`和`gralloc_module_t`。
+	4. 需要注意的是GraphicBuffer可以序列化，从server端传到client端，但开辟的匿名共享内存内容不会被序列化，而是通过记录地址偏移的方式，需要的时候按照地址进行强制转型获取内容。具体实现见flatten和unflatten函数。
+
+## SurfaceComposerClient Client ComposerService SurfaceFlinger ##
+
+SurfaceComposerClient与ComposerService是两个Bp端的方法类，相应的Bn端是Client以及SurfaceFlinger。
+
+* SurfaceComposerClient :
+  1. 提供SurfaceControl的一些功能，如设置缩放可见等属性、创建销毁Surface、查询Display属性等。
+  2. Client的Bp端，关于Layer的值是放在layer_state_t指针中，修改后记录同步锁，更新Layer属性。
+  3. 通过ComposerService以及本身的Binder机制两种方式与SurfaceFlinger端通信。
+  4. 内部类Composer用于具体实现逻辑，ScreenShotClient用于截屏功能的实现。
+* Client :
+  1. SurfaceComposerClient的Bn端实现，实现创建销毁Surface，清除获取Layer状态的功能。
+  2. 持有Layer和SurfaceFlinger的引用，用于实现逻辑。
+* ComposerService :
+  1. SurfaceFlinger服务的Bp端，头文件单独列出，实现代码在SurfaceComposerClient中。
+  2. 使用getInstance调用connect函数，获取注册过的SurfaceFlinger服务。
+* SurfaceFlinger :
+  1. SurfaceFinger是最核心的类，管理framebuffer相关硬件抽象层的使用，为上层WindowManagerService进行服务。
+  2. SurfaceFlinger模块可以使用dumpsys来输出日志，可以分为Layer处理，图像数据混合，同步等步骤。
+  3. 在此处要体现的是，为上层可以直接提供服务，如bootanimation就没有经过WindowManagerService等，直接调用SurfaceFlinger相关服务可以实现。
+
+
+## Layer BufferQueue BufferQueueProducer BufferQueueConsumer BufferSlot ##
+
+图像的实际数据的生成到填充，最后到绘制出来的过程会比较复杂。  
+比如简单的在OnDraw中绘制一张Bitmap的时候，
+
+## HWComposer ##
+
+## VSync ##
