@@ -5,7 +5,7 @@ android的显示系统有很大的一部分是与GLES相关的。上层有GLSurf
 GLES会有很多个方面的内容，个人觉得可以分成以下几个模块：
 1. EGL（Embedded Graphic Language）接口。
 2. [gl函数接口](./doc/gl函数接口简介.md)。
-3. [shader script](./doc/shader script简介.md)。
+3. [shader script](./doc/shader_script简介.md)。
 
 还有一个项目中记录各问题的文档：
 
