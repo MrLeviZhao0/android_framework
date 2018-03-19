@@ -49,7 +49,7 @@ ActivityStackSupervisor.resumeTopActivityInnerLocked()
 
 step 1是启动一个新的activity的必经之路。
 
-```
+```java
 Activity.java
 
 	@Override
@@ -60,7 +60,7 @@ Activity.java
 ```
 
 
-```
+```java
 Instrumentation.java
 
 	public void execStartActivities(Context who, IBinder contextThread,
@@ -89,7 +89,7 @@ ActivityManagerNative与ActivityManagerProxy都继承IActivityManager，使用bi
 所以调用的startActivities()虽然第一步会调用到ActivityManagerProxy中的同名函数，但是最终还是会调用ActivityManagerService中的业务逻辑。
 
 
-```
+```java
 ActivityManagerNative.java
 
 public abstract class ActivityManagerNative extends Binder implements IActivityManager
@@ -151,7 +151,7 @@ class ActivityManagerProxy implements IActivityManager
 }
 ```
 
-```
+```java
 ActivityManagerService.java
 
 	@Override
@@ -170,7 +170,7 @@ ActivityManagerService.java
     }
 ```
 
-```
+```java
 ActivityStackSupervisor.java
 
 	final int startActivityMayWait(IApplicationThread caller, int callingUid,
@@ -247,7 +247,7 @@ ActivityStackSupervisor.java
     }
 ```
 
-```
+```java
 ActivityStack.java
 
 	final void startActivityLocked(ActivityRecord r, boolean newTask,
@@ -265,7 +265,7 @@ ActivityStack.java
     }
 ```
 
-```
+```java
 ActivityStackSupervisor.java
 
 	//基本上各种情况的启动resume流程都会调用到这个函数
@@ -298,7 +298,7 @@ ActivityStackSupervisor.java
 
 ```
 
-```
+```java
 ActivityStack.java
  
 	//传入的prev是前一个处于resume状态的ActivityRecord，也是即将进行pause的。返回值是当前Top是否有需要进行resume-pause操作的。
@@ -426,7 +426,7 @@ ActivityStack.completePauseLocked()
 
 接下来我们继续去追踪，看看Activity到底是怎么被停下来的。
 
-```
+```java
 ActivityStack.java
 
 	//pausing当前resumed的Activity。如果有一个Activity已经被pause或没有resumed的Activity都是需要报错的
@@ -450,7 +450,7 @@ ActivityStack.java
 ```
 prev.app.thread 是 IApplicationThread的对象。继续往下追。
 
-```
+```java
 IApplicationThread.java
 
 public interface IApplicationThread extends IInterface {
@@ -462,7 +462,7 @@ public interface IApplicationThread extends IInterface {
 ```
 ActivityThread中有内部类H，继承Handler，用于处理各种请求的事件。外部来的事件通过sendMessage的方式传到H中，由handlerMessage来处理。
 
-```
+```java
 ActivityThread.java
 
 //H是ActivityThread中很关键的一个类，用于总的管理处理消息。继承handler。
@@ -500,7 +500,7 @@ private class ApplicationThread extends ApplicationThreadNative {
 
 接下来是处理函数的逻辑，这个地方我们在Activity的调用流程中还会经常见到。这种形式之后的代码中就不再赘述了。
 
-```
+```java
 ActivityThread.java
 	
 	private class H extends Handler {
@@ -549,7 +549,7 @@ ActivityThread.java
 
 接下来是performPauseActivity的业务逻辑。
 
-```
+```java
 ActivityThread.java
 
 	final Bundle performPauseActivity(IBinder token, boolean finished,
@@ -589,7 +589,7 @@ ActivityThread.java
 ```
 调用工具类instrumentation，作为ActivityThread和Activity的中介。
 
-```
+```java
 Instrumentation.java
 
 	public void callActivityOnPause(Activity activity) {
@@ -598,7 +598,7 @@ Instrumentation.java
 ```
 Activity的调用逻辑，设置一些状态值。主要是调用回调函数onPause()。
 
-```
+```java
 Activity.java
 
 	final void performPause() {
@@ -614,7 +614,7 @@ Activity.java
 
 所以我们回到代码：
 
-```
+```java
 ActivityThread.java
 
 	private void handlePauseActivity(IBinder token, boolean finished,
@@ -633,7 +633,7 @@ ActivityThread.java
 
 接下来会在服务中，向ActivityStack调用pause的请求。
 
-```
+```java
 ActivityManagerService.java
 
 	@Override
@@ -653,7 +653,7 @@ ActivityManagerService.java
 
 执行pause操作，会有非常复杂的逻辑判断在completePauseLocked中。然后通知Supervisor，下一个activity应该进入resume状态了。
 
-```
+```java
 ActivityStack.java
 
 	final void activityPausedLocked(IBinder token, boolean timeout) {
@@ -830,7 +830,7 @@ ActivityThread.performLauncherActivity()
 
 那么接下来，我们就将跟踪如何resume一个activity。
 
-```
+```java
 ActivityStackSupervisor.java
 
 	boolean resumeTopActivitiesLocked(ActivityStack targetStack, ActivityRecord target,
@@ -869,7 +869,7 @@ ActivityStackSupervisor.java
 
 在resumeTopActivityInnerLocked处理实际的启动activity逻辑。这里会处理多种情况，所以显得非常复杂。代码只贴出其中创建新activity相关的代码。
 
-```
+```java
 ActivityStack.java
 
 	final boolean resumeTopActivityLocked(ActivityRecord prev) {
@@ -925,7 +925,7 @@ ActivityStack.java
 
 启动新的应用会首先查看进程是否还存在，如果不存在就创建，如果存在就直接进入realStartActivityLock。当前我们是不存在的。
 
-```
+```java
 ActivityStackSupervisor.java
 
 	void startSpecificActivityLocked(ActivityRecord r,
@@ -963,7 +963,7 @@ ActivityStackSupervisor.java
 
 因为我们还没有相关的进程被创建，所以会需要进入AMS的startProcessLocked过程。
 
-```
+```java
 ActivityManagerService.java
 	private final void startProcessLocked(ProcessRecord app, String hostingType,
             String hostingNameStr, String abiOverride, String entryPoint, String[] entryPointArgs) {
@@ -988,7 +988,7 @@ ActivityManagerService.java
 
 在AMS里请求Process.start()。用于创建符合当前要求的进程，接下来追踪一下start到底是怎么创建进程的。
 
-```
+```java
 Process.java
 
 	public static final ProcessStartResult start(final String processClass,
@@ -1090,7 +1090,7 @@ Process.java
 
 说明会启动ActivityThread的main函数。所以我们接下来继续追踪。
 
-```
+```java
 ActivityThread.java
 
 	public static void main(String[] args) {
@@ -1160,7 +1160,7 @@ ActivityThread.java
 
 接下来，我们从与进程相关的类调用AMS的BP端，开始使用AMS的功能来构建新的Activity。
 
-```
+```java
 ActivityManagerService.java
 
 @Override
@@ -1201,7 +1201,7 @@ ActivityManagerService.java
     }
 ```
 
-```
+```java
 ActivityStackSupervisor.java
 
 boolean attachApplicationLocked(ProcessRecord app) throws RemoteException {
@@ -1265,7 +1265,7 @@ boolean attachApplicationLocked(ProcessRecord app) throws RemoteException {
 
 最终会由ActivtyThread来处理事件。
 
-```
+```java
 ActivtyThread.java
 
 	public final void scheduleLaunchActivity(Intent intent, IBinder token,int taskId,
@@ -1306,7 +1306,7 @@ ActivtyThread.java
 
 实际处理H.LAUNCH_ACTIVITY的地方如下：
 
-```
+```java
 ActivtyThread.java
 
 	private void handleLaunchActivity(ActivityClientRecord r, Intent customIntent) {
@@ -1353,7 +1353,7 @@ Activity.onResume()
 
 首先需要分析的就是performLaunchActivity，这个函数里面是做了很多activty环境的构建工作。
 
-```
+```java
 ActivityThread.java
 
 	private Activity performLaunchActivity(ActivityClientRecord r, Intent customIntent) {
@@ -1447,7 +1447,7 @@ ActivityThread.java
 
 接着调用工具类Instrumentation的callActivityOnCreate方法。
 
-```
+```java
 Instrumentation.java
 
 	public void callActivityOnCreate(Activity activity, Bundle icicle) {
@@ -1458,7 +1458,7 @@ Instrumentation.java
     }
 ```
 
-```
+```java
 Activity.java
 
 	final void performCreate(Bundle icicle) {
@@ -1473,7 +1473,7 @@ Activity.java
 
 接下来我们需要回到handleResumeActivity，继续走到onResume的流程。
 
-```
+```java
 ActivityThread.java
 
 	private void handleLaunchActivity(ActivityClientRecord r, Intent customIntent) {
@@ -1495,7 +1495,7 @@ ActivityThread.java
 
 接下来就是走到handleResumeActivity的处理流程了，使onCreate的应用进入onResume。
 
-```
+```java
 ActivityThread.java
 
 	final void handleResumeActivity(IBinder token,
@@ -1609,7 +1609,7 @@ ActivityThread.java
 
 接下来首先分析的resume逻辑执行的代码：
 
-```
+```java
 ActivityThread.java
 
 	public final ActivityClientRecord performResumeActivity(IBinder token,
@@ -1632,7 +1632,7 @@ ActivityThread.java
 
 接着分析performResume的代码：
 
-```
+```java
 Activity.java
 
 	final void performResume() {
@@ -1657,7 +1657,7 @@ Activity.java
 
 ```
 
-```
+```java
 Instrumentation.java
 
 	public void callActivityOnResume(Activity activity) {
@@ -1725,7 +1725,7 @@ Activity.onStop()
 
 首先回到ActivityThread的handleResumeActivity。
 
-```
+```java
 ActivityThread.java
 
 	final void handleResumeActivity(IBinder token,
@@ -1754,7 +1754,7 @@ ActivityThread.java
 
 ActivityManagerNative调用函数最终访问到AMS的activityResumed：
 
-```
+```java
 ActivityManagerService.java
 
 	@Override
@@ -1770,7 +1770,7 @@ ActivityManagerService.java
     }
 ```
 
-```
+```java
 ActivityRecord.java
 
 	static void activityResumedLocked(IBinder token) {
@@ -1790,7 +1790,7 @@ addIdleHandler是将一个继承了MessageQueue.IdleHandler的类写入其中。
 
 那么接下来，看看Idler实现的queueIdle是什么。
 
-```	
+```java	
 ActivityThread.java
 
 	private class Idler implements MessageQueue.IdleHandler {
@@ -1831,7 +1831,7 @@ ActivityThread.java
 ```
 我们再跟踪一下activityIdle的实现逻辑。
 
-```
+```java
 ActivityManagerService.java
 
 	public final void activityIdle(IBinder token, Configuration config, boolean stopProfiling) {
@@ -1859,7 +1859,7 @@ ActivityManagerService.java
 
 其实目的是调用ActivityStackSupervisor来管理idle情况的请求。
 
-```
+```java
 ActivityStackSupervisor.java
 
 	final ActivityRecord activityIdleInternalLocked(final IBinder token, boolean fromTimeout,
@@ -1916,7 +1916,7 @@ ActivityStackSupervisor.java
 
 此处只单独分析老Activity进入onStop流程
 
-```
+```java
 ActivityStack.java
 
 	final void stopActivityLocked(ActivityRecord r) {
@@ -1959,7 +1959,7 @@ ActivityStack.java
 
 上述可以，调用ActivityStack的stopActivityLocked，会首先处理异常情况。在多数正常情况下，会调用ActivityThread的scheduleStopActivity。而经过ActivityThread.H处理后，调用handleStopActivity。
 
-```
+```java
 ActivityThread.java
 
 private void handleStopActivity(IBinder token, boolean show, int configChanges) {
@@ -1989,7 +1989,7 @@ private void handleStopActivity(IBinder token, boolean show, int configChanges) 
 
 调用inner函数，实现代码逻辑。
 
-```
+```java
 ActivityThread.java
 
 	private void performStopActivityInner(ActivityClientRecord r,
@@ -2019,7 +2019,7 @@ ActivityThread.java
 
 接下来的实现与onResume的流程就非常相似了：
 
-```
+```java
 Activity.java
 
 
@@ -2030,7 +2030,7 @@ Activity.java
     }
 ```
 
-```
+```java
 Instrumentation.java
 
 	public void callActivityOnStop(Activity activity) {
