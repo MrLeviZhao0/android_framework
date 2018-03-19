@@ -27,7 +27,7 @@ ActivityManagerNative与ActivityManagerProxy分别是Bn端与Bp端。WMS等系�
 ![ams_init_sequence.png](./ams_init_sequence.png)
 如图中1区域所示：
 
-```
+```java
 SystemServer.java
 
 private void run() {
@@ -59,7 +59,7 @@ private void run() {
 接下来调用createSystemContext()用于创建SystemServer持有的Context。
 
 
-```
+```java
 SystemServer.java
 
 private void createSystemContext() {
@@ -76,7 +76,7 @@ ActivityThread构造函数只是简单的获取了一下ResouceManager的单例�
 
 当新应用被启动时，是调用的ActivityThread的main函数，大致流程与systemMain一样。
 
-```
+```java
 ActivityThread.java
 
 public static ActivityThread systemMain() {
@@ -92,7 +92,7 @@ public static ActivityThread systemMain() {
 
 attach函数调用
 
-```
+```java
 ActivityThread.java
 
     private void attach(boolean system) {

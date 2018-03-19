@@ -20,10 +20,10 @@ Launcher启动App需要经历以下过程：
 接下来对以上代码细化并分作章节介绍：
 
 - [app发起请求启动新app](#app发起请求启动新app)
-- [AMS使原app进入onPause](#AMS使原app进入onPause)
+- [AMS使原app进入onPause](#ams使原app进入onpause)
 - [新app各数据结构创建初始化](#新app各数据结构创建初始化)
-- [AMS使新app进入onCreate以及onResume](#AMS使新app进入onCreate以及onResume)
-- [AMS使原app进入onStop](#AMS使原app进入onStop)
+- [AMS使新app进入onCreate以及onResume](#ams使新app进入oncreate以及onresume)
+- [AMS使原app进入onStop](#ams使原app进入onstop)
 
 (可以把原图下载下来对照看)
 

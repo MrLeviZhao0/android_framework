@@ -18,8 +18,8 @@ Android系统最终提供给用户可以操作、交互的部分多数是以Acti
 而我们的目标不是分析整个系统，而是以管窥豹，针对于某些特定的面去了解Android系统。
 
 
-- [AMS Activity管理相关类](#AMS Activity管理相关类)
-- [AMS Activity协作相关类](#AMS Activity协作相关类)
+- [AMS Activity管理相关类](#ams-activity管理相关类)
+- [AMS Activity协作相关类](#ams-activity协作相关类)
 
 ## AMS Activity管理相关类 ##
 
@@ -36,7 +36,7 @@ Android系统最终提供给用户可以操作、交互的部分多数是以Acti
 * Activity管理服务最关键的类，继承IActivityManager，作为Binder的BN端，提供服务。  
 * 为客户端提供服务，总管Activity、Service、Broadcast这几个关键组件。  
 * 涉及与电源以及性能相关的模块，按照Activity模式控制性能与能耗模式。
-* 多个层级，管理[复杂的Activity的聚集关系](####ActivityDisplay、ActivityStack、TaskRecord、ActivityRecord)，并按照不同逻辑控制有序的改变多个Activity的关系。
+* 多个层级，管理[复杂的Activity的聚集关系](#activitydisplayactivitystacktaskrecordactivityrecord)，并按照不同逻辑控制有序的改变多个Activity的关系。
 * 负责映射与管理Linux系统中的pid、uid等与Android系统中Activity的关系。
 
 ***ActivityManagerNative*** : 
