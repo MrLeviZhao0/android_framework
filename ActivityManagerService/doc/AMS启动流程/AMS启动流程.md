@@ -6,10 +6,10 @@ AMS与WMS(WindowManagerService)类似。由系统SystemServer负责开机过程�
 
 以下是对AMS的提供服务方式、以及启动AMS几个流程的详细说明：  
 
-- [AMS对外提供服务方式简介](#AMS对外提供服务方式简介)
-- [系统创建AMS流程](#系统创建AMS流程)
-- [AMS初始化流程](#AMS初始化流程)
-- [SystemReady后AMS的工作流程](#AMS初始化流程)
+- [AMS对外提供服务方式简介](#ams对外提供服务方式简介)
+- [系统创建AMS流程](#系统创建ams流程)
+- [AMS初始化流程](#ams初始化流程)
+- [SystemReady后AMS的工作流程](#systemready后ams的工作流程)
 
 ## AMS对外提供服务方式简介 ##
 
