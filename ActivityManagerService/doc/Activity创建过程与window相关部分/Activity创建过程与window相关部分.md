@@ -9,6 +9,10 @@
 
 所以我们从ActivityThread的handleResumeActivity开始追踪。
 
+大体流程图如下：
+![流程图](handleResumeActivity到processStop流程.png)
+
+
 首先ActivityThread在执行handleResumeActivity之前还没有与WindowManagerService有过交互。到了这里主要的工作有：
 1. 当activity需要正常显示，不需要启动新activity或被finish时，设置LayoutParams,并将其与decorView通过addView加入到wm中去。
 2. 成功添加之后，还发现会有一个updateViewLayout的请求会发送给wm。
@@ -17,133 +21,70 @@
 
 ### addView流程 ###
 
-```
+```java
 ActivityThread.java
 
 	final void handleResumeActivity(IBinder token,
             boolean clearHide, boolean isForward,boolean ignoreCallback, boolean reallyResume) {
-        // If we are getting ready to gc after going to the background, well
-        // we are back active so skip it.
-        unscheduleGcIdler();
-        mSomeActivitiesChanged = true;
 
-        ActivityClientRecord r = performResumeActivity(token, clearHide,ignoreCallback);
+		................................................
+
+        // 调用performResumeActivity进行AMS对resume操作的后续操作，得到返回值 ActivityClientRecord
+        r = performResumeActivity(token, clearHide, reason);
 
         if (r != null) {
-            final int forwardBit = isForward ?
-                    WindowManager.LayoutParams.SOFT_INPUT_IS_FORWARD_NAVIGATION : 0;
-			
-			//如果这个window还没有被添加到WindowManager，并且这老哥还没finish掉自己或者start另外一个activity，
-			//那么接着往下走，并且添加这个window
-            boolean willBeVisible = !a.mStartedActivity;
-            if (!willBeVisible) {
-                try {
-					//更新willBeVisible的状态
-                    willBeVisible = ActivityManagerNative.getDefault().willActivityBeVisible(
-                            a.getActivityToken());
-                } catch (RemoteException e) {
-                }
-            }
-            if (r.window == null && !a.mFinished && willBeVisible) {
-				//符合上述条件，添加window到WindowManager里面去
-                r.window = r.activity.getWindow();
-                View decor = r.window.getDecorView();
+            final Activity a = r.activity;
 
-				//确保当前是invisible的，即需要布局
-				//因为当前还需要等待绑定wm端，并等待一些请求
+			// 首先描述的是当前窗口还没有被添加到WMS中，且该窗口还没有被结束或启动其他应用，那么我们接下来将添加该窗口
+			// 后续还会分析窗口已经被添加到WMS中的情况，代码中不重复出现，文字中分析。
+            boolean willBeVisible = !a.mStartedActivity;
+            // 从AMS中更新willBeVisible值
+
+			---------------------------------------------------------------------------------------------
+			//以下代码是很关键的位置
+            if (r.window == null && !a.mFinished && willBeVisible) {
+                r.window = r.activity.getWindow();
+				
+				// decor view的创建，且先设置可见性为 invisible
+                View decor = r.window.getDecorView();
                 decor.setVisibility(View.INVISIBLE);
                 ViewManager wm = a.getWindowManager();
 
-				//获取window中设置好的LayoutParams
+				// 获取ActivityClientRecord中的WindowAtrributes作为LayoutParams
                 WindowManager.LayoutParams l = r.window.getAttributes();
-				//关联decorView
                 a.mDecor = decor;
-				//Activity的Type被限定成了TYPE_BASE_APPLICATION
+				// 在此处补全LayoutParams，如type是BASE_APPLICATION等级的type
                 l.type = WindowManager.LayoutParams.TYPE_BASE_APPLICATION;
-				//设置软键盘模式
                 l.softInputMode |= forwardBit;
+
+                // 关于 r.mPreserveWindow 状态的判断
+
                 if (a.mVisibleFromClient) {
-                    a.mWindowAdded = true;
-					
-					//最终，我们向wm添加了decor这个view，layoutParams是l
-                    wm.addView(decor, l);
-                }
-
-			//如果window已经被添加了，但是在resume期间，我们就准备启动另一个activity，那么我们不让这个在resume的activity变的可见
-            } else if (!willBeVisible) {
-                if (localLOGV) Slog.v(
-                    TAG, "Launch " + r + " mStartedActivity set");
-                r.hideForNow = true;
-            }
-
-            // 防止有遗漏的window
-            cleanUpPendingRemoveWindows(r);
-
-			// window这个如果被添加了而不是finish掉了或者启动了另一个activity，那么到这里就是可见的
-            if (!r.activity.mFinished && willBeVisible
-                    && r.activity.mDecor != null && !r.hideForNow) {
-                if (r.newConfig != null) {
-                    performConfigurationChanged(r.activity, r.newConfig);
-                    freeTextLayoutCachesIfNeeded(r.activity.mCurrentConfig.diff(r.newConfig));
-                    r.newConfig = null;
-                }
-                
-
-                WindowManager.LayoutParams l = r.window.getAttributes();
-                if ((l.softInputMode
-                        & WindowManager.LayoutParams.SOFT_INPUT_IS_FORWARD_NAVIGATION)
-                        != forwardBit) {
-                    l.softInputMode = (l.softInputMode
-                            & (~WindowManager.LayoutParams.SOFT_INPUT_IS_FORWARD_NAVIGATION))
-                            | forwardBit;
-                    if (r.activity.mVisibleFromClient) {
-                        ViewManager wm = a.getWindowManager();
-                        View decor = r.window.getDecorView();
-						//可见之后，会发出updateViewLayout到wm去
-                        wm.updateViewLayout(decor, l);
+                    if (!a.mWindowAdded) {
+                        a.mWindowAdded = true;
+						// 如果是一个没有被添加到WMS中的Window则会调用该接口，传入的View是从r.window中获取的decorView，以及获取后补全type的LayoutParams
+                        wm.addView(decor, l);
+                    } else {
+                        // 当窗口已经被添加过了
+                        a.onWindowAttributesChanged(l);
                     }
                 }
 
-				// mVisibleFromServer 和 mVisibleFromClient 两者用于描述当前可见性，mVisibleFromClient描述请求状态
-				// mVisibleFromServer 是描述是否真正的完成
-                r.activity.mVisibleFromServer = true;
-                mNumVisibleActivities++;
-                if (r.activity.mVisibleFromClient) {
-					//调用makeVisivle
-                    r.activity.makeVisible();
-                }
-            }
-
-            if (!r.onlyLocalRequest) {
-                r.nextIdle = mNewActivities;
-                mNewActivities = r;
-                if (localLOGV) Slog.v(
-                    TAG, "Scheduling idle handler for " + r);
-                Looper.myQueue().addIdleHandler(new Idler());
-            }
-            r.onlyLocalRequest = false;
-
-            // 告诉AMS我们已经完成了resume
-            if (reallyResume) {
-                try {
-                    ActivityManagerNative.getDefault().activityResumed(token);
-                } catch (RemoteException ex) {
-                }
-            }
-
-        } else {
-            //异常处理
-        }
-    }
 ```
+
+以上代码其实是AMS与WMS交互的起点，所以我们逐条分析：
+
+1. 在ActivityThread处理handleResumeActivity的时候，先会进入performResumeActivity，获取当前窗口的一些状态，得到返回值[ActivityClientRecord](../chap2/chap2.md#activityrecordactivityclientrecord)，使用返回值创建DecorView以及LayoutParams。
+2. 使用创建的DecorView以及LayoutParams调用wm的addView接口添加窗口。
+3. 以上流程是在resume的activity的窗口还未被添加时的流程，如果窗口被添加到WMS中，或是其他状态，在这里是不会走上述代码中的流程的。我们暂时只关注创建新的activity且WMS没添加Window时的流程。
 
 接下来我们需要追踪的是wm到底是怎么addView的。
 
-接口ViewManager被WindowManager继承。WindowManager主要定义了WindowManager.LayoutParams这个很重要的状态内部类。
+接口ViewManager被WindowManager继承。WindowManager定义了WindowManager.LayoutParams这个很重要的状态内部类，是一个用于保存窗口特性的一个数据结构。
 
 WindowManager接口实际上又被WindowManagerImpl所继承，impl中持有WindowManagerGlobal的实例，实现的多数方法是直接调用mGlobal来实现的，所以接下来直接看WindowManagerGlobal中是如何实现addView的。
 
-```
+```java
 
 WindowManagerGlobal.java
 
@@ -182,10 +123,11 @@ WindowManagerGlobal.java
     }
 
 ```
+是在WindowManagerGlobal的addView方法中创建ViewRootImpl，且在setView方法中将decorView和LayoutParams添加到ViewRootImpl中。
 
 接下来主要分析一下ViewRootImpl，这个类在WindowManager相关中所占的作用非常之大。我会将一些比较关键的属性与方法额外列出来，着重分析。
 
-```
+```java
 
 ViewRootImpl.java
 
@@ -318,7 +260,7 @@ public final class ViewRootImpl implements ViewParent,
 
 接下来我们继续按照线索追踪，看看这个架构的原因。
 
-```
+```java
 
 WindowManagerGlobal.java
 
@@ -348,7 +290,7 @@ WindowManagerGlobal.java
 
 ```
 
-```
+```java
 
 WindowManagerService.java
 
@@ -363,7 +305,7 @@ WindowManagerService.java
 
 ```
 
-```
+```java
 
 Session.java
 
@@ -385,7 +327,7 @@ Session与WMS的关系是多对一的关系，Session在WindowState中保存，�
 
 那么接下来主要关注WindowManagerService的addWindow。
 
-```
+```java
 
 WindowManagerService.java
 
@@ -566,7 +508,7 @@ WindowManagerService.java
 
 第二步，在符合判断的情况会进入updateViewLayout。和addView的调用流程很相似，追踪到WindowManagerGlobal：
 
-```
+```java
 
 WindowManagerGlobal.java
 
@@ -603,9 +545,11 @@ performDraw的最后会通知WMS进行重新布局。重新布局的重点会通
 
 ### makeVisible流程 ###
 
-直接从Activity相关代码追起：
+ViewRootImpl的handlerResumeActivity在执行完addView以及updateViewLayout方法之后，会执行`r.activity.makeVisible()`，通知Activity开始显示。
 
-```
+接下来直接从Activity相关代码追起：
+
+```java
 Activity.java
 
 	void makeVisible() {
@@ -619,134 +563,16 @@ Activity.java
 
 ```
 
-由于mWindowAdded已经添加过了，所以我们直接看DecorView的setVisibility。
+到这里是一个关键点，从这里应用要开始显示，所以需要大量涉及WMS以及Surface相关的调用。因为过程复杂且重要，所以从`mDecor.setVisibility(View.VISIBLE);`之后的调用单独绘制了一幅图。
 
-```
-View.java
+![流程图](Activity进行Visible的过程.png)
 
-	public void setVisibility(@Visibility int visibility) {
-        setFlags(visibility, VISIBILITY_MASK);
-        if (mBackground != null) mBackground.setVisible(visibility == VISIBLE, false);
-    }
+上述过程看起来很复杂，但是其实可以分作几个模块：
 
-	//flag是一个32bit的值，mask是用于和flag进行位与操作，得到各种标签值，通过这种机制可以压缩标志位长度
-	void setFlags(int flags, int mask) {
-        final boolean accessibilityEnabled =
-                AccessibilityManager.getInstance(mContext).isEnabled();
-        final boolean oldIncludeForAccessibility = accessibilityEnabled && includeForAccessibility();
-
-        int old = mViewFlags;
-        mViewFlags = (mViewFlags & ~mask) | (flags & mask);
-
-		//没有值改变，则直接返回
-        int changed = mViewFlags ^ old;
-        if (changed == 0) {
-            return;
-        }
-        int privateFlags = mPrivateFlags;
-
-/* --------------------------------检查FOCUSABLE bit位是否改变了---------------------------- */
-        ................................................
-
-/* --------------------------------检查GONE bit位是否改变了---------------------------- */
-        ................................................
-
-/* --------------------------------检查INVISIBLE bit位是否改变了---------------------------- */
-        if ((changed & INVISIBLE) != 0) {
-            needGlobalAttributesUpdate(false);
-            /*
-             * If this view is becoming invisible, set the DRAWN flag so that
-             * the next invalidate() will not be skipped.
-             */
-            mPrivateFlags |= PFLAG_DRAWN;
-
-            if (((mViewFlags & VISIBILITY_MASK) == INVISIBLE)) {
-                // root view becoming invisible shouldn't clear focus and accessibility focus
-                if (getRootView() != this) {
-                    if (hasFocus()) clearFocus();
-                    clearAccessibilityFocus();
-                }
-            }
-            if (mAttachInfo != null) {
-                mAttachInfo.mViewVisibilityChanged = true;
-            }
-        }
-
-        if ((changed & VISIBILITY_MASK) != 0) {
-            // If the view is invisible, cleanup its display list to free up resources
-            if (newVisibility != VISIBLE && mAttachInfo != null) {
-                cleanupDraw();
-            }
-
-            if (mParent instanceof ViewGroup) {
-                ((ViewGroup) mParent).onChildVisibilityChanged(this,
-                        (changed & VISIBILITY_MASK), newVisibility);
-                ((View) mParent).invalidate(true);
-            } else if (mParent != null) {
-                mParent.invalidateChild(this, null);
-            }
-            dispatchVisibilityChanged(this, newVisibility);
-
-            notifySubtreeAccessibilityStateChangedIfNeeded();
-        }
-
-        if ((changed & WILL_NOT_CACHE_DRAWING) != 0) {
-            destroyDrawingCache();
-        }
-
-        if ((changed & DRAWING_CACHE_ENABLED) != 0) {
-            destroyDrawingCache();
-            mPrivateFlags &= ~PFLAG_DRAWING_CACHE_VALID;
-            invalidateParentCaches();
-        }
-
-        if ((changed & DRAWING_CACHE_QUALITY_MASK) != 0) {
-            destroyDrawingCache();
-            mPrivateFlags &= ~PFLAG_DRAWING_CACHE_VALID;
-        }
-
-        if ((changed & DRAW_MASK) != 0) {
-            if ((mViewFlags & WILL_NOT_DRAW) != 0) {
-                if (mBackground != null) {
-                    mPrivateFlags &= ~PFLAG_SKIP_DRAW;
-                    mPrivateFlags |= PFLAG_ONLY_DRAWS_BACKGROUND;
-                } else {
-                    mPrivateFlags |= PFLAG_SKIP_DRAW;
-                }
-            } else {
-                mPrivateFlags &= ~PFLAG_SKIP_DRAW;
-            }
-            requestLayout();
-            invalidate(true);
-        }
-
-        if ((changed & KEEP_SCREEN_ON) != 0) {
-            if (mParent != null && mAttachInfo != null && !mAttachInfo.mRecomputeGlobalAttributes) {
-                mParent.recomputeViewAttributes(this);
-            }
-        }
-
-        if (accessibilityEnabled) {
-            if ((changed & FOCUSABLE_MASK) != 0 || (changed & VISIBILITY_MASK) != 0
-                    || (changed & CLICKABLE) != 0 || (changed & LONG_CLICKABLE) != 0) {
-                if (oldIncludeForAccessibility != includeForAccessibility()) {
-                    notifySubtreeAccessibilityStateChangedIfNeeded();
-                } else {
-                    notifyViewAccessibilityStateChangedIfNeeded(
-                            AccessibilityEvent.CONTENT_CHANGE_TYPE_UNDEFINED);
-                }
-            } else if ((changed & ENABLED_MASK) != 0) {
-                notifyViewAccessibilityStateChangedIfNeeded(
-                        AccessibilityEvent.CONTENT_CHANGE_TYPE_UNDEFINED);
-            }
-        }
-    }
-
-```
-
-
-----------------------   施工中，暂时还没分析清楚这里是怎么样的流程  ----------------------------
-
-
+1. setVisible导致的invalidate重绘请求的传递。
+2. 重绘之后经历ViewRootImpl的performTraversals流程，其中分作relayoutWindow、performMeasure、performLayout、performDraw几个子流程。
+3. relayoutWindow负责请求WMS对当前窗口进行布局，返回给ViewRootImpl的是各frame的大小（除去StatusBar、NavigationBar等等最后给该应用的窗口大小）。这个布局过程会在WMS的文章中重点分析。
+4. performMeasure负责测量，performLayout负责布局，这两个部分不是当前分析的重点，而且各应用开发的文章对这个部分有比较详细的分析。暂时不具体分析。
+5. performDraw负责绘制过程，这个部分与Surface相关度很高，在drawSoftware流程中会lockCanvas获取Canvas用于绘制，而且会逐级往下分发该canvas用于子View的绘制。这个过程在图中有详细的显示。
 
 

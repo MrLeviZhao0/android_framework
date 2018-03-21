@@ -142,6 +142,14 @@ case REPORT_APPLICATION_TOKEN_WINDOWS: {
 
 ## AMS Activit协作相关类 ##
 
+### ActivityRecord、ActivityClientRecord ###
+
+两者分别位于AMS端和ActivityThread端，两者起的作用其实是比较一致的。
+
+* ActivityRecord：位于AMS端，dumpsys打印出来的值都是从ActivityRecord中获取的。在ActivityStackSupervisor的realStartActivityLocked中会通过IApplicationThread调用ActivityThread的scheduleLaunchActivity方法。在ActivityThread端重建出来一个ActivityClientRecord。
+* ActivityClientRecord：位于ActivityThread端，创建与WMS相关的操作时，会用到该类。
+
+
 
 
 
