@@ -1,4 +1,4 @@
-﻿# android_framework
+# android_framework
 
  文档记录的是学习framework过程以及项目过程中的一些笔记，仅供阅读。
 
@@ -21,3 +21,7 @@
  5. [系统锁屏](./系统锁屏)
  6. [编译相关](./编译相关)
  7. [8.0版本SystemProperty引发的探索](./8.0版本SystemProperty引发的探索)
+
+
+***
+欢迎各路巨犇指正 联系方式m15526479370@163.com
