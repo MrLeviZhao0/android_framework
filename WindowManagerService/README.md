@@ -5,7 +5,7 @@ WindowManagerService和ActivityManagerService合作，构建出应用的各种�
 
 以下主要从大致的架构、WMS自身的启动、WMS的三个子系统（布局，动画，事件）来了解WMS。
 
-1. [类图以及数据结构分析](./doc/概述管理范围/类图以及数据结构分析.md)
+1. [类图以及数据结构分析](./doc/概述管理范围/类图与数据结构分析.md)
 2. 流程分析1-WMS启动流程
 3. 流程分析2-WMS管理addView流程
 4. 流程分析3-WMS管理Animation子系统
