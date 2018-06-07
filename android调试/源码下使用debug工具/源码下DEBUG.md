@@ -66,9 +66,9 @@ jdb就是常见的java断点调试工具。首先需要说明的是，暂时无�
 
 ### gdb
 
-gdb的目的是调试gcc编译的程序，使用的方式与jdb类似，而因为暂时项目上没有用到gdb，所以暂时不写，按照惯例，挂上链接：
+gdb的目的是调试gcc编译的程序，使用的方式与jdb类似，[点击链接](./gdb调试.md)
 
-[Liigo的博客](https://blog.csdn.net/liigo/article/details/582231/)
+
 
 ## android调试工具
 
