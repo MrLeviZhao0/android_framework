@@ -51,6 +51,10 @@ Android系统最终提供给用户可以操作、交互的部分多数是以Acti
 * 以ActivityStack为目标，对其进行查找、添加和删除等，同时也可以对Stack中的Activity请求生命周期变化。
 * 里面会保存如`mStoppingActivities`和`mFinishingActivities`之类的数据结构记录需要做某些操作的Stack。
 
+***ActivityStarter*** ：
+* 高版本上，为了规避启动Stack带来的大段逻辑代码，单独将启动Activity的功能拆分开了。
+* 基本的逻辑函数名基本和之前一致，startActivityMayWait等等，不详细展开了。
+
 
 ### 客户端： ###
 
@@ -71,7 +75,32 @@ Android系统最终提供给用户可以操作、交互的部分多数是以Acti
 ***Activity*** :
 
 * 作为用户直接操作的类，提供丰富的可重写接口，同时可以通过context、config、window等等属性来影响整个系统的行为。
-* 同样是与Window相关交互也非常多的一个类，通过ViewRootImpl与View系统进行关联。。
+* 同样是与Window相关交互也非常多的一个类，通过ViewRootImpl与View系统进行关联。
+
+
+### 函数命名规律 ###
+
+命名规律以O版本系统为准。
+
+***ActivityThread端*** ：
+* scheduleResumeActivity： schedule一般都是继承IApplicationThread的接口，被server端调用的接口。多数情况下是用于发送消息消息到handle。
+* handleResumeActivity ： handle代表处理某个操作的流程，可以被handle直接调用。比如resume就被RESUME_ACTIVITY消息以及handleLaunchActivity调用。
+* performResumeActivity ： perform代表将进行和ams相关的流程（handleResume中有ViewRootImpl相关逻辑），且打印event日志中"am_on_xxx"的日志。
+* performPauseActivityIfNeeded : xxxIfNeeded 和上述一条的差异就在于执行完了很多判断，会根据传入reson打印event日志。
+* StopInfo : 内部类，继承runnable，用于回调通知server端，如activityStopped。但多数还是直接回调通知server端，如activityResumed。
+
+***AMS端*** ：
+*ActivityManagerService的函数* ：
+
+* startActivity ： 具体的工作移交到ActivityStarter中了，ActivityStarter负责与ActivityStackSupervisor进行交互。同类的还有finishActivity，提供给跨进程的接口，不暴露具体调度的细节。
+* activityResumed ： 提供给client端的回调。
+* setFocusedStack ： 提供给外界set get接口，修改属性。
+
+*ActivityStackSupervisor的函数* :
+
+* 
+
+*ActivityStack的函数* :
 
 
 ### AMS Activity dump相关类 ###
@@ -146,8 +175,8 @@ case REPORT_APPLICATION_TOKEN_WINDOWS: {
 
 两者分别位于AMS端和ActivityThread端，两者起的作用其实是比较一致的。
 
-* ActivityRecord：位于AMS端，dumpsys打印出来的值都是从ActivityRecord中获取的。在ActivityStackSupervisor的realStartActivityLocked中会通过IApplicationThread调用ActivityThread的scheduleLaunchActivity方法。在ActivityThread端重建出来一个ActivityClientRecord。
-* ActivityClientRecord：位于ActivityThread端，创建与WMS相关的操作时，会用到该类。
+* ActivityRecord：位于AMS端，dumpsys打印出来的值都是从ActivityRecord中获取的。在ActivityStackSupervisor的realStartActivityLocked中会通过IApplicationThread调用ActivityThread的scheduleLaunchActivity方法。记录Activity的生命周期状态/intent信息等等。
+* ActivityClientRecord：位于ActivityThread端，可以由server端的LAUNCH_ACTIVITY请求的时候由参数带过来。或在特殊情况的Relaunch的时候创建。该类并不会和ActivityRecord同步，只是在执行client端之前，server端就开始设置状态。这也是有一些系统偶现问题发生的原因。
 
 
 
